@@ -21,12 +21,49 @@ exports[`Should render with active 1`] = `
       >
         <span
           aria-label="fa-gear"
-          class="fa fa-gear"
-        />
+          class="svgIcon fa-gear"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-settings"
+            fill="none"
+            focusable="false"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.75"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M9.671 4.136a2.34 2.34 0 0 1 4.659 0 2.34 2.34 0 0 0 3.319 1.915 2.34 2.34 0 0 1 2.33 4.033 2.34 2.34 0 0 0 0 3.831 2.34 2.34 0 0 1-2.33 4.033 2.34 2.34 0 0 0-3.319 1.915 2.34 2.34 0 0 1-4.659 0 2.34 2.34 0 0 0-3.32-1.915 2.34 2.34 0 0 1-2.33-4.033 2.34 2.34 0 0 0 0-3.831A2.34 2.34 0 0 1 6.35 6.051a2.34 2.34 0 0 0 3.319-1.915"
+            />
+            <circle
+              cx="12"
+              cy="12"
+              r="3"
+            />
+          </svg>
+        </span>
         <span
           aria-label="su-angle-down"
-          class="su-angle-down buttonArrowIcon"
-        />
+          class="svgIcon su-angle-down buttonArrowIcon"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-chevron-down"
+            fill="none"
+            focusable="false"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.75"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="m6 9 6 6 6-6"
+            />
+          </svg>
+        </span>
       </button>
     </div>
   </div>

@@ -26,8 +26,34 @@ exports[`Render PageList 1`] = `
             >
               <span
                 aria-label="su-columns"
-                class="su-columns buttonIcon"
-              />
+                class="svgIcon su-columns buttonIcon"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-columns-3"
+                  fill="none"
+                  focusable="false"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.75"
+                  viewBox="0 0 24 24"
+                >
+                  <rect
+                    height="18"
+                    rx="2"
+                    width="18"
+                    x="3"
+                    y="3"
+                  />
+                  <path
+                    d="M9 3v18"
+                  />
+                  <path
+                    d="M15 3v18"
+                  />
+                </svg>
+              </span>
             </button>
             <button
               class="button icon button"
@@ -35,8 +61,34 @@ exports[`Render PageList 1`] = `
             >
               <span
                 aria-label="su-columns"
-                class="su-columns buttonIcon"
-              />
+                class="svgIcon su-columns buttonIcon"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-columns-3"
+                  fill="none"
+                  focusable="false"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.75"
+                  viewBox="0 0 24 24"
+                >
+                  <rect
+                    height="18"
+                    rx="2"
+                    width="18"
+                    x="3"
+                    y="3"
+                  />
+                  <path
+                    d="M9 3v18"
+                  />
+                  <path
+                    d="M15 3v18"
+                  />
+                </svg>
+              </span>
             </button>
           </div>
         </div>
@@ -73,10 +125,29 @@ exports[`Render PageList 1`] = `
                     >
                       <span
                         aria-label="su-pen"
-                        class="su-pen clickable button visible"
+                        class="svgIcon su-pen clickable button visible"
                         role="button"
                         tabindex="0"
-                      />
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="lucide lucide-pen-line"
+                          fill="none"
+                          focusable="false"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1.75"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M13 21h8"
+                          />
+                          <path
+                            d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"
+                          />
+                        </svg>
+                      </span>
                     </span>
                     <span
                       class="text"
@@ -125,10 +196,29 @@ exports[`Render PageList 1`] = `
                     >
                       <span
                         aria-label="su-pen"
-                        class="su-pen clickable button visible"
+                        class="svgIcon su-pen clickable button visible"
                         role="button"
                         tabindex="0"
-                      />
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="lucide lucide-pen-line"
+                          fill="none"
+                          focusable="false"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1.75"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M13 21h8"
+                          />
+                          <path
+                            d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"
+                          />
+                        </svg>
+                      </span>
                     </span>
                     <span
                       class="text"
@@ -172,10 +262,29 @@ exports[`Render PageList 1`] = `
                     >
                       <span
                         aria-label="su-pen"
-                        class="su-pen clickable button visible"
+                        class="svgIcon su-pen clickable button visible"
                         role="button"
                         tabindex="0"
-                      />
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="lucide lucide-pen-line"
+                          fill="none"
+                          focusable="false"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1.75"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M13 21h8"
+                          />
+                          <path
+                            d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"
+                          />
+                        </svg>
+                      </span>
                     </span>
                     <span
                       class="text"
@@ -211,8 +320,38 @@ exports[`Render PageList 1`] = `
                     >
                       <span
                         aria-label="su-exclamation-circle"
-                        class="su-exclamation-circle"
-                      />
+                        class="svgIcon su-exclamation-circle"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="lucide lucide-circle-alert"
+                          fill="none"
+                          focusable="false"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1.75"
+                          viewBox="0 0 24 24"
+                        >
+                          <circle
+                            cx="12"
+                            cy="12"
+                            r="10"
+                          />
+                          <line
+                            x1="12"
+                            x2="12"
+                            y1="8"
+                            y2="12"
+                          />
+                          <line
+                            x1="12"
+                            x2="12.01"
+                            y1="16"
+                            y2="16"
+                          />
+                        </svg>
+                      </span>
                     </span>
                     <span
                       class="children"

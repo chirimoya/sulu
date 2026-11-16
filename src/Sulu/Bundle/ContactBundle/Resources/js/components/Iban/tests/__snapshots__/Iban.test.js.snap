@@ -10,8 +10,37 @@ exports[`Iban should render 1`] = `
     >
       <span
         aria-label="su-credit-card"
-        class="su-credit-card icon default"
-      />
+        class="svgIcon su-credit-card icon default"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-credit-card"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <rect
+            height="14"
+            rx="2"
+            width="20"
+            x="2"
+            y="5"
+          />
+          <line
+            x1="2"
+            x2="22"
+            y1="10"
+            y2="10"
+          />
+          <path
+            d="M6 14h2"
+          />
+        </svg>
+      </span>
     </div>
     <input
       type="text"
@@ -31,8 +60,37 @@ exports[`Iban should render error 1`] = `
     >
       <span
         aria-label="su-credit-card"
-        class="su-credit-card icon default"
-      />
+        class="svgIcon su-credit-card icon default"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-credit-card"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <rect
+            height="14"
+            rx="2"
+            width="20"
+            x="2"
+            y="5"
+          />
+          <line
+            x1="2"
+            x2="22"
+            y1="10"
+            y2="10"
+          />
+          <path
+            d="M6 14h2"
+          />
+        </svg>
+      </span>
     </div>
     <input
       type="text"
@@ -52,8 +110,37 @@ exports[`Iban should render when disabled 1`] = `
     >
       <span
         aria-label="su-credit-card"
-        class="su-credit-card icon default"
-      />
+        class="svgIcon su-credit-card icon default"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-credit-card"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <rect
+            height="14"
+            rx="2"
+            width="20"
+            x="2"
+            y="5"
+          />
+          <line
+            x1="2"
+            x2="22"
+            y1="10"
+            y2="10"
+          />
+          <path
+            d="M6 14h2"
+          />
+        </svg>
+      </span>
     </div>
     <input
       disabled=""
@@ -74,8 +161,37 @@ exports[`Iban should render with placeholder 1`] = `
     >
       <span
         aria-label="su-credit-card"
-        class="su-credit-card icon default"
-      />
+        class="svgIcon su-credit-card icon default"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-credit-card"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <rect
+            height="14"
+            rx="2"
+            width="20"
+            x="2"
+            y="5"
+          />
+          <line
+            x1="2"
+            x2="22"
+            y1="10"
+            y2="10"
+          />
+          <path
+            d="M6 14h2"
+          />
+        </svg>
+      </span>
     </div>
     <input
       placeholder="My placeholder"
@@ -96,8 +212,37 @@ exports[`Iban should render with value 1`] = `
     >
       <span
         aria-label="su-credit-card"
-        class="su-credit-card icon default"
-      />
+        class="svgIcon su-credit-card icon default"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-credit-card"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <rect
+            height="14"
+            rx="2"
+            width="20"
+            x="2"
+            y="5"
+          />
+          <line
+            x1="2"
+            x2="22"
+            y1="10"
+            y2="10"
+          />
+          <path
+            d="M6 14h2"
+          />
+        </svg>
+      </span>
     </div>
     <input
       type="text"

@@ -14,8 +14,49 @@ exports[`Should render a button and a dropdown button 1`] = `
       >
         <span
           aria-label="su-th-large"
-          class="su-th-large"
-        />
+          class="svgIcon su-th-large"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-layout-grid"
+            fill="none"
+            focusable="false"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.75"
+            viewBox="0 0 24 24"
+          >
+            <rect
+              height="7"
+              rx="1"
+              width="7"
+              x="3"
+              y="3"
+            />
+            <rect
+              height="7"
+              rx="1"
+              width="7"
+              x="14"
+              y="3"
+            />
+            <rect
+              height="7"
+              rx="1"
+              width="7"
+              x="14"
+              y="14"
+            />
+            <rect
+              height="7"
+              rx="1"
+              width="7"
+              x="3"
+              y="14"
+            />
+          </svg>
+        </span>
       </span>
     </button>
     <button
@@ -24,8 +65,24 @@ exports[`Should render a button and a dropdown button 1`] = `
     >
       <span
         aria-label="su-angle-down"
-        class="su-angle-down dropdownIcon"
-      />
+        class="svgIcon su-angle-down dropdownIcon"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-chevron-down"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="m6 9 6 6 6-6"
+          />
+        </svg>
+      </span>
     </button>
   </div>
 </div>
@@ -45,8 +102,49 @@ exports[`Should render a button with a custom className 1`] = `
       >
         <span
           aria-label="su-th-large"
-          class="su-th-large"
-        />
+          class="svgIcon su-th-large"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-layout-grid"
+            fill="none"
+            focusable="false"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.75"
+            viewBox="0 0 24 24"
+          >
+            <rect
+              height="7"
+              rx="1"
+              width="7"
+              x="3"
+              y="3"
+            />
+            <rect
+              height="7"
+              rx="1"
+              width="7"
+              x="14"
+              y="3"
+            />
+            <rect
+              height="7"
+              rx="1"
+              width="7"
+              x="14"
+              y="14"
+            />
+            <rect
+              height="7"
+              rx="1"
+              width="7"
+              x="3"
+              y="14"
+            />
+          </svg>
+        </span>
       </span>
     </button>
   </div>
@@ -67,8 +165,49 @@ exports[`Should render more than two buttons 1`] = `
       >
         <span
           aria-label="su-th-large"
-          class="su-th-large"
-        />
+          class="svgIcon su-th-large"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-layout-grid"
+            fill="none"
+            focusable="false"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.75"
+            viewBox="0 0 24 24"
+          >
+            <rect
+              height="7"
+              rx="1"
+              width="7"
+              x="3"
+              y="3"
+            />
+            <rect
+              height="7"
+              rx="1"
+              width="7"
+              x="14"
+              y="3"
+            />
+            <rect
+              height="7"
+              rx="1"
+              width="7"
+              x="14"
+              y="14"
+            />
+            <rect
+              height="7"
+              rx="1"
+              width="7"
+              x="3"
+              y="14"
+            />
+          </svg>
+        </span>
       </span>
     </button>
     <button
@@ -80,8 +219,30 @@ exports[`Should render more than two buttons 1`] = `
       >
         <span
           aria-label="su-align-justify"
-          class="su-align-justify"
-        />
+          class="svgIcon su-align-justify"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-text-align-justify"
+            fill="none"
+            focusable="false"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.75"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M3 5h18"
+            />
+            <path
+              d="M3 12h18"
+            />
+            <path
+              d="M3 19h18"
+            />
+          </svg>
+        </span>
       </span>
     </button>
     <button
@@ -93,8 +254,49 @@ exports[`Should render more than two buttons 1`] = `
       >
         <span
           aria-label="su-th-large"
-          class="su-th-large"
-        />
+          class="svgIcon su-th-large"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-layout-grid"
+            fill="none"
+            focusable="false"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.75"
+            viewBox="0 0 24 24"
+          >
+            <rect
+              height="7"
+              rx="1"
+              width="7"
+              x="3"
+              y="3"
+            />
+            <rect
+              height="7"
+              rx="1"
+              width="7"
+              x="14"
+              y="3"
+            />
+            <rect
+              height="7"
+              rx="1"
+              width="7"
+              x="14"
+              y="14"
+            />
+            <rect
+              height="7"
+              rx="1"
+              width="7"
+              x="3"
+              y="14"
+            />
+          </svg>
+        </span>
       </span>
     </button>
     <button
@@ -106,8 +308,30 @@ exports[`Should render more than two buttons 1`] = `
       >
         <span
           aria-label="su-align-justify"
-          class="su-align-justify"
-        />
+          class="svgIcon su-align-justify"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-text-align-justify"
+            fill="none"
+            focusable="false"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.75"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M3 5h18"
+            />
+            <path
+              d="M3 12h18"
+            />
+            <path
+              d="M3 19h18"
+            />
+          </svg>
+        </span>
       </span>
     </button>
   </div>
@@ -128,8 +352,49 @@ exports[`Should render one button 1`] = `
       >
         <span
           aria-label="su-th-large"
-          class="su-th-large"
-        />
+          class="svgIcon su-th-large"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-layout-grid"
+            fill="none"
+            focusable="false"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.75"
+            viewBox="0 0 24 24"
+          >
+            <rect
+              height="7"
+              rx="1"
+              width="7"
+              x="3"
+              y="3"
+            />
+            <rect
+              height="7"
+              rx="1"
+              width="7"
+              x="14"
+              y="3"
+            />
+            <rect
+              height="7"
+              rx="1"
+              width="7"
+              x="14"
+              y="14"
+            />
+            <rect
+              height="7"
+              rx="1"
+              width="7"
+              x="3"
+              y="14"
+            />
+          </svg>
+        </span>
       </span>
     </button>
   </div>
@@ -150,8 +415,49 @@ exports[`Should render one button with a custom className and another one withou
       >
         <span
           aria-label="su-th-large"
-          class="su-th-large"
-        />
+          class="svgIcon su-th-large"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-layout-grid"
+            fill="none"
+            focusable="false"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.75"
+            viewBox="0 0 24 24"
+          >
+            <rect
+              height="7"
+              rx="1"
+              width="7"
+              x="3"
+              y="3"
+            />
+            <rect
+              height="7"
+              rx="1"
+              width="7"
+              x="14"
+              y="3"
+            />
+            <rect
+              height="7"
+              rx="1"
+              width="7"
+              x="14"
+              y="14"
+            />
+            <rect
+              height="7"
+              rx="1"
+              width="7"
+              x="3"
+              y="14"
+            />
+          </svg>
+        </span>
       </span>
     </button>
     <button
@@ -163,8 +469,30 @@ exports[`Should render one button with a custom className and another one withou
       >
         <span
           aria-label="su-align-justify"
-          class="su-align-justify"
-        />
+          class="svgIcon su-align-justify"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-text-align-justify"
+            fill="none"
+            focusable="false"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.75"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M3 5h18"
+            />
+            <path
+              d="M3 12h18"
+            />
+            <path
+              d="M3 19h18"
+            />
+          </svg>
+        </span>
       </span>
     </button>
   </div>
@@ -185,8 +513,49 @@ exports[`Should render two buttons 1`] = `
       >
         <span
           aria-label="su-th-large"
-          class="su-th-large"
-        />
+          class="svgIcon su-th-large"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-layout-grid"
+            fill="none"
+            focusable="false"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.75"
+            viewBox="0 0 24 24"
+          >
+            <rect
+              height="7"
+              rx="1"
+              width="7"
+              x="3"
+              y="3"
+            />
+            <rect
+              height="7"
+              rx="1"
+              width="7"
+              x="14"
+              y="3"
+            />
+            <rect
+              height="7"
+              rx="1"
+              width="7"
+              x="14"
+              y="14"
+            />
+            <rect
+              height="7"
+              rx="1"
+              width="7"
+              x="3"
+              y="14"
+            />
+          </svg>
+        </span>
       </span>
     </button>
     <button
@@ -198,8 +567,30 @@ exports[`Should render two buttons 1`] = `
       >
         <span
           aria-label="su-align-justify"
-          class="su-align-justify"
-        />
+          class="svgIcon su-align-justify"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-text-align-justify"
+            fill="none"
+            focusable="false"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.75"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M3 5h18"
+            />
+            <path
+              d="M3 12h18"
+            />
+            <path
+              d="M3 19h18"
+            />
+          </svg>
+        </span>
       </span>
     </button>
   </div>

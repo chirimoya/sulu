@@ -20,10 +20,39 @@ exports[`Render with from and to value 1`] = `
           >
             <span
               aria-label="su-calendar"
-              class="su-calendar clickable icon default iconClickable"
+              class="svgIcon su-calendar clickable icon default iconClickable"
               role="button"
               tabindex="0"
-            />
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-calendar"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M8 2v3"
+                />
+                <path
+                  d="M16 2v3"
+                />
+                <rect
+                  height="18"
+                  rx="2"
+                  width="18"
+                  x="3"
+                  y="3"
+                />
+                <path
+                  d="M3 9h18"
+                />
+              </svg>
+            </span>
           </div>
           <input
             placeholder="MM/DD/YYYY h:mm A"
@@ -50,10 +79,39 @@ exports[`Render with from and to value 1`] = `
           >
             <span
               aria-label="su-calendar"
-              class="su-calendar clickable icon default iconClickable"
+              class="svgIcon su-calendar clickable icon default iconClickable"
               role="button"
               tabindex="0"
-            />
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-calendar"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M8 2v3"
+                />
+                <path
+                  d="M16 2v3"
+                />
+                <rect
+                  height="18"
+                  rx="2"
+                  width="18"
+                  x="3"
+                  y="3"
+                />
+                <path
+                  d="M3 9h18"
+                />
+              </svg>
+            </span>
           </div>
           <input
             placeholder="MM/DD/YYYY h:mm A"
@@ -87,10 +145,39 @@ exports[`Render with from and to value 2`] = `
           >
             <span
               aria-label="su-calendar"
-              class="su-calendar clickable icon default iconClickable"
+              class="svgIcon su-calendar clickable icon default iconClickable"
               role="button"
               tabindex="0"
-            />
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-calendar"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M8 2v3"
+                />
+                <path
+                  d="M16 2v3"
+                />
+                <rect
+                  height="18"
+                  rx="2"
+                  width="18"
+                  x="3"
+                  y="3"
+                />
+                <path
+                  d="M3 9h18"
+                />
+              </svg>
+            </span>
           </div>
           <input
             placeholder="MM/DD/YYYY h:mm A"
@@ -117,10 +204,39 @@ exports[`Render with from and to value 2`] = `
           >
             <span
               aria-label="su-calendar"
-              class="su-calendar clickable icon default iconClickable"
+              class="svgIcon su-calendar clickable icon default iconClickable"
               role="button"
               tabindex="0"
-            />
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-calendar"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M8 2v3"
+                />
+                <path
+                  d="M16 2v3"
+                />
+                <rect
+                  height="18"
+                  rx="2"
+                  width="18"
+                  x="3"
+                  y="3"
+                />
+                <path
+                  d="M3 9h18"
+                />
+              </svg>
+            </span>
           </div>
           <input
             placeholder="MM/DD/YYYY h:mm A"
@@ -154,10 +270,39 @@ exports[`Render with from and to value 3`] = `
           >
             <span
               aria-label="su-calendar"
-              class="su-calendar clickable icon default iconClickable"
+              class="svgIcon su-calendar clickable icon default iconClickable"
               role="button"
               tabindex="0"
-            />
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-calendar"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M8 2v3"
+                />
+                <path
+                  d="M16 2v3"
+                />
+                <rect
+                  height="18"
+                  rx="2"
+                  width="18"
+                  x="3"
+                  y="3"
+                />
+                <path
+                  d="M3 9h18"
+                />
+              </svg>
+            </span>
           </div>
           <input
             placeholder="MM/DD/YYYY"
@@ -184,10 +329,39 @@ exports[`Render with from and to value 3`] = `
           >
             <span
               aria-label="su-calendar"
-              class="su-calendar clickable icon default iconClickable"
+              class="svgIcon su-calendar clickable icon default iconClickable"
               role="button"
               tabindex="0"
-            />
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-calendar"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M8 2v3"
+                />
+                <path
+                  d="M16 2v3"
+                />
+                <rect
+                  height="18"
+                  rx="2"
+                  width="18"
+                  x="3"
+                  y="3"
+                />
+                <path
+                  d="M3 9h18"
+                />
+              </svg>
+            </span>
           </div>
           <input
             placeholder="MM/DD/YYYY"
@@ -221,10 +395,39 @@ exports[`Render with from and to value 4`] = `
           >
             <span
               aria-label="su-calendar"
-              class="su-calendar clickable icon default iconClickable"
+              class="svgIcon su-calendar clickable icon default iconClickable"
               role="button"
               tabindex="0"
-            />
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-calendar"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M8 2v3"
+                />
+                <path
+                  d="M16 2v3"
+                />
+                <rect
+                  height="18"
+                  rx="2"
+                  width="18"
+                  x="3"
+                  y="3"
+                />
+                <path
+                  d="M3 9h18"
+                />
+              </svg>
+            </span>
           </div>
           <input
             placeholder="MM/DD/YYYY"
@@ -251,10 +454,39 @@ exports[`Render with from and to value 4`] = `
           >
             <span
               aria-label="su-calendar"
-              class="su-calendar clickable icon default iconClickable"
+              class="svgIcon su-calendar clickable icon default iconClickable"
               role="button"
               tabindex="0"
-            />
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-calendar"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M8 2v3"
+                />
+                <path
+                  d="M16 2v3"
+                />
+                <rect
+                  height="18"
+                  rx="2"
+                  width="18"
+                  x="3"
+                  y="3"
+                />
+                <path
+                  d="M3 9h18"
+                />
+              </svg>
+            </span>
           </div>
           <input
             placeholder="MM/DD/YYYY"
@@ -288,10 +520,39 @@ exports[`Render with value of undefined 1`] = `
           >
             <span
               aria-label="su-calendar"
-              class="su-calendar clickable icon default iconClickable"
+              class="svgIcon su-calendar clickable icon default iconClickable"
               role="button"
               tabindex="0"
-            />
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-calendar"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M8 2v3"
+                />
+                <path
+                  d="M16 2v3"
+                />
+                <rect
+                  height="18"
+                  rx="2"
+                  width="18"
+                  x="3"
+                  y="3"
+                />
+                <path
+                  d="M3 9h18"
+                />
+              </svg>
+            </span>
           </div>
           <input
             placeholder="MM/DD/YYYY h:mm A"
@@ -318,10 +579,39 @@ exports[`Render with value of undefined 1`] = `
           >
             <span
               aria-label="su-calendar"
-              class="su-calendar clickable icon default iconClickable"
+              class="svgIcon su-calendar clickable icon default iconClickable"
               role="button"
               tabindex="0"
-            />
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-calendar"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M8 2v3"
+                />
+                <path
+                  d="M16 2v3"
+                />
+                <rect
+                  height="18"
+                  rx="2"
+                  width="18"
+                  x="3"
+                  y="3"
+                />
+                <path
+                  d="M3 9h18"
+                />
+              </svg>
+            </span>
           </div>
           <input
             placeholder="MM/DD/YYYY h:mm A"
@@ -355,10 +645,39 @@ exports[`Render with value set by setValue 1`] = `
           >
             <span
               aria-label="su-calendar"
-              class="su-calendar clickable icon default iconClickable"
+              class="svgIcon su-calendar clickable icon default iconClickable"
               role="button"
               tabindex="0"
-            />
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-calendar"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M8 2v3"
+                />
+                <path
+                  d="M16 2v3"
+                />
+                <rect
+                  height="18"
+                  rx="2"
+                  width="18"
+                  x="3"
+                  y="3"
+                />
+                <path
+                  d="M3 9h18"
+                />
+              </svg>
+            </span>
           </div>
           <input
             placeholder="MM/DD/YYYY h:mm A"
@@ -385,10 +704,39 @@ exports[`Render with value set by setValue 1`] = `
           >
             <span
               aria-label="su-calendar"
-              class="su-calendar clickable icon default iconClickable"
+              class="svgIcon su-calendar clickable icon default iconClickable"
               role="button"
               tabindex="0"
-            />
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-calendar"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M8 2v3"
+                />
+                <path
+                  d="M16 2v3"
+                />
+                <rect
+                  height="18"
+                  rx="2"
+                  width="18"
+                  x="3"
+                  y="3"
+                />
+                <path
+                  d="M3 9h18"
+                />
+              </svg>
+            </span>
           </div>
           <input
             placeholder="MM/DD/YYYY h:mm A"
@@ -422,10 +770,39 @@ exports[`Render with value set by setValue 2`] = `
           >
             <span
               aria-label="su-calendar"
-              class="su-calendar clickable icon default iconClickable"
+              class="svgIcon su-calendar clickable icon default iconClickable"
               role="button"
               tabindex="0"
-            />
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-calendar"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M8 2v3"
+                />
+                <path
+                  d="M16 2v3"
+                />
+                <rect
+                  height="18"
+                  rx="2"
+                  width="18"
+                  x="3"
+                  y="3"
+                />
+                <path
+                  d="M3 9h18"
+                />
+              </svg>
+            </span>
           </div>
           <input
             placeholder="MM/DD/YYYY"
@@ -452,10 +829,39 @@ exports[`Render with value set by setValue 2`] = `
           >
             <span
               aria-label="su-calendar"
-              class="su-calendar clickable icon default iconClickable"
+              class="svgIcon su-calendar clickable icon default iconClickable"
               role="button"
               tabindex="0"
-            />
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-calendar"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M8 2v3"
+                />
+                <path
+                  d="M16 2v3"
+                />
+                <rect
+                  height="18"
+                  rx="2"
+                  width="18"
+                  x="3"
+                  y="3"
+                />
+                <path
+                  d="M3 9h18"
+                />
+              </svg>
+            </span>
           </div>
           <input
             placeholder="MM/DD/YYYY"

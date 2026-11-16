@@ -24,8 +24,29 @@ exports[`Render a MediaFormats view 1`] = `
               <span>
                 <span
                   aria-label="su-eye"
-                  class="su-eye"
-                />
+                  class="svgIcon su-eye"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-eye"
+                    fill="none"
+                    focusable="false"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.75"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"
+                    />
+                    <circle
+                      cx="12"
+                      cy="12"
+                      r="3"
+                    />
+                  </svg>
+                </span>
               </span>
             </th>
             <th
@@ -44,8 +65,32 @@ exports[`Render a MediaFormats view 1`] = `
               <span>
                 <span
                   aria-label="su-copy"
-                  class="su-copy"
-                />
+                  class="svgIcon su-copy"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-copy"
+                    fill="none"
+                    focusable="false"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.75"
+                    viewBox="0 0 24 24"
+                  >
+                    <rect
+                      height="14"
+                      rx="2"
+                      ry="2"
+                      width="14"
+                      x="8"
+                      y="8"
+                    />
+                    <path
+                      d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"
+                    />
+                  </svg>
+                </span>
               </span>
             </th>
             <th
@@ -79,8 +124,29 @@ exports[`Render a MediaFormats view 1`] = `
                 >
                   <span
                     aria-label="su-eye"
-                    class="su-eye"
-                  />
+                    class="svgIcon su-eye"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-eye"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"
+                      />
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="3"
+                      />
+                    </svg>
+                  </span>
                 </button>
               </div>
             </td>
@@ -111,8 +177,32 @@ exports[`Render a MediaFormats view 1`] = `
                 >
                   <span
                     aria-label="su-copy"
-                    class="su-copy"
-                  />
+                    class="svgIcon su-copy"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-copy"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <rect
+                        height="14"
+                        rx="2"
+                        ry="2"
+                        width="14"
+                        x="8"
+                        y="8"
+                      />
+                      <path
+                        d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"
+                      />
+                    </svg>
+                  </span>
                 </button>
               </div>
             </td>
@@ -149,8 +239,29 @@ exports[`Render a MediaFormats view 1`] = `
                 >
                   <span
                     aria-label="su-eye"
-                    class="su-eye"
-                  />
+                    class="svgIcon su-eye"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-eye"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"
+                      />
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="3"
+                      />
+                    </svg>
+                  </span>
                 </button>
               </div>
             </td>
@@ -181,8 +292,32 @@ exports[`Render a MediaFormats view 1`] = `
                 >
                   <span
                     aria-label="su-copy"
-                    class="su-copy"
-                  />
+                    class="svgIcon su-copy"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-copy"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <rect
+                        height="14"
+                        rx="2"
+                        ry="2"
+                        width="14"
+                        x="8"
+                        y="8"
+                      />
+                      <path
+                        d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"
+                      />
+                    </svg>
+                  </span>
                 </button>
               </div>
             </td>

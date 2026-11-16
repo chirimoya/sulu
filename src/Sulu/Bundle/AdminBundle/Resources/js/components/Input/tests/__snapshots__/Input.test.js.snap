@@ -40,10 +40,29 @@ exports[`Input should render append container with icon when onClearClick callba
     >
       <span
         aria-label="su-times"
-        class="su-times clickable icon default"
+        class="svgIcon su-times clickable icon default"
         role="button"
         tabindex="0"
-      />
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-x"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M18 6 6 18"
+          />
+          <path
+            d="m6 6 12 12"
+          />
+        </svg>
+      </span>
     </div>
   </div>
 </div>
@@ -206,8 +225,27 @@ exports[`Input should render with dark skin 1`] = `
     >
       <span
         aria-label="su-pen"
-        class="su-pen icon dark"
-      />
+        class="svgIcon su-pen icon dark"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-pen-line"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M13 21h8"
+          />
+          <path
+            d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"
+          />
+        </svg>
+      </span>
     </div>
     <input
       type="text"
@@ -227,8 +265,27 @@ exports[`Input should render with icon 1`] = `
     >
       <span
         aria-label="su-pen"
-        class="su-pen icon default"
-      />
+        class="svgIcon su-pen icon default"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-pen-line"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M13 21h8"
+          />
+          <path
+            d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"
+          />
+        </svg>
+      </span>
     </div>
     <input
       type="text"

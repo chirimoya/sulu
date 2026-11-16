@@ -16,8 +16,24 @@ exports[`Render with selected and query 1`] = `
       </span>
       <span
         aria-label="su-angle-down"
-        class="su-angle-down"
-      />
+        class="svgIcon su-angle-down"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-chevron-down"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="m6 9 6 6 6-6"
+          />
+        </svg>
+      </span>
     </button>
     <div
       class="inputContainer"
@@ -28,16 +44,56 @@ exports[`Render with selected and query 1`] = `
       />
       <span
         aria-label="su-times"
-        class="su-times clickable clearIcon"
+        class="svgIcon su-times clickable clearIcon"
         role="button"
         tabindex="0"
-      />
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-x"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M18 6 6 18"
+          />
+          <path
+            d="m6 6 12 12"
+          />
+        </svg>
+      </span>
       <span
         aria-label="su-search"
-        class="su-search clickable searchIcon"
+        class="svgIcon su-search clickable searchIcon"
         role="button"
         tabindex="0"
-      />
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-search"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="m21 21-4.34-4.34"
+          />
+          <circle
+            cx="11"
+            cy="11"
+            r="8"
+          />
+        </svg>
+      </span>
     </div>
   </div>
   <p
@@ -64,8 +120,24 @@ exports[`Render without selected searchResource 1`] = `
       </span>
       <span
         aria-label="su-angle-down"
-        class="su-angle-down"
-      />
+        class="svgIcon su-angle-down"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-chevron-down"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="m6 9 6 6 6-6"
+          />
+        </svg>
+      </span>
     </button>
     <div
       class="inputContainer"
@@ -76,10 +148,31 @@ exports[`Render without selected searchResource 1`] = `
       />
       <span
         aria-label="su-search"
-        class="su-search clickable searchIcon"
+        class="svgIcon su-search clickable searchIcon"
         role="button"
         tabindex="0"
-      />
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-search"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="m21 21-4.34-4.34"
+          />
+          <circle
+            cx="11"
+            cy="11"
+            r="8"
+          />
+        </svg>
+      </span>
     </div>
   </div>
   <p

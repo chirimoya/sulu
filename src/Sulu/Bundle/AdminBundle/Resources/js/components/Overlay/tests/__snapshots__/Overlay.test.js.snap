@@ -26,10 +26,29 @@ exports[`The component should not render the footer where there is no onConfirm 
             </h2>
             <span
               aria-label="su-times"
-              class="su-times clickable icon"
+              class="svgIcon su-times clickable icon"
               role="button"
               tabindex="0"
-            />
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-x"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M18 6 6 18"
+                />
+                <path
+                  d="m6 6 12 12"
+                />
+              </svg>
+            </span>
           </header>
           <article
             class="article"
@@ -47,8 +66,30 @@ exports[`The component should not render the footer where there is no onConfirm 
             >
               <span
                 aria-label="su-exclamation-triangle"
-                class="su-exclamation-triangle icon"
-              />
+                class="svgIcon su-exclamation-triangle icon"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-triangle-alert"
+                  fill="none"
+                  focusable="false"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.75"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"
+                  />
+                  <path
+                    d="M12 9v4"
+                  />
+                  <path
+                    d="M12 17h.01"
+                  />
+                </svg>
+              </span>
               <div
                 class="text"
               >
@@ -93,10 +134,29 @@ exports[`The component should render in body when open 1`] = `
             </h2>
             <span
               aria-label="su-times"
-              class="su-times clickable icon"
+              class="svgIcon su-times clickable icon"
               role="button"
               tabindex="0"
-            />
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-x"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M18 6 6 18"
+                />
+                <path
+                  d="m6 6 12 12"
+                />
+              </svg>
+            </span>
           </header>
           <article
             class="article"
@@ -152,8 +212,30 @@ exports[`The component should render in body when open 1`] = `
             >
               <span
                 aria-label="su-exclamation-triangle"
-                class="su-exclamation-triangle icon"
-              />
+                class="svgIcon su-exclamation-triangle icon"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-triangle-alert"
+                  fill="none"
+                  focusable="false"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.75"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"
+                  />
+                  <path
+                    d="M12 9v4"
+                  />
+                  <path
+                    d="M12 17h.01"
+                  />
+                </svg>
+              </span>
               <div
                 class="text"
               >

@@ -14,12 +14,52 @@ exports[`Render ContactAccountSelection 1`] = `
       >
         <span
           aria-label="su-plus-circle"
-          class="su-plus-circle icon"
-        />
+          class="svgIcon su-plus-circle icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-circle-plus"
+            fill="none"
+            focusable="false"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.75"
+            viewBox="0 0 24 24"
+          >
+            <circle
+              cx="12"
+              cy="12"
+              r="10"
+            />
+            <path
+              d="M8 12h8"
+            />
+            <path
+              d="M12 8v8"
+            />
+          </svg>
+        </span>
         <span
           aria-label="su-angle-down"
-          class="su-angle-down"
-        />
+          class="svgIcon su-angle-down"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-chevron-down"
+            fill="none"
+            focusable="false"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.75"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="m6 9 6 6 6-6"
+            />
+          </svg>
+        </span>
       </button>
       <div
         class="label"
@@ -48,12 +88,52 @@ exports[`Render ContactAccountSelection with data 1`] = `
       >
         <span
           aria-label="su-plus-circle"
-          class="su-plus-circle icon"
-        />
+          class="svgIcon su-plus-circle icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-circle-plus"
+            fill="none"
+            focusable="false"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.75"
+            viewBox="0 0 24 24"
+          >
+            <circle
+              cx="12"
+              cy="12"
+              r="10"
+            />
+            <path
+              d="M8 12h8"
+            />
+            <path
+              d="M12 8v8"
+            />
+          </svg>
+        </span>
         <span
           aria-label="su-angle-down"
-          class="su-angle-down"
-        />
+          class="svgIcon su-angle-down"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-chevron-down"
+            fill="none"
+            focusable="false"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.75"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="m6 9 6 6 6-6"
+            />
+          </svg>
+        </span>
       </button>
       <div
         class="label"
@@ -75,8 +155,51 @@ exports[`Render ContactAccountSelection with data 1`] = `
           >
             <span
               aria-label="su-more"
-              class="su-more"
-            />
+              class="svgIcon su-more"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-grip-vertical"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <circle
+                  cx="9"
+                  cy="12"
+                  r="1"
+                />
+                <circle
+                  cx="9"
+                  cy="5"
+                  r="1"
+                />
+                <circle
+                  cx="9"
+                  cy="19"
+                  r="1"
+                />
+                <circle
+                  cx="15"
+                  cy="12"
+                  r="1"
+                />
+                <circle
+                  cx="15"
+                  cy="5"
+                  r="1"
+                />
+                <circle
+                  cx="15"
+                  cy="19"
+                  r="1"
+                />
+              </svg>
+            </span>
             <span
               class="index"
             >
@@ -102,8 +225,36 @@ exports[`Render ContactAccountSelection with data 1`] = `
             >
               <span
                 aria-label="su-trash-alt"
-                class="su-trash-alt"
-              />
+                class="svgIcon su-trash-alt"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-trash-2"
+                  fill="none"
+                  focusable="false"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.75"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M10 11v6"
+                  />
+                  <path
+                    d="M14 11v6"
+                  />
+                  <path
+                    d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"
+                  />
+                  <path
+                    d="M3 6h18"
+                  />
+                  <path
+                    d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"
+                  />
+                </svg>
+              </span>
             </button>
           </div>
         </div>
@@ -119,8 +270,51 @@ exports[`Render ContactAccountSelection with data 1`] = `
           >
             <span
               aria-label="su-more"
-              class="su-more"
-            />
+              class="svgIcon su-more"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-grip-vertical"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <circle
+                  cx="9"
+                  cy="12"
+                  r="1"
+                />
+                <circle
+                  cx="9"
+                  cy="5"
+                  r="1"
+                />
+                <circle
+                  cx="9"
+                  cy="19"
+                  r="1"
+                />
+                <circle
+                  cx="15"
+                  cy="12"
+                  r="1"
+                />
+                <circle
+                  cx="15"
+                  cy="5"
+                  r="1"
+                />
+                <circle
+                  cx="15"
+                  cy="19"
+                  r="1"
+                />
+              </svg>
+            </span>
             <span
               class="index"
             >
@@ -146,8 +340,36 @@ exports[`Render ContactAccountSelection with data 1`] = `
             >
               <span
                 aria-label="su-trash-alt"
-                class="su-trash-alt"
-              />
+                class="svgIcon su-trash-alt"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-trash-2"
+                  fill="none"
+                  focusable="false"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.75"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M10 11v6"
+                  />
+                  <path
+                    d="M14 11v6"
+                  />
+                  <path
+                    d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"
+                  />
+                  <path
+                    d="M3 6h18"
+                  />
+                  <path
+                    d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"
+                  />
+                </svg>
+              </span>
             </button>
           </div>
         </div>
@@ -163,8 +385,51 @@ exports[`Render ContactAccountSelection with data 1`] = `
           >
             <span
               aria-label="su-more"
-              class="su-more"
-            />
+              class="svgIcon su-more"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-grip-vertical"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <circle
+                  cx="9"
+                  cy="12"
+                  r="1"
+                />
+                <circle
+                  cx="9"
+                  cy="5"
+                  r="1"
+                />
+                <circle
+                  cx="9"
+                  cy="19"
+                  r="1"
+                />
+                <circle
+                  cx="15"
+                  cy="12"
+                  r="1"
+                />
+                <circle
+                  cx="15"
+                  cy="5"
+                  r="1"
+                />
+                <circle
+                  cx="15"
+                  cy="19"
+                  r="1"
+                />
+              </svg>
+            </span>
             <span
               class="index"
             >
@@ -190,8 +455,36 @@ exports[`Render ContactAccountSelection with data 1`] = `
             >
               <span
                 aria-label="su-trash-alt"
-                class="su-trash-alt"
-              />
+                class="svgIcon su-trash-alt"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-trash-2"
+                  fill="none"
+                  focusable="false"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.75"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M10 11v6"
+                  />
+                  <path
+                    d="M14 11v6"
+                  />
+                  <path
+                    d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"
+                  />
+                  <path
+                    d="M3 6h18"
+                  />
+                  <path
+                    d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"
+                  />
+                </svg>
+              </span>
             </button>
           </div>
         </div>
@@ -216,12 +509,52 @@ exports[`Render disabled ContactAccountSelection 1`] = `
       >
         <span
           aria-label="su-plus-circle"
-          class="su-plus-circle icon"
-        />
+          class="svgIcon su-plus-circle icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-circle-plus"
+            fill="none"
+            focusable="false"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.75"
+            viewBox="0 0 24 24"
+          >
+            <circle
+              cx="12"
+              cy="12"
+              r="10"
+            />
+            <path
+              d="M8 12h8"
+            />
+            <path
+              d="M12 8v8"
+            />
+          </svg>
+        </span>
         <span
           aria-label="su-angle-down"
-          class="su-angle-down"
-        />
+          class="svgIcon su-angle-down"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-chevron-down"
+            fill="none"
+            focusable="false"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.75"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="m6 9 6 6 6-6"
+            />
+          </svg>
+        </span>
       </button>
       <div
         class="label"
@@ -250,12 +583,52 @@ exports[`Render loading ContactAccountSelection 1`] = `
       >
         <span
           aria-label="su-plus-circle"
-          class="su-plus-circle icon"
-        />
+          class="svgIcon su-plus-circle icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-circle-plus"
+            fill="none"
+            focusable="false"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.75"
+            viewBox="0 0 24 24"
+          >
+            <circle
+              cx="12"
+              cy="12"
+              r="10"
+            />
+            <path
+              d="M8 12h8"
+            />
+            <path
+              d="M12 8v8"
+            />
+          </svg>
+        </span>
         <span
           aria-label="su-angle-down"
-          class="su-angle-down"
-        />
+          class="svgIcon su-angle-down"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-chevron-down"
+            fill="none"
+            focusable="false"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.75"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="m6 9 6 6 6-6"
+            />
+          </svg>
+        </span>
       </button>
       <div
         class="label"

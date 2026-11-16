@@ -1,3 +1,24 @@
 .clickable {
     cursor: pointer;
 }
+
+/* Wrapper of the inline SVG icons. It keeps the original `su-*`/`fa-*` class, therefore the glyph of the icon font
+   has to be suppressed. The SVG scales with the font-size and takes the text color of the place it is used in. */
+.svgIcon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    line-height: 1;
+
+    &::before,
+    &::after {
+        content: none !important;
+    }
+
+    svg {
+        width: 1em;
+        height: 1em;
+        stroke: currentColor;
+    }
+}

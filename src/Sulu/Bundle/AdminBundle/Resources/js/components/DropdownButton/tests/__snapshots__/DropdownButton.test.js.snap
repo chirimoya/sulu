@@ -8,8 +8,27 @@ exports[`Render dropdown button 1`] = `
   >
     <span
       aria-label="su-plus"
-      class="su-plus buttonIcon"
-    />
+      class="svgIcon su-plus buttonIcon"
+    >
+      <svg
+        aria-hidden="true"
+        class="lucide lucide-plus"
+        fill="none"
+        focusable="false"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="1.75"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M5 12h14"
+        />
+        <path
+          d="M12 5v14"
+        />
+      </svg>
+    </span>
     <span
       class="buttonText"
     >
@@ -17,8 +36,24 @@ exports[`Render dropdown button 1`] = `
     </span>
     <span
       aria-label="su-angle-down"
-      class="su-angle-down dropdownIcon"
-    />
+      class="svgIcon su-angle-down dropdownIcon"
+    >
+      <svg
+        aria-hidden="true"
+        class="lucide lucide-chevron-down"
+        fill="none"
+        focusable="false"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="1.75"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="m6 9 6 6 6-6"
+        />
+      </svg>
+    </span>
   </button>
 </div>
 `;

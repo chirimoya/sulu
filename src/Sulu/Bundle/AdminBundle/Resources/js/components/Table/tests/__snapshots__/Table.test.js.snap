@@ -21,8 +21,24 @@ exports[`Header cells with a defined sortOrder must show a sort indicator 1`] = 
               ColumnTitle
               <span
                 aria-label="su-angle-up"
-                class="su-angle-up headerCellSortIcon"
-              />
+                class="svgIcon su-angle-up headerCellSortIcon"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-chevron-up"
+                  fill="none"
+                  focusable="false"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.75"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m18 15-6-6-6 6"
+                  />
+                </svg>
+              </span>
             </button>
           </th>
           <th
@@ -34,8 +50,24 @@ exports[`Header cells with a defined sortOrder must show a sort indicator 1`] = 
               ColumnTitle
               <span
                 aria-label="su-angle-down"
-                class="su-angle-down headerCellSortIcon"
-              />
+                class="svgIcon su-angle-down headerCellSortIcon"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-chevron-down"
+                  fill="none"
+                  focusable="false"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.75"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m6 9 6 6 6-6"
+                  />
+                </svg>
+              </span>
             </button>
           </th>
           <th
@@ -487,8 +519,34 @@ exports[`Render an empty table 1`] = `
     >
       <span
         aria-label="su-battery-low"
-        class="su-battery-low tablePlaceholderIcon"
-      />
+        class="svgIcon su-battery-low tablePlaceholderIcon"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-battery-low"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M22 14v-4"
+          />
+          <path
+            d="M6 14v-4"
+          />
+          <rect
+            height="12"
+            rx="2"
+            width="16"
+            x="2"
+            y="6"
+          />
+        </svg>
+      </span>
       <div
         class="tablePlaceholderText"
       >
@@ -915,10 +973,26 @@ exports[`Render the Table component in tree structure 1`] = `
               >
                 <span
                   aria-label="su-angle-right"
-                  class="su-angle-right clickable"
+                  class="svgIcon su-angle-right clickable"
                   role="button"
                   tabindex="0"
-                />
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-chevron-right"
+                    fill="none"
+                    focusable="false"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.75"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="m9 18 6-6-6-6"
+                    />
+                  </svg>
+                </span>
               </span>
               Column Text
             </div>
@@ -957,10 +1031,26 @@ exports[`Render the Table component in tree structure 1`] = `
               >
                 <span
                   aria-label="su-angle-right"
-                  class="su-angle-right clickable"
+                  class="svgIcon su-angle-right clickable"
                   role="button"
                   tabindex="0"
-                />
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-chevron-right"
+                    fill="none"
+                    focusable="false"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.75"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="m9 18 6-6-6-6"
+                    />
+                  </svg>
+                </span>
               </span>
               Column Text
             </div>

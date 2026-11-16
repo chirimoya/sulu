@@ -17,8 +17,27 @@ exports[`Render a PageTreeRoute 1`] = `
         >
           <span
             aria-label="su-document"
-            class="su-document icon"
-          />
+            class="svgIcon su-document icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-file"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"
+              />
+              <path
+                d="M14 2v5a1 1 0 0 0 1 1h5"
+              />
+            </svg>
+          </span>
         </button>
         <div
           class="itemContainer"
@@ -67,8 +86,33 @@ exports[`Render a PageTreeRoute 1`] = `
         >
           <span
             aria-label="su-sync"
-            class="su-sync buttonIcon"
-          />
+            class="svgIcon su-sync buttonIcon"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-refresh-cw"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"
+              />
+              <path
+                d="M21 3v5h-5"
+              />
+              <path
+                d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"
+              />
+              <path
+                d="M8 16H3v5"
+              />
+            </svg>
+          </span>
           <span
             class="buttonText"
           >
@@ -81,8 +125,30 @@ exports[`Render a PageTreeRoute 1`] = `
         >
           <span
             aria-label="su-process"
-            class="su-process buttonIcon"
-          />
+            class="svgIcon su-process buttonIcon"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-history"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"
+              />
+              <path
+                d="M3 3v5h5"
+              />
+              <path
+                d="M12 7v5l4 2"
+              />
+            </svg>
+          </span>
           <span
             class="buttonText"
           >
@@ -112,8 +178,27 @@ exports[`Render a PageTreeRoute without value 1`] = `
         >
           <span
             aria-label="su-document"
-            class="su-document icon"
-          />
+            class="svgIcon su-document icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-file"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"
+              />
+              <path
+                d="M14 2v5a1 1 0 0 0 1 1h5"
+              />
+            </svg>
+          </span>
         </button>
         <div
           class="itemContainer"
@@ -163,8 +248,33 @@ exports[`Render a PageTreeRoute without value 1`] = `
         >
           <span
             aria-label="su-sync"
-            class="su-sync buttonIcon"
-          />
+            class="svgIcon su-sync buttonIcon"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-refresh-cw"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"
+              />
+              <path
+                d="M21 3v5h-5"
+              />
+              <path
+                d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"
+              />
+              <path
+                d="M8 16H3v5"
+              />
+            </svg>
+          </span>
           <span
             class="buttonText"
           >
@@ -178,8 +288,30 @@ exports[`Render a PageTreeRoute without value 1`] = `
         >
           <span
             aria-label="su-process"
-            class="su-process buttonIcon"
-          />
+            class="svgIcon su-process buttonIcon"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-history"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"
+              />
+              <path
+                d="M3 3v5h5"
+              />
+              <path
+                d="M12 7v5l4 2"
+              />
+            </svg>
+          </span>
           <span
             class="buttonText"
           >

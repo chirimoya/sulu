@@ -17,8 +17,24 @@ exports[`Render disabled select 1`] = `
       </span>
       <span
         aria-label="su-angle-down"
-        class="su-angle-down dropdownIcon"
-      />
+        class="svgIcon su-angle-down dropdownIcon"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-chevron-down"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="m6 9 6 6 6-6"
+          />
+        </svg>
+      </span>
     </button>
   </div>
 </div>
@@ -51,8 +67,24 @@ exports[`Render loading select 1`] = `
       </span>
       <span
         aria-label="su-angle-down"
-        class="su-angle-down dropdownIcon"
-      />
+        class="svgIcon su-angle-down dropdownIcon"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-chevron-down"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="m6 9 6 6 6-6"
+          />
+        </svg>
+      </span>
     </button>
   </div>
 </div>
@@ -74,8 +106,24 @@ exports[`Render select 1`] = `
       </span>
       <span
         aria-label="su-angle-down"
-        class="su-angle-down dropdownIcon"
-      />
+        class="svgIcon su-angle-down dropdownIcon"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-chevron-down"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="m6 9 6 6 6-6"
+          />
+        </svg>
+      </span>
     </button>
   </div>
 </div>
@@ -97,8 +145,24 @@ exports[`Render select with a different size 1`] = `
       </span>
       <span
         aria-label="su-angle-down"
-        class="su-angle-down dropdownIcon"
-      />
+        class="svgIcon su-angle-down dropdownIcon"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-chevron-down"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="m6 9 6 6 6-6"
+          />
+        </svg>
+      </span>
     </button>
   </div>
 </div>
@@ -124,8 +188,24 @@ exports[`Render select with a prepended icon 1`] = `
       </span>
       <span
         aria-label="su-angle-down"
-        class="su-angle-down dropdownIcon"
-      />
+        class="svgIcon su-angle-down dropdownIcon"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-chevron-down"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="m6 9 6 6 6-6"
+          />
+        </svg>
+      </span>
     </button>
   </div>
 </div>
@@ -142,8 +222,24 @@ exports[`Render select without text 1`] = `
     >
       <span
         aria-label="su-angle-down"
-        class="su-angle-down dropdownIcon"
-      />
+        class="svgIcon su-angle-down dropdownIcon"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-chevron-down"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="m6 9 6 6 6-6"
+          />
+        </svg>
+      </span>
     </button>
   </div>
 </div>

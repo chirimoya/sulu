@@ -29,8 +29,27 @@ exports[`Dont react or update preview when data is changed during formstore is l
         >
           <span
             aria-label="su-arrow-right"
-            class="su-arrow-right icon"
-          />
+            class="svgIcon su-arrow-right icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-arrow-right"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="m12 5 7 7-7 7"
+              />
+            </svg>
+          </span>
         </button>
         <div
           class="itemsContainer"
@@ -48,8 +67,33 @@ exports[`Dont react or update preview when data is changed during formstore is l
                 >
                   <span
                     aria-label="su-expand"
-                    class="su-expand icon"
-                  />
+                    class="svgIcon su-expand icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-maximize-2"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M15 3h6v6"
+                      />
+                      <path
+                        d="m21 3-7 7"
+                      />
+                      <path
+                        d="m3 21 7-7"
+                      />
+                      <path
+                        d="M9 21H3v-6"
+                      />
+                    </svg>
+                  </span>
                   <span
                     class="label"
                   >
@@ -57,8 +101,24 @@ exports[`Dont react or update preview when data is changed during formstore is l
                   </span>
                   <span
                     aria-label="su-angle-down"
-                    class="su-angle-down dropdownIcon"
-                  />
+                    class="svgIcon su-angle-down dropdownIcon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                  </span>
                 </button>
               </div>
             </li>
@@ -72,8 +132,37 @@ exports[`Dont react or update preview when data is changed during formstore is l
                 >
                   <span
                     aria-label="su-calendar"
-                    class="su-calendar icon"
-                  />
+                    class="svgIcon su-calendar icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-calendar"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M8 2v3"
+                      />
+                      <path
+                        d="M16 2v3"
+                      />
+                      <rect
+                        height="18"
+                        rx="2"
+                        width="18"
+                        x="3"
+                        y="3"
+                      />
+                      <path
+                        d="M3 9h18"
+                      />
+                    </svg>
+                  </span>
                   <span
                     class="label"
                   >
@@ -81,8 +170,24 @@ exports[`Dont react or update preview when data is changed during formstore is l
                   </span>
                   <span
                     aria-label="su-angle-down"
-                    class="su-angle-down dropdownIcon"
-                  />
+                    class="svgIcon su-angle-down dropdownIcon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                  </span>
                 </button>
               </div>
             </li>
@@ -96,12 +201,56 @@ exports[`Dont react or update preview when data is changed during formstore is l
                 >
                   <span
                     aria-label="su-webspace"
-                    class="su-webspace icon"
-                  />
+                    class="svgIcon su-webspace icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-target"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="10"
+                      />
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="6"
+                      />
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="2"
+                      />
+                    </svg>
+                  </span>
                   <span
                     aria-label="su-angle-down"
-                    class="su-angle-down dropdownIcon"
-                  />
+                    class="svgIcon su-angle-down dropdownIcon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                  </span>
                 </button>
               </div>
             </li>
@@ -112,8 +261,33 @@ exports[`Dont react or update preview when data is changed during formstore is l
               >
                 <span
                   aria-label="su-sync"
-                  class="su-sync icon"
-                />
+                  class="svgIcon su-sync icon"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-refresh-cw"
+                    fill="none"
+                    focusable="false"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.75"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"
+                    />
+                    <path
+                      d="M21 3v5h-5"
+                    />
+                    <path
+                      d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"
+                    />
+                    <path
+                      d="M8 16H3v5"
+                    />
+                  </svg>
+                </span>
                 <span
                   class="label"
                 >
@@ -131,8 +305,30 @@ exports[`Dont react or update preview when data is changed during formstore is l
                 >
                   <span
                     aria-label="su-share"
-                    class="su-share icon"
-                  />
+                    class="svgIcon su-share icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-share"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 2v13"
+                      />
+                      <path
+                        d="m16 6-4-4-4 4"
+                      />
+                      <path
+                        d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"
+                      />
+                    </svg>
+                  </span>
                   <span
                     class="label"
                   >
@@ -140,8 +336,24 @@ exports[`Dont react or update preview when data is changed during formstore is l
                   </span>
                   <span
                     aria-label="su-angle-down"
-                    class="su-angle-down dropdownIcon"
-                  />
+                    class="svgIcon su-angle-down dropdownIcon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                  </span>
                 </button>
               </div>
             </li>
@@ -152,8 +364,27 @@ exports[`Dont react or update preview when data is changed during formstore is l
               >
                 <span
                   aria-label="su-link"
-                  class="su-link icon"
-                />
+                  class="svgIcon su-link icon"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-link"
+                    fill="none"
+                    focusable="false"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.75"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"
+                    />
+                    <path
+                      d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"
+                    />
+                  </svg>
+                </span>
                 <span
                   class="label"
                 >
@@ -201,8 +432,27 @@ exports[`Dont react or update preview when data is changed during preview-store 
         >
           <span
             aria-label="su-arrow-right"
-            class="su-arrow-right icon"
-          />
+            class="svgIcon su-arrow-right icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-arrow-right"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="m12 5 7 7-7 7"
+              />
+            </svg>
+          </span>
         </button>
         <div
           class="itemsContainer"
@@ -220,8 +470,33 @@ exports[`Dont react or update preview when data is changed during preview-store 
                 >
                   <span
                     aria-label="su-expand"
-                    class="su-expand icon"
-                  />
+                    class="svgIcon su-expand icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-maximize-2"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M15 3h6v6"
+                      />
+                      <path
+                        d="m21 3-7 7"
+                      />
+                      <path
+                        d="m3 21 7-7"
+                      />
+                      <path
+                        d="M9 21H3v-6"
+                      />
+                    </svg>
+                  </span>
                   <span
                     class="label"
                   >
@@ -229,8 +504,24 @@ exports[`Dont react or update preview when data is changed during preview-store 
                   </span>
                   <span
                     aria-label="su-angle-down"
-                    class="su-angle-down dropdownIcon"
-                  />
+                    class="svgIcon su-angle-down dropdownIcon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                  </span>
                 </button>
               </div>
             </li>
@@ -244,8 +535,37 @@ exports[`Dont react or update preview when data is changed during preview-store 
                 >
                   <span
                     aria-label="su-calendar"
-                    class="su-calendar icon"
-                  />
+                    class="svgIcon su-calendar icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-calendar"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M8 2v3"
+                      />
+                      <path
+                        d="M16 2v3"
+                      />
+                      <rect
+                        height="18"
+                        rx="2"
+                        width="18"
+                        x="3"
+                        y="3"
+                      />
+                      <path
+                        d="M3 9h18"
+                      />
+                    </svg>
+                  </span>
                   <span
                     class="label"
                   >
@@ -253,8 +573,24 @@ exports[`Dont react or update preview when data is changed during preview-store 
                   </span>
                   <span
                     aria-label="su-angle-down"
-                    class="su-angle-down dropdownIcon"
-                  />
+                    class="svgIcon su-angle-down dropdownIcon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                  </span>
                 </button>
               </div>
             </li>
@@ -268,12 +604,56 @@ exports[`Dont react or update preview when data is changed during preview-store 
                 >
                   <span
                     aria-label="su-webspace"
-                    class="su-webspace icon"
-                  />
+                    class="svgIcon su-webspace icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-target"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="10"
+                      />
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="6"
+                      />
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="2"
+                      />
+                    </svg>
+                  </span>
                   <span
                     aria-label="su-angle-down"
-                    class="su-angle-down dropdownIcon"
-                  />
+                    class="svgIcon su-angle-down dropdownIcon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                  </span>
                 </button>
               </div>
             </li>
@@ -284,8 +664,33 @@ exports[`Dont react or update preview when data is changed during preview-store 
               >
                 <span
                   aria-label="su-sync"
-                  class="su-sync icon"
-                />
+                  class="svgIcon su-sync icon"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-refresh-cw"
+                    fill="none"
+                    focusable="false"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.75"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"
+                    />
+                    <path
+                      d="M21 3v5h-5"
+                    />
+                    <path
+                      d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"
+                    />
+                    <path
+                      d="M8 16H3v5"
+                    />
+                  </svg>
+                </span>
                 <span
                   class="label"
                 >
@@ -303,8 +708,30 @@ exports[`Dont react or update preview when data is changed during preview-store 
                 >
                   <span
                     aria-label="su-share"
-                    class="su-share icon"
-                  />
+                    class="svgIcon su-share icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-share"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 2v13"
+                      />
+                      <path
+                        d="m16 6-4-4-4 4"
+                      />
+                      <path
+                        d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"
+                      />
+                    </svg>
+                  </span>
                   <span
                     class="label"
                   >
@@ -312,8 +739,24 @@ exports[`Dont react or update preview when data is changed during preview-store 
                   </span>
                   <span
                     aria-label="su-angle-down"
-                    class="su-angle-down dropdownIcon"
-                  />
+                    class="svgIcon su-angle-down dropdownIcon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                  </span>
                 </button>
               </div>
             </li>
@@ -324,8 +767,27 @@ exports[`Dont react or update preview when data is changed during preview-store 
               >
                 <span
                   aria-label="su-link"
-                  class="su-link icon"
-                />
+                  class="svgIcon su-link icon"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-link"
+                    fill="none"
+                    focusable="false"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.75"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"
+                    />
+                    <path
+                      d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"
+                    />
+                  </svg>
+                </span>
                 <span
                   class="label"
                 >
@@ -372,8 +834,27 @@ exports[`React and update preview when data is changed 1`] = `
         >
           <span
             aria-label="su-arrow-right"
-            class="su-arrow-right icon"
-          />
+            class="svgIcon su-arrow-right icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-arrow-right"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="m12 5 7 7-7 7"
+              />
+            </svg>
+          </span>
         </button>
         <div
           class="itemsContainer"
@@ -391,8 +872,33 @@ exports[`React and update preview when data is changed 1`] = `
                 >
                   <span
                     aria-label="su-expand"
-                    class="su-expand icon"
-                  />
+                    class="svgIcon su-expand icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-maximize-2"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M15 3h6v6"
+                      />
+                      <path
+                        d="m21 3-7 7"
+                      />
+                      <path
+                        d="m3 21 7-7"
+                      />
+                      <path
+                        d="M9 21H3v-6"
+                      />
+                    </svg>
+                  </span>
                   <span
                     class="label"
                   >
@@ -400,8 +906,24 @@ exports[`React and update preview when data is changed 1`] = `
                   </span>
                   <span
                     aria-label="su-angle-down"
-                    class="su-angle-down dropdownIcon"
-                  />
+                    class="svgIcon su-angle-down dropdownIcon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                  </span>
                 </button>
               </div>
             </li>
@@ -415,8 +937,37 @@ exports[`React and update preview when data is changed 1`] = `
                 >
                   <span
                     aria-label="su-calendar"
-                    class="su-calendar icon"
-                  />
+                    class="svgIcon su-calendar icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-calendar"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M8 2v3"
+                      />
+                      <path
+                        d="M16 2v3"
+                      />
+                      <rect
+                        height="18"
+                        rx="2"
+                        width="18"
+                        x="3"
+                        y="3"
+                      />
+                      <path
+                        d="M3 9h18"
+                      />
+                    </svg>
+                  </span>
                   <span
                     class="label"
                   >
@@ -424,8 +975,24 @@ exports[`React and update preview when data is changed 1`] = `
                   </span>
                   <span
                     aria-label="su-angle-down"
-                    class="su-angle-down dropdownIcon"
-                  />
+                    class="svgIcon su-angle-down dropdownIcon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                  </span>
                 </button>
               </div>
             </li>
@@ -439,12 +1006,56 @@ exports[`React and update preview when data is changed 1`] = `
                 >
                   <span
                     aria-label="su-webspace"
-                    class="su-webspace icon"
-                  />
+                    class="svgIcon su-webspace icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-target"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="10"
+                      />
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="6"
+                      />
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="2"
+                      />
+                    </svg>
+                  </span>
                   <span
                     aria-label="su-angle-down"
-                    class="su-angle-down dropdownIcon"
-                  />
+                    class="svgIcon su-angle-down dropdownIcon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                  </span>
                 </button>
               </div>
             </li>
@@ -455,8 +1066,33 @@ exports[`React and update preview when data is changed 1`] = `
               >
                 <span
                   aria-label="su-sync"
-                  class="su-sync icon"
-                />
+                  class="svgIcon su-sync icon"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-refresh-cw"
+                    fill="none"
+                    focusable="false"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.75"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"
+                    />
+                    <path
+                      d="M21 3v5h-5"
+                    />
+                    <path
+                      d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"
+                    />
+                    <path
+                      d="M8 16H3v5"
+                    />
+                  </svg>
+                </span>
                 <span
                   class="label"
                 >
@@ -474,8 +1110,30 @@ exports[`React and update preview when data is changed 1`] = `
                 >
                   <span
                     aria-label="su-share"
-                    class="su-share icon"
-                  />
+                    class="svgIcon su-share icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-share"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 2v13"
+                      />
+                      <path
+                        d="m16 6-4-4-4 4"
+                      />
+                      <path
+                        d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"
+                      />
+                    </svg>
+                  </span>
                   <span
                     class="label"
                   >
@@ -483,8 +1141,24 @@ exports[`React and update preview when data is changed 1`] = `
                   </span>
                   <span
                     aria-label="su-angle-down"
-                    class="su-angle-down dropdownIcon"
-                  />
+                    class="svgIcon su-angle-down dropdownIcon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                  </span>
                 </button>
               </div>
             </li>
@@ -495,8 +1169,27 @@ exports[`React and update preview when data is changed 1`] = `
               >
                 <span
                   aria-label="su-link"
-                  class="su-link icon"
-                />
+                  class="svgIcon su-link icon"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-link"
+                    fill="none"
+                    focusable="false"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.75"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"
+                    />
+                    <path
+                      d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"
+                    />
+                  </svg>
+                </span>
                 <span
                   class="label"
                 >
@@ -551,8 +1244,27 @@ exports[`Render correct preview 1`] = `
         >
           <span
             aria-label="su-arrow-right"
-            class="su-arrow-right icon"
-          />
+            class="svgIcon su-arrow-right icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-arrow-right"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="m12 5 7 7-7 7"
+              />
+            </svg>
+          </span>
         </button>
         <div
           class="itemsContainer"
@@ -570,8 +1282,33 @@ exports[`Render correct preview 1`] = `
                 >
                   <span
                     aria-label="su-expand"
-                    class="su-expand icon"
-                  />
+                    class="svgIcon su-expand icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-maximize-2"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M15 3h6v6"
+                      />
+                      <path
+                        d="m21 3-7 7"
+                      />
+                      <path
+                        d="m3 21 7-7"
+                      />
+                      <path
+                        d="M9 21H3v-6"
+                      />
+                    </svg>
+                  </span>
                   <span
                     class="label"
                   >
@@ -579,8 +1316,24 @@ exports[`Render correct preview 1`] = `
                   </span>
                   <span
                     aria-label="su-angle-down"
-                    class="su-angle-down dropdownIcon"
-                  />
+                    class="svgIcon su-angle-down dropdownIcon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                  </span>
                 </button>
               </div>
             </li>
@@ -594,8 +1347,37 @@ exports[`Render correct preview 1`] = `
                 >
                   <span
                     aria-label="su-calendar"
-                    class="su-calendar icon"
-                  />
+                    class="svgIcon su-calendar icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-calendar"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M8 2v3"
+                      />
+                      <path
+                        d="M16 2v3"
+                      />
+                      <rect
+                        height="18"
+                        rx="2"
+                        width="18"
+                        x="3"
+                        y="3"
+                      />
+                      <path
+                        d="M3 9h18"
+                      />
+                    </svg>
+                  </span>
                   <span
                     class="label"
                   >
@@ -603,8 +1385,24 @@ exports[`Render correct preview 1`] = `
                   </span>
                   <span
                     aria-label="su-angle-down"
-                    class="su-angle-down dropdownIcon"
-                  />
+                    class="svgIcon su-angle-down dropdownIcon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                  </span>
                 </button>
               </div>
             </li>
@@ -618,12 +1416,56 @@ exports[`Render correct preview 1`] = `
                 >
                   <span
                     aria-label="su-webspace"
-                    class="su-webspace icon"
-                  />
+                    class="svgIcon su-webspace icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-target"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="10"
+                      />
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="6"
+                      />
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="2"
+                      />
+                    </svg>
+                  </span>
                   <span
                     aria-label="su-angle-down"
-                    class="su-angle-down dropdownIcon"
-                  />
+                    class="svgIcon su-angle-down dropdownIcon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                  </span>
                 </button>
               </div>
             </li>
@@ -637,12 +1479,70 @@ exports[`Render correct preview 1`] = `
                 >
                   <span
                     aria-label="su-focus"
-                    class="su-focus icon"
-                  />
+                    class="svgIcon su-focus icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-locate"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <line
+                        x1="2"
+                        x2="5"
+                        y1="12"
+                        y2="12"
+                      />
+                      <line
+                        x1="19"
+                        x2="22"
+                        y1="12"
+                        y2="12"
+                      />
+                      <line
+                        x1="12"
+                        x2="12"
+                        y1="2"
+                        y2="5"
+                      />
+                      <line
+                        x1="12"
+                        x2="12"
+                        y1="19"
+                        y2="22"
+                      />
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="7"
+                      />
+                    </svg>
+                  </span>
                   <span
                     aria-label="su-angle-down"
-                    class="su-angle-down dropdownIcon"
-                  />
+                    class="svgIcon su-angle-down dropdownIcon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                  </span>
                 </button>
               </div>
             </li>
@@ -653,8 +1553,33 @@ exports[`Render correct preview 1`] = `
               >
                 <span
                   aria-label="su-sync"
-                  class="su-sync icon"
-                />
+                  class="svgIcon su-sync icon"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-refresh-cw"
+                    fill="none"
+                    focusable="false"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.75"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"
+                    />
+                    <path
+                      d="M21 3v5h-5"
+                    />
+                    <path
+                      d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"
+                    />
+                    <path
+                      d="M8 16H3v5"
+                    />
+                  </svg>
+                </span>
                 <span
                   class="label"
                 >
@@ -672,8 +1597,30 @@ exports[`Render correct preview 1`] = `
                 >
                   <span
                     aria-label="su-share"
-                    class="su-share icon"
-                  />
+                    class="svgIcon su-share icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-share"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 2v13"
+                      />
+                      <path
+                        d="m16 6-4-4-4 4"
+                      />
+                      <path
+                        d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"
+                      />
+                    </svg>
+                  </span>
                   <span
                     class="label"
                   >
@@ -681,8 +1628,24 @@ exports[`Render correct preview 1`] = `
                   </span>
                   <span
                     aria-label="su-angle-down"
-                    class="su-angle-down dropdownIcon"
-                  />
+                    class="svgIcon su-angle-down dropdownIcon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                  </span>
                 </button>
               </div>
             </li>
@@ -693,8 +1656,27 @@ exports[`Render correct preview 1`] = `
               >
                 <span
                   aria-label="su-link"
-                  class="su-link icon"
-                />
+                  class="svgIcon su-link icon"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-link"
+                    fill="none"
+                    focusable="false"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.75"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"
+                    />
+                    <path
+                      d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"
+                    />
+                  </svg>
+                </span>
                 <span
                   class="label"
                 >
@@ -739,8 +1721,27 @@ exports[`Render correct preview with target groups 1`] = `
         >
           <span
             aria-label="su-arrow-right"
-            class="su-arrow-right icon"
-          />
+            class="svgIcon su-arrow-right icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-arrow-right"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="m12 5 7 7-7 7"
+              />
+            </svg>
+          </span>
         </button>
         <div
           class="itemsContainer"
@@ -758,8 +1759,33 @@ exports[`Render correct preview with target groups 1`] = `
                 >
                   <span
                     aria-label="su-expand"
-                    class="su-expand icon"
-                  />
+                    class="svgIcon su-expand icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-maximize-2"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M15 3h6v6"
+                      />
+                      <path
+                        d="m21 3-7 7"
+                      />
+                      <path
+                        d="m3 21 7-7"
+                      />
+                      <path
+                        d="M9 21H3v-6"
+                      />
+                    </svg>
+                  </span>
                   <span
                     class="label"
                   >
@@ -767,8 +1793,24 @@ exports[`Render correct preview with target groups 1`] = `
                   </span>
                   <span
                     aria-label="su-angle-down"
-                    class="su-angle-down dropdownIcon"
-                  />
+                    class="svgIcon su-angle-down dropdownIcon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                  </span>
                 </button>
               </div>
             </li>
@@ -782,8 +1824,37 @@ exports[`Render correct preview with target groups 1`] = `
                 >
                   <span
                     aria-label="su-calendar"
-                    class="su-calendar icon"
-                  />
+                    class="svgIcon su-calendar icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-calendar"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M8 2v3"
+                      />
+                      <path
+                        d="M16 2v3"
+                      />
+                      <rect
+                        height="18"
+                        rx="2"
+                        width="18"
+                        x="3"
+                        y="3"
+                      />
+                      <path
+                        d="M3 9h18"
+                      />
+                    </svg>
+                  </span>
                   <span
                     class="label"
                   >
@@ -791,8 +1862,24 @@ exports[`Render correct preview with target groups 1`] = `
                   </span>
                   <span
                     aria-label="su-angle-down"
-                    class="su-angle-down dropdownIcon"
-                  />
+                    class="svgIcon su-angle-down dropdownIcon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                  </span>
                 </button>
               </div>
             </li>
@@ -806,12 +1893,56 @@ exports[`Render correct preview with target groups 1`] = `
                 >
                   <span
                     aria-label="su-webspace"
-                    class="su-webspace icon"
-                  />
+                    class="svgIcon su-webspace icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-target"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="10"
+                      />
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="6"
+                      />
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="2"
+                      />
+                    </svg>
+                  </span>
                   <span
                     aria-label="su-angle-down"
-                    class="su-angle-down dropdownIcon"
-                  />
+                    class="svgIcon su-angle-down dropdownIcon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                  </span>
                 </button>
               </div>
             </li>
@@ -825,12 +1956,49 @@ exports[`Render correct preview with target groups 1`] = `
                 >
                   <span
                     aria-label="su-user"
-                    class="su-user icon"
-                  />
+                    class="svgIcon su-user icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-user"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"
+                      />
+                      <circle
+                        cx="12"
+                        cy="7"
+                        r="4"
+                      />
+                    </svg>
+                  </span>
                   <span
                     aria-label="su-angle-down"
-                    class="su-angle-down dropdownIcon"
-                  />
+                    class="svgIcon su-angle-down dropdownIcon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                  </span>
                 </button>
               </div>
             </li>
@@ -841,8 +2009,33 @@ exports[`Render correct preview with target groups 1`] = `
               >
                 <span
                   aria-label="su-sync"
-                  class="su-sync icon"
-                />
+                  class="svgIcon su-sync icon"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-refresh-cw"
+                    fill="none"
+                    focusable="false"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.75"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"
+                    />
+                    <path
+                      d="M21 3v5h-5"
+                    />
+                    <path
+                      d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"
+                    />
+                    <path
+                      d="M8 16H3v5"
+                    />
+                  </svg>
+                </span>
                 <span
                   class="label"
                 >
@@ -860,8 +2053,30 @@ exports[`Render correct preview with target groups 1`] = `
                 >
                   <span
                     aria-label="su-share"
-                    class="su-share icon"
-                  />
+                    class="svgIcon su-share icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-share"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 2v13"
+                      />
+                      <path
+                        d="m16 6-4-4-4 4"
+                      />
+                      <path
+                        d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"
+                      />
+                    </svg>
+                  </span>
                   <span
                     class="label"
                   >
@@ -869,8 +2084,24 @@ exports[`Render correct preview with target groups 1`] = `
                   </span>
                   <span
                     aria-label="su-angle-down"
-                    class="su-angle-down dropdownIcon"
-                  />
+                    class="svgIcon su-angle-down dropdownIcon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                  </span>
                 </button>
               </div>
             </li>
@@ -881,8 +2112,27 @@ exports[`Render correct preview with target groups 1`] = `
               >
                 <span
                   aria-label="su-link"
-                  class="su-link icon"
-                />
+                  class="svgIcon su-link icon"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-link"
+                    fill="none"
+                    focusable="false"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.75"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"
+                    />
+                    <path
+                      d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"
+                    />
+                  </svg>
+                </span>
                 <span
                   class="label"
                 >
@@ -927,8 +2177,27 @@ exports[`Render nothing if separate window is opened and rerender if it is close
         >
           <span
             aria-label="su-arrow-right"
-            class="su-arrow-right icon"
-          />
+            class="svgIcon su-arrow-right icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-arrow-right"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="m12 5 7 7-7 7"
+              />
+            </svg>
+          </span>
         </button>
         <div
           class="itemsContainer"
@@ -946,8 +2215,33 @@ exports[`Render nothing if separate window is opened and rerender if it is close
                 >
                   <span
                     aria-label="su-expand"
-                    class="su-expand icon"
-                  />
+                    class="svgIcon su-expand icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-maximize-2"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M15 3h6v6"
+                      />
+                      <path
+                        d="m21 3-7 7"
+                      />
+                      <path
+                        d="m3 21 7-7"
+                      />
+                      <path
+                        d="M9 21H3v-6"
+                      />
+                    </svg>
+                  </span>
                   <span
                     class="label"
                   >
@@ -955,8 +2249,24 @@ exports[`Render nothing if separate window is opened and rerender if it is close
                   </span>
                   <span
                     aria-label="su-angle-down"
-                    class="su-angle-down dropdownIcon"
-                  />
+                    class="svgIcon su-angle-down dropdownIcon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                  </span>
                 </button>
               </div>
             </li>
@@ -970,8 +2280,37 @@ exports[`Render nothing if separate window is opened and rerender if it is close
                 >
                   <span
                     aria-label="su-calendar"
-                    class="su-calendar icon"
-                  />
+                    class="svgIcon su-calendar icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-calendar"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M8 2v3"
+                      />
+                      <path
+                        d="M16 2v3"
+                      />
+                      <rect
+                        height="18"
+                        rx="2"
+                        width="18"
+                        x="3"
+                        y="3"
+                      />
+                      <path
+                        d="M3 9h18"
+                      />
+                    </svg>
+                  </span>
                   <span
                     class="label"
                   >
@@ -979,8 +2318,24 @@ exports[`Render nothing if separate window is opened and rerender if it is close
                   </span>
                   <span
                     aria-label="su-angle-down"
-                    class="su-angle-down dropdownIcon"
-                  />
+                    class="svgIcon su-angle-down dropdownIcon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                  </span>
                 </button>
               </div>
             </li>
@@ -994,12 +2349,56 @@ exports[`Render nothing if separate window is opened and rerender if it is close
                 >
                   <span
                     aria-label="su-webspace"
-                    class="su-webspace icon"
-                  />
+                    class="svgIcon su-webspace icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-target"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="10"
+                      />
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="6"
+                      />
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="2"
+                      />
+                    </svg>
+                  </span>
                   <span
                     aria-label="su-angle-down"
-                    class="su-angle-down dropdownIcon"
-                  />
+                    class="svgIcon su-angle-down dropdownIcon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                  </span>
                 </button>
               </div>
             </li>
@@ -1010,8 +2409,33 @@ exports[`Render nothing if separate window is opened and rerender if it is close
               >
                 <span
                   aria-label="su-sync"
-                  class="su-sync icon"
-                />
+                  class="svgIcon su-sync icon"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-refresh-cw"
+                    fill="none"
+                    focusable="false"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.75"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"
+                    />
+                    <path
+                      d="M21 3v5h-5"
+                    />
+                    <path
+                      d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"
+                    />
+                    <path
+                      d="M8 16H3v5"
+                    />
+                  </svg>
+                </span>
                 <span
                   class="label"
                 >
@@ -1029,8 +2453,30 @@ exports[`Render nothing if separate window is opened and rerender if it is close
                 >
                   <span
                     aria-label="su-share"
-                    class="su-share icon"
-                  />
+                    class="svgIcon su-share icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-share"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 2v13"
+                      />
+                      <path
+                        d="m16 6-4-4-4 4"
+                      />
+                      <path
+                        d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"
+                      />
+                    </svg>
+                  </span>
                   <span
                     class="label"
                   >
@@ -1038,8 +2484,24 @@ exports[`Render nothing if separate window is opened and rerender if it is close
                   </span>
                   <span
                     aria-label="su-angle-down"
-                    class="su-angle-down dropdownIcon"
-                  />
+                    class="svgIcon su-angle-down dropdownIcon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                  </span>
                 </button>
               </div>
             </li>
@@ -1050,8 +2512,27 @@ exports[`Render nothing if separate window is opened and rerender if it is close
               >
                 <span
                   aria-label="su-link"
-                  class="su-link icon"
-                />
+                  class="svgIcon su-link icon"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-link"
+                    fill="none"
+                    focusable="false"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.75"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"
+                    />
+                    <path
+                      d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"
+                    />
+                  </svg>
+                </span>
                 <span
                   class="label"
                 >
@@ -1096,8 +2577,27 @@ exports[`Render nothing if separate window is opened and rerender if it is close
         >
           <span
             aria-label="su-arrow-right"
-            class="su-arrow-right icon"
-          />
+            class="svgIcon su-arrow-right icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-arrow-right"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="m12 5 7 7-7 7"
+              />
+            </svg>
+          </span>
         </button>
         <div
           class="itemsContainer"
@@ -1115,8 +2615,33 @@ exports[`Render nothing if separate window is opened and rerender if it is close
                 >
                   <span
                     aria-label="su-expand"
-                    class="su-expand icon"
-                  />
+                    class="svgIcon su-expand icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-maximize-2"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M15 3h6v6"
+                      />
+                      <path
+                        d="m21 3-7 7"
+                      />
+                      <path
+                        d="m3 21 7-7"
+                      />
+                      <path
+                        d="M9 21H3v-6"
+                      />
+                    </svg>
+                  </span>
                   <span
                     class="label"
                   >
@@ -1124,8 +2649,24 @@ exports[`Render nothing if separate window is opened and rerender if it is close
                   </span>
                   <span
                     aria-label="su-angle-down"
-                    class="su-angle-down dropdownIcon"
-                  />
+                    class="svgIcon su-angle-down dropdownIcon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                  </span>
                 </button>
               </div>
             </li>
@@ -1139,8 +2680,37 @@ exports[`Render nothing if separate window is opened and rerender if it is close
                 >
                   <span
                     aria-label="su-calendar"
-                    class="su-calendar icon"
-                  />
+                    class="svgIcon su-calendar icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-calendar"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M8 2v3"
+                      />
+                      <path
+                        d="M16 2v3"
+                      />
+                      <rect
+                        height="18"
+                        rx="2"
+                        width="18"
+                        x="3"
+                        y="3"
+                      />
+                      <path
+                        d="M3 9h18"
+                      />
+                    </svg>
+                  </span>
                   <span
                     class="label"
                   >
@@ -1148,8 +2718,24 @@ exports[`Render nothing if separate window is opened and rerender if it is close
                   </span>
                   <span
                     aria-label="su-angle-down"
-                    class="su-angle-down dropdownIcon"
-                  />
+                    class="svgIcon su-angle-down dropdownIcon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                  </span>
                 </button>
               </div>
             </li>
@@ -1163,12 +2749,56 @@ exports[`Render nothing if separate window is opened and rerender if it is close
                 >
                   <span
                     aria-label="su-webspace"
-                    class="su-webspace icon"
-                  />
+                    class="svgIcon su-webspace icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-target"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="10"
+                      />
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="6"
+                      />
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="2"
+                      />
+                    </svg>
+                  </span>
                   <span
                     aria-label="su-angle-down"
-                    class="su-angle-down dropdownIcon"
-                  />
+                    class="svgIcon su-angle-down dropdownIcon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                  </span>
                 </button>
               </div>
             </li>
@@ -1179,8 +2809,33 @@ exports[`Render nothing if separate window is opened and rerender if it is close
               >
                 <span
                   aria-label="su-sync"
-                  class="su-sync icon"
-                />
+                  class="svgIcon su-sync icon"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-refresh-cw"
+                    fill="none"
+                    focusable="false"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.75"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"
+                    />
+                    <path
+                      d="M21 3v5h-5"
+                    />
+                    <path
+                      d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"
+                    />
+                    <path
+                      d="M8 16H3v5"
+                    />
+                  </svg>
+                </span>
                 <span
                   class="label"
                 >
@@ -1198,8 +2853,30 @@ exports[`Render nothing if separate window is opened and rerender if it is close
                 >
                   <span
                     aria-label="su-share"
-                    class="su-share icon"
-                  />
+                    class="svgIcon su-share icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-share"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 2v13"
+                      />
+                      <path
+                        d="m16 6-4-4-4 4"
+                      />
+                      <path
+                        d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"
+                      />
+                    </svg>
+                  </span>
                   <span
                     class="label"
                   >
@@ -1207,8 +2884,24 @@ exports[`Render nothing if separate window is opened and rerender if it is close
                   </span>
                   <span
                     aria-label="su-angle-down"
-                    class="su-angle-down dropdownIcon"
-                  />
+                    class="svgIcon su-angle-down dropdownIcon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                  </span>
                 </button>
               </div>
             </li>
@@ -1219,8 +2912,27 @@ exports[`Render nothing if separate window is opened and rerender if it is close
               >
                 <span
                   aria-label="su-link"
-                  class="su-link icon"
-                />
+                  class="svgIcon su-link icon"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-link"
+                    fill="none"
+                    focusable="false"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.75"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"
+                    />
+                    <path
+                      d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"
+                    />
+                  </svg>
+                </span>
                 <span
                   class="label"
                 >

@@ -11,8 +11,29 @@ exports[`The component should render 1`] = `
     >
       <span
         aria-label="su-search"
-        class="su-search icon"
-      />
+        class="svgIcon su-search icon"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-search"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="m21 21-4.34-4.34"
+          />
+          <circle
+            cx="11"
+            cy="11"
+            r="8"
+          />
+        </svg>
+      </span>
       <span
         class="text"
       >
@@ -34,8 +55,29 @@ exports[`The component should render active 1`] = `
     >
       <span
         aria-label="su-search"
-        class="su-search icon"
-      />
+        class="svgIcon su-search icon"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-search"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="m21 21-4.34-4.34"
+          />
+          <circle
+            cx="11"
+            cy="11"
+            r="8"
+          />
+        </svg>
+      </span>
       <span
         class="text"
       >
@@ -57,8 +99,29 @@ exports[`The component should render with children 1`] = `
     >
       <span
         aria-label="su-cog"
-        class="su-cog icon"
-      />
+        class="svgIcon su-cog icon"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-settings"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M9.671 4.136a2.34 2.34 0 0 1 4.659 0 2.34 2.34 0 0 0 3.319 1.915 2.34 2.34 0 0 1 2.33 4.033 2.34 2.34 0 0 0 0 3.831 2.34 2.34 0 0 1-2.33 4.033 2.34 2.34 0 0 0-3.319 1.915 2.34 2.34 0 0 1-4.659 0 2.34 2.34 0 0 0-3.32-1.915 2.34 2.34 0 0 1-2.33-4.033 2.34 2.34 0 0 0 0-3.831A2.34 2.34 0 0 1 6.35 6.051a2.34 2.34 0 0 0 3.319-1.915"
+          />
+          <circle
+            cx="12"
+            cy="12"
+            r="3"
+          />
+        </svg>
+      </span>
       <span
         class="text"
       >
@@ -66,8 +129,24 @@ exports[`The component should render with children 1`] = `
       </span>
       <span
         aria-label="su-angle-right"
-        class="su-angle-right childrenIndicator"
-      />
+        class="svgIcon su-angle-right childrenIndicator"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-chevron-right"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="m9 18 6-6-6-6"
+          />
+        </svg>
+      </span>
     </button>
   </div>
 </div>
@@ -84,8 +163,29 @@ exports[`The component should render with children an active child and expanded 
     >
       <span
         aria-label="su-cog"
-        class="su-cog icon"
-      />
+        class="svgIcon su-cog icon"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-settings"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M9.671 4.136a2.34 2.34 0 0 1 4.659 0 2.34 2.34 0 0 0 3.319 1.915 2.34 2.34 0 0 1 2.33 4.033 2.34 2.34 0 0 0 0 3.831 2.34 2.34 0 0 1-2.33 4.033 2.34 2.34 0 0 0-3.319 1.915 2.34 2.34 0 0 1-4.659 0 2.34 2.34 0 0 0-3.32-1.915 2.34 2.34 0 0 1-2.33-4.033 2.34 2.34 0 0 0 0-3.831A2.34 2.34 0 0 1 6.35 6.051a2.34 2.34 0 0 0 3.319-1.915"
+          />
+          <circle
+            cx="12"
+            cy="12"
+            r="3"
+          />
+        </svg>
+      </span>
       <span
         class="text"
       >
@@ -93,8 +193,24 @@ exports[`The component should render with children an active child and expanded 
       </span>
       <span
         aria-label="su-angle-down"
-        class="su-angle-down childrenIndicator"
-      />
+        class="svgIcon su-angle-down childrenIndicator"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-chevron-down"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="m6 9 6 6 6-6"
+          />
+        </svg>
+      </span>
     </button>
     <div>
       <div

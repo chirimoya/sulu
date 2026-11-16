@@ -34,8 +34,24 @@ exports[`Should render ImageFocusPoint with focusing the bottom-center point 1`]
         >
           <span
             aria-label="su-angle-up"
-            class="su-angle-up"
-          />
+            class="svgIcon su-angle-up"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-up"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m18 15-6-6-6 6"
+              />
+            </svg>
+          </span>
         </div>
       </button>
       <button
@@ -48,8 +64,24 @@ exports[`Should render ImageFocusPoint with focusing the bottom-center point 1`]
         >
           <span
             aria-label="su-angle-up"
-            class="su-angle-up"
-          />
+            class="svgIcon su-angle-up"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-up"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m18 15-6-6-6 6"
+              />
+            </svg>
+          </span>
         </div>
       </button>
       <button
@@ -62,8 +94,24 @@ exports[`Should render ImageFocusPoint with focusing the bottom-center point 1`]
         >
           <span
             aria-label="su-angle-up"
-            class="su-angle-up"
-          />
+            class="svgIcon su-angle-up"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-up"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m18 15-6-6-6 6"
+              />
+            </svg>
+          </span>
         </div>
       </button>
       <button
@@ -76,8 +124,24 @@ exports[`Should render ImageFocusPoint with focusing the bottom-center point 1`]
         >
           <span
             aria-label="su-angle-up"
-            class="su-angle-up"
-          />
+            class="svgIcon su-angle-up"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-up"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m18 15-6-6-6 6"
+              />
+            </svg>
+          </span>
         </div>
       </button>
       <button
@@ -96,8 +160,24 @@ exports[`Should render ImageFocusPoint with focusing the bottom-center point 1`]
         >
           <span
             aria-label="su-angle-up"
-            class="su-angle-up"
-          />
+            class="svgIcon su-angle-up"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-up"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m18 15-6-6-6 6"
+              />
+            </svg>
+          </span>
         </div>
       </button>
     </div>
@@ -143,8 +223,24 @@ exports[`Should render ImageFocusPoint with focusing the bottom-left point 1`] =
         >
           <span
             aria-label="su-angle-up"
-            class="su-angle-up"
-          />
+            class="svgIcon su-angle-up"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-up"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m18 15-6-6-6 6"
+              />
+            </svg>
+          </span>
         </div>
       </button>
       <button
@@ -157,8 +253,24 @@ exports[`Should render ImageFocusPoint with focusing the bottom-left point 1`] =
         >
           <span
             aria-label="su-angle-up"
-            class="su-angle-up"
-          />
+            class="svgIcon su-angle-up"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-up"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m18 15-6-6-6 6"
+              />
+            </svg>
+          </span>
         </div>
       </button>
       <button
@@ -182,8 +294,24 @@ exports[`Should render ImageFocusPoint with focusing the bottom-left point 1`] =
         >
           <span
             aria-label="su-angle-up"
-            class="su-angle-up"
-          />
+            class="svgIcon su-angle-up"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-up"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m18 15-6-6-6 6"
+              />
+            </svg>
+          </span>
         </div>
       </button>
       <button
@@ -239,8 +367,24 @@ exports[`Should render ImageFocusPoint with focusing the bottom-right point 1`] 
         >
           <span
             aria-label="su-angle-up"
-            class="su-angle-up"
-          />
+            class="svgIcon su-angle-up"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-up"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m18 15-6-6-6 6"
+              />
+            </svg>
+          </span>
         </div>
       </button>
       <button
@@ -253,8 +397,24 @@ exports[`Should render ImageFocusPoint with focusing the bottom-right point 1`] 
         >
           <span
             aria-label="su-angle-up"
-            class="su-angle-up"
-          />
+            class="svgIcon su-angle-up"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-up"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m18 15-6-6-6 6"
+              />
+            </svg>
+          </span>
         </div>
       </button>
       <button
@@ -272,8 +432,24 @@ exports[`Should render ImageFocusPoint with focusing the bottom-right point 1`] 
         >
           <span
             aria-label="su-angle-up"
-            class="su-angle-up"
-          />
+            class="svgIcon su-angle-up"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-up"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m18 15-6-6-6 6"
+              />
+            </svg>
+          </span>
         </div>
       </button>
       <button
@@ -310,8 +486,24 @@ exports[`Should render ImageFocusPoint with focusing the center-center point 1`]
         >
           <span
             aria-label="su-angle-up"
-            class="su-angle-up"
-          />
+            class="svgIcon su-angle-up"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-up"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m18 15-6-6-6 6"
+              />
+            </svg>
+          </span>
         </div>
       </button>
       <button
@@ -324,8 +516,24 @@ exports[`Should render ImageFocusPoint with focusing the center-center point 1`]
         >
           <span
             aria-label="su-angle-up"
-            class="su-angle-up"
-          />
+            class="svgIcon su-angle-up"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-up"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m18 15-6-6-6 6"
+              />
+            </svg>
+          </span>
         </div>
       </button>
       <button
@@ -338,8 +546,24 @@ exports[`Should render ImageFocusPoint with focusing the center-center point 1`]
         >
           <span
             aria-label="su-angle-up"
-            class="su-angle-up"
-          />
+            class="svgIcon su-angle-up"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-up"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m18 15-6-6-6 6"
+              />
+            </svg>
+          </span>
         </div>
       </button>
       <button
@@ -352,8 +576,24 @@ exports[`Should render ImageFocusPoint with focusing the center-center point 1`]
         >
           <span
             aria-label="su-angle-up"
-            class="su-angle-up"
-          />
+            class="svgIcon su-angle-up"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-up"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m18 15-6-6-6 6"
+              />
+            </svg>
+          </span>
         </div>
       </button>
       <button
@@ -372,8 +612,24 @@ exports[`Should render ImageFocusPoint with focusing the center-center point 1`]
         >
           <span
             aria-label="su-angle-up"
-            class="su-angle-up"
-          />
+            class="svgIcon su-angle-up"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-up"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m18 15-6-6-6 6"
+              />
+            </svg>
+          </span>
         </div>
       </button>
       <button
@@ -386,8 +642,24 @@ exports[`Should render ImageFocusPoint with focusing the center-center point 1`]
         >
           <span
             aria-label="su-angle-up"
-            class="su-angle-up"
-          />
+            class="svgIcon su-angle-up"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-up"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m18 15-6-6-6 6"
+              />
+            </svg>
+          </span>
         </div>
       </button>
       <button
@@ -400,8 +672,24 @@ exports[`Should render ImageFocusPoint with focusing the center-center point 1`]
         >
           <span
             aria-label="su-angle-up"
-            class="su-angle-up"
-          />
+            class="svgIcon su-angle-up"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-up"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m18 15-6-6-6 6"
+              />
+            </svg>
+          </span>
         </div>
       </button>
       <button
@@ -414,8 +702,24 @@ exports[`Should render ImageFocusPoint with focusing the center-center point 1`]
         >
           <span
             aria-label="su-angle-up"
-            class="su-angle-up"
-          />
+            class="svgIcon su-angle-up"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-up"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m18 15-6-6-6 6"
+              />
+            </svg>
+          </span>
         </div>
       </button>
     </div>
@@ -446,8 +750,24 @@ exports[`Should render ImageFocusPoint with focusing the center-left point 1`] =
         >
           <span
             aria-label="su-angle-up"
-            class="su-angle-up"
-          />
+            class="svgIcon su-angle-up"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-up"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m18 15-6-6-6 6"
+              />
+            </svg>
+          </span>
         </div>
       </button>
       <button
@@ -460,8 +780,24 @@ exports[`Should render ImageFocusPoint with focusing the center-left point 1`] =
         >
           <span
             aria-label="su-angle-up"
-            class="su-angle-up"
-          />
+            class="svgIcon su-angle-up"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-up"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m18 15-6-6-6 6"
+              />
+            </svg>
+          </span>
         </div>
       </button>
       <button
@@ -485,8 +821,24 @@ exports[`Should render ImageFocusPoint with focusing the center-left point 1`] =
         >
           <span
             aria-label="su-angle-up"
-            class="su-angle-up"
-          />
+            class="svgIcon su-angle-up"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-up"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m18 15-6-6-6 6"
+              />
+            </svg>
+          </span>
         </div>
       </button>
       <button
@@ -504,8 +856,24 @@ exports[`Should render ImageFocusPoint with focusing the center-left point 1`] =
         >
           <span
             aria-label="su-angle-up"
-            class="su-angle-up"
-          />
+            class="svgIcon su-angle-up"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-up"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m18 15-6-6-6 6"
+              />
+            </svg>
+          </span>
         </div>
       </button>
       <button
@@ -518,8 +886,24 @@ exports[`Should render ImageFocusPoint with focusing the center-left point 1`] =
         >
           <span
             aria-label="su-angle-up"
-            class="su-angle-up"
-          />
+            class="svgIcon su-angle-up"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-up"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m18 15-6-6-6 6"
+              />
+            </svg>
+          </span>
         </div>
       </button>
       <button
@@ -560,8 +944,24 @@ exports[`Should render ImageFocusPoint with focusing the center-right point 1`] 
         >
           <span
             aria-label="su-angle-up"
-            class="su-angle-up"
-          />
+            class="svgIcon su-angle-up"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-up"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m18 15-6-6-6 6"
+              />
+            </svg>
+          </span>
         </div>
       </button>
       <button
@@ -574,8 +974,24 @@ exports[`Should render ImageFocusPoint with focusing the center-right point 1`] 
         >
           <span
             aria-label="su-angle-up"
-            class="su-angle-up"
-          />
+            class="svgIcon su-angle-up"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-up"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m18 15-6-6-6 6"
+              />
+            </svg>
+          </span>
         </div>
       </button>
       <button
@@ -593,8 +1009,24 @@ exports[`Should render ImageFocusPoint with focusing the center-right point 1`] 
         >
           <span
             aria-label="su-angle-up"
-            class="su-angle-up"
-          />
+            class="svgIcon su-angle-up"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-up"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m18 15-6-6-6 6"
+              />
+            </svg>
+          </span>
         </div>
       </button>
       <button
@@ -618,8 +1050,24 @@ exports[`Should render ImageFocusPoint with focusing the center-right point 1`] 
         >
           <span
             aria-label="su-angle-up"
-            class="su-angle-up"
-          />
+            class="svgIcon su-angle-up"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-up"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m18 15-6-6-6 6"
+              />
+            </svg>
+          </span>
         </div>
       </button>
       <button
@@ -632,8 +1080,24 @@ exports[`Should render ImageFocusPoint with focusing the center-right point 1`] 
         >
           <span
             aria-label="su-angle-up"
-            class="su-angle-up"
-          />
+            class="svgIcon su-angle-up"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-up"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m18 15-6-6-6 6"
+              />
+            </svg>
+          </span>
         </div>
       </button>
     </div>
@@ -664,8 +1128,24 @@ exports[`Should render ImageFocusPoint with focusing the top-center point 1`] = 
         >
           <span
             aria-label="su-angle-up"
-            class="su-angle-up"
-          />
+            class="svgIcon su-angle-up"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-up"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m18 15-6-6-6 6"
+              />
+            </svg>
+          </span>
         </div>
       </button>
       <button
@@ -684,8 +1164,24 @@ exports[`Should render ImageFocusPoint with focusing the top-center point 1`] = 
         >
           <span
             aria-label="su-angle-up"
-            class="su-angle-up"
-          />
+            class="svgIcon su-angle-up"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-up"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m18 15-6-6-6 6"
+              />
+            </svg>
+          </span>
         </div>
       </button>
       <button
@@ -698,8 +1194,24 @@ exports[`Should render ImageFocusPoint with focusing the top-center point 1`] = 
         >
           <span
             aria-label="su-angle-up"
-            class="su-angle-up"
-          />
+            class="svgIcon su-angle-up"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-up"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m18 15-6-6-6 6"
+              />
+            </svg>
+          </span>
         </div>
       </button>
       <button
@@ -712,8 +1224,24 @@ exports[`Should render ImageFocusPoint with focusing the top-center point 1`] = 
         >
           <span
             aria-label="su-angle-up"
-            class="su-angle-up"
-          />
+            class="svgIcon su-angle-up"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-up"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m18 15-6-6-6 6"
+              />
+            </svg>
+          </span>
         </div>
       </button>
       <button
@@ -726,8 +1254,24 @@ exports[`Should render ImageFocusPoint with focusing the top-center point 1`] = 
         >
           <span
             aria-label="su-angle-up"
-            class="su-angle-up"
-          />
+            class="svgIcon su-angle-up"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-up"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m18 15-6-6-6 6"
+              />
+            </svg>
+          </span>
         </div>
       </button>
       <button
@@ -779,8 +1323,24 @@ exports[`Should render ImageFocusPoint with focusing the top-left point 1`] = `
         >
           <span
             aria-label="su-angle-up"
-            class="su-angle-up"
-          />
+            class="svgIcon su-angle-up"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-up"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m18 15-6-6-6 6"
+              />
+            </svg>
+          </span>
         </div>
       </button>
       <button
@@ -798,8 +1358,24 @@ exports[`Should render ImageFocusPoint with focusing the top-left point 1`] = `
         >
           <span
             aria-label="su-angle-up"
-            class="su-angle-up"
-          />
+            class="svgIcon su-angle-up"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-up"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m18 15-6-6-6 6"
+              />
+            </svg>
+          </span>
         </div>
       </button>
       <button
@@ -812,8 +1388,24 @@ exports[`Should render ImageFocusPoint with focusing the top-left point 1`] = `
         >
           <span
             aria-label="su-angle-up"
-            class="su-angle-up"
-          />
+            class="svgIcon su-angle-up"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-up"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m18 15-6-6-6 6"
+              />
+            </svg>
+          </span>
         </div>
       </button>
       <button
@@ -869,8 +1461,24 @@ exports[`Should render ImageFocusPoint with focusing the top-right point 1`] = `
         >
           <span
             aria-label="su-angle-up"
-            class="su-angle-up"
-          />
+            class="svgIcon su-angle-up"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-up"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m18 15-6-6-6 6"
+              />
+            </svg>
+          </span>
         </div>
       </button>
       <button
@@ -894,8 +1502,24 @@ exports[`Should render ImageFocusPoint with focusing the top-right point 1`] = `
         >
           <span
             aria-label="su-angle-up"
-            class="su-angle-up"
-          />
+            class="svgIcon su-angle-up"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-up"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m18 15-6-6-6 6"
+              />
+            </svg>
+          </span>
         </div>
       </button>
       <button
@@ -908,8 +1532,24 @@ exports[`Should render ImageFocusPoint with focusing the top-right point 1`] = `
         >
           <span
             aria-label="su-angle-up"
-            class="su-angle-up"
-          />
+            class="svgIcon su-angle-up"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-up"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m18 15-6-6-6 6"
+              />
+            </svg>
+          </span>
         </div>
       </button>
       <button

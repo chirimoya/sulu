@@ -18,8 +18,24 @@ exports[`Render with a value of "[ 'audio', 'video' ]" 1`] = `
         <span>
           <span
             aria-label="su-check"
-            class="su-check"
-          />
+            class="svgIcon su-check"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-check"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M20 6 9 17l-5-5"
+              />
+            </svg>
+          </span>
         </span>
       </span>
       <div>
@@ -41,8 +57,24 @@ exports[`Render with a value of "[ 'audio', 'video' ]" 1`] = `
         <span>
           <span
             aria-label="su-check"
-            class="su-check"
-          />
+            class="svgIcon su-check"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-check"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M20 6 9 17l-5-5"
+              />
+            </svg>
+          </span>
         </span>
       </span>
       <div>
@@ -71,8 +103,24 @@ exports[`Render with a value of "[ 'image', 'video' ]" 1`] = `
         <span>
           <span
             aria-label="su-check"
-            class="su-check"
-          />
+            class="svgIcon su-check"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-check"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M20 6 9 17l-5-5"
+              />
+            </svg>
+          </span>
         </span>
       </span>
       <div>
@@ -94,8 +142,24 @@ exports[`Render with a value of "[ 'image', 'video' ]" 1`] = `
         <span>
           <span
             aria-label="su-check"
-            class="su-check"
-          />
+            class="svgIcon su-check"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-check"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M20 6 9 17l-5-5"
+              />
+            </svg>
+          </span>
         </span>
       </span>
       <div>
@@ -148,8 +212,24 @@ exports[`Render with value set by setValue 1`] = `
         <span>
           <span
             aria-label="su-check"
-            class="su-check"
-          />
+            class="svgIcon su-check"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-check"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M20 6 9 17l-5-5"
+              />
+            </svg>
+          </span>
         </span>
       </span>
       <div>

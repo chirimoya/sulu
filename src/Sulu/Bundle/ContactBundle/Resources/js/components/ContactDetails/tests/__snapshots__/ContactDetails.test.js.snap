@@ -27,8 +27,24 @@ exports[`Render ContactDetails with data 1`] = `
             Private
             <span
               aria-label="su-angle-down"
-              class="su-angle-down typeIcon"
-            />
+              class="svgIcon su-angle-down typeIcon"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-chevron-down"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="m6 9 6 6 6-6"
+                />
+              </svg>
+            </span>
           </button>
         </label>
         <div
@@ -42,10 +58,33 @@ exports[`Render ContactDetails with data 1`] = `
             >
               <span
                 aria-label="su-envelope"
-                class="su-envelope clickable icon default iconClickable"
+                class="svgIcon su-envelope clickable icon default iconClickable"
                 role="button"
                 tabindex="0"
-              />
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-mail"
+                  fill="none"
+                  focusable="false"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.75"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"
+                  />
+                  <rect
+                    height="16"
+                    rx="2"
+                    width="20"
+                    x="2"
+                    y="4"
+                  />
+                </svg>
+              </span>
             </div>
             <input
               type="email"
@@ -54,10 +93,38 @@ exports[`Render ContactDetails with data 1`] = `
           </div>
           <span
             aria-label="su-trash-alt"
-            class="su-trash-alt clickable removeIcon"
+            class="svgIcon su-trash-alt clickable removeIcon"
             role="button"
             tabindex="0"
-          />
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-trash-2"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M10 11v6"
+              />
+              <path
+                d="M14 11v6"
+              />
+              <path
+                d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"
+              />
+              <path
+                d="M3 6h18"
+              />
+              <path
+                d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"
+              />
+            </svg>
+          </span>
         </div>
         <div
           class="errorLabel"
@@ -86,8 +153,24 @@ exports[`Render ContactDetails with data 1`] = `
             Work
             <span
               aria-label="su-angle-down"
-              class="su-angle-down typeIcon"
-            />
+              class="svgIcon su-angle-down typeIcon"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-chevron-down"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="m6 9 6 6 6-6"
+                />
+              </svg>
+            </span>
           </button>
         </label>
         <div
@@ -101,10 +184,26 @@ exports[`Render ContactDetails with data 1`] = `
             >
               <span
                 aria-label="su-phone"
-                class="su-phone clickable icon default iconClickable"
+                class="svgIcon su-phone clickable icon default iconClickable"
                 role="button"
                 tabindex="0"
-              />
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-phone"
+                  fill="none"
+                  focusable="false"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.75"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"
+                  />
+                </svg>
+              </span>
             </div>
             <input
               type="tel"
@@ -113,10 +212,38 @@ exports[`Render ContactDetails with data 1`] = `
           </div>
           <span
             aria-label="su-trash-alt"
-            class="su-trash-alt clickable removeIcon"
+            class="svgIcon su-trash-alt clickable removeIcon"
             role="button"
             tabindex="0"
-          />
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-trash-2"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M10 11v6"
+              />
+              <path
+                d="M14 11v6"
+              />
+              <path
+                d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"
+              />
+              <path
+                d="M3 6h18"
+              />
+              <path
+                d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"
+              />
+            </svg>
+          </span>
         </div>
         <div
           class="errorLabel"
@@ -145,8 +272,24 @@ exports[`Render ContactDetails with data 1`] = `
             Private
             <span
               aria-label="su-angle-down"
-              class="su-angle-down typeIcon"
-            />
+              class="svgIcon su-angle-down typeIcon"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-chevron-down"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="m6 9 6 6 6-6"
+                />
+              </svg>
+            </span>
           </button>
         </label>
         <div
@@ -160,10 +303,26 @@ exports[`Render ContactDetails with data 1`] = `
             >
               <span
                 aria-label="su-phone"
-                class="su-phone clickable icon default iconClickable"
+                class="svgIcon su-phone clickable icon default iconClickable"
                 role="button"
                 tabindex="0"
-              />
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-phone"
+                  fill="none"
+                  focusable="false"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.75"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"
+                  />
+                </svg>
+              </span>
             </div>
             <input
               type="tel"
@@ -172,10 +331,38 @@ exports[`Render ContactDetails with data 1`] = `
           </div>
           <span
             aria-label="su-trash-alt"
-            class="su-trash-alt clickable removeIcon"
+            class="svgIcon su-trash-alt clickable removeIcon"
             role="button"
             tabindex="0"
-          />
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-trash-2"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M10 11v6"
+              />
+              <path
+                d="M14 11v6"
+              />
+              <path
+                d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"
+              />
+              <path
+                d="M3 6h18"
+              />
+              <path
+                d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"
+              />
+            </svg>
+          </span>
         </div>
         <div
           class="errorLabel"
@@ -204,8 +391,24 @@ exports[`Render ContactDetails with data 1`] = `
             Work
             <span
               aria-label="su-angle-down"
-              class="su-angle-down typeIcon"
-            />
+              class="svgIcon su-angle-down typeIcon"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-chevron-down"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="m6 9 6 6 6-6"
+                />
+              </svg>
+            </span>
           </button>
         </label>
         <div
@@ -252,8 +455,24 @@ exports[`Render ContactDetails with data 1`] = `
                   </div>
                   <span
                     aria-label="su-angle-down"
-                    class="su-angle-down toggle"
-                  />
+                    class="svgIcon su-angle-down toggle"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                  </span>
                 </button>
               </div>
             </div>
@@ -264,10 +483,38 @@ exports[`Render ContactDetails with data 1`] = `
           </div>
           <span
             aria-label="su-trash-alt"
-            class="su-trash-alt clickable removeIcon"
+            class="svgIcon su-trash-alt clickable removeIcon"
             role="button"
             tabindex="0"
-          />
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-trash-2"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M10 11v6"
+              />
+              <path
+                d="M14 11v6"
+              />
+              <path
+                d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"
+              />
+              <path
+                d="M3 6h18"
+              />
+              <path
+                d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"
+              />
+            </svg>
+          </span>
         </div>
         <div
           class="errorLabel"
@@ -296,8 +543,24 @@ exports[`Render ContactDetails with data 1`] = `
             Twitter
             <span
               aria-label="su-angle-down"
-              class="su-angle-down typeIcon"
-            />
+              class="svgIcon su-angle-down typeIcon"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-chevron-down"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="m6 9 6 6 6-6"
+                />
+              </svg>
+            </span>
           </button>
         </label>
         <div
@@ -311,8 +574,29 @@ exports[`Render ContactDetails with data 1`] = `
             >
               <span
                 aria-label="su-user"
-                class="su-user icon default"
-              />
+                class="svgIcon su-user icon default"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-user"
+                  fill="none"
+                  focusable="false"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.75"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"
+                  />
+                  <circle
+                    cx="12"
+                    cy="7"
+                    r="4"
+                  />
+                </svg>
+              </span>
             </div>
             <input
               type="text"
@@ -321,10 +605,38 @@ exports[`Render ContactDetails with data 1`] = `
           </div>
           <span
             aria-label="su-trash-alt"
-            class="su-trash-alt clickable removeIcon"
+            class="svgIcon su-trash-alt clickable removeIcon"
             role="button"
             tabindex="0"
-          />
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-trash-2"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M10 11v6"
+              />
+              <path
+                d="M14 11v6"
+              />
+              <path
+                d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"
+              />
+              <path
+                d="M3 6h18"
+              />
+              <path
+                d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"
+              />
+            </svg>
+          </span>
         </div>
         <div
           class="errorLabel"
@@ -348,8 +660,27 @@ exports[`Render ContactDetails with data 1`] = `
         >
           <span
             aria-label="su-plus"
-            class="su-plus buttonIcon"
-          />
+            class="svgIcon su-plus buttonIcon"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-plus"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="M12 5v14"
+              />
+            </svg>
+          </span>
           <span
             class="buttonText"
           >
@@ -357,8 +688,24 @@ exports[`Render ContactDetails with data 1`] = `
           </span>
           <span
             aria-label="su-angle-down"
-            class="su-angle-down dropdownIcon"
-          />
+            class="svgIcon su-angle-down dropdownIcon"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-down"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m6 9 6 6 6-6"
+              />
+            </svg>
+          </span>
         </button>
         <div
           class="errorLabel"
@@ -396,8 +743,24 @@ exports[`Render empty ContactDetails 1`] = `
             Work
             <span
               aria-label="su-angle-down"
-              class="su-angle-down typeIcon"
-            />
+              class="svgIcon su-angle-down typeIcon"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-chevron-down"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="m6 9 6 6 6-6"
+                />
+              </svg>
+            </span>
           </button>
         </label>
         <div
@@ -411,8 +774,31 @@ exports[`Render empty ContactDetails 1`] = `
             >
               <span
                 aria-label="su-envelope"
-                class="su-envelope icon default"
-              />
+                class="svgIcon su-envelope icon default"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-mail"
+                  fill="none"
+                  focusable="false"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.75"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"
+                  />
+                  <rect
+                    height="16"
+                    rx="2"
+                    width="20"
+                    x="2"
+                    y="4"
+                  />
+                </svg>
+              </span>
             </div>
             <input
               type="email"
@@ -421,10 +807,38 @@ exports[`Render empty ContactDetails 1`] = `
           </div>
           <span
             aria-label="su-trash-alt"
-            class="su-trash-alt clickable removeIcon"
+            class="svgIcon su-trash-alt clickable removeIcon"
             role="button"
             tabindex="0"
-          />
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-trash-2"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M10 11v6"
+              />
+              <path
+                d="M14 11v6"
+              />
+              <path
+                d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"
+              />
+              <path
+                d="M3 6h18"
+              />
+              <path
+                d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"
+              />
+            </svg>
+          </span>
         </div>
         <div
           class="errorLabel"
@@ -453,8 +867,24 @@ exports[`Render empty ContactDetails 1`] = `
             Work
             <span
               aria-label="su-angle-down"
-              class="su-angle-down typeIcon"
-            />
+              class="svgIcon su-angle-down typeIcon"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-chevron-down"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="m6 9 6 6 6-6"
+                />
+              </svg>
+            </span>
           </button>
         </label>
         <div
@@ -468,8 +898,24 @@ exports[`Render empty ContactDetails 1`] = `
             >
               <span
                 aria-label="su-phone"
-                class="su-phone icon default"
-              />
+                class="svgIcon su-phone icon default"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-phone"
+                  fill="none"
+                  focusable="false"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.75"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"
+                  />
+                </svg>
+              </span>
             </div>
             <input
               type="tel"
@@ -478,10 +924,38 @@ exports[`Render empty ContactDetails 1`] = `
           </div>
           <span
             aria-label="su-trash-alt"
-            class="su-trash-alt clickable removeIcon"
+            class="svgIcon su-trash-alt clickable removeIcon"
             role="button"
             tabindex="0"
-          />
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-trash-2"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M10 11v6"
+              />
+              <path
+                d="M14 11v6"
+              />
+              <path
+                d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"
+              />
+              <path
+                d="M3 6h18"
+              />
+              <path
+                d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"
+              />
+            </svg>
+          </span>
         </div>
         <div
           class="errorLabel"
@@ -505,8 +979,27 @@ exports[`Render empty ContactDetails 1`] = `
         >
           <span
             aria-label="su-plus"
-            class="su-plus buttonIcon"
-          />
+            class="svgIcon su-plus buttonIcon"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-plus"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="M12 5v14"
+              />
+            </svg>
+          </span>
           <span
             class="buttonText"
           >
@@ -514,8 +1007,24 @@ exports[`Render empty ContactDetails 1`] = `
           </span>
           <span
             aria-label="su-angle-down"
-            class="su-angle-down dropdownIcon"
-          />
+            class="svgIcon su-angle-down dropdownIcon"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-down"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m6 9 6 6 6-6"
+              />
+            </svg>
+          </span>
         </button>
         <div
           class="errorLabel"
@@ -553,8 +1062,24 @@ exports[`Render empty phone and email fields even if other values are set 1`] = 
             Work
             <span
               aria-label="su-angle-down"
-              class="su-angle-down typeIcon"
-            />
+              class="svgIcon su-angle-down typeIcon"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-chevron-down"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="m6 9 6 6 6-6"
+                />
+              </svg>
+            </span>
           </button>
         </label>
         <div
@@ -568,8 +1093,31 @@ exports[`Render empty phone and email fields even if other values are set 1`] = 
             >
               <span
                 aria-label="su-envelope"
-                class="su-envelope icon default"
-              />
+                class="svgIcon su-envelope icon default"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-mail"
+                  fill="none"
+                  focusable="false"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.75"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"
+                  />
+                  <rect
+                    height="16"
+                    rx="2"
+                    width="20"
+                    x="2"
+                    y="4"
+                  />
+                </svg>
+              </span>
             </div>
             <input
               type="email"
@@ -578,10 +1126,38 @@ exports[`Render empty phone and email fields even if other values are set 1`] = 
           </div>
           <span
             aria-label="su-trash-alt"
-            class="su-trash-alt clickable removeIcon"
+            class="svgIcon su-trash-alt clickable removeIcon"
             role="button"
             tabindex="0"
-          />
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-trash-2"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M10 11v6"
+              />
+              <path
+                d="M14 11v6"
+              />
+              <path
+                d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"
+              />
+              <path
+                d="M3 6h18"
+              />
+              <path
+                d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"
+              />
+            </svg>
+          </span>
         </div>
         <div
           class="errorLabel"
@@ -610,8 +1186,24 @@ exports[`Render empty phone and email fields even if other values are set 1`] = 
             Work
             <span
               aria-label="su-angle-down"
-              class="su-angle-down typeIcon"
-            />
+              class="svgIcon su-angle-down typeIcon"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-chevron-down"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="m6 9 6 6 6-6"
+                />
+              </svg>
+            </span>
           </button>
         </label>
         <div
@@ -625,8 +1217,24 @@ exports[`Render empty phone and email fields even if other values are set 1`] = 
             >
               <span
                 aria-label="su-phone"
-                class="su-phone icon default"
-              />
+                class="svgIcon su-phone icon default"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-phone"
+                  fill="none"
+                  focusable="false"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.75"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"
+                  />
+                </svg>
+              </span>
             </div>
             <input
               type="tel"
@@ -635,10 +1243,38 @@ exports[`Render empty phone and email fields even if other values are set 1`] = 
           </div>
           <span
             aria-label="su-trash-alt"
-            class="su-trash-alt clickable removeIcon"
+            class="svgIcon su-trash-alt clickable removeIcon"
             role="button"
             tabindex="0"
-          />
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-trash-2"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M10 11v6"
+              />
+              <path
+                d="M14 11v6"
+              />
+              <path
+                d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"
+              />
+              <path
+                d="M3 6h18"
+              />
+              <path
+                d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"
+              />
+            </svg>
+          </span>
         </div>
         <div
           class="errorLabel"
@@ -667,8 +1303,24 @@ exports[`Render empty phone and email fields even if other values are set 1`] = 
             Work
             <span
               aria-label="su-angle-down"
-              class="su-angle-down typeIcon"
-            />
+              class="svgIcon su-angle-down typeIcon"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-chevron-down"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="m6 9 6 6 6-6"
+                />
+              </svg>
+            </span>
           </button>
         </label>
         <div
@@ -682,10 +1334,26 @@ exports[`Render empty phone and email fields even if other values are set 1`] = 
             >
               <span
                 aria-label="su-phone"
-                class="su-phone clickable icon default iconClickable"
+                class="svgIcon su-phone clickable icon default iconClickable"
                 role="button"
                 tabindex="0"
-              />
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-phone"
+                  fill="none"
+                  focusable="false"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.75"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"
+                  />
+                </svg>
+              </span>
             </div>
             <input
               type="tel"
@@ -694,10 +1362,38 @@ exports[`Render empty phone and email fields even if other values are set 1`] = 
           </div>
           <span
             aria-label="su-trash-alt"
-            class="su-trash-alt clickable removeIcon"
+            class="svgIcon su-trash-alt clickable removeIcon"
             role="button"
             tabindex="0"
-          />
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-trash-2"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M10 11v6"
+              />
+              <path
+                d="M14 11v6"
+              />
+              <path
+                d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"
+              />
+              <path
+                d="M3 6h18"
+              />
+              <path
+                d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"
+              />
+            </svg>
+          </span>
         </div>
         <div
           class="errorLabel"
@@ -726,8 +1422,24 @@ exports[`Render empty phone and email fields even if other values are set 1`] = 
             Work
             <span
               aria-label="su-angle-down"
-              class="su-angle-down typeIcon"
-            />
+              class="svgIcon su-angle-down typeIcon"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-chevron-down"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="m6 9 6 6 6-6"
+                />
+              </svg>
+            </span>
           </button>
         </label>
         <div
@@ -774,8 +1486,24 @@ exports[`Render empty phone and email fields even if other values are set 1`] = 
                   </div>
                   <span
                     aria-label="su-angle-down"
-                    class="su-angle-down toggle"
-                  />
+                    class="svgIcon su-angle-down toggle"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                  </span>
                 </button>
               </div>
             </div>
@@ -786,10 +1514,38 @@ exports[`Render empty phone and email fields even if other values are set 1`] = 
           </div>
           <span
             aria-label="su-trash-alt"
-            class="su-trash-alt clickable removeIcon"
+            class="svgIcon su-trash-alt clickable removeIcon"
             role="button"
             tabindex="0"
-          />
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-trash-2"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M10 11v6"
+              />
+              <path
+                d="M14 11v6"
+              />
+              <path
+                d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"
+              />
+              <path
+                d="M3 6h18"
+              />
+              <path
+                d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"
+              />
+            </svg>
+          </span>
         </div>
         <div
           class="errorLabel"
@@ -818,8 +1574,24 @@ exports[`Render empty phone and email fields even if other values are set 1`] = 
             Facebook
             <span
               aria-label="su-angle-down"
-              class="su-angle-down typeIcon"
-            />
+              class="svgIcon su-angle-down typeIcon"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-chevron-down"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="m6 9 6 6 6-6"
+                />
+              </svg>
+            </span>
           </button>
         </label>
         <div
@@ -833,8 +1605,29 @@ exports[`Render empty phone and email fields even if other values are set 1`] = 
             >
               <span
                 aria-label="su-user"
-                class="su-user icon default"
-              />
+                class="svgIcon su-user icon default"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-user"
+                  fill="none"
+                  focusable="false"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.75"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"
+                  />
+                  <circle
+                    cx="12"
+                    cy="7"
+                    r="4"
+                  />
+                </svg>
+              </span>
             </div>
             <input
               type="text"
@@ -843,10 +1636,38 @@ exports[`Render empty phone and email fields even if other values are set 1`] = 
           </div>
           <span
             aria-label="su-trash-alt"
-            class="su-trash-alt clickable removeIcon"
+            class="svgIcon su-trash-alt clickable removeIcon"
             role="button"
             tabindex="0"
-          />
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-trash-2"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M10 11v6"
+              />
+              <path
+                d="M14 11v6"
+              />
+              <path
+                d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"
+              />
+              <path
+                d="M3 6h18"
+              />
+              <path
+                d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"
+              />
+            </svg>
+          </span>
         </div>
         <div
           class="errorLabel"
@@ -870,8 +1691,27 @@ exports[`Render empty phone and email fields even if other values are set 1`] = 
         >
           <span
             aria-label="su-plus"
-            class="su-plus buttonIcon"
-          />
+            class="svgIcon su-plus buttonIcon"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-plus"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="M12 5v14"
+              />
+            </svg>
+          </span>
           <span
             class="buttonText"
           >
@@ -879,8 +1719,24 @@ exports[`Render empty phone and email fields even if other values are set 1`] = 
           </span>
           <span
             aria-label="su-angle-down"
-            class="su-angle-down dropdownIcon"
-          />
+            class="svgIcon su-angle-down dropdownIcon"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-down"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m6 9 6 6 6-6"
+              />
+            </svg>
+          </span>
         </button>
         <div
           class="errorLabel"

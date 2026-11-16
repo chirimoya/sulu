@@ -19,8 +19,36 @@ exports[`Render an EditLine 1`] = `
     >
       <span
         aria-label="su-trash-alt"
-        class="su-trash-alt buttonIcon"
-      />
+        class="svgIcon su-trash-alt buttonIcon"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-trash-2"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M10 11v6"
+          />
+          <path
+            d="M14 11v6"
+          />
+          <path
+            d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"
+          />
+          <path
+            d="M3 6h18"
+          />
+          <path
+            d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"
+          />
+        </svg>
+      </span>
     </button>
   </div>
 </div>

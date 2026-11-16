@@ -64,8 +64,36 @@ exports[`Render ArrowMenu open 1`] = `
                 >
                   <span
                     aria-label="su-webspace"
-                    class="su-webspace icon"
-                  />
+                    class="svgIcon su-webspace icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-target"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="10"
+                      />
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="6"
+                      />
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="2"
+                      />
+                    </svg>
+                  </span>
                 </span>
                 <span>
                   Sulu
@@ -227,8 +255,36 @@ exports[`Render ArrowMenu open with falsy values 1`] = `
                 >
                   <span
                     aria-label="su-webspace"
-                    class="su-webspace icon"
-                  />
+                    class="svgIcon su-webspace icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-target"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="10"
+                      />
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="6"
+                      />
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="2"
+                      />
+                    </svg>
+                  </span>
                 </span>
                 <span>
                   Sulu

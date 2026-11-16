@@ -12,8 +12,27 @@ exports[`Render in disabled state 1`] = `
     >
       <span
         aria-label="su-document"
-        class="su-document icon"
-      />
+        class="svgIcon su-document icon"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-file"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"
+          />
+          <path
+            d="M14 2v5a1 1 0 0 0 1 1h5"
+          />
+        </svg>
+      </span>
     </button>
     <div
       class="itemContainer"
@@ -40,8 +59,27 @@ exports[`Render in invalid state 1`] = `
     >
       <span
         aria-label="su-document"
-        class="su-document icon"
-      />
+        class="svgIcon su-document icon"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-file"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"
+          />
+          <path
+            d="M14 2v5a1 1 0 0 0 1 1h5"
+          />
+        </svg>
+      </span>
     </button>
     <div
       class="itemContainer"
@@ -69,8 +107,27 @@ exports[`Render in item-disabled state with remove button 1`] = `
     >
       <span
         aria-label="su-document"
-        class="su-document icon"
-      />
+        class="svgIcon su-document icon"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-file"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"
+          />
+          <path
+            d="M14 2v5a1 1 0 0 0 1 1h5"
+          />
+        </svg>
+      </span>
     </button>
     <div
       class="itemContainer"
@@ -87,8 +144,36 @@ exports[`Render in item-disabled state with remove button 1`] = `
       >
         <span
           aria-label="su-trash-alt"
-          class="su-trash-alt"
-        />
+          class="svgIcon su-trash-alt"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-trash-2"
+            fill="none"
+            focusable="false"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.75"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M10 11v6"
+            />
+            <path
+              d="M14 11v6"
+            />
+            <path
+              d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"
+            />
+            <path
+              d="M3 6h18"
+            />
+            <path
+              d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"
+            />
+          </svg>
+        </span>
       </button>
     </div>
   </div>
@@ -107,8 +192,27 @@ exports[`Render in item-disabled state without remove button 1`] = `
     >
       <span
         aria-label="su-document"
-        class="su-document icon"
-      />
+        class="svgIcon su-document icon"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-file"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"
+          />
+          <path
+            d="M14 2v5a1 1 0 0 0 1 1h5"
+          />
+        </svg>
+      </span>
     </button>
     <div
       class="itemContainer"
@@ -135,8 +239,27 @@ exports[`Render in loading state 1`] = `
     >
       <span
         aria-label="su-document"
-        class="su-document icon"
-      />
+        class="svgIcon su-document icon"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-file"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"
+          />
+          <path
+            d="M14 2v5a1 1 0 0 0 1 1h5"
+          />
+        </svg>
+      </span>
     </button>
     <div
       class="itemContainer"
@@ -174,8 +297,27 @@ exports[`Render in loading state with no children 1`] = `
     >
       <span
         aria-label="su-document"
-        class="su-document icon"
-      />
+        class="svgIcon su-document icon"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-file"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"
+          />
+          <path
+            d="M14 2v5a1 1 0 0 0 1 1h5"
+          />
+        </svg>
+      </span>
     </button>
     <div
       class="itemContainer"
@@ -239,8 +381,36 @@ exports[`Render with emptyText if no children have been passed 1`] = `
       >
         <span
           aria-label="su-trash-alt"
-          class="su-trash-alt"
-        />
+          class="svgIcon su-trash-alt"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-trash-2"
+            fill="none"
+            focusable="false"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.75"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M10 11v6"
+            />
+            <path
+              d="M14 11v6"
+            />
+            <path
+              d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"
+            />
+            <path
+              d="M3 6h18"
+            />
+            <path
+              d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"
+            />
+          </svg>
+        </span>
       </button>
     </div>
   </div>
@@ -258,8 +428,27 @@ exports[`Render with given children prop and with custom className 1`] = `
     >
       <span
         aria-label="su-document"
-        class="su-document icon"
-      />
+        class="svgIcon su-document icon"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-file"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"
+          />
+          <path
+            d="M14 2v5a1 1 0 0 0 1 1h5"
+          />
+        </svg>
+      </span>
     </button>
     <div
       class="itemContainer"
@@ -304,8 +493,36 @@ exports[`Render with given onRemove prop 1`] = `
       >
         <span
           aria-label="su-trash-alt"
-          class="su-trash-alt"
-        />
+          class="svgIcon su-trash-alt"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-trash-2"
+            fill="none"
+            focusable="false"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.75"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M10 11v6"
+            />
+            <path
+              d="M14 11v6"
+            />
+            <path
+              d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"
+            />
+            <path
+              d="M3 6h18"
+            />
+            <path
+              d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"
+            />
+          </svg>
+        </span>
       </button>
     </div>
   </div>
@@ -323,8 +540,27 @@ exports[`Render with right button 1`] = `
     >
       <span
         aria-label="su-document"
-        class="su-document icon"
-      />
+        class="svgIcon su-document icon"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-file"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"
+          />
+          <path
+            d="M14 2v5a1 1 0 0 0 1 1h5"
+          />
+        </svg>
+      </span>
     </button>
     <div
       class="itemContainer"
@@ -360,8 +596,27 @@ exports[`Render with right button with options 1`] = `
     >
       <span
         aria-label="su-document"
-        class="su-document icon"
-      />
+        class="svgIcon su-document icon"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-file"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"
+          />
+          <path
+            d="M14 2v5a1 1 0 0 0 1 1h5"
+          />
+        </svg>
+      </span>
     </button>
     <div
       class="itemContainer"
@@ -383,8 +638,24 @@ exports[`Render with right button with options 1`] = `
       />
       <span
         aria-label="su-angle-down"
-        class="su-angle-down"
-      />
+        class="svgIcon su-angle-down"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-chevron-down"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="m6 9 6 6 6-6"
+          />
+        </svg>
+      </span>
     </button>
   </div>
 </div>

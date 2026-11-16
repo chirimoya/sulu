@@ -27,8 +27,29 @@ exports[`Should render the component 1`] = `
           >
             <span
               aria-label="su-user"
-              class="su-user icon default"
-            />
+              class="svgIcon su-user icon default"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-user"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"
+                />
+                <circle
+                  cx="12"
+                  cy="7"
+                  r="4"
+                />
+              </svg>
+            </span>
           </div>
           <input
             autocomplete="username"
@@ -53,8 +74,32 @@ exports[`Should render the component 1`] = `
           >
             <span
               aria-label="su-lock"
-              class="su-lock icon default"
-            />
+              class="svgIcon su-lock icon default"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-lock"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <rect
+                  height="11"
+                  rx="2"
+                  ry="2"
+                  width="18"
+                  x="3"
+                  y="11"
+                />
+                <path
+                  d="M7 11V7a5 5 0 0 1 10 0v4"
+                />
+              </svg>
+            </span>
           </div>
           <input
             autocomplete="current-password"
@@ -120,8 +165,29 @@ exports[`Should render the component loading 1`] = `
           >
             <span
               aria-label="su-user"
-              class="su-user icon default"
-            />
+              class="svgIcon su-user icon default"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-user"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"
+                />
+                <circle
+                  cx="12"
+                  cy="7"
+                  r="4"
+                />
+              </svg>
+            </span>
           </div>
           <input
             autocomplete="username"
@@ -146,8 +212,32 @@ exports[`Should render the component loading 1`] = `
           >
             <span
               aria-label="su-lock"
-              class="su-lock icon default"
-            />
+              class="svgIcon su-lock icon default"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-lock"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <rect
+                  height="11"
+                  rx="2"
+                  ry="2"
+                  width="18"
+                  x="3"
+                  y="11"
+                />
+                <path
+                  d="M7 11V7a5 5 0 0 1 10 0v4"
+                />
+              </svg>
+            </span>
           </div>
           <input
             autocomplete="current-password"
@@ -228,8 +318,29 @@ exports[`Should render the component with error 1`] = `
           >
             <span
               aria-label="su-user"
-              class="su-user icon default"
-            />
+              class="svgIcon su-user icon default"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-user"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"
+                />
+                <circle
+                  cx="12"
+                  cy="7"
+                  r="4"
+                />
+              </svg>
+            </span>
           </div>
           <input
             autocomplete="username"
@@ -254,8 +365,32 @@ exports[`Should render the component with error 1`] = `
           >
             <span
               aria-label="su-lock"
-              class="su-lock icon default"
-            />
+              class="svgIcon su-lock icon default"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-lock"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <rect
+                  height="11"
+                  rx="2"
+                  ry="2"
+                  width="18"
+                  x="3"
+                  y="11"
+                />
+                <path
+                  d="M7 11V7a5 5 0 0 1 10 0v4"
+                />
+              </svg>
+            </span>
           </div>
           <input
             autocomplete="current-password"

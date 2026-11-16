@@ -27,8 +27,24 @@ exports[`Render block in selection mode selected 1`] = `
             <span>
               <span
                 aria-label="su-check"
-                class="su-check"
-              />
+                class="svgIcon su-check"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-check"
+                  fill="none"
+                  focusable="false"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.75"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M20 6 9 17l-5-5"
+                  />
+                </svg>
+              </span>
             </span>
           </span>
         </label>
@@ -78,8 +94,24 @@ exports[`Render block in selection mode selected 1`] = `
               </div>
               <span
                 aria-label="su-angle-down"
-                class="su-angle-down toggle"
-              />
+                class="svgIcon su-angle-down toggle"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-chevron-down"
+                  fill="none"
+                  focusable="false"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.75"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m6 9 6 6 6-6"
+                  />
+                </svg>
+              </span>
             </button>
           </div>
         </div>
@@ -91,16 +123,64 @@ exports[`Render block in selection mode selected 1`] = `
           >
             <span
               aria-label="su-more-circle"
-              class="su-more-circle"
-            />
+              class="svgIcon su-more-circle"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-circle-ellipsis"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="10"
+                />
+                <path
+                  d="M17 12h.01"
+                />
+                <path
+                  d="M12 12h.01"
+                />
+                <path
+                  d="M7 12h.01"
+                />
+              </svg>
+            </span>
           </button>
           <button
             type="button"
           >
             <span
               aria-label="su-cog"
-              class="su-cog"
-            />
+              class="svgIcon su-cog"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-settings"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M9.671 4.136a2.34 2.34 0 0 1 4.659 0 2.34 2.34 0 0 0 3.319 1.915 2.34 2.34 0 0 1 2.33 4.033 2.34 2.34 0 0 0 0 3.831 2.34 2.34 0 0 1-2.33 4.033 2.34 2.34 0 0 0-3.319 1.915 2.34 2.34 0 0 1-4.659 0 2.34 2.34 0 0 0-3.32-1.915 2.34 2.34 0 0 1-2.33-4.033 2.34 2.34 0 0 0 0-3.831A2.34 2.34 0 0 1 6.35 6.051a2.34 2.34 0 0 0 3.319-1.915"
+                />
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="3"
+                />
+              </svg>
+            </span>
           </button>
         </div>
       </header>
@@ -186,8 +266,24 @@ exports[`Render block in selection mode unselected 1`] = `
               </div>
               <span
                 aria-label="su-angle-down"
-                class="su-angle-down toggle"
-              />
+                class="svgIcon su-angle-down toggle"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-chevron-down"
+                  fill="none"
+                  focusable="false"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.75"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m6 9 6 6 6-6"
+                  />
+                </svg>
+              </span>
             </button>
           </div>
         </div>
@@ -199,16 +295,64 @@ exports[`Render block in selection mode unselected 1`] = `
           >
             <span
               aria-label="su-more-circle"
-              class="su-more-circle"
-            />
+              class="svgIcon su-more-circle"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-circle-ellipsis"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="10"
+                />
+                <path
+                  d="M17 12h.01"
+                />
+                <path
+                  d="M12 12h.01"
+                />
+                <path
+                  d="M7 12h.01"
+                />
+              </svg>
+            </span>
           </button>
           <button
             type="button"
           >
             <span
               aria-label="su-cog"
-              class="su-cog"
-            />
+              class="svgIcon su-cog"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-settings"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M9.671 4.136a2.34 2.34 0 0 1 4.659 0 2.34 2.34 0 0 0 3.319 1.915 2.34 2.34 0 0 1 2.33 4.033 2.34 2.34 0 0 0 0 3.831 2.34 2.34 0 0 1-2.33 4.033 2.34 2.34 0 0 0-3.319 1.915 2.34 2.34 0 0 1-4.659 0 2.34 2.34 0 0 0-3.32-1.915 2.34 2.34 0 0 1-2.33-4.033 2.34 2.34 0 0 0 0-3.831A2.34 2.34 0 0 1 6.35 6.051a2.34 2.34 0 0 0 3.319-1.915"
+                />
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="3"
+                />
+              </svg>
+            </span>
           </button>
         </div>
       </header>
@@ -233,8 +377,51 @@ exports[`Render collapsed sortable block 1`] = `
     >
       <span
         aria-label="su-more"
-        class="su-more sortableHandle"
-      />
+        class="svgIcon su-more sortableHandle"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-grip-vertical"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <circle
+            cx="9"
+            cy="12"
+            r="1"
+          />
+          <circle
+            cx="9"
+            cy="5"
+            r="1"
+          />
+          <circle
+            cx="9"
+            cy="19"
+            r="1"
+          />
+          <circle
+            cx="15"
+            cy="12"
+            r="1"
+          />
+          <circle
+            cx="15"
+            cy="5"
+            r="1"
+          />
+          <circle
+            cx="15"
+            cy="19"
+            r="1"
+          />
+        </svg>
+      </span>
     </div>
     <div
       class="content"
@@ -247,8 +434,29 @@ exports[`Render collapsed sortable block 1`] = `
         >
           <span
             aria-label="su-eye"
-            class="su-eye"
-          />
+            class="svgIcon su-eye"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-eye"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"
+              />
+              <circle
+                cx="12"
+                cy="12"
+                r="3"
+              />
+            </svg>
+          </span>
           <span
             aria-label="su-people"
             class="su-people"
@@ -256,8 +464,27 @@ exports[`Render collapsed sortable block 1`] = `
         </div>
         <span
           aria-label="su-expand-vertical"
-          class="su-expand-vertical"
-        />
+          class="svgIcon su-expand-vertical"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-chevrons-up-down"
+            fill="none"
+            focusable="false"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.75"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="m7 15 5 5 5-5"
+            />
+            <path
+              d="m7 9 5-5 5 5"
+            />
+          </svg>
+        </span>
       </header>
       <article
         class="children"
@@ -278,8 +505,51 @@ exports[`Render expanded sortable, non-collapsable block with types 1`] = `
     >
       <span
         aria-label="su-more"
-        class="su-more sortableHandle"
-      />
+        class="svgIcon su-more sortableHandle"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-grip-vertical"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <circle
+            cx="9"
+            cy="12"
+            r="1"
+          />
+          <circle
+            cx="9"
+            cy="5"
+            r="1"
+          />
+          <circle
+            cx="9"
+            cy="19"
+            r="1"
+          />
+          <circle
+            cx="15"
+            cy="12"
+            r="1"
+          />
+          <circle
+            cx="15"
+            cy="5"
+            r="1"
+          />
+          <circle
+            cx="15"
+            cy="19"
+            r="1"
+          />
+        </svg>
+      </span>
     </div>
     <div
       class="content"
@@ -325,8 +595,24 @@ exports[`Render expanded sortable, non-collapsable block with types 1`] = `
               </div>
               <span
                 aria-label="su-angle-down"
-                class="su-angle-down toggle"
-              />
+                class="svgIcon su-angle-down toggle"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-chevron-down"
+                  fill="none"
+                  focusable="false"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.75"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m6 9 6 6 6-6"
+                  />
+                </svg>
+              </span>
             </button>
           </div>
         </div>
@@ -338,16 +624,64 @@ exports[`Render expanded sortable, non-collapsable block with types 1`] = `
           >
             <span
               aria-label="su-more-circle"
-              class="su-more-circle"
-            />
+              class="svgIcon su-more-circle"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-circle-ellipsis"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="10"
+                />
+                <path
+                  d="M17 12h.01"
+                />
+                <path
+                  d="M12 12h.01"
+                />
+                <path
+                  d="M7 12h.01"
+                />
+              </svg>
+            </span>
           </button>
           <button
             type="button"
           >
             <span
               aria-label="su-cog"
-              class="su-cog"
-            />
+              class="svgIcon su-cog"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-settings"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M9.671 4.136a2.34 2.34 0 0 1 4.659 0 2.34 2.34 0 0 0 3.319 1.915 2.34 2.34 0 0 1 2.33 4.033 2.34 2.34 0 0 0 0 3.831 2.34 2.34 0 0 1-2.33 4.033 2.34 2.34 0 0 0-3.319 1.915 2.34 2.34 0 0 1-4.659 0 2.34 2.34 0 0 0-3.32-1.915 2.34 2.34 0 0 1-2.33-4.033 2.34 2.34 0 0 0 0-3.831A2.34 2.34 0 0 1 6.35 6.051a2.34 2.34 0 0 0 3.319-1.915"
+                />
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="3"
+                />
+              </svg>
+            </span>
           </button>
         </div>
       </header>

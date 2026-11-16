@@ -10,8 +10,31 @@ exports[`Email should render 1`] = `
     >
       <span
         aria-label="su-envelope"
-        class="su-envelope icon default"
-      />
+        class="svgIcon su-envelope icon default"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-mail"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"
+          />
+          <rect
+            height="16"
+            rx="2"
+            width="20"
+            x="2"
+            y="4"
+          />
+        </svg>
+      </span>
     </div>
     <input
       type="email"
@@ -31,8 +54,31 @@ exports[`Email should render error 1`] = `
     >
       <span
         aria-label="su-envelope"
-        class="su-envelope icon default"
-      />
+        class="svgIcon su-envelope icon default"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-mail"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"
+          />
+          <rect
+            height="16"
+            rx="2"
+            width="20"
+            x="2"
+            y="4"
+          />
+        </svg>
+      </span>
     </div>
     <input
       type="email"
@@ -52,8 +98,31 @@ exports[`Email should render null value as empty string 1`] = `
     >
       <span
         aria-label="su-envelope"
-        class="su-envelope icon default"
-      />
+        class="svgIcon su-envelope icon default"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-mail"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"
+          />
+          <rect
+            height="16"
+            rx="2"
+            width="20"
+            x="2"
+            y="4"
+          />
+        </svg>
+      </span>
     </div>
     <input
       type="email"
@@ -73,10 +142,33 @@ exports[`Email should render when disabled 1`] = `
     >
       <span
         aria-label="su-envelope"
-        class="su-envelope clickable icon default iconClickable"
+        class="svgIcon su-envelope clickable icon default iconClickable"
         role="button"
         tabindex="0"
-      />
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-mail"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"
+          />
+          <rect
+            height="16"
+            rx="2"
+            width="20"
+            x="2"
+            y="4"
+          />
+        </svg>
+      </span>
     </div>
     <input
       disabled=""
@@ -97,8 +189,31 @@ exports[`Email should render with placeholder 1`] = `
     >
       <span
         aria-label="su-envelope"
-        class="su-envelope icon default"
-      />
+        class="svgIcon su-envelope icon default"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-mail"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"
+          />
+          <rect
+            height="16"
+            rx="2"
+            width="20"
+            x="2"
+            y="4"
+          />
+        </svg>
+      </span>
     </div>
     <input
       placeholder="My placeholder"
@@ -119,10 +234,33 @@ exports[`Email should render with value 1`] = `
     >
       <span
         aria-label="su-envelope"
-        class="su-envelope clickable icon default iconClickable"
+        class="svgIcon su-envelope clickable icon default iconClickable"
         role="button"
         tabindex="0"
-      />
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-mail"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"
+          />
+          <rect
+            height="16"
+            rx="2"
+            width="20"
+            x="2"
+            y="4"
+          />
+        </svg>
+      </span>
     </div>
     <input
       type="email"

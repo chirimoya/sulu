@@ -14,8 +14,24 @@ exports[`Render a Breadcrumb 1`] = `
       </button>
       <span
         aria-label="su-angle-right"
-        class="su-angle-right arrow"
-      />
+        class="svgIcon su-angle-right arrow"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-chevron-right"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="m9 18 6-6-6-6"
+          />
+        </svg>
+      </span>
     </li>
     <li>
       <button
@@ -26,8 +42,24 @@ exports[`Render a Breadcrumb 1`] = `
       </button>
       <span
         aria-label="su-angle-right"
-        class="su-angle-right arrow"
-      />
+        class="svgIcon su-angle-right arrow"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-chevron-right"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="m9 18 6-6-6-6"
+          />
+        </svg>
+      </span>
     </li>
     <li>
       <button

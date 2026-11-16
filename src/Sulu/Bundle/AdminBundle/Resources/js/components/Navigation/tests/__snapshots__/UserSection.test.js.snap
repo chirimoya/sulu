@@ -26,8 +26,24 @@ exports[`The component should render with all available props and handle clicks 
       </span>
       <span
         aria-label="su-angle-up"
-        class="su-angle-up"
-      />
+        class="svgIcon su-angle-up"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-chevron-up"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="m18 15-6-6-6 6"
+          />
+        </svg>
+      </span>
     </button>
     <div
       class="menu"
@@ -39,8 +55,29 @@ exports[`The component should render with all available props and handle clicks 
       >
         <span
           aria-label="su-user"
-          class="su-user buttonIcon"
-        />
+          class="svgIcon su-user buttonIcon"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-user"
+            fill="none"
+            focusable="false"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.75"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"
+            />
+            <circle
+              cx="12"
+              cy="7"
+              r="4"
+            />
+          </svg>
+        </span>
         <span
           class="buttonText"
         >
@@ -53,8 +90,30 @@ exports[`The component should render with all available props and handle clicks 
       >
         <span
           aria-label="su-sign-out-alt"
-          class="su-sign-out-alt buttonIcon"
-        />
+          class="svgIcon su-sign-out-alt buttonIcon"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-log-out"
+            fill="none"
+            focusable="false"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.75"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="m16 17 5-5-5-5"
+            />
+            <path
+              d="M21 12H9"
+            />
+            <path
+              d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"
+            />
+          </svg>
+        </span>
         <span
           class="buttonText"
         >

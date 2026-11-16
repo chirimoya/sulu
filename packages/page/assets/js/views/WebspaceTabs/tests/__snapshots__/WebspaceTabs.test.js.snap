@@ -32,15 +32,59 @@ exports[`Render webspace select with children when webspaces are not loaded yet 
         >
           <span
             aria-label="su-webspace"
-            class="su-webspace buttonIcon"
-          />
+            class="svgIcon su-webspace buttonIcon"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-target"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <circle
+                cx="12"
+                cy="12"
+                r="10"
+              />
+              <circle
+                cx="12"
+                cy="12"
+                r="6"
+              />
+              <circle
+                cx="12"
+                cy="12"
+                r="2"
+              />
+            </svg>
+          </span>
           <span
             class="buttonValue"
           />
           <span
             aria-label="su-angle-down"
-            class="su-angle-down buttonIcon"
-          />
+            class="svgIcon su-angle-down buttonIcon"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-down"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m6 9 6 6 6-6"
+              />
+            </svg>
+          </span>
         </button>
       </div>
     </div>

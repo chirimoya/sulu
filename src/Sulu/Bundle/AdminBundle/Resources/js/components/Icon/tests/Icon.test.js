@@ -85,3 +85,19 @@ test('Should call the given iconRef callback', () => {
     const icon = screen.queryByLabelText('su-pen');
     expect(iconRefSpy).toHaveBeenCalledWith(icon);
 });
+
+test('Icon should render an inline svg for icons with a mapping', () => {
+    render(<Icon name="su-save" />);
+
+    // $FlowFixMe
+    expect(document.querySelector('.su-save svg')).toBeInTheDocument();
+});
+
+test('Icon should fall back to the icon font for icons without a mapping', () => {
+    render(<Icon name="su-sulu" />);
+
+    expect(screen.getByLabelText('su-sulu')).toBeInTheDocument();
+    // $FlowFixMe
+    expect(document.querySelector('.su-sulu svg')).not.toBeInTheDocument();
+    expect(screen.getByLabelText('su-sulu')).not.toHaveClass('svgIcon');
+});

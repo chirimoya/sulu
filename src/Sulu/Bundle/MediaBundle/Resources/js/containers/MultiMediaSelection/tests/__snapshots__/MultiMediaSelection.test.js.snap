@@ -14,8 +14,37 @@ exports[`Render a MultiMediaSelection field 1`] = `
       >
         <span
           aria-label="su-image"
-          class="su-image icon"
-        />
+          class="svgIcon su-image icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-image"
+            fill="none"
+            focusable="false"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.75"
+            viewBox="0 0 24 24"
+          >
+            <rect
+              height="18"
+              rx="2"
+              ry="2"
+              width="18"
+              x="3"
+              y="3"
+            />
+            <circle
+              cx="9"
+              cy="9"
+              r="2"
+            />
+            <path
+              d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"
+            />
+          </svg>
+        </span>
       </button>
       <div
         class="label"
@@ -37,8 +66,51 @@ exports[`Render a MultiMediaSelection field 1`] = `
           >
             <span
               aria-label="su-more"
-              class="su-more"
-            />
+              class="svgIcon su-more"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-grip-vertical"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <circle
+                  cx="9"
+                  cy="12"
+                  r="1"
+                />
+                <circle
+                  cx="9"
+                  cy="5"
+                  r="1"
+                />
+                <circle
+                  cx="9"
+                  cy="19"
+                  r="1"
+                />
+                <circle
+                  cx="15"
+                  cy="12"
+                  r="1"
+                />
+                <circle
+                  cx="15"
+                  cy="5"
+                  r="1"
+                />
+                <circle
+                  cx="15"
+                  cy="19"
+                  r="1"
+                />
+              </svg>
+            </span>
             <span
               class="index"
             >
@@ -97,8 +169,36 @@ exports[`Render a MultiMediaSelection field 1`] = `
             >
               <span
                 aria-label="su-trash-alt"
-                class="su-trash-alt"
-              />
+                class="svgIcon su-trash-alt"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-trash-2"
+                  fill="none"
+                  focusable="false"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.75"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M10 11v6"
+                  />
+                  <path
+                    d="M14 11v6"
+                  />
+                  <path
+                    d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"
+                  />
+                  <path
+                    d="M3 6h18"
+                  />
+                  <path
+                    d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"
+                  />
+                </svg>
+              </span>
             </button>
           </div>
         </div>
@@ -114,8 +214,51 @@ exports[`Render a MultiMediaSelection field 1`] = `
           >
             <span
               aria-label="su-more"
-              class="su-more"
-            />
+              class="svgIcon su-more"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-grip-vertical"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <circle
+                  cx="9"
+                  cy="12"
+                  r="1"
+                />
+                <circle
+                  cx="9"
+                  cy="5"
+                  r="1"
+                />
+                <circle
+                  cx="9"
+                  cy="19"
+                  r="1"
+                />
+                <circle
+                  cx="15"
+                  cy="12"
+                  r="1"
+                />
+                <circle
+                  cx="15"
+                  cy="5"
+                  r="1"
+                />
+                <circle
+                  cx="15"
+                  cy="19"
+                  r="1"
+                />
+              </svg>
+            </span>
             <span
               class="index"
             >
@@ -174,8 +317,36 @@ exports[`Render a MultiMediaSelection field 1`] = `
             >
               <span
                 aria-label="su-trash-alt"
-                class="su-trash-alt"
-              />
+                class="svgIcon su-trash-alt"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-trash-2"
+                  fill="none"
+                  focusable="false"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.75"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M10 11v6"
+                  />
+                  <path
+                    d="M14 11v6"
+                  />
+                  <path
+                    d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"
+                  />
+                  <path
+                    d="M3 6h18"
+                  />
+                  <path
+                    d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"
+                  />
+                </svg>
+              </span>
             </button>
           </div>
         </div>
@@ -191,8 +362,51 @@ exports[`Render a MultiMediaSelection field 1`] = `
           >
             <span
               aria-label="su-more"
-              class="su-more"
-            />
+              class="svgIcon su-more"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-grip-vertical"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <circle
+                  cx="9"
+                  cy="12"
+                  r="1"
+                />
+                <circle
+                  cx="9"
+                  cy="5"
+                  r="1"
+                />
+                <circle
+                  cx="9"
+                  cy="19"
+                  r="1"
+                />
+                <circle
+                  cx="15"
+                  cy="12"
+                  r="1"
+                />
+                <circle
+                  cx="15"
+                  cy="5"
+                  r="1"
+                />
+                <circle
+                  cx="15"
+                  cy="19"
+                  r="1"
+                />
+              </svg>
+            </span>
             <span
               class="index"
             >
@@ -251,8 +465,36 @@ exports[`Render a MultiMediaSelection field 1`] = `
             >
               <span
                 aria-label="su-trash-alt"
-                class="su-trash-alt"
-              />
+                class="svgIcon su-trash-alt"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-trash-2"
+                  fill="none"
+                  focusable="false"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.75"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M10 11v6"
+                  />
+                  <path
+                    d="M14 11v6"
+                  />
+                  <path
+                    d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"
+                  />
+                  <path
+                    d="M3 6h18"
+                  />
+                  <path
+                    d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"
+                  />
+                </svg>
+              </span>
             </button>
           </div>
         </div>
@@ -276,8 +518,37 @@ exports[`Render a MultiMediaSelection field with display options 1`] = `
       >
         <span
           aria-label="su-image"
-          class="su-image icon"
-        />
+          class="svgIcon su-image icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-image"
+            fill="none"
+            focusable="false"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.75"
+            viewBox="0 0 24 24"
+          >
+            <rect
+              height="18"
+              rx="2"
+              ry="2"
+              width="18"
+              x="3"
+              y="3"
+            />
+            <circle
+              cx="9"
+              cy="9"
+              r="2"
+            />
+            <path
+              d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"
+            />
+          </svg>
+        </span>
       </button>
       <div
         class="label"
@@ -294,8 +565,24 @@ exports[`Render a MultiMediaSelection field with display options 1`] = `
         />
         <span
           aria-label="su-angle-down"
-          class="su-angle-down"
-        />
+          class="svgIcon su-angle-down"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-chevron-down"
+            fill="none"
+            focusable="false"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.75"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="m6 9 6 6 6-6"
+            />
+          </svg>
+        </span>
       </button>
     </div>
     <ul
@@ -312,8 +599,51 @@ exports[`Render a MultiMediaSelection field with display options 1`] = `
           >
             <span
               aria-label="su-more"
-              class="su-more"
-            />
+              class="svgIcon su-more"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-grip-vertical"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <circle
+                  cx="9"
+                  cy="12"
+                  r="1"
+                />
+                <circle
+                  cx="9"
+                  cy="5"
+                  r="1"
+                />
+                <circle
+                  cx="9"
+                  cy="19"
+                  r="1"
+                />
+                <circle
+                  cx="15"
+                  cy="12"
+                  r="1"
+                />
+                <circle
+                  cx="15"
+                  cy="5"
+                  r="1"
+                />
+                <circle
+                  cx="15"
+                  cy="19"
+                  r="1"
+                />
+              </svg>
+            </span>
             <span
               class="index"
             >
@@ -372,8 +702,36 @@ exports[`Render a MultiMediaSelection field with display options 1`] = `
             >
               <span
                 aria-label="su-trash-alt"
-                class="su-trash-alt"
-              />
+                class="svgIcon su-trash-alt"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-trash-2"
+                  fill="none"
+                  focusable="false"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.75"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M10 11v6"
+                  />
+                  <path
+                    d="M14 11v6"
+                  />
+                  <path
+                    d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"
+                  />
+                  <path
+                    d="M3 6h18"
+                  />
+                  <path
+                    d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"
+                  />
+                </svg>
+              </span>
             </button>
           </div>
         </div>
@@ -397,8 +755,37 @@ exports[`Render a MultiMediaSelection field with display options and selected ic
       >
         <span
           aria-label="su-image"
-          class="su-image icon"
-        />
+          class="svgIcon su-image icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-image"
+            fill="none"
+            focusable="false"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.75"
+            viewBox="0 0 24 24"
+          >
+            <rect
+              height="18"
+              rx="2"
+              ry="2"
+              width="18"
+              x="3"
+              y="3"
+            />
+            <circle
+              cx="9"
+              cy="9"
+              r="2"
+            />
+            <path
+              d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"
+            />
+          </svg>
+        </span>
       </button>
       <div
         class="label"
@@ -415,8 +802,24 @@ exports[`Render a MultiMediaSelection field with display options and selected ic
         />
         <span
           aria-label="su-angle-down"
-          class="su-angle-down"
-        />
+          class="svgIcon su-angle-down"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-chevron-down"
+            fill="none"
+            focusable="false"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.75"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="m6 9 6 6 6-6"
+            />
+          </svg>
+        </span>
       </button>
     </div>
     <ul
@@ -433,8 +836,51 @@ exports[`Render a MultiMediaSelection field with display options and selected ic
           >
             <span
               aria-label="su-more"
-              class="su-more"
-            />
+              class="svgIcon su-more"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-grip-vertical"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <circle
+                  cx="9"
+                  cy="12"
+                  r="1"
+                />
+                <circle
+                  cx="9"
+                  cy="5"
+                  r="1"
+                />
+                <circle
+                  cx="9"
+                  cy="19"
+                  r="1"
+                />
+                <circle
+                  cx="15"
+                  cy="12"
+                  r="1"
+                />
+                <circle
+                  cx="15"
+                  cy="5"
+                  r="1"
+                />
+                <circle
+                  cx="15"
+                  cy="19"
+                  r="1"
+                />
+              </svg>
+            </span>
             <span
               class="index"
             >
@@ -493,8 +939,36 @@ exports[`Render a MultiMediaSelection field with display options and selected ic
             >
               <span
                 aria-label="su-trash-alt"
-                class="su-trash-alt"
-              />
+                class="svgIcon su-trash-alt"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-trash-2"
+                  fill="none"
+                  focusable="false"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.75"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M10 11v6"
+                  />
+                  <path
+                    d="M14 11v6"
+                  />
+                  <path
+                    d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"
+                  />
+                  <path
+                    d="M3 6h18"
+                  />
+                  <path
+                    d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"
+                  />
+                </svg>
+              </span>
             </button>
           </div>
         </div>
@@ -518,8 +992,37 @@ exports[`Render a MultiMediaSelection field without thumbnails with MimeTypeIndi
       >
         <span
           aria-label="su-image"
-          class="su-image icon"
-        />
+          class="svgIcon su-image icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-image"
+            fill="none"
+            focusable="false"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.75"
+            viewBox="0 0 24 24"
+          >
+            <rect
+              height="18"
+              rx="2"
+              ry="2"
+              width="18"
+              x="3"
+              y="3"
+            />
+            <circle
+              cx="9"
+              cy="9"
+              r="2"
+            />
+            <path
+              d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"
+            />
+          </svg>
+        </span>
       </button>
       <div
         class="label"
@@ -541,8 +1044,51 @@ exports[`Render a MultiMediaSelection field without thumbnails with MimeTypeIndi
           >
             <span
               aria-label="su-more"
-              class="su-more"
-            />
+              class="svgIcon su-more"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-grip-vertical"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <circle
+                  cx="9"
+                  cy="12"
+                  r="1"
+                />
+                <circle
+                  cx="9"
+                  cy="5"
+                  r="1"
+                />
+                <circle
+                  cx="9"
+                  cy="19"
+                  r="1"
+                />
+                <circle
+                  cx="15"
+                  cy="12"
+                  r="1"
+                />
+                <circle
+                  cx="15"
+                  cy="5"
+                  r="1"
+                />
+                <circle
+                  cx="15"
+                  cy="19"
+                  r="1"
+                />
+              </svg>
+            </span>
             <span
               class="index"
             >
@@ -562,8 +1108,33 @@ exports[`Render a MultiMediaSelection field without thumbnails with MimeTypeIndi
               >
                 <span
                   aria-label="fa-file-code-o"
-                  class="fa fa-file-code-o"
-                />
+                  class="svgIcon fa-file-code-o"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-file-code"
+                    fill="none"
+                    focusable="false"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.75"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"
+                    />
+                    <path
+                      d="M14 2v5a1 1 0 0 0 1 1h5"
+                    />
+                    <path
+                      d="M10 12.5 8 15l2 2.5"
+                    />
+                    <path
+                      d="m14 12.5 2 2.5-2 2.5"
+                    />
+                  </svg>
+                </span>
               </div>
               <div
                 class="mediaTitle"
@@ -605,8 +1176,36 @@ exports[`Render a MultiMediaSelection field without thumbnails with MimeTypeIndi
             >
               <span
                 aria-label="su-trash-alt"
-                class="su-trash-alt"
-              />
+                class="svgIcon su-trash-alt"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-trash-2"
+                  fill="none"
+                  focusable="false"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.75"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M10 11v6"
+                  />
+                  <path
+                    d="M14 11v6"
+                  />
+                  <path
+                    d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"
+                  />
+                  <path
+                    d="M3 6h18"
+                  />
+                  <path
+                    d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"
+                  />
+                </svg>
+              </span>
             </button>
           </div>
         </div>
@@ -622,8 +1221,51 @@ exports[`Render a MultiMediaSelection field without thumbnails with MimeTypeIndi
           >
             <span
               aria-label="su-more"
-              class="su-more"
-            />
+              class="svgIcon su-more"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-grip-vertical"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <circle
+                  cx="9"
+                  cy="12"
+                  r="1"
+                />
+                <circle
+                  cx="9"
+                  cy="5"
+                  r="1"
+                />
+                <circle
+                  cx="9"
+                  cy="19"
+                  r="1"
+                />
+                <circle
+                  cx="15"
+                  cy="12"
+                  r="1"
+                />
+                <circle
+                  cx="15"
+                  cy="5"
+                  r="1"
+                />
+                <circle
+                  cx="15"
+                  cy="19"
+                  r="1"
+                />
+              </svg>
+            </span>
             <span
               class="index"
             >
@@ -686,8 +1328,36 @@ exports[`Render a MultiMediaSelection field without thumbnails with MimeTypeIndi
             >
               <span
                 aria-label="su-trash-alt"
-                class="su-trash-alt"
-              />
+                class="svgIcon su-trash-alt"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-trash-2"
+                  fill="none"
+                  focusable="false"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.75"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M10 11v6"
+                  />
+                  <path
+                    d="M14 11v6"
+                  />
+                  <path
+                    d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"
+                  />
+                  <path
+                    d="M3 6h18"
+                  />
+                  <path
+                    d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"
+                  />
+                </svg>
+              </span>
             </button>
           </div>
         </div>
@@ -703,8 +1373,51 @@ exports[`Render a MultiMediaSelection field without thumbnails with MimeTypeIndi
           >
             <span
               aria-label="su-more"
-              class="su-more"
-            />
+              class="svgIcon su-more"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-grip-vertical"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <circle
+                  cx="9"
+                  cy="12"
+                  r="1"
+                />
+                <circle
+                  cx="9"
+                  cy="5"
+                  r="1"
+                />
+                <circle
+                  cx="9"
+                  cy="19"
+                  r="1"
+                />
+                <circle
+                  cx="15"
+                  cy="12"
+                  r="1"
+                />
+                <circle
+                  cx="15"
+                  cy="5"
+                  r="1"
+                />
+                <circle
+                  cx="15"
+                  cy="19"
+                  r="1"
+                />
+              </svg>
+            </span>
             <span
               class="index"
             >
@@ -724,8 +1437,39 @@ exports[`Render a MultiMediaSelection field without thumbnails with MimeTypeIndi
               >
                 <span
                   aria-label="fa-file-excel-o"
-                  class="fa fa-file-excel-o"
-                />
+                  class="svgIcon fa-file-excel-o"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-file-spreadsheet"
+                    fill="none"
+                    focusable="false"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.75"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"
+                    />
+                    <path
+                      d="M14 2v5a1 1 0 0 0 1 1h5"
+                    />
+                    <path
+                      d="M8 13h2"
+                    />
+                    <path
+                      d="M14 13h2"
+                    />
+                    <path
+                      d="M8 17h2"
+                    />
+                    <path
+                      d="M14 17h2"
+                    />
+                  </svg>
+                </span>
               </div>
               <div
                 class="mediaTitle"
@@ -767,8 +1511,36 @@ exports[`Render a MultiMediaSelection field without thumbnails with MimeTypeIndi
             >
               <span
                 aria-label="su-trash-alt"
-                class="su-trash-alt"
-              />
+                class="svgIcon su-trash-alt"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-trash-2"
+                  fill="none"
+                  focusable="false"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.75"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M10 11v6"
+                  />
+                  <path
+                    d="M14 11v6"
+                  />
+                  <path
+                    d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"
+                  />
+                  <path
+                    d="M3 6h18"
+                  />
+                  <path
+                    d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"
+                  />
+                </svg>
+              </span>
             </button>
           </div>
         </div>

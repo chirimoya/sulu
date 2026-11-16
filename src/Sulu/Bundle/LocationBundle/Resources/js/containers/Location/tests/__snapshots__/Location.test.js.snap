@@ -14,8 +14,29 @@ exports[`Component should render in disabled state 1`] = `
       >
         <span
           aria-label="su-map-pin"
-          class="su-map-pin"
-        />
+          class="svgIcon su-map-pin"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-map-pin"
+            fill="none"
+            focusable="false"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.75"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
+            />
+            <circle
+              cx="12"
+              cy="10"
+              r="3"
+            />
+          </svg>
+        </span>
       </button>
       <div
         class="locationHeaderLabel"
@@ -65,8 +86,29 @@ exports[`Component should render with a given value 1`] = `
       >
         <span
           aria-label="su-map-pin"
-          class="su-map-pin"
-        />
+          class="svgIcon su-map-pin"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-map-pin"
+            fill="none"
+            focusable="false"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.75"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
+            />
+            <circle
+              cx="12"
+              cy="10"
+              r="3"
+            />
+          </svg>
+        </span>
       </button>
       <div
         class="locationHeaderLabel"
@@ -143,8 +185,29 @@ exports[`Component should render without a value 1`] = `
       >
         <span
           aria-label="su-map-pin"
-          class="su-map-pin"
-        />
+          class="svgIcon su-map-pin"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-map-pin"
+            fill="none"
+            focusable="false"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.75"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
+            />
+            <circle
+              cx="12"
+              cy="10"
+              r="3"
+            />
+          </svg>
+        </span>
       </button>
       <div
         class="locationHeaderLabel"

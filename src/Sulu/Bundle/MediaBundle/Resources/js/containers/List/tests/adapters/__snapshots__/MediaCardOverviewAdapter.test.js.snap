@@ -108,8 +108,30 @@ exports[`Render a basic Masonry view with the MediaCardOverviewAdapter 1`] = `
                 >
                   <span
                     aria-label="su-download"
-                    class="su-download"
-                  />
+                    class="svgIcon su-download"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-download"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 15V3"
+                      />
+                      <path
+                        d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"
+                      />
+                      <path
+                        d="m7 10 5 5 5-5"
+                      />
+                    </svg>
+                  </span>
                 </button>
               </div>
             </div>
@@ -138,8 +160,27 @@ exports[`Render a basic Masonry view with the MediaCardOverviewAdapter 1`] = `
               >
                 <span
                   aria-label="su-pen"
-                  class="su-pen mediaIcon"
-                />
+                  class="svgIcon su-pen mediaIcon"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-pen-line"
+                    fill="none"
+                    focusable="false"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.75"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M13 21h8"
+                    />
+                    <path
+                      d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"
+                    />
+                  </svg>
+                </span>
               </div>
             </div>
           </div>
@@ -244,8 +285,30 @@ exports[`Render a basic Masonry view with the MediaCardOverviewAdapter 1`] = `
                 >
                   <span
                     aria-label="su-download"
-                    class="su-download"
-                  />
+                    class="svgIcon su-download"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-download"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 15V3"
+                      />
+                      <path
+                        d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"
+                      />
+                      <path
+                        d="m7 10 5 5 5-5"
+                      />
+                    </svg>
+                  </span>
                 </button>
               </div>
             </div>
@@ -274,8 +337,27 @@ exports[`Render a basic Masonry view with the MediaCardOverviewAdapter 1`] = `
               >
                 <span
                   aria-label="su-pen"
-                  class="su-pen mediaIcon"
-                />
+                  class="svgIcon su-pen mediaIcon"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-pen-line"
+                    fill="none"
+                    focusable="false"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.75"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M13 21h8"
+                    />
+                    <path
+                      d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"
+                    />
+                  </svg>
+                </span>
               </div>
             </div>
           </div>

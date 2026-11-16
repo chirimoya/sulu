@@ -31,8 +31,30 @@ exports[`Render a MediaVersionUpload field for images 1`] = `
         <div>
           <span
             aria-label="su-upload"
-            class="su-upload uploadIcon"
-          />
+            class="svgIcon su-upload uploadIcon"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-upload"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 3v12"
+              />
+              <path
+                d="m17 8-5-5-5 5"
+              />
+              <path
+                d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"
+              />
+            </svg>
+          </span>
           <div
             class="uploadInfoText"
           >
@@ -59,8 +81,50 @@ exports[`Render a MediaVersionUpload field for images 1`] = `
     >
       <span
         aria-label="su-focus"
-        class="su-focus buttonIcon"
-      />
+        class="svgIcon su-focus buttonIcon"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-locate"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <line
+            x1="2"
+            x2="5"
+            y1="12"
+            y2="12"
+          />
+          <line
+            x1="19"
+            x2="22"
+            y1="12"
+            y2="12"
+          />
+          <line
+            x1="12"
+            x2="12"
+            y1="2"
+            y2="5"
+          />
+          <line
+            x1="12"
+            x2="12"
+            y1="19"
+            y2="22"
+          />
+          <circle
+            cx="12"
+            cy="12"
+            r="7"
+          />
+        </svg>
+      </span>
       <span
         class="buttonText"
       >
@@ -73,8 +137,40 @@ exports[`Render a MediaVersionUpload field for images 1`] = `
     >
       <span
         aria-label="su-cut"
-        class="su-cut buttonIcon"
-      />
+        class="svgIcon su-cut buttonIcon"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-scissors"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <circle
+            cx="6"
+            cy="6"
+            r="3"
+          />
+          <path
+            d="M8.12 8.12 12 12"
+          />
+          <path
+            d="M20 4 8.12 15.88"
+          />
+          <circle
+            cx="6"
+            cy="18"
+            r="3"
+          />
+          <path
+            d="M14.8 14.8 20 20"
+          />
+        </svg>
+      </span>
       <span
         class="buttonText"
       >
@@ -116,8 +212,30 @@ exports[`Render a MediaVersionUpload field for videos 1`] = `
         <div>
           <span
             aria-label="su-upload"
-            class="su-upload uploadIcon"
-          />
+            class="svgIcon su-upload uploadIcon"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-upload"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 3v12"
+              />
+              <path
+                d="m17 8-5-5-5 5"
+              />
+              <path
+                d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"
+              />
+            </svg>
+          </span>
           <div
             class="uploadInfoText"
           >
@@ -148,8 +266,37 @@ exports[`Render a MediaVersionUpload field for videos 1`] = `
       >
         <span
           aria-label="su-image"
-          class="su-image buttonIcon"
-        />
+          class="svgIcon su-image buttonIcon"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-image"
+            fill="none"
+            focusable="false"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.75"
+            viewBox="0 0 24 24"
+          >
+            <rect
+              height="18"
+              rx="2"
+              ry="2"
+              width="18"
+              x="3"
+              y="3"
+            />
+            <circle
+              cx="9"
+              cy="9"
+              r="2"
+            />
+            <path
+              d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"
+            />
+          </svg>
+        </span>
         <span
           class="buttonText"
         >
@@ -169,8 +316,36 @@ exports[`Render a MediaVersionUpload field for videos 1`] = `
     >
       <span
         aria-label="su-trash-alt"
-        class="su-trash-alt buttonIcon"
-      />
+        class="svgIcon su-trash-alt buttonIcon"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-trash-2"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M10 11v6"
+          />
+          <path
+            d="M14 11v6"
+          />
+          <path
+            d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"
+          />
+          <path
+            d="M3 6h18"
+          />
+          <path
+            d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"
+          />
+        </svg>
+      </span>
       <span
         class="buttonText"
       >
@@ -212,8 +387,30 @@ exports[`Render a MediaVersionUpload field for videos without assigned preview i
         <div>
           <span
             aria-label="su-upload"
-            class="su-upload uploadIcon"
-          />
+            class="svgIcon su-upload uploadIcon"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-upload"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 3v12"
+              />
+              <path
+                d="m17 8-5-5-5 5"
+              />
+              <path
+                d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"
+              />
+            </svg>
+          </span>
           <div
             class="uploadInfoText"
           >
@@ -244,8 +441,37 @@ exports[`Render a MediaVersionUpload field for videos without assigned preview i
       >
         <span
           aria-label="su-image"
-          class="su-image buttonIcon"
-        />
+          class="svgIcon su-image buttonIcon"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-image"
+            fill="none"
+            focusable="false"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.75"
+            viewBox="0 0 24 24"
+          >
+            <rect
+              height="18"
+              rx="2"
+              ry="2"
+              width="18"
+              x="3"
+              y="3"
+            />
+            <circle
+              cx="9"
+              cy="9"
+              r="2"
+            />
+            <path
+              d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"
+            />
+          </svg>
+        </span>
         <span
           class="buttonText"
         >
@@ -266,8 +492,36 @@ exports[`Render a MediaVersionUpload field for videos without assigned preview i
     >
       <span
         aria-label="su-trash-alt"
-        class="su-trash-alt buttonIcon"
-      />
+        class="svgIcon su-trash-alt buttonIcon"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-trash-2"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M10 11v6"
+          />
+          <path
+            d="M14 11v6"
+          />
+          <path
+            d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"
+          />
+          <path
+            d="M3 6h18"
+          />
+          <path
+            d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"
+          />
+        </svg>
+      </span>
       <span
         class="buttonText"
       >

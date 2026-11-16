@@ -11,11 +11,31 @@ exports[`ColorPicker should render 1`] = `
       >
         <span
           aria-label="su-square"
-          class="su-square clickable icon default icon iconClickable"
+          class="svgIcon su-square clickable icon default icon iconClickable"
           role="button"
           style="color: rgb(170, 187, 204);"
           tabindex="0"
-        />
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-square"
+            fill="currentColor"
+            focusable="false"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.75"
+            viewBox="0 0 24 24"
+          >
+            <rect
+              height="18"
+              rx="2"
+              width="18"
+              x="3"
+              y="3"
+            />
+          </svg>
+        </span>
       </div>
       <input
         placeholder="My placeholder"

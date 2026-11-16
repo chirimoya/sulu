@@ -5,6 +5,7 @@ import './sulu-icon.css';
 import React from 'react';
 import classNames from 'classnames';
 import log from 'loglevel';
+import iconSvgMap from './iconSvgMap';
 import iconStyles from './icon.scss';
 import type {ElementRef} from 'react';
 
@@ -57,6 +58,34 @@ export default class Icon extends React.PureComponent<Props> {
             return null;
         }
 
+        const onClickProperties = onClick
+            ? {
+                onClick: this.handleClick,
+                onKeyPress: this.handleKeypress,
+                role: 'button',
+                tabIndex: 0,
+            }
+            : {};
+
+        // Icons with a Lucide equivalent are rendered as inline SVG inside the same wrapper element the icon fonts use.
+        // The markup is static, generated at build time by scripts/generate-icon-map.js and never contains user input.
+        // All other icons fall back to the glyph of the sulu icon font respectively Font Awesome.
+        const svgMarkup = iconSvgMap[name];
+
+        if (svgMarkup) {
+            return (
+                <span
+                    aria-hidden={ariaHidden ? true : undefined}
+                    aria-label={ariaHidden ? undefined : name}
+                    className={classNames(iconStyles.svgIcon, name, {[iconStyles.clickable]: onClick}, className)}
+                    dangerouslySetInnerHTML={{__html: svgMarkup}}
+                    ref={iconRef}
+                    style={style}
+                    {...onClickProperties}
+                />
+            );
+        }
+
         switch (name.substr(0, 3)) {
             case 'su-':
                 fontClass = null;
@@ -82,15 +111,6 @@ export default class Icon extends React.PureComponent<Props> {
             },
             className
         );
-
-        const onClickProperties = onClick
-            ? {
-                onClick: this.handleClick,
-                onKeyPress: this.handleKeypress,
-                role: 'button',
-                tabIndex: 0,
-            }
-            : {};
 
         return (
             <span

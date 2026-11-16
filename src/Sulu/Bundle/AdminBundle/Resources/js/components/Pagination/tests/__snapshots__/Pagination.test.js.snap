@@ -51,8 +51,24 @@ exports[`Render disabled next link if current page is last page 1`] = `
             </div>
             <span
               aria-label="su-angle-down"
-              class="su-angle-down toggle"
-            />
+              class="svgIcon su-angle-down toggle"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-chevron-down"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="m6 9 6 6 6-6"
+                />
+              </svg>
+            </span>
           </button>
         </div>
       </span>
@@ -92,8 +108,24 @@ exports[`Render disabled next link if current page is last page 1`] = `
         >
           <span
             aria-label="su-angle-left"
-            class="su-angle-left buttonIcon"
-          />
+            class="svgIcon su-angle-left buttonIcon"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-left"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m15 18-6-6 6-6"
+              />
+            </svg>
+          </span>
         </button>
         <button
           class="button icon button"
@@ -102,8 +134,24 @@ exports[`Render disabled next link if current page is last page 1`] = `
         >
           <span
             aria-label="su-angle-right"
-            class="su-angle-right buttonIcon"
-          />
+            class="svgIcon su-angle-right buttonIcon"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-right"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m9 18 6-6-6-6"
+              />
+            </svg>
+          </span>
         </button>
       </div>
     </nav>
@@ -162,8 +210,24 @@ exports[`Render disabled previous link current page is first page 1`] = `
             </div>
             <span
               aria-label="su-angle-down"
-              class="su-angle-down toggle"
-            />
+              class="svgIcon su-angle-down toggle"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-chevron-down"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="m6 9 6 6 6-6"
+                />
+              </svg>
+            </span>
           </button>
         </div>
       </span>
@@ -204,8 +268,24 @@ exports[`Render disabled previous link current page is first page 1`] = `
         >
           <span
             aria-label="su-angle-left"
-            class="su-angle-left buttonIcon"
-          />
+            class="svgIcon su-angle-left buttonIcon"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-left"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m15 18-6-6 6-6"
+              />
+            </svg>
+          </span>
         </button>
         <button
           class="button icon button"
@@ -213,8 +293,24 @@ exports[`Render disabled previous link current page is first page 1`] = `
         >
           <span
             aria-label="su-angle-right"
-            class="su-angle-right buttonIcon"
-          />
+            class="svgIcon su-angle-right buttonIcon"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-right"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m9 18 6-6-6-6"
+              />
+            </svg>
+          </span>
         </button>
       </div>
     </nav>
@@ -273,8 +369,24 @@ exports[`Render pagination with loader 1`] = `
             </div>
             <span
               aria-label="su-angle-down"
-              class="su-angle-down toggle"
-            />
+              class="svgIcon su-angle-down toggle"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-chevron-down"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="m6 9 6 6 6-6"
+                />
+              </svg>
+            </span>
           </button>
         </div>
       </span>
@@ -326,8 +438,24 @@ exports[`Render pagination with loader 1`] = `
         >
           <span
             aria-label="su-angle-left"
-            class="su-angle-left buttonIcon"
-          />
+            class="svgIcon su-angle-left buttonIcon"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-left"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m15 18-6-6 6-6"
+              />
+            </svg>
+          </span>
         </button>
         <button
           class="button icon button"
@@ -335,8 +463,24 @@ exports[`Render pagination with loader 1`] = `
         >
           <span
             aria-label="su-angle-right"
-            class="su-angle-right buttonIcon"
-          />
+            class="svgIcon su-angle-right buttonIcon"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-right"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m9 18 6-6-6-6"
+              />
+            </svg>
+          </span>
         </button>
       </div>
     </nav>
@@ -395,8 +539,24 @@ exports[`Render pagination with page numbers 1`] = `
             </div>
             <span
               aria-label="su-angle-down"
-              class="su-angle-down toggle"
-            />
+              class="svgIcon su-angle-down toggle"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-chevron-down"
+                fill="none"
+                focusable="false"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.75"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="m6 9 6 6 6-6"
+                />
+              </svg>
+            </span>
           </button>
         </div>
       </span>
@@ -436,8 +596,24 @@ exports[`Render pagination with page numbers 1`] = `
         >
           <span
             aria-label="su-angle-left"
-            class="su-angle-left buttonIcon"
-          />
+            class="svgIcon su-angle-left buttonIcon"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-left"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m15 18-6-6 6-6"
+              />
+            </svg>
+          </span>
         </button>
         <button
           class="button icon button"
@@ -445,8 +621,24 @@ exports[`Render pagination with page numbers 1`] = `
         >
           <span
             aria-label="su-angle-right"
-            class="su-angle-right buttonIcon"
-          />
+            class="svgIcon su-angle-right buttonIcon"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-right"
+              fill="none"
+              focusable="false"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.75"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m9 18 6-6-6-6"
+              />
+            </svg>
+          </span>
         </button>
       </div>
     </nav>

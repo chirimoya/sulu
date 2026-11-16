@@ -13,8 +13,29 @@ exports[`SingleAutoComplete should render with suggestions 1`] = `
       >
         <span
           aria-label="su-search"
-          class="su-search icon default"
-        />
+          class="svgIcon su-search icon default"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-search"
+            fill="none"
+            focusable="false"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.75"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="m21 21-4.34-4.34"
+            />
+            <circle
+              cx="11"
+              cy="11"
+              r="8"
+            />
+          </svg>
+        </span>
       </div>
       <input
         autocomplete="off"

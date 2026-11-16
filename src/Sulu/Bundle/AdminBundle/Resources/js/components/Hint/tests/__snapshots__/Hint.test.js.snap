@@ -10,8 +10,32 @@ exports[`Render PermissionHint 1`] = `
     >
       <span
         aria-label="su-lock"
-        class="su-lock"
-      />
+        class="svgIcon su-lock"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-lock"
+          fill="none"
+          focusable="false"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.75"
+          viewBox="0 0 24 24"
+        >
+          <rect
+            height="11"
+            rx="2"
+            ry="2"
+            width="18"
+            x="3"
+            y="11"
+          />
+          <path
+            d="M7 11V7a5 5 0 0 1 10 0v4"
+          />
+        </svg>
+      </span>
     </div>
     Hint Text
   </div>
