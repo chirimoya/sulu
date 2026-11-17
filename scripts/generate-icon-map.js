@@ -137,7 +137,7 @@ const ICONS = {
     'su-shadow-page': 'files',
     'su-share': 'share',
     'su-sign-out-alt': 'log-out',
-    'su-snippet': 'sticky-note',
+    'su-snippet': 'puzzle',
     'su-sort': 'arrow-up-down',
     'su-square': {icon: 'square', fill: true},
     'su-stick-right': 'arrow-right-to-line',
