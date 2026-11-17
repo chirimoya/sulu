@@ -16,7 +16,7 @@ $hoverColor: var(--sulu-color-ink);
     &.active {
         border-left: 4px solid $activeBorderColor;
         background: $activeBackgroundColor;
-        font-weight: bold;
+        font-weight: 500;
         padding-left: 0;
 
         > .title {
@@ -62,7 +62,7 @@ $hoverColor: var(--sulu-color-ink);
 
     /* Child */
     .item {
-        font-size: 12px;
+        font-size: 13px;
         background: inherit;
         font-weight: normal;
         margin-left: 0;
@@ -76,7 +76,7 @@ $hoverColor: var(--sulu-color-ink);
 
         &.active {
             border-left: none;
-            font-weight: bold;
+            font-weight: 500;
             background: inherit;
 
             > .title {

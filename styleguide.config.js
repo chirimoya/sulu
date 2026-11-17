@@ -33,6 +33,12 @@ const javaScriptFileExists = (path, fileName) => {
 module.exports = { // eslint-disable-line
     title: 'Sulu Javascript Docs',
     require: [
+        '@fontsource/ibm-plex-sans/latin-400.css',
+        '@fontsource/ibm-plex-sans/latin-500.css',
+        '@fontsource/ibm-plex-sans/latin-600.css',
+        '@fontsource/ibm-plex-sans/latin-700.css',
+        '@fontsource/ibm-plex-serif/latin-400.css',
+        '@fontsource/ibm-plex-serif/latin-500.css',
         './src/Sulu/Bundle/AdminBundle/Resources/js/containers/Application/global.scss',
         './src/Sulu/Bundle/AdminBundle/Resources/js/containers/Application/styleguidist.scss',
     ],

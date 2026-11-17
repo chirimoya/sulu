@@ -39,8 +39,9 @@ $errorLabelHeight: 20px;
 
 .label {
     display: block;
-    color: $labelColor;
-    font-size: 14px;
+    color: var(--sulu-text-label);
+    font-size: 13px;
+    font-weight: 500;
     line-height: 19px;
     margin-bottom: 10px;
     text-align: left;

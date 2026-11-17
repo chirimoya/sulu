@@ -56,7 +56,7 @@ $borderRadius: 3px;
 .header-cell {
     padding: 20px;
     font-size: 12px;
-    font-weight: normal;
+    font-weight: 500;
 
     > span {
         display: inline-flex;
@@ -167,7 +167,7 @@ $borderRadius: 3px;
     margin: 0;
     height: $rowHeight;
     padding: $paddingCell 20px;
-    font-size: 12px;
+    font-size: 14px;
     border-width: $borderWidth 0;
     border-style: solid;
     border-color: $cellBorderColor;
@@ -218,7 +218,7 @@ $borderRadius: 3px;
 
 .table-placeholder-text {
     margin-top: 15px;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
 }
 

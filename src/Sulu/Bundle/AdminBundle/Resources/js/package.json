@@ -17,6 +17,8 @@
         "@ckeditor/ckeditor5-table": "^48.1.0",
         "@ckeditor/ckeditor5-ui": "^48.1.0",
         "@ckeditor/ckeditor5-widget": "^48.1.0",
+        "@fontsource/ibm-plex-sans": "^5.2.8",
+        "@fontsource/ibm-plex-serif": "^5.2.8",
         "@fortawesome/fontawesome-free": "^5.15.4",
         "ajv": "^8.2.0",
         "ajv-formats": "^2.1.0",

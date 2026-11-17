@@ -2,7 +2,7 @@
 @import './variables.scss';
 
 $borderRadius: 3px;
-$fontSize: 12px;
+$fontSize: 13px;
 $dropdownFontSize: 10px;
 
 $primaryBackground: $shakespeare;
@@ -30,6 +30,7 @@ $iconColorActive: $white;
     white-space: nowrap;
     display: inline-flex;
     justify-content: center;
+    font-weight: 500;
 
     &:disabled {
         cursor: default;

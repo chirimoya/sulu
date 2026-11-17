@@ -1,13 +1,12 @@
 @import 'normalize.css/normalize.css';
 @import './colors.scss';
 @import './tokens.scss';
-@import './fonts.scss';
 @import './variables.scss';
 
 $bodyBackgroundColor: var(--sulu-surface-app);
-$h1TextColor: $black;
-$h2TextColor: $black;
-$h3TextColor: $scorpion;
+$h1TextColor: var(--sulu-text-heading);
+$h2TextColor: var(--sulu-text-heading);
+$h3TextColor: var(--sulu-text-heading);
 $inputBackgroundColor: $white;
 
 *,
@@ -26,6 +25,8 @@ body {
     background: $bodyBackgroundColor;
     font-family: $baseFontFamily;
     font-size: $baseFontSize;
+    line-height: 1.45;
+    color: var(--sulu-text-body);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     width: 100%;
@@ -36,21 +37,26 @@ body {
 h1 {
     color: $h1TextColor;
     margin: 0 0 20px;
-    font-size: 24px;
-    font-weight: normal;
+    font-family: $serifFontFamily;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: -.01em;
 }
 
 h2 {
     color: $h2TextColor;
-    font-size: 20px;
-    font-weight: bold;
+    font-family: $serifFontFamily;
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: -.01em;
 }
 
 h3 {
     color: $h3TextColor;
-    font-size: 14px;
-    font-weight: bold;
-    line-height: 19px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
     margin: 0 0 20px;
 }
 

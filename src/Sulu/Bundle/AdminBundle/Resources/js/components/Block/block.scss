@@ -66,13 +66,13 @@ $blockSelectedColor: $blueZodiac;
 
 .content {
     flex-grow: 1;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 18px;
     width: 0; /* avoid overflowing text editor - display flex on parent pushes it still to 100% */
 }
 
 .children {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 18px;
     margin: 30px;
 }
@@ -91,7 +91,7 @@ $blockSelectedColor: $blueZodiac;
     color: $blockCollapsedColor;
     margin-right: 10px;
     text-align: right;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .icons {

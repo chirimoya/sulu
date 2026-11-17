@@ -13,5 +13,7 @@ $navigationMoveAnimationDuration: 500ms;
 $sidebarMaxWidth: calc(100% - $viewMinWidth - 2 * $viewPaddingHorizontal);
 
 /* stylelint-disable-next-line value-keyword-case */
-$baseFontFamily: 'Open Sans', Helvetica, Arial, sans-serif;
-$baseFontSize: 12px;
+$baseFontFamily: 'IBM Plex Sans', system-ui, sans-serif;
+/* stylelint-disable-next-line value-keyword-case */
+$serifFontFamily: 'IBM Plex Serif', Georgia, serif;
+$baseFontSize: 14px;
