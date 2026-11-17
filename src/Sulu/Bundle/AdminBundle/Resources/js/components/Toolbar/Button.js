@@ -15,6 +15,7 @@ export default class Button extends React.PureComponent<ButtonProps> {
         active: false,
         disabled: false,
         hasOptions: false,
+        plain: false,
         primary: false,
         showText: true,
         success: false,
@@ -39,6 +40,7 @@ export default class Button extends React.PureComponent<ButtonProps> {
             loading,
             hasOptions,
             icon,
+            plain,
             primary,
             size,
             showText,
@@ -52,6 +54,7 @@ export default class Button extends React.PureComponent<ButtonProps> {
                 [buttonStyles.active]: active,
                 [buttonStyles[size]]: size,
                 [buttonStyles[skin]]: skin,
+                [buttonStyles.plain]: plain,
                 [buttonStyles.primary]: primary,
                 [buttonStyles.success]: success,
             }

@@ -8,6 +8,9 @@ $indicatorDimension: 18px;
 $indicatorOverlap: 10px;
 
 .publish-indicator {
+    /* flex avoids the space below the dots, which would move them out of the vertical center */
+    display: flex;
+    align-items: center;
     white-space: nowrap;
 }
 
@@ -15,6 +18,7 @@ $indicatorOverlap: 10px;
 .draft,
 .review {
     display: inline-block;
+    flex: 0 0 auto;
     border: 2px $indicatorBorderColor solid;
     border-radius: 50%;
     height: $indicatorDimension;

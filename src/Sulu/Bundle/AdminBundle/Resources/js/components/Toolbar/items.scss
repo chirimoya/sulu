@@ -1,6 +1,7 @@
 @import '../../containers/Application/colors.scss';
+@import './variables.scss';
 
-$itemsBackgroundLightColor: $alabaster;
+$itemsBackgroundLightColor: transparent;
 $itemsBackgroundDarkColor: transparent;
 $itemsContainerBorderLightColor: $gallery;
 $itemsContainerBorderDarkColor: rgba($silverChalice, .25);
@@ -10,8 +11,25 @@ $itemsContainerBorderDark: 1px $itemsContainerBorderDarkColor solid;
 
 .light {
     background-color: $itemsBackgroundLightColor;
-    border-left: $itemsContainerBorderLight;
-    border-right: $itemsContainerBorderLight;
+
+    /* divider between the preceding buttons and the items */
+    &:not(:first-child) {
+        margin-left: var(--sulu-space-6);
+
+        .items {
+            padding-left: var(--sulu-space-6);
+        }
+
+        &::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: calc(50% - $dividerHeight / 2);
+            width: 1px;
+            height: $dividerHeight;
+            background-color: $dividerColor;
+        }
+    }
 }
 
 .dark {

@@ -1,4 +1,4 @@
-@import '../../components/Toolbar/items.scss';
+@import '../../components/Toolbar/variables.scss';
 
 .icons,
 .locale {
@@ -6,5 +6,17 @@
 }
 
 .locale {
-    border-left: $itemsContainerBorderLight;
+    position: relative;
+    margin-left: var(--sulu-space-6);
+    padding: 0 var(--sulu-space-8);
+
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: calc(50% - $dividerHeight / 2);
+        width: 1px;
+        height: $dividerHeight;
+        background-color: $dividerColor;
+    }
 }

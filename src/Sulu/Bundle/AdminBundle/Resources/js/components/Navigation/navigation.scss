@@ -4,10 +4,12 @@
 $color: var(--sulu-text-nav);
 $mutedColor: var(--sulu-text-nav-muted);
 $headerColor: var(--sulu-color-primary);
-$activeColor: var(--sulu-color-primary);
+$activeColor: var(--sulu-color-ink);
+$activeBackgroundColor: var(--sulu-surface-nav-active);
 $backgroundColor: var(--sulu-surface-nav);
 $borderColor: var(--sulu-border-default);
 $hoverColor: var(--sulu-color-ink);
+$hoverBackgroundColor: rgb(31 30 28 / 5%);
 
 .navigation {
     width: $navigationWidth;
@@ -16,6 +18,7 @@ $hoverColor: var(--sulu-color-ink);
     color: $color;
     min-height: 100%;
     max-height: 100%;
+    padding: var(--sulu-space-10);
     position: relative;
     display: flex;
     flex-direction: column;
@@ -23,21 +26,21 @@ $hoverColor: var(--sulu-color-ink);
 
 .header {
     color: $headerColor;
-    flex: 0 0 60px;
-    height: 60px;
-    padding: 0 20px;
+    flex: 0 0 44px;
+    height: 44px;
+    padding: 0 2px 0 10px;
+    margin-bottom: 14px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: $backgroundColor;
-    border-bottom: 1px solid $borderColor;
+    overflow: hidden;
 }
 
 .logo {
     color: inherit;
     flex: 0 0 auto;
     display: block;
-    font-size: 90px;
+    font-size: 74px;
     line-height: 1;
     text-decoration: none;
     transform: translateY(2px); /* visual centering the logo */
@@ -45,44 +48,46 @@ $hoverColor: var(--sulu-color-ink);
 
 .pin {
     flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: var(--sulu-nav-item-height);
+    height: var(--sulu-nav-item-height);
     color: $mutedColor;
     cursor: pointer;
-    padding: 20px;
-    margin-right: -20px;
     border: 0;
+    border-radius: var(--sulu-radius-md);
     background-color: transparent;
-    transition: .3s;
+    transition: color .12s, background-color .12s;
 
     &.active {
         color: $activeColor;
-
-        &:hover {
-            transform: rotateZ(180deg);
-        }
+        background-color: $activeBackgroundColor;
     }
 
     &:hover,
     &:focus {
         color: $hoverColor;
+        background-color: $hoverBackgroundColor;
     }
 }
 
 .pin-icon {
     display: block;
     line-height: 1;
-    font-size: 20px;
+    font-size: var(--sulu-icon-size);
 }
 
 .items {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: var(--sulu-space-2);
     flex-grow: 1;
     overflow-y: auto;
 }
 
 .footer {
     flex: 0 0 auto;
-    background: $backgroundColor;
-    min-height: 60px;
-    padding-inline: 20px;
-    border-top: 1px solid $borderColor;
+    padding-top: var(--sulu-space-10);
 }

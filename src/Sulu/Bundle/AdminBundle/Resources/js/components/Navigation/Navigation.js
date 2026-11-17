@@ -131,7 +131,7 @@ class Navigation extends React.Component<Props> {
 
                     {onPinToggle &&
                         <button className={pinClass} onClick={this.handlePinToggle} type="button">
-                            <Icon className={navigationStyles.pinIcon} name="su-stick-right" />
+                            <Icon className={navigationStyles.pinIcon} name="su-pin" />
                         </button>
                     }
                 </div>

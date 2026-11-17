@@ -32,6 +32,7 @@ export default class SaveToolbarAction extends AbstractFormToolbarAction {
                 onClick: () => {
                     this.form.submit((submitOptions: any));
                 },
+                primary: true,
                 type: 'button',
             };
         }

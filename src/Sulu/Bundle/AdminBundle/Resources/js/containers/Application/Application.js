@@ -50,6 +50,8 @@ class Application extends React.Component<Props>{
         this.openedProfileFormOverlay = false;
     }
 
+    @observable viewScrolled: boolean = false;
+
     @observable navigationState: NavigationState;
 
     @computed get navigationPinned() {
@@ -99,6 +101,14 @@ class Application extends React.Component<Props>{
         this.navigationPinned = !this.navigationPinned;
         userStore.setPersistentSetting(NAVIGATION_PINNED_SETTING_KEY, this.navigationPinned);
     }
+
+    handleViewScroll = action((event: SyntheticEvent<HTMLElement>) => {
+        const {target} = event;
+
+        if (target instanceof HTMLElement) {
+            this.viewScrolled = target.scrollTop > 0;
+        }
+    });
 
     handleNavigationButtonClick = () => {
         this.toggleNavigation();
@@ -173,6 +183,13 @@ class Application extends React.Component<Props>{
             }
         );
 
+        const headerClass = classNames(
+            applicationStyles.header,
+            {
+                [applicationStyles.scrolled]: this.viewScrolled,
+            }
+        );
+
         return (
             <Fragment>
                 {!loggedIn &&
@@ -207,12 +224,15 @@ class Application extends React.Component<Props>{
                             </nav>
                             <div className={contentClass}>
                                 <main className={applicationStyles.main}>
-                                    <div className={applicationStyles.viewContainer}>
+                                    <div
+                                        className={applicationStyles.viewContainer}
+                                        onScrollCapture={this.handleViewScroll}
+                                    >
                                         {router.route && !blockingOverlayRegistry.isAnyBlocking() &&
                                             <ViewRenderer router={router} />
                                         }
                                     </div>
-                                    <header>
+                                    <header className={headerClass}>
                                         <Toolbar
                                             navigationOpen={this.navigationVisible}
                                             onNavigationButtonClick={

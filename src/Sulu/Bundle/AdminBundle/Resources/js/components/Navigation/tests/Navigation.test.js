@@ -82,7 +82,7 @@ test('The component should render with all available props and handle clicks cor
 
     expect(container).toMatchSnapshot();
 
-    await user.click(screen.queryByLabelText('su-stick-right'));
+    await user.click(screen.queryByLabelText('su-pin'));
     expect(handlePinClick).toHaveBeenCalled();
 
     await user.click(screen.getByRole('button', {name: /John Travolta/}));

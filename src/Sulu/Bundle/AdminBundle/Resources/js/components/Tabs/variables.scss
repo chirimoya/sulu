@@ -1,5 +1,6 @@
 @import '../../containers/Application/colors.scss';
 
 $tabMenuHeight: 40px;
-$tabMenuBackgroundColor: $alto;
+$tabMenuBackgroundColor: var(--sulu-surface-tabs);
+$tabMenuBorderColor: var(--sulu-border-default);
 $tabMenuTransparentBackgroundColor: transparent;

@@ -3,7 +3,7 @@
 exports[`Render disabled toggler 1`] = `
 <div>
   <button
-    class="button"
+    class="button plain"
     disabled=""
     type="button"
   >
@@ -35,7 +35,7 @@ exports[`Render disabled toggler 1`] = `
 exports[`Render loading toggler 1`] = `
 <div>
   <button
-    class="button"
+    class="button plain"
     type="button"
   >
     <div
@@ -77,7 +77,7 @@ exports[`Render loading toggler 1`] = `
 exports[`Render toggler with skin 1`] = `
 <div>
   <button
-    class="button dark"
+    class="button dark plain"
     type="button"
   >
     <span
@@ -108,7 +108,7 @@ exports[`Render toggler with skin 1`] = `
 exports[`Render with active toggler 1`] = `
 <div>
   <button
-    class="button"
+    class="button plain"
     type="button"
   >
     <span

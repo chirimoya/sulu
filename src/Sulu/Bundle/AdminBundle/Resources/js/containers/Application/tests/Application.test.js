@@ -305,7 +305,7 @@ test('Pin navigation', async() => {
     renderApplication({router});
 
     await user.click(screen.getByLabelText('su-bars'));
-    await user.click(screen.getByLabelText('su-stick-right'));
+    await user.click(screen.getByLabelText('su-pin'));
 
     expect(screen.queryByTestId('backdrop')).not.toBeInTheDocument();
     expect(mockUserStoreSetPersistentSetting).toHaveBeenCalledWith('sulu_admin.application.navigation_pinned', true);

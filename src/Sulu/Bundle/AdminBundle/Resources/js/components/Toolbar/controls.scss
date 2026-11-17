@@ -1,5 +1,13 @@
 .controls {
     display: flex;
+
+    /*
+     * The first button toggles the navigation. It has to stay above the backdrop, which covers the toolbar
+     * while the navigation is open, otherwise it does not react on hovering.
+     */
+    > button:first-child {
+        z-index: 1;
+    }
 }
 
 .grow {

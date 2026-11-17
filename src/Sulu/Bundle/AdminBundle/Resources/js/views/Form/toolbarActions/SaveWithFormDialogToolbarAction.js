@@ -101,6 +101,7 @@ export default class SaveWithFormDialogToolbarAction extends AbstractFormToolbar
                     this.form.submit();
                 }
             }),
+            primary: true,
             type: 'button',
         };
     }

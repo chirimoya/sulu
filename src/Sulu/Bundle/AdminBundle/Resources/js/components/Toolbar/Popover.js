@@ -54,6 +54,7 @@ class Popover extends React.Component<PopoverProps> {
             children,
             className,
             icon,
+            primary,
             size,
             skin,
             label,
@@ -80,6 +81,7 @@ class Popover extends React.Component<PopoverProps> {
                     label={showText ? label : undefined}
                     loading={loading}
                     onClick={this.handleButtonClick}
+                    primary={primary}
                     size={size}
                     skin={skin}
                 />

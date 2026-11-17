@@ -140,7 +140,7 @@ class Toolbar extends React.Component<ToolbarProps> {
                                         : 'su-bars'
                                 }
                                 onClick={onNavigationButtonClick}
-                                primary={true}
+                                plain={true}
                                 success={showSuccess}
                             />
                         }
@@ -148,6 +148,7 @@ class Toolbar extends React.Component<ToolbarProps> {
                             <ToolbarComponent.Button
                                 {...this.backButtonConfig}
                                 icon={!onNavigationButtonClick && showSuccess ? SUCCESS_ICON : 'su-angle-left'}
+                                plain={true}
                                 success={!onNavigationButtonClick && showSuccess}
                             />
                         }

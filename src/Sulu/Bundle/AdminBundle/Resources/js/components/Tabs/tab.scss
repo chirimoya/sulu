@@ -1,13 +1,15 @@
 @import '../../containers/Application/colors.scss';
 @import './variables.scss';
 
-$tabTextColor: $black;
-$tabUnderlineBackgroundColor: $black;
+$tabTextColor: var(--sulu-n700);
+$tabTextColorActive: var(--sulu-color-ink);
+$tabUnderlineBackgroundColor: var(--sulu-color-primary);
 $buttonHorizontalPadding: 20px;
 $buttonSmallHorizontalPadding: 10px;
 
 .tab {
     position: relative;
+    height: $tabMenuHeight;
 
     &::after {
         content: '';
@@ -22,6 +24,7 @@ $buttonSmallHorizontalPadding: 10px;
     }
 
     button {
+        display: block;
         height: $tabMenuHeight;
         cursor: pointer;
         padding: 10px $buttonHorizontalPadding;
@@ -31,11 +34,15 @@ $buttonSmallHorizontalPadding: 10px;
         border: 0;
         white-space: nowrap;
 
+        &:hover {
+            color: $tabTextColorActive;
+        }
+
         /* Needed because we want to prevent the jump on font-weight changes */
         &::after {
             display: block;
             content: attr(title);
-            font-weight: bold;
+            font-weight: 500;
             height: 1px;
             color: transparent;
             overflow: hidden;
@@ -45,7 +52,8 @@ $buttonSmallHorizontalPadding: 10px;
 
     &.selected {
         button {
-            font-weight: bold;
+            color: $tabTextColorActive;
+            font-weight: 500;
             cursor: default;
         }
 

@@ -9,7 +9,7 @@ export default class Toggler extends React.Component<TogglerProps> {
         const {disabled, label, loading, onClick, skin, value} = this.props;
 
         return (
-            <Button disabled={disabled} loading={loading} onClick={onClick} skin={skin}>
+            <Button disabled={disabled} loading={loading} onClick={onClick} plain={true} skin={skin}>
                 <TogglerComponent checked={value} onChange={onClick}>
                     {label}
                 </TogglerComponent>

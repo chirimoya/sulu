@@ -113,6 +113,7 @@ export default class SaveWithPublishingToolbarAction extends AbstractFormToolbar
             label: translate('sulu_admin.save'),
             icon: 'su-save',
             loading: saving,
+            primary: true,
             options,
         };
     }

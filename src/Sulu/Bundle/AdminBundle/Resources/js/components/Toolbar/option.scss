@@ -1,10 +1,11 @@
 @import '../../containers/Application/colors.scss';
 
-$optionTextLightColor: $blueZodiac;
+$optionTextLightColor: var(--sulu-color-ink);
 $optionTextDarkColor: $white;
 $optionTextLightColorDisabled: $silver;
 $optionTextDarkColorDisabled: $stormGray;
-$optionTextLightColorActive: $shakespeare;
+$optionTextLightColorActive: var(--sulu-color-ink);
+$optionBackgroundLightColorActive: var(--sulu-n100);
 $optionTextDarkColorActive: $white;
 
 .light {
@@ -15,6 +16,7 @@ $optionTextDarkColorActive: $white;
         &:active,
         &:focus {
             color: $optionTextLightColorActive;
+            background-color: $optionBackgroundLightColorActive;
         }
 
         &:disabled {
@@ -46,7 +48,7 @@ $optionTextDarkColorActive: $white;
     font-size: 13px;
 
     &.is-selected {
-        font-weight: bold;
+        font-weight: 500;
 
         button:hover,
         button:active,
@@ -60,7 +62,7 @@ $optionTextDarkColorActive: $white;
         display: block;
         overflow: hidden;
         width: 100%;
-        padding: 10px 20px 10px 40px;
+        padding: 8px 16px 8px 36px;
         text-align: left;
         border: 0;
         font-weight: inherit;
@@ -91,5 +93,5 @@ $optionTextDarkColorActive: $white;
 .selected-icon {
     position: absolute;
     top: 10px;
-    left: 20px;
+    left: 14px;
 }

@@ -125,13 +125,23 @@ export default class DropdownToolbarAction extends AbstractFormToolbarAction {
         });
 
         const loading = childToolbarItemConfigs.some((toolbarItemConfig) => toolbarItemConfig.loading);
+        // the dropdown is the main action of the toolbar if it contains the main action, e.g. the save action
+        const primary = childToolbarItemConfigs.some(
+            (toolbarItemConfig) => toolbarItemConfig.type === 'button' && toolbarItemConfig.primary === true
+        );
 
-        return {
+        const toolbarItemConfig: DropdownItemConfig = {
             type: 'dropdown',
             label,
             icon,
             loading,
             options,
         };
+
+        if (primary) {
+            toolbarItemConfig.primary = true;
+        }
+
+        return toolbarItemConfig;
     }
 }

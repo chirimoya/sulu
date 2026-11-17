@@ -1,13 +1,17 @@
 @import '../../containers/Application/colors.scss';
 
-$toolbarHeight: 60px;
+$toolbarHeight: 56px;
+$toolbarButtonHeight: 30px;
 
-$toolbarBackgroundLightColor: $white;
+$toolbarBackgroundLightColor: var(--sulu-surface-toolbar);
+$toolbarBorderColor: var(--sulu-border-default);
 $toolbarBackgroundDarkColor: $blueZodiac;
 $shadowColor: $silver;
 $itemsBackgroundColor: $alabaster;
 $itemsContainerBorderColor: $gallery;
 
 $itemsContainerBorder: 1px $itemsContainerBorderColor solid;
+$dividerColor: var(--sulu-border-default);
+$dividerHeight: 24px;
 $smallSelectWidth: 60px;
 $snackbarWidth: 60px;

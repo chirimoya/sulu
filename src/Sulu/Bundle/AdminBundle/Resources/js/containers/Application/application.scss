@@ -53,6 +53,15 @@
     overflow-y: auto;
 }
 
+.header {
+    position: relative;
+    transition: box-shadow .2s;
+
+    &.scrolled {
+        box-shadow: 0 4px 12px rgb(31 30 28 / 10%);
+    }
+}
+
 .main {
     width: 0;
     max-width: 100%;

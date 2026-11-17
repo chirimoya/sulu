@@ -3,6 +3,7 @@
 $color: var(--sulu-color-ink);
 $hoverColor: var(--sulu-color-primary);
 $lightColor: var(--sulu-text-nav);
+$hoverBackgroundColor: rgb(31 30 28 / 5%);
 $placeholderColor: var(--sulu-text-nav);
 $placeholderBackgroundColor: var(--sulu-n150);
 
@@ -16,15 +17,21 @@ $placeholderBackgroundColor: var(--sulu-n150);
     width: 100%;
     display: flex;
     align-items: center;
-    height: 60px;
+    gap: var(--sulu-space-10);
+    height: 44px;
+    padding: 0 var(--sulu-space-8);
     cursor: pointer;
     color: $color;
+    font-size: 13px;
+    text-align: left;
     border: 0;
+    border-radius: var(--sulu-radius-md);
     background-color: transparent;
 
     &:hover,
     &:focus {
         color: $hoverColor;
+        background-color: $hoverBackgroundColor;
     }
 
     &.active {
@@ -37,10 +44,9 @@ $placeholderBackgroundColor: var(--sulu-n150);
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 32px;
-    height: 32px;
+    width: 28px;
+    height: 28px;
     overflow: hidden;
-    margin-right: 10px;
 
     .image,
     .placeholder {
@@ -57,8 +63,8 @@ $placeholderBackgroundColor: var(--sulu-n150);
 
     .placeholder {
         color: $placeholderColor;
-        font-size: 20px;
-        line-height: 30px;
+        font-size: 14px;
+        line-height: 28px;
         text-align: center;
         background-color: $placeholderBackgroundColor;
     }
@@ -66,7 +72,9 @@ $placeholderBackgroundColor: var(--sulu-n150);
 
 .username {
     flex: 1 1 auto;
-    margin-right: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .menu {
@@ -75,18 +83,19 @@ $placeholderBackgroundColor: var(--sulu-n150);
     align-items: flex-start;
     max-height: 0;
     transition: all .1s;
-    padding-left: 42px;
+    padding-left: 46px;
     will-change: max-height, padding-bottom;
 
     &.open {
         max-height: 86px;
-        padding-bottom: 20px;
+        padding-bottom: var(--sulu-space-8);
     }
 }
 
 .menu-button {
     color: $lightColor;
-    padding-block: 10px;
+    padding-block: 6px;
+    font-size: 13px;
 
     &:hover,
     &:focus {

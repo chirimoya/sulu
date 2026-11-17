@@ -128,6 +128,7 @@ const ICONS = {
     'su-percent': 'percent',
     'su-permissions': 'shield-check',
     'su-phone': 'phone',
+    'su-pin': 'pin',
     'su-plus': 'plus',
     'su-plus-circle': 'circle-plus',
     'su-process': 'history',

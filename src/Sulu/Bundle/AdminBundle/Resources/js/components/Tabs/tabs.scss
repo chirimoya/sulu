@@ -4,6 +4,7 @@
 .tabs {
     display: flex;
     background-color: $tabMenuBackgroundColor;
+    border-bottom: 1px solid $tabMenuBorderColor;
     padding: 0 40px;
 
     &.inline {
@@ -12,7 +13,7 @@
     }
 
     &.nested {
-        border-radius: 3px 3px 0 0;
+        border-radius: var(--sulu-radius-md) var(--sulu-radius-md) 0 0;
         padding: 0;
     }
 }

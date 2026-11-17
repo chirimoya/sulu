@@ -20,6 +20,7 @@ class Dropdown extends React.Component<DropdownProps> {
     render() {
         const {
             icon,
+            primary,
             size,
             skin,
             label,
@@ -37,6 +38,7 @@ class Dropdown extends React.Component<DropdownProps> {
                 icon={icon}
                 label={showText ? label : undefined}
                 loading={loading}
+                primary={primary}
                 size={size}
                 skin={skin}
             >

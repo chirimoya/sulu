@@ -1,6 +1,6 @@
 @import '../../containers/Application/colors.scss';
 
-$popoverBackgroundLightColor: $wildSand;
+$popoverBackgroundLightColor: var(--sulu-surface-popover);
 $popoverBackgroundDarkColor: $mirage;
 $popoverTextLightColor: $blueZodiac;
 $popoverTextDarkColor: $white;
@@ -20,7 +20,8 @@ $popoverShadowColor: $silver;
 .light {
     background-color: $popoverBackgroundLightColor;
     color: $popoverTextLightColor;
-    box-shadow: 2px 6px 12px 0 rgba($popoverShadowColor, .5);
+    border-radius: var(--sulu-radius-md);
+    box-shadow: var(--sulu-shadow-popover);
 
     &:disabled {
         color: $popoverTextLightColorDisabled;

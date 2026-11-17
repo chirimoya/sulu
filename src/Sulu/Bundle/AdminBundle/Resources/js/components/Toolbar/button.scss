@@ -1,31 +1,132 @@
 @import '../../containers/Application/colors.scss';
 @import './variables.scss';
 
-$buttonTextLightColor: $blueZodiac;
+$buttonTextLightColor: var(--sulu-color-ink);
+$buttonIconLightColor: var(--sulu-n700);
+$buttonBackgroundLightColor: var(--sulu-n0);
+$buttonBorderLightColor: var(--sulu-border-default);
+$buttonBackgroundLightColorHover: var(--sulu-n50);
+$buttonBorderLightColorHover: var(--sulu-border-control);
+$buttonBackgroundLightColorActive: var(--sulu-n100);
+$buttonTextLightColorDisabled: var(--sulu-text-muted);
+$buttonBackgroundLightColorDisabled: var(--sulu-n100);
+$buttonIconLightColorDisabled: var(--sulu-n400);
 $buttonTextDarkColor: $white;
-$buttonTextLightColorActive: $shakespeare;
 $buttonTextDarkColorActive: $white;
-$buttonTextLightColorDisabled: $silver;
 $buttonTextDarkColorDisabled: $stormGray;
-$buttonActiveBackgroundLightColor: var(--sulu-n100);
 $buttonActiveBackgroundDarkColor: $mirage;
-$primaryTextColor: $white;
-$primaryBackgroundColor: $shakespeare;
+$primaryTextColor: var(--sulu-color-primary-contrast);
+$primaryBackgroundColor: var(--sulu-color-primary);
+$primaryBackgroundColorHover: var(--sulu-color-primary-hover);
+$primaryTextColorDisabled: var(--sulu-text-muted);
+$primaryBackgroundColorDisabled: var(--sulu-n100);
+$primaryBorderColorDisabled: var(--sulu-border-default);
+$plainBackgroundColorHover: rgb(31 30 28 / 6%);
 $successColor: $white;
 $successBackgroundColor: $mantis;
+$buttonMarginVertical: calc(($toolbarHeight - $toolbarButtonHeight - 1px) / 2);
 
-.light {
-    color: $buttonTextLightColor;
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--sulu-space-6);
+    min-width: $toolbarButtonHeight;
+    position: relative;
+    margin: $buttonMarginVertical 3px;
+    padding: 0 var(--sulu-space-10);
+    border: 1px solid transparent;
+    border-radius: var(--sulu-radius-md);
+    height: $toolbarButtonHeight;
+    background-color: transparent;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    white-space: nowrap;
 
     &:disabled {
+        cursor: default;
+    }
+
+    &.small {
+        max-width: $smallSelectWidth;
+        overflow: hidden;
+        padding: 0 var(--sulu-space-8);
+    }
+
+    &.primary,
+    &.primary:not(:disabled):hover,
+    &.primary:not(:disabled).active {
+        color: $primaryTextColor;
+        background-color: $primaryBackgroundColor;
+        border-color: $primaryBackgroundColor;
+        box-shadow: none;
+
+        .icon,
+        .dropdown-icon {
+            color: inherit;
+        }
+    }
+
+    /* a disabled main action is a muted filled button, so it does not look clickable */
+    &.primary:disabled {
+        color: $primaryTextColorDisabled;
+        background-color: $primaryBackgroundColorDisabled;
+        border-color: $primaryBorderColorDisabled;
+    }
+
+    &.primary:not(:disabled):hover {
+        background-color: $primaryBackgroundColorHover;
+        border-color: $primaryBackgroundColorHover;
+    }
+
+    &.success,
+    &.success:not(:disabled):hover {
+        background-color: $successBackgroundColor;
+        border-color: $successBackgroundColor;
+        color: $successColor;
+
+        .icon,
+        .dropdown-icon {
+            color: inherit;
+        }
+    }
+}
+
+/* the skins have to be defined after the button, because they override its background and border */
+.light {
+    color: $buttonTextLightColor;
+    background-color: $buttonBackgroundLightColor;
+    border-color: $buttonBorderLightColor;
+    box-shadow: 0 1px 1px rgb(31 30 28 / 4%);
+
+    .icon,
+    .dropdown-icon {
+        color: $buttonIconLightColor;
+    }
+
+    &:disabled:not(.primary, .success) {
         color: $buttonTextLightColorDisabled;
+        background-color: $buttonBackgroundLightColorDisabled;
+        border-color: $buttonBorderLightColor;
+        box-shadow: none;
+
+        .icon,
+        .dropdown-icon {
+            color: $buttonIconLightColorDisabled;
+        }
     }
 
     &:not(:disabled) {
-        &:hover,
+        &:hover {
+            background-color: $buttonBackgroundLightColorHover;
+            border-color: $buttonBorderLightColorHover;
+        }
+
+        &:active,
         &.active {
-            color: $buttonTextLightColorActive;
-            background-color: $buttonActiveBackgroundLightColor;
+            background-color: $buttonBackgroundLightColorActive;
+            border-color: $buttonBorderLightColorHover;
         }
     }
 }
@@ -46,56 +147,8 @@ $successBackgroundColor: $mantis;
     }
 }
 
-.button {
-    display: block;
-    min-width: 60px;
-    position: relative;
-    padding: 0 20px;
-    border: none;
-    height: 60px;
-    background-color: transparent;
-    font-size: 13px;
-    cursor: pointer;
-    white-space: nowrap;
-
-    &:disabled {
-        cursor: default;
-    }
-
-    &.small {
-        max-width: $smallSelectWidth;
-        overflow: hidden;
-        padding: 0;
-
-        .dropdown-icon {
-            position: absolute;
-            left: 50%;
-            bottom: 8px;
-            margin-left: -6px;
-            padding: 0;
-        }
-    }
-
-    &.primary,
-    &.primary:hover {
-        color: $primaryTextColor;
-        background-color: $primaryBackgroundColor;
-    }
-
-    &.success,
-    &.success:hover {
-        background-color: $successBackgroundColor;
-        color: $successColor;
-    }
-}
-
 .icon {
-    vertical-align: middle;
-    font-size: 20px;
-
-    & + .label {
-        padding: 0 0 0 10px;
-    }
+    font-size: var(--sulu-icon-size);
 
     .loader ~ & {
         visibility: hidden;
@@ -103,15 +156,13 @@ $successBackgroundColor: $mantis;
 }
 
 .label {
-    vertical-align: middle;
-
     .loader ~ & {
         visibility: hidden;
     }
 }
 
 .dropdown-icon {
-    padding: 0 0 0 10px;
+    font-size: 12px;
 
     .loader ~ & {
         visibility: hidden;
@@ -120,7 +171,41 @@ $successBackgroundColor: $mantis;
 
 .loader {
     position: absolute;
-    top: 20px;
+    top: 50%;
     left: 0;
     right: 0;
+    transform: translateY(-50%);
+}
+
+/* a plain button has no frame, e.g. the toggler which is only a switch with a label */
+.plain,
+.button.plain:disabled,
+.plain:not(:disabled):hover,
+.plain:not(:disabled):active {
+    padding: 0 var(--sulu-space-4);
+    font-weight: normal;
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: none;
+}
+
+/* divider between a plain button and the following item */
+
+/* outside of the items a plain button is an icon button, e.g. the back button */
+:not(li) > .plain:not(:disabled):hover {
+    background-color: $plainBackgroundColorHover;
+}
+
+li:not(:last-child) > .plain {
+    margin-right: var(--sulu-space-12);
+
+    &::after {
+        content: '';
+        position: absolute;
+        right: calc(-1 * var(--sulu-space-10));
+        top: calc(50% - $dividerHeight / 2);
+        width: 1px;
+        height: $dividerHeight;
+        background-color: $dividerColor;
+    }
 }

@@ -1,37 +1,31 @@
 @import '../../containers/Application/colors.scss';
 
 $color: var(--sulu-text-nav);
+$mutedColor: var(--sulu-text-nav-muted);
 $activeColor: var(--sulu-color-ink);
-$activeBorderColor: var(--sulu-color-primary);
+$activeMarkerColor: var(--sulu-color-primary);
 $activeBackgroundColor: var(--sulu-surface-nav-active);
 $hoverColor: var(--sulu-color-ink);
+$hoverBackgroundColor: rgb(31 30 28 / 5%);
+$childHeight: 30px;
 
 .item {
     font-size: 14px;
-    line-height: 16px;
+    line-height: 18px;
     box-sizing: border-box;
-    padding-left: 4px;
     position: relative;
-
-    &.active {
-        border-left: 4px solid $activeBorderColor;
-        background: $activeBackgroundColor;
-        font-weight: 500;
-        padding-left: 0;
-
-        > .title {
-            color: $activeColor;
-        }
-    }
 
     .title {
         display: flex;
         align-items: center;
         justify-content: flex-start;
+        gap: var(--sulu-space-10);
         width: 100%;
+        min-height: var(--sulu-nav-item-height);
         color: $color;
-        padding: 20px;
+        padding: 4px var(--sulu-space-10);
         border: 0;
+        border-radius: var(--sulu-radius-md);
         background-color: transparent;
         text-align: left;
         font-weight: inherit;
@@ -40,12 +34,13 @@ $hoverColor: var(--sulu-color-ink);
         &:hover,
         &:focus {
             color: $hoverColor;
+            background-color: $hoverBackgroundColor;
         }
 
         .icon {
             flex: 0 0 auto;
-            margin-right: 20px;
-            width: 15px;
+            width: var(--sulu-icon-size);
+            font-size: var(--sulu-icon-size);
         }
 
         .text {
@@ -56,32 +51,41 @@ $hoverColor: var(--sulu-color-ink);
 
         .children-indicator {
             flex: 0 0 auto;
-            margin-left: 20px;
+            margin-left: auto;
+            font-size: 12px;
+            color: $mutedColor;
+        }
+    }
+
+    &.active {
+        font-weight: 500;
+
+        > .title {
+            color: $activeColor;
+            background-color: $activeBackgroundColor;
+            box-shadow: inset 3px 0 0 $activeMarkerColor;
+        }
+
+        /* an item with an active child is only emphasized, the marker belongs to the child */
+        &:has(.item.active) > .title {
+            background-color: transparent;
+            box-shadow: none;
         }
     }
 
     /* Child */
     .item {
         font-size: 13px;
-        background: inherit;
         font-weight: normal;
-        margin-left: 0;
-        padding-left: 0;
+        margin-top: var(--sulu-space-2);
 
         .title {
-            padding-top: 0;
-            padding-bottom: 15px;
-            padding-left: 55px;
+            min-height: $childHeight;
+            padding-left: 36px;
         }
 
         &.active {
-            border-left: none;
             font-weight: 500;
-            background: inherit;
-
-            > .title {
-                color: $activeColor;
-            }
         }
     }
 }
