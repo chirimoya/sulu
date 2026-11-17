@@ -1,31 +1,37 @@
 /**
-  Variables are named after http://chir.ag/projects/name-that-color/
+  Legacy color variables, named after http://chir.ag/projects/name-that-color/
+
+  Since the admin redesign each variable holds the value of its nearest design token (see tokens.scss),
+  therefore the names do not describe the colors anymore. They are kept for backwards compatibility:
+  prefer the `var(--sulu-*)` tokens in new code. The values have to stay hex literals, because they are
+  passed to `rgba()` in some places.
+
   ATTENTION ATTENTION: Please order this list alphabetically
 */
 
-$alabaster: #fafafa;
-$alto: #ddd;
-$black: #000;
-$blueZodiac: #112a46;
-$doveGray: #6e6e6e;
-$mirage: #151b2a;
-$concrete: #f2f2f2;
-$dustyGray: #999;
-$ebonyClay: #232e44;
-$frenchGray: #babfc7;
-$gold: #f8d200;
-$gallery: #ededed;
-$gray: #878787;
-$mantis: #6ac86b;
-$mercury: #e6e6e6;
-$mineShaft: #353535;
-$persianRed: #cf3939;
-$pickledBluewood: #29354f;
-$roman: #d96161;
-$scorpion: #585858;
-$shakespeare: #52b6ca;
-$silver: #ccc;
-$silverChalice: #a2a2a2;
-$stormGray: #70768b;
-$white: #fff;
-$wildSand: #f5f5f5;
+$alabaster: #faf9f7; /* n50 */
+$alto: #e6e3dd; /* n200 */
+$black: #1f1e1c; /* n900 */
+$blueZodiac: #112a46; /* navy */
+$doveGray: #6b6862; /* n500 */
+$mirage: #1f1e1c; /* n900 */
+$concrete: #faf9f7; /* n50 */
+$dustyGray: #6b6862; /* n500 */
+$ebonyClay: #112a46; /* navy */
+$frenchGray: #cfcac1; /* n300 */
+$gold: #b7791f; /* warn */
+$gallery: #efece6; /* border-hairline */
+$gray: #6b6862; /* n500 */
+$mantis: #3f8f5a; /* ok */
+$mercury: #e6e3dd; /* n200 */
+$mineShaft: #1f1e1c; /* n900 */
+$persianRed: #c2413a; /* err */
+$pickledBluewood: #1d3a5c; /* navy-700 */
+$roman: #c2413a; /* err */
+$scorpion: #5c5a55; /* n700 */
+$shakespeare: #112a46; /* navy */
+$silver: #cfcac1; /* n300 */
+$silverChalice: #8a877f; /* n400 */
+$stormGray: #6b6862; /* n500 */
+$white: #fff; /* n0 */
+$wildSand: #faf9f7; /* n50 */

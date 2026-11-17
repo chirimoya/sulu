@@ -1,6 +1,6 @@
 @import '../../containers/Application/colors.scss';
 
-$borderColor: $silver;
+$borderColor: var(--sulu-border-control);
 
 .icon {
     line-height: 1em;

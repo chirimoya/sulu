@@ -12,14 +12,14 @@
     align-items: center;
     font-size: 14px;
     transition: all .3s ease;
-    background-color: #102a46;
+    background-color: var(--sulu-color-primary);
     color: white;
     width: 130px;
     text-align: center;
     height: 30px;
 
     &:hover {
-        background-color: #52b6ca;
+        background-color: var(--sulu-color-primary-hover);
     }
 }
 

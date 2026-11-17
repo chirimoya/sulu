@@ -1,8 +1,10 @@
 @import '../../containers/Application/colors.scss';
 
-$color: $white;
-$hoverColor: $shakespeare;
-$lightColor: $silver;
+$color: var(--sulu-color-ink);
+$hoverColor: var(--sulu-color-primary);
+$lightColor: var(--sulu-text-nav);
+$placeholderColor: var(--sulu-text-nav);
+$placeholderBackgroundColor: var(--sulu-n150);
 
 .user-section {
     display: flex;
@@ -54,11 +56,11 @@ $lightColor: $silver;
     }
 
     .placeholder {
-        color: $alto;
+        color: $placeholderColor;
         font-size: 20px;
         line-height: 30px;
         text-align: center;
-        background-color: $mirage;
+        background-color: $placeholderBackgroundColor;
     }
 }
 

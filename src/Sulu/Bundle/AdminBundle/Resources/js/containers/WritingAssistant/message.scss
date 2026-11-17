@@ -11,7 +11,7 @@
     flex-shrink: 0;
     width: 24px;
     margin-top: 4px;
-    color: #999;
+    color: var(--sulu-text-muted);
 }
 
 .reply-content {
@@ -22,7 +22,7 @@
 .message {
     box-sizing: border-box;
     padding: 12px;
-    background: #fff;
+    background: var(--sulu-surface-card);
     border-radius: 4px;
     line-height: 1.5;
     text-align: left;

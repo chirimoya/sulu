@@ -5,7 +5,7 @@ $disabledColor: $silver;
 $width: 37px;
 $height: 20px;
 $borderWidth: 1px;
-$border: $borderWidth solid $silver;
+$border: $borderWidth solid var(--sulu-border-control);
 $transitionDuration: 200ms;
 
 .toggler {

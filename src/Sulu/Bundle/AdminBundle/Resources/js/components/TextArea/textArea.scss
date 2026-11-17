@@ -2,7 +2,7 @@
 
 $textareaDisabledColor: $gray;
 $textareaDisabledBackgroundColor: $wildSand;
-$textareaBorderColor: $silver;
+$textareaBorderColor: var(--sulu-border-control);
 $textareaErrorBorderColor: $persianRed;
 $textareaBackgroundColor: $white;
 $textareaColor: $black;

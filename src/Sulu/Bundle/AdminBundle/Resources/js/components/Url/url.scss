@@ -1,7 +1,7 @@
 @import '../../containers/Application/colors.scss';
 
 $urlBackgroundColor: $white;
-$urlBorderColor: $silver;
+$urlBorderColor: var(--sulu-border-control);
 $urlButtonColor: $dustyGray;
 $urlInputColor: $black;
 $urlErrorBorderColor: $persianRed;

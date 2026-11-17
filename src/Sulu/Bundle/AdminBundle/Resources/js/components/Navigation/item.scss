@@ -1,9 +1,10 @@
 @import '../../containers/Application/colors.scss';
 
-$color: $wildSand;
-$activeBorderColor: $shakespeare;
-$activeBackgroundColor: $ebonyClay;
-$hoverColor: $shakespeare;
+$color: var(--sulu-text-nav);
+$activeColor: var(--sulu-color-ink);
+$activeBorderColor: var(--sulu-color-primary);
+$activeBackgroundColor: var(--sulu-surface-nav-active);
+$hoverColor: var(--sulu-color-ink);
 
 .item {
     font-size: 14px;
@@ -17,6 +18,10 @@ $hoverColor: $shakespeare;
         background: $activeBackgroundColor;
         font-weight: bold;
         padding-left: 0;
+
+        > .title {
+            color: $activeColor;
+        }
     }
 
     .title {
@@ -73,6 +78,10 @@ $hoverColor: $shakespeare;
             border-left: none;
             font-weight: bold;
             background: inherit;
+
+            > .title {
+                color: $activeColor;
+            }
         }
     }
 }

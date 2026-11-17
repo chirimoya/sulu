@@ -1,9 +1,10 @@
 @import 'normalize.css/normalize.css';
 @import './colors.scss';
+@import './tokens.scss';
 @import './fonts.scss';
 @import './variables.scss';
 
-$bodyBackgroundColor: $wildSand;
+$bodyBackgroundColor: var(--sulu-surface-app);
 $h1TextColor: $black;
 $h2TextColor: $black;
 $h3TextColor: $scorpion;

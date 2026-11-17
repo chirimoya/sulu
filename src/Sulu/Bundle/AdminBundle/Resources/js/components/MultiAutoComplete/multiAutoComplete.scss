@@ -1,7 +1,7 @@
 @import '../../containers/Application/colors.scss';
 
 $multiAutoCompleteBackgroundColor: $white;
-$multiAutoCompleteBorderColor: $silver;
+$multiAutoCompleteBorderColor: var(--sulu-border-control);
 $multiAutoCompleteIconColor: $dustyGray;
 
 $multiAutoCompleteDisabledColor: $gray;

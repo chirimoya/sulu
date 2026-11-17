@@ -1,14 +1,19 @@
 @import '../../containers/Application/colors.scss';
 
-$labelTextColor: $scorpion;
-$contentBackgroundColor: $alto;
+$labelTextColor: var(--sulu-n700);
+$contentBackgroundColor: var(--sulu-n100);
+$borderColor: var(--sulu-border-default);
 
 .header {
     display: flex;
     justify-content: space-between;
     height: 40px;
     overflow: hidden;
+    border: 1px solid $borderColor;
     border-radius: 3px 3px 0 0;
+
+    /* shines through the gaps between the buttons and the label */
+    background-color: $borderColor;
 
     &.disabled {
         pointer-events: none;

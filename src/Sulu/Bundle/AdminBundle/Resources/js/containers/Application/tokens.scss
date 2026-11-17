@@ -1,0 +1,132 @@
+/*
+ * Design tokens of the admin redesign ("Modern Refresh").
+ *
+ * Generated 1:1 from tokens.json of the Sulu Admin Design System. The tokens are exposed as CSS custom
+ * properties at the application root, so every stylesheet can read them via `var(--sulu-*)` regardless of
+ * CSS module boundaries. Prefer these tokens over the legacy color variables of colors.scss in new code.
+ */
+
+:root {
+    /* Colour */
+    --sulu-navy: #112a46;
+    --sulu-navy-700: #1d3a5c;
+    --sulu-navy-100: #dbe3ee;
+    --sulu-navy-50: #eef2f7;
+    --sulu-n0: #fff;
+    --sulu-n50: #faf9f7;
+    --sulu-n100: #f3f1ec;
+    --sulu-n150: #ece9e3;
+    --sulu-n200: #e6e3dd;
+    --sulu-n300: #cfcac1;
+    --sulu-n400: #8a877f;
+    --sulu-n500: #6b6862;
+    --sulu-ctl: #949087;
+    --sulu-n700: #5c5a55;
+    --sulu-n900: #1f1e1c;
+    --sulu-ok: #3f8f5a;
+    --sulu-warn: #b7791f;
+    --sulu-err: #c2413a;
+    --sulu-color-primary: var(--sulu-navy);
+    --sulu-color-primary-hover: var(--sulu-navy-700);
+    --sulu-color-primary-contrast: var(--sulu-n0);
+    --sulu-color-ink: var(--sulu-n900);
+    --sulu-color-success: var(--sulu-ok);
+    --sulu-color-warning: var(--sulu-warn);
+    --sulu-color-warning-contrast: var(--sulu-n0);
+    --sulu-color-error: var(--sulu-err);
+    --sulu-color-error-soft: var(--sulu-err);
+    --sulu-color-info: var(--sulu-navy);
+    --sulu-color-draft: var(--sulu-n300);
+    --sulu-color-review: var(--sulu-warn);
+    --sulu-color-published: var(--sulu-ok);
+    --sulu-surface-app: var(--sulu-n50);
+    --sulu-surface-card: var(--sulu-n0);
+    --sulu-surface-input: var(--sulu-n0);
+    --sulu-surface-disabled: var(--sulu-n100);
+    --sulu-surface-overlay: var(--sulu-n0);
+    --sulu-surface-toolbar: var(--sulu-n50);
+    --sulu-surface-toolbar-items: var(--sulu-n50);
+    --sulu-surface-toolbar-dark: var(--sulu-navy);
+    --sulu-surface-popover: var(--sulu-n0);
+    --sulu-surface-popover-dark: var(--sulu-n900);
+    --sulu-surface-tabs: var(--sulu-n50);
+    --sulu-surface-table-header: var(--sulu-n50);
+    --sulu-surface-nav: var(--sulu-n100);
+    --sulu-surface-nav-active: var(--sulu-n150);
+    --sulu-surface-nav-dark: var(--sulu-navy);
+    --sulu-surface-selected: var(--sulu-navy-50);
+    --sulu-surface-backdrop: rgb(31 30 28 / 40%);
+    --sulu-text-body: var(--sulu-n900);
+    --sulu-text-heading: var(--sulu-n900);
+    --sulu-text-subheading: var(--sulu-n700);
+    --sulu-text-label: #3d3b37;
+    --sulu-text-muted: var(--sulu-n500);
+    --sulu-text-placeholder: var(--sulu-n500);
+    --sulu-text-disabled: var(--sulu-n400);
+    --sulu-text-faint: var(--sulu-n500);
+    --sulu-text-nav: var(--sulu-n700);
+    --sulu-text-nav-muted: var(--sulu-n500);
+    --sulu-text-toolbar: var(--sulu-n900);
+    --sulu-border-default: var(--sulu-n200);
+    --sulu-border-control: var(--sulu-ctl);
+    --sulu-border-subtle: var(--sulu-n200);
+    --sulu-border-hairline: #efece6;
+    --sulu-border-strong: var(--sulu-ctl);
+    --sulu-border-error: var(--sulu-err);
+    --sulu-border-focus: var(--sulu-navy);
+
+    /* Spacing */
+    --sulu-space-2: 2px;
+    --sulu-space-4: 4px;
+    --sulu-space-6: 6px;
+    --sulu-space-8: 8px;
+    --sulu-space-10: 10px;
+    --sulu-space-12: 12px;
+    --sulu-space-16: 16px;
+    --sulu-space-20: 20px;
+    --sulu-space-24: 24px;
+    --sulu-space-28: 28px;
+    --sulu-space-32: 32px;
+    --sulu-space-40: 40px;
+
+    /* Corner radius */
+    --sulu-radius-sm: 4px;
+    --sulu-radius-md: 8px;
+    --sulu-radius-lg: 12px;
+    --sulu-radius-pill: 999px;
+    --sulu-radius-round: 50%;
+
+    /* Shadow */
+    --sulu-shadow-focus: 0 0 0 3px rgb(17 42 70 / 12%);
+    --sulu-shadow-selected: 0 0 0 3px rgb(17 42 70 / 8%);
+    --sulu-shadow-raised: 0 8px 24px rgb(0 0 0 / 16%);
+    --sulu-shadow-knob: 0 1px 2px rgb(0 0 0 / 20%);
+    --sulu-shadow-menu: 0 8px 24px rgb(0 0 0 / 16%);
+    --sulu-shadow-popover: 0 8px 24px rgb(0 0 0 / 16%);
+    --sulu-shadow-arrow-menu: 0 8px 24px rgb(0 0 0 / 16%);
+    --sulu-shadow-overlay: 0 8px 24px rgb(0 0 0 / 16%);
+    --sulu-shadow-login: 0 8px 24px rgb(0 0 0 / 16%);
+    --sulu-shadow-snackbar-floating: 0 8px 24px rgb(0 0 0 / 16%);
+    --sulu-shadow-toolbar: none;
+
+    /* Frame sizes */
+    --sulu-sidebar-width: 220px;
+    --sulu-rail-width: 56px;
+    --sulu-topbar-height: 56px;
+    --sulu-toolbar-height: 52px;
+    --sulu-nav-item-height: 34px;
+    --sulu-button-height: 34px;
+    --sulu-input-height: 36px;
+    --sulu-input-height-lg: 44px;
+    --sulu-table-head-height: 40px;
+    --sulu-table-row-height: 52px;
+    --sulu-content-max-width: 860px;
+    --sulu-checkbox-size: 16px;
+    --sulu-toggle-width: 32px;
+    --sulu-toggle-height: 18px;
+    --sulu-icon-size: 16px;
+
+    /* Typography */
+    --sulu-font-base: 'IBM Plex Sans', system-ui, sans-serif;
+    --sulu-font-serif: 'IBM Plex Serif', georgia, serif;
+}

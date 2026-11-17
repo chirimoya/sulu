@@ -1,6 +1,6 @@
 @import '../../containers/Application/colors.scss';
 
-$inputBorderColor: $silver;
+$inputBorderColor: var(--sulu-border-control);
 $inputErrorBorderColor: $persianRed;
 $inputDisabledColor: $gray;
 $inputDisabledBackgroundColor: $wildSand;
