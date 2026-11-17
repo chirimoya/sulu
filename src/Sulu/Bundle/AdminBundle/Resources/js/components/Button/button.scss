@@ -1,18 +1,26 @@
 @import '../../containers/Application/colors.scss';
 @import './variables.scss';
 
-$borderRadius: 3px;
+$borderRadius: var(--sulu-radius-md);
+$height: 34px;
+$borderWidth: 1px;
 $fontSize: 13px;
 $dropdownFontSize: 10px;
 
-$primaryBackground: $shakespeare;
-$primaryColor: $white;
-$primaryDisabledColor: $silver;
+$primaryBackground: var(--sulu-color-primary);
+$primaryBackgroundHover: var(--sulu-color-primary-hover);
+$primaryColor: var(--sulu-color-primary-contrast);
 
-$secondaryBorder: $silver;
-$secondaryBackground: $wildSand;
-$secondaryColor: $black;
-$secondaryDisabledColor: $silver;
+$secondaryBorder: var(--sulu-border-default);
+$secondaryBorderHover: var(--sulu-border-control);
+$secondaryBackground: var(--sulu-n0);
+$secondaryBackgroundHover: var(--sulu-n50);
+$secondaryBackgroundActive: var(--sulu-n100);
+$secondaryColor: var(--sulu-color-ink);
+
+$disabledBackground: var(--sulu-n100);
+$disabledBorder: var(--sulu-border-default);
+$disabledColor: var(--sulu-text-muted);
 
 $linkColor: $black;
 $linkDisabledColor: $silverChalice;
@@ -21,9 +29,13 @@ $textColor: $black;
 $textDisabledColor: $silverChalice;
 
 $iconFontSize: 14px;
-$iconBackgroundColorActive: $doveGray;
-$iconBackgroundColorHover: $mercury;
-$iconColorActive: $white;
+$iconHeight: 30px;
+$iconColor: var(--sulu-n700);
+$iconBorder: var(--sulu-border-default);
+$iconBackgroundColor: var(--sulu-n0);
+$iconBackgroundColorActive: var(--sulu-navy-50);
+$iconBorderActive: var(--sulu-navy-100);
+$iconColorActive: var(--sulu-color-primary);
 
 .button {
     position: relative;
@@ -31,6 +43,7 @@ $iconColorActive: $white;
     display: inline-flex;
     justify-content: center;
     font-weight: 500;
+    transition: background-color .12s, border-color .12s, color .12s;
 
     &:disabled {
         cursor: default;
@@ -40,9 +53,10 @@ $iconColorActive: $white;
 .primary,
 .secondary {
     font-size: $fontSize;
-    border: 1px solid;
+    border: $borderWidth solid;
     border-radius: $borderRadius;
-    line-height: 28px;
+    height: $height;
+    line-height: calc($height - 2 * $borderWidth);
     cursor: pointer;
     text-align: center;
     min-width: 140px;
@@ -73,9 +87,15 @@ $iconColorActive: $white;
     background: $primaryBackground;
     color: $primaryColor;
 
+    &:hover:not(:disabled) {
+        border-color: $primaryBackgroundHover;
+        background: $primaryBackgroundHover;
+    }
+
     &:disabled {
-        border-color: $primaryDisabledColor;
-        background-color: $primaryDisabledColor;
+        border-color: $disabledBorder;
+        background: $disabledBackground;
+        color: $disabledColor;
     }
 }
 
@@ -84,8 +104,19 @@ $iconColorActive: $white;
     background: $secondaryBackground;
     color: $secondaryColor;
 
+    &:hover:not(:disabled) {
+        border-color: $secondaryBorderHover;
+        background: $secondaryBackgroundHover;
+    }
+
+    &:active:not(:disabled) {
+        background: $secondaryBackgroundActive;
+    }
+
     &:disabled {
-        color: $secondaryDisabledColor;
+        border-color: $disabledBorder;
+        background: $disabledBackground;
+        color: $disabledColor;
     }
 }
 
@@ -138,32 +169,32 @@ $iconColorActive: $white;
 }
 
 .icon {
-    background: none;
-    min-width: 30px;
-    height: 30px;
-    line-height: 28px;
+    background: $iconBackgroundColor;
+    min-width: $iconHeight;
+    height: $iconHeight;
+    line-height: calc($iconHeight - 2 * $borderWidth);
     border-radius: $iconBorderRadius;
-    border: 1px solid $iconBorderColor;
-    color: $iconBorderColor;
+    border: $borderWidth solid $iconBorder;
+    color: $iconColor;
     cursor: pointer;
     font-size: $iconFontSize;
     padding: 0 5px;
 
     &:hover:not(:disabled) {
-        background-color: $silver;
-
-        &.active {
-            background-color: $scorpion;
-        }
+        background-color: $secondaryBackgroundHover;
+        border-color: $secondaryBorderHover;
     }
 
     &:disabled {
-        border-color: $iconDisabledColor;
-        color: $iconDisabledColor;
+        border-color: $disabledBorder;
+        background-color: $disabledBackground;
+        color: $disabledColor;
     }
 
-    &.active {
-        background-color: $iconBorderColor;
+    &.active,
+    &.active:hover:not(:disabled) {
+        background-color: $iconBackgroundColorActive;
+        border-color: $iconBorderActive;
         color: $iconColorActive;
     }
 
@@ -179,7 +210,7 @@ $iconColorActive: $white;
 
     .button-icon,
     .dropdown-icon {
-        line-height: 28px;
+        line-height: calc($iconHeight - 2 * $borderWidth);
     }
 
     .dropdown-icon {

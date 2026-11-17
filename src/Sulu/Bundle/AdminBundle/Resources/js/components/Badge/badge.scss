@@ -1,12 +1,13 @@
 @import '../../containers/Application/colors.scss';
 
 .badge {
-    border-radius: 2px;
+    border-radius: var(--sulu-radius-sm);
     background: $blueZodiac;
     color: white;
     padding: 2px 4px;
     width: min-content;
     height: min-content;
-    font-size: 9px;
-    font-weight: bold;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 1.2;
 }

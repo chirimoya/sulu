@@ -4,10 +4,13 @@ $length: 16px;
 $primaryColor: $blueZodiac;
 $secondaryColor: $white;
 $disabledColor: $silver;
+$borderColor: var(--sulu-border-control);
+$borderRadius: var(--sulu-radius-sm);
 
 .checkbox.dark {
     input + span {
-        border-color: currentColor;
+        border-color: $borderColor;
+        background: $secondaryColor;
         color: currentColor;
     }
 
@@ -45,7 +48,7 @@ $disabledColor: $silver;
         position: absolute;
         top: 0;
         left: 0;
-        border-radius: 2px;
+        border-radius: $borderRadius;
         border-width: 1px;
         border-style: solid;
         text-align: center;

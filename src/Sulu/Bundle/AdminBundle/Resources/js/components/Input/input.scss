@@ -5,9 +5,12 @@ $inputErrorBorderColor: $persianRed;
 $inputDisabledColor: $gray;
 $inputDisabledBackgroundColor: $wildSand;
 $inputBorderWidth: 1px;
-$inputBorderRadius: 3px;
-$inputHeight: 30px;
-$inputHeadlineHeight: 40px;
+$inputBorderRadius: var(--sulu-radius-md);
+$inputHeight: 36px;
+$inputHeadlineHeight: 44px;
+$inputFocusBorderColor: var(--sulu-border-focus);
+$inputFocusShadow: var(--sulu-shadow-focus);
+$darkInputHeight: 30px;
 $inputColor: $black;
 $inputPrependWidth: 32px;
 $inputHeadlinePrependWidth: 42px;
@@ -16,8 +19,8 @@ $iconBorderPadding: 5px;
 $placeholderColor: $dustyGray;
 $backgroundColor: $white;
 
-$darkInputBorderRadius: 4px;
-$darkInputBorderColor: $doveGray;
+$darkInputBorderRadius: var(--sulu-radius-md);
+$darkInputBorderColor: var(--sulu-border-default);
 $darkInputColorCollapsed: $black;
 $darkInputColor: $black;
 $darkBackgroundColorCollapsed: $wildSand;
@@ -34,13 +37,20 @@ $darkIconColor: $doveGray;
     width: 100%;
     background-color: $backgroundColor;
     position: relative;
+    transition: border-color .12s, box-shadow .12s;
+
+    &:focus-within:not(.disabled, .collapsed) {
+        border-color: $inputFocusBorderColor;
+        box-shadow: $inputFocusShadow;
+    }
 
     input {
         width: calc(100% - $inputPrependWidth);
         flex-grow: 1;
         border: none;
         border-radius: $inputBorderRadius;
-        height: calc($inputHeight - 2 * $inputBorderWidth);
+        height: 100%;
+        background-color: transparent;
         color: $inputColor;
         will-change: width, padding-left;
         transition: width .3s, padding-left .1s linear;
@@ -63,7 +73,7 @@ $darkIconColor: $doveGray;
     &.left {
         input {
             text-align: left;
-            padding-left: 10px;
+            padding-left: 12px;
             padding-right: 1px;
         }
     }
@@ -80,7 +90,7 @@ $darkIconColor: $doveGray;
         input {
             text-align: right;
             padding-left: 1px;
-            padding-right: 10px;
+            padding-right: 12px;
         }
     }
 
@@ -109,6 +119,7 @@ $darkIconColor: $doveGray;
     &.dark {
         background-color: $darkBackgroundColor;
         color: $darkInputColor;
+        height: $darkInputHeight;
         border-radius: $darkInputBorderRadius;
         border-color: $darkInputBorderColor;
 
@@ -146,12 +157,12 @@ $darkIconColor: $doveGray;
     }
 
     &.headline {
-        font-size: 18px;
+        font-size: 17px;
         line-height: 28px;
         height: $inputHeadlineHeight;
 
         input {
-            font-weight: bold;
+            font-weight: 600;
         }
 
         .prepended-container {

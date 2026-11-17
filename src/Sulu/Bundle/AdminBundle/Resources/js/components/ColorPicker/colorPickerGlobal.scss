@@ -3,7 +3,7 @@
 $fontColor: $scorpion;
 $borderColor: $silver;
 $borderWidth: 1px;
-$borderRadius: 3px;
+$borderRadius: var(--sulu-radius-md);
 $inputColor: $black;
 
 :global {

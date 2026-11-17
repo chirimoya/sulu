@@ -12,10 +12,17 @@ $textareaColor: $black;
     min-height: 75px;
     background-color: $textareaBackgroundColor;
     color: $textareaColor;
-    padding: 10px;
+    padding: 8px 12px;
     border: 1px solid $textareaBorderColor;
-    border-radius: 3px;
+    border-radius: var(--sulu-radius-md);
     resize: vertical;
+    transition: border-color .12s, box-shadow .12s;
+
+    &:focus:not(.disabled) {
+        border-color: var(--sulu-border-focus);
+        box-shadow: var(--sulu-shadow-focus);
+    }
+
     font-size: 14px;
     line-height: 20px;
 

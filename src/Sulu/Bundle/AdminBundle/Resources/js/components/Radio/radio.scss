@@ -4,6 +4,7 @@ $radius: 8px;
 $primaryColor: $blueZodiac;
 $secondaryColor: $white;
 $disabledColor: $silver;
+$borderColor: var(--sulu-border-control);
 
 .radio {
     width: calc(2 * $radius);
@@ -19,7 +20,12 @@ $disabledColor: $silver;
 }
 
 .radio.dark {
-    border: 1px solid $primaryColor;
+    border: 1px solid $borderColor;
+    background: $secondaryColor;
+
+    &:has(input:checked) {
+        border-color: $primaryColor;
+    }
 
     input + span {
         width: calc(2 * $radius - 2px);

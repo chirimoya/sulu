@@ -2,14 +2,14 @@
 
 $chipPrimaryBackgroundColor: $shakespeare;
 $chipPrimaryColor: $white;
-$chipSecondaryBackgroundColor: $wildSand;
+$chipSecondaryBackgroundColor: var(--sulu-n100);
 $chipSecondaryColor: $black;
 $chipDisabledBackgroundColor: $silver;
 $chipDisabledColor: $gray;
 
 .chip {
     border: none;
-    border-radius: 3px;
+    border-radius: var(--sulu-radius-md);
     display: inline-block;
     font-size: 13px;
     line-height: 18px;
@@ -54,9 +54,11 @@ $chipDisabledColor: $gray;
 }
 
 .small {
-    height: 18px;
+    height: 20px;
+    line-height: 20px;
 }
 
 .medium {
-    height: 30px;
+    height: 26px;
+    line-height: 26px;
 }

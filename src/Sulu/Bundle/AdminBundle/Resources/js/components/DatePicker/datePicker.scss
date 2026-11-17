@@ -8,8 +8,8 @@ $iconColor: $dustyGray;
 $iconBorderPadding: 5px;
 $placeholderColor: $dustyGray;
 $borderWidth: 1px;
-$borderRadius: 3px;
-$inputHeight: 30px;
+$borderRadius: var(--sulu-radius-md);
+$inputHeight: 36px;
 $inputColor: $black;
 $inputFontSize: 14px;
 

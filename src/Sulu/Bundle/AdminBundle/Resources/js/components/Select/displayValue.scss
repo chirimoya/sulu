@@ -1,28 +1,31 @@
 @import '../../containers/Application/colors.scss';
 
-$height: 30px;
-$lineHeight: 28px;
+$height: 36px;
+$darkHeight: 30px;
 $fontSize: 14px;
 $color: $black;
 $backgroundColor: $white;
 $borderSize: 1px;
 $borderColor: var(--sulu-border-control);
-$borderRadius: 3px;
-$iconSize: 10px;
-$hoverColor: $shakespeare;
+$borderRadius: var(--sulu-radius-md);
+$iconSize: 12px;
+$iconColor: var(--sulu-text-muted);
+$hoverBorderColor: var(--sulu-n700);
+$focusBorderColor: var(--sulu-border-focus);
+$focusShadow: var(--sulu-shadow-focus);
 
 $disabledColor: $gray;
 $disabledBackgroundColor: $wildSand;
 
-$darkBorderRadius: 4px;
-$darkBorderColor: $doveGray;
+$darkBorderRadius: var(--sulu-radius-md);
+$darkBorderColor: var(--sulu-border-default);
 $darkColor: $black;
 $darkBackgroundColor: $white;
 
 .displayValue {
     cursor: pointer;
     position: relative;
-    padding: 7px 30px 7px 10px;
+    padding: 0 30px 0 12px;
 
     &.flat {
         border: none;
@@ -33,6 +36,7 @@ $darkBackgroundColor: $white;
     &.dark,
     &.default {
         display: flex;
+        align-items: center;
         width: 100%;
         height: $height;
         border: $borderSize solid $borderColor;
@@ -41,13 +45,20 @@ $darkBackgroundColor: $white;
         font-size: $fontSize;
         color: $color;
         background-color: $backgroundColor;
+        transition: border-color .12s, box-shadow .12s;
 
-        &:hover {
-            color: $hoverColor;
+        &:hover:not(:disabled) {
+            border-color: $hoverBorderColor;
+        }
+
+        &:focus:not(:disabled) {
+            border-color: $focusBorderColor;
+            box-shadow: $focusShadow;
         }
     }
 
     &.dark {
+        height: $darkHeight;
         background-color: $darkBackgroundColor;
         color: $darkColor;
         border-color: $darkBorderColor;
@@ -71,23 +82,22 @@ $darkBackgroundColor: $white;
 }
 
 .front-icon {
-    display: block;
+    display: flex;
+    align-items: center;
     position: absolute;
     top: 0;
     bottom: 0;
     left: 10px;
-    line-height: calc($lineHeight - $borderSize);
-    vertical-align: middle;
     font-size: $iconSize;
 }
 
 .toggle {
-    display: block;
+    display: flex;
+    align-items: center;
     position: absolute;
     top: 0;
     bottom: 0;
     right: 10px;
-    line-height: calc($lineHeight - $borderSize);
-    vertical-align: middle;
     font-size: $iconSize;
+    color: $iconColor;
 }

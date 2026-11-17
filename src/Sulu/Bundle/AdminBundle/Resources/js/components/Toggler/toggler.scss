@@ -1,11 +1,13 @@
 @import '../../containers/Application/colors.scss';
 
-$color: $blueZodiac;
-$disabledColor: $silver;
-$width: 37px;
-$height: 20px;
-$borderWidth: 1px;
-$border: $borderWidth solid var(--sulu-border-control);
+$color: var(--sulu-color-primary);
+$offColor: var(--sulu-border-control);
+$knobColor: var(--sulu-n0);
+$disabledColor: var(--sulu-n300);
+$width: var(--sulu-toggle-width);
+$height: var(--sulu-toggle-height);
+$knobInset: 2px;
+$knobSize: calc($height - 2 * $knobInset);
 $transitionDuration: 200ms;
 
 .toggler {
@@ -19,43 +21,34 @@ $transitionDuration: 200ms;
         display: block;
         width: 100%;
         height: 100%;
-        background: $white;
-        border: $border;
+        background: $offColor;
         border-radius: calc($height / 2);
-        transition: background $transitionDuration, border-color $transitionDuration;
+        transition: background $transitionDuration;
 
         &::after {
             content: '';
             position: absolute;
-            top: -$borderWidth;
-            left: -$borderWidth;
+            top: $knobInset;
+            left: $knobInset;
             display: block;
-            width: $height;
-            height: $height;
-            border-radius: calc($height / 2);
-            background: $white;
-            border: $border;
-            transition: left $transitionDuration, border-color $transitionDuration;
+            width: $knobSize;
+            height: $knobSize;
+            border-radius: 50%;
+            background: $knobColor;
+            box-shadow: var(--sulu-shadow-knob);
+            transition: left $transitionDuration;
         }
     }
 
     input:checked + span {
         background: $color;
-        border-color: $color;
 
         &::after {
-            border-color: $color;
-            left: calc($width - $height - $borderWidth);
+            left: calc($width - $knobSize - $knobInset);
         }
     }
 
     input:disabled + span {
-        background: transparent;
-        border-color: $disabledColor;
-
-        &::after {
-            border-color: $disabledColor;
-            background-color: transparent;
-        }
+        background: $disabledColor;
     }
 }

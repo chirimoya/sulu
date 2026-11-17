@@ -3,6 +3,7 @@
 $multiAutoCompleteBackgroundColor: $white;
 $multiAutoCompleteBorderColor: var(--sulu-border-control);
 $multiAutoCompleteIconColor: $dustyGray;
+$multiAutoCompleteHeight: 36px;
 
 $multiAutoCompleteDisabledColor: $gray;
 $multiAutoCompleteDisabledBackgroundColor: $wildSand;
@@ -10,19 +11,31 @@ $multiAutoCompleteDisabledBackgroundColor: $wildSand;
 .multi-auto-complete {
     background-color: $multiAutoCompleteBackgroundColor;
     border: 1px solid $multiAutoCompleteBorderColor;
-    border-radius: 3px;
+    border-radius: var(--sulu-radius-md);
     display: flex;
     align-items: center;
+    min-height: $multiAutoCompleteHeight;
+    transition: border-color .12s, box-shadow .12s;
 
+    &:focus-within:not(.disabled) {
+        border-color: var(--sulu-border-focus);
+        box-shadow: var(--sulu-shadow-focus);
+    }
+
+    /* the chip is 26px high, so a row with chips is as high as the empty field */
     .chip {
-        margin: 5px 10px 5px 0;
+        display: flex;
+        align-items: center;
+        margin: 4px 8px 4px 0;
     }
 
     .input {
         border: none;
         font-size: 14px;
         flex-grow: 1;
-        height: 28px;
+        min-width: 60px;
+        height: calc($multiAutoCompleteHeight - 2px);
+        background-color: transparent;
     }
 
     .icon {
@@ -31,7 +44,7 @@ $multiAutoCompleteDisabledBackgroundColor: $wildSand;
         align-items: center;
         align-self: stretch;
         flex: 0 0 32px;
-        margin: 5px 10px 5px 0;
+        margin: 6px 10px 6px 0;
         font-size: 16px;
         color: $multiAutoCompleteIconColor;
         border-right: 1px solid $multiAutoCompleteBorderColor;
