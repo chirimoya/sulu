@@ -71,7 +71,7 @@ exports[`Dont react or update preview when data is changed during formstore is l
                   >
                     <svg
                       aria-hidden="true"
-                      class="lucide lucide-maximize-2"
+                      class="lucide lucide-scaling"
                       fill="none"
                       focusable="false"
                       stroke="currentColor"
@@ -81,16 +81,16 @@ exports[`Dont react or update preview when data is changed during formstore is l
                       viewBox="0 0 24 24"
                     >
                       <path
-                        d="M15 3h6v6"
+                        d="M12 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"
                       />
                       <path
-                        d="m21 3-7 7"
+                        d="M14 15H9v-5"
                       />
                       <path
-                        d="m3 21 7-7"
+                        d="M16 3h5v5"
                       />
                       <path
-                        d="M9 21H3v-6"
+                        d="M21 3 9 15"
                       />
                     </svg>
                   </span>
@@ -309,7 +309,7 @@ exports[`Dont react or update preview when data is changed during formstore is l
                   >
                     <svg
                       aria-hidden="true"
-                      class="lucide lucide-share"
+                      class="lucide lucide-forward"
                       fill="none"
                       focusable="false"
                       stroke="currentColor"
@@ -319,13 +319,10 @@ exports[`Dont react or update preview when data is changed during formstore is l
                       viewBox="0 0 24 24"
                     >
                       <path
-                        d="M12 2v13"
+                        d="m15 17 5-5-5-5"
                       />
                       <path
-                        d="m16 6-4-4-4 4"
-                      />
-                      <path
-                        d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"
+                        d="M4 18v-2a4 4 0 0 1 4-4h12"
                       />
                     </svg>
                   </span>
@@ -474,7 +471,7 @@ exports[`Dont react or update preview when data is changed during preview-store 
                   >
                     <svg
                       aria-hidden="true"
-                      class="lucide lucide-maximize-2"
+                      class="lucide lucide-scaling"
                       fill="none"
                       focusable="false"
                       stroke="currentColor"
@@ -484,16 +481,16 @@ exports[`Dont react or update preview when data is changed during preview-store 
                       viewBox="0 0 24 24"
                     >
                       <path
-                        d="M15 3h6v6"
+                        d="M12 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"
                       />
                       <path
-                        d="m21 3-7 7"
+                        d="M14 15H9v-5"
                       />
                       <path
-                        d="m3 21 7-7"
+                        d="M16 3h5v5"
                       />
                       <path
-                        d="M9 21H3v-6"
+                        d="M21 3 9 15"
                       />
                     </svg>
                   </span>
@@ -712,7 +709,7 @@ exports[`Dont react or update preview when data is changed during preview-store 
                   >
                     <svg
                       aria-hidden="true"
-                      class="lucide lucide-share"
+                      class="lucide lucide-forward"
                       fill="none"
                       focusable="false"
                       stroke="currentColor"
@@ -722,13 +719,10 @@ exports[`Dont react or update preview when data is changed during preview-store 
                       viewBox="0 0 24 24"
                     >
                       <path
-                        d="M12 2v13"
+                        d="m15 17 5-5-5-5"
                       />
                       <path
-                        d="m16 6-4-4-4 4"
-                      />
-                      <path
-                        d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"
+                        d="M4 18v-2a4 4 0 0 1 4-4h12"
                       />
                     </svg>
                   </span>
@@ -876,7 +870,7 @@ exports[`React and update preview when data is changed 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="lucide lucide-maximize-2"
+                      class="lucide lucide-scaling"
                       fill="none"
                       focusable="false"
                       stroke="currentColor"
@@ -886,16 +880,16 @@ exports[`React and update preview when data is changed 1`] = `
                       viewBox="0 0 24 24"
                     >
                       <path
-                        d="M15 3h6v6"
+                        d="M12 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"
                       />
                       <path
-                        d="m21 3-7 7"
+                        d="M14 15H9v-5"
                       />
                       <path
-                        d="m3 21 7-7"
+                        d="M16 3h5v5"
                       />
                       <path
-                        d="M9 21H3v-6"
+                        d="M21 3 9 15"
                       />
                     </svg>
                   </span>
@@ -1114,7 +1108,7 @@ exports[`React and update preview when data is changed 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="lucide lucide-share"
+                      class="lucide lucide-forward"
                       fill="none"
                       focusable="false"
                       stroke="currentColor"
@@ -1124,13 +1118,10 @@ exports[`React and update preview when data is changed 1`] = `
                       viewBox="0 0 24 24"
                     >
                       <path
-                        d="M12 2v13"
+                        d="m15 17 5-5-5-5"
                       />
                       <path
-                        d="m16 6-4-4-4 4"
-                      />
-                      <path
-                        d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"
+                        d="M4 18v-2a4 4 0 0 1 4-4h12"
                       />
                     </svg>
                   </span>
@@ -1286,7 +1277,7 @@ exports[`Render correct preview 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="lucide lucide-maximize-2"
+                      class="lucide lucide-scaling"
                       fill="none"
                       focusable="false"
                       stroke="currentColor"
@@ -1296,16 +1287,16 @@ exports[`Render correct preview 1`] = `
                       viewBox="0 0 24 24"
                     >
                       <path
-                        d="M15 3h6v6"
+                        d="M12 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"
                       />
                       <path
-                        d="m21 3-7 7"
+                        d="M14 15H9v-5"
                       />
                       <path
-                        d="m3 21 7-7"
+                        d="M16 3h5v5"
                       />
                       <path
-                        d="M9 21H3v-6"
+                        d="M21 3 9 15"
                       />
                     </svg>
                   </span>
@@ -1483,7 +1474,7 @@ exports[`Render correct preview 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="lucide lucide-locate"
+                      class="lucide lucide-crosshair"
                       fill="none"
                       focusable="false"
                       stroke="currentColor"
@@ -1492,34 +1483,34 @@ exports[`Render correct preview 1`] = `
                       stroke-width="1.75"
                       viewBox="0 0 24 24"
                     >
-                      <line
-                        x1="2"
-                        x2="5"
-                        y1="12"
-                        y2="12"
-                      />
-                      <line
-                        x1="19"
-                        x2="22"
-                        y1="12"
-                        y2="12"
-                      />
-                      <line
-                        x1="12"
-                        x2="12"
-                        y1="2"
-                        y2="5"
-                      />
-                      <line
-                        x1="12"
-                        x2="12"
-                        y1="19"
-                        y2="22"
-                      />
                       <circle
                         cx="12"
                         cy="12"
-                        r="7"
+                        r="10"
+                      />
+                      <line
+                        x1="22"
+                        x2="18"
+                        y1="12"
+                        y2="12"
+                      />
+                      <line
+                        x1="6"
+                        x2="2"
+                        y1="12"
+                        y2="12"
+                      />
+                      <line
+                        x1="12"
+                        x2="12"
+                        y1="6"
+                        y2="2"
+                      />
+                      <line
+                        x1="12"
+                        x2="12"
+                        y1="22"
+                        y2="18"
                       />
                     </svg>
                   </span>
@@ -1601,7 +1592,7 @@ exports[`Render correct preview 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="lucide lucide-share"
+                      class="lucide lucide-forward"
                       fill="none"
                       focusable="false"
                       stroke="currentColor"
@@ -1611,13 +1602,10 @@ exports[`Render correct preview 1`] = `
                       viewBox="0 0 24 24"
                     >
                       <path
-                        d="M12 2v13"
+                        d="m15 17 5-5-5-5"
                       />
                       <path
-                        d="m16 6-4-4-4 4"
-                      />
-                      <path
-                        d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"
+                        d="M4 18v-2a4 4 0 0 1 4-4h12"
                       />
                     </svg>
                   </span>
@@ -1763,7 +1751,7 @@ exports[`Render correct preview with target groups 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="lucide lucide-maximize-2"
+                      class="lucide lucide-scaling"
                       fill="none"
                       focusable="false"
                       stroke="currentColor"
@@ -1773,16 +1761,16 @@ exports[`Render correct preview with target groups 1`] = `
                       viewBox="0 0 24 24"
                     >
                       <path
-                        d="M15 3h6v6"
+                        d="M12 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"
                       />
                       <path
-                        d="m21 3-7 7"
+                        d="M14 15H9v-5"
                       />
                       <path
-                        d="m3 21 7-7"
+                        d="M16 3h5v5"
                       />
                       <path
-                        d="M9 21H3v-6"
+                        d="M21 3 9 15"
                       />
                     </svg>
                   </span>
@@ -2057,7 +2045,7 @@ exports[`Render correct preview with target groups 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="lucide lucide-share"
+                      class="lucide lucide-forward"
                       fill="none"
                       focusable="false"
                       stroke="currentColor"
@@ -2067,13 +2055,10 @@ exports[`Render correct preview with target groups 1`] = `
                       viewBox="0 0 24 24"
                     >
                       <path
-                        d="M12 2v13"
+                        d="m15 17 5-5-5-5"
                       />
                       <path
-                        d="m16 6-4-4-4 4"
-                      />
-                      <path
-                        d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"
+                        d="M4 18v-2a4 4 0 0 1 4-4h12"
                       />
                     </svg>
                   </span>
@@ -2219,7 +2204,7 @@ exports[`Render nothing if separate window is opened and rerender if it is close
                   >
                     <svg
                       aria-hidden="true"
-                      class="lucide lucide-maximize-2"
+                      class="lucide lucide-scaling"
                       fill="none"
                       focusable="false"
                       stroke="currentColor"
@@ -2229,16 +2214,16 @@ exports[`Render nothing if separate window is opened and rerender if it is close
                       viewBox="0 0 24 24"
                     >
                       <path
-                        d="M15 3h6v6"
+                        d="M12 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"
                       />
                       <path
-                        d="m21 3-7 7"
+                        d="M14 15H9v-5"
                       />
                       <path
-                        d="m3 21 7-7"
+                        d="M16 3h5v5"
                       />
                       <path
-                        d="M9 21H3v-6"
+                        d="M21 3 9 15"
                       />
                     </svg>
                   </span>
@@ -2457,7 +2442,7 @@ exports[`Render nothing if separate window is opened and rerender if it is close
                   >
                     <svg
                       aria-hidden="true"
-                      class="lucide lucide-share"
+                      class="lucide lucide-forward"
                       fill="none"
                       focusable="false"
                       stroke="currentColor"
@@ -2467,13 +2452,10 @@ exports[`Render nothing if separate window is opened and rerender if it is close
                       viewBox="0 0 24 24"
                     >
                       <path
-                        d="M12 2v13"
+                        d="m15 17 5-5-5-5"
                       />
                       <path
-                        d="m16 6-4-4-4 4"
-                      />
-                      <path
-                        d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"
+                        d="M4 18v-2a4 4 0 0 1 4-4h12"
                       />
                     </svg>
                   </span>
@@ -2619,7 +2601,7 @@ exports[`Render nothing if separate window is opened and rerender if it is close
                   >
                     <svg
                       aria-hidden="true"
-                      class="lucide lucide-maximize-2"
+                      class="lucide lucide-scaling"
                       fill="none"
                       focusable="false"
                       stroke="currentColor"
@@ -2629,16 +2611,16 @@ exports[`Render nothing if separate window is opened and rerender if it is close
                       viewBox="0 0 24 24"
                     >
                       <path
-                        d="M15 3h6v6"
+                        d="M12 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"
                       />
                       <path
-                        d="m21 3-7 7"
+                        d="M14 15H9v-5"
                       />
                       <path
-                        d="m3 21 7-7"
+                        d="M16 3h5v5"
                       />
                       <path
-                        d="M9 21H3v-6"
+                        d="M21 3 9 15"
                       />
                     </svg>
                   </span>
@@ -2857,7 +2839,7 @@ exports[`Render nothing if separate window is opened and rerender if it is close
                   >
                     <svg
                       aria-hidden="true"
-                      class="lucide lucide-share"
+                      class="lucide lucide-forward"
                       fill="none"
                       focusable="false"
                       stroke="currentColor"
@@ -2867,13 +2849,10 @@ exports[`Render nothing if separate window is opened and rerender if it is close
                       viewBox="0 0 24 24"
                     >
                       <path
-                        d="M12 2v13"
+                        d="m15 17 5-5-5-5"
                       />
                       <path
-                        d="m16 6-4-4-4 4"
-                      />
-                      <path
-                        d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"
+                        d="M4 18v-2a4 4 0 0 1 4-4h12"
                       />
                     </svg>
                   </span>

@@ -99,7 +99,7 @@ exports[`Render in disabled state 1`] = `
               >
                 <svg
                   aria-hidden="true"
-                  class="lucide lucide-pen-line"
+                  class="lucide lucide-pencil"
                   fill="none"
                   focusable="false"
                   stroke="currentColor"
@@ -109,10 +109,10 @@ exports[`Render in disabled state 1`] = `
                   viewBox="0 0 24 24"
                 >
                   <path
-                    d="M13 21h8"
+                    d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"
                   />
                   <path
-                    d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"
+                    d="m15 5 4 4"
                   />
                 </svg>
               </span>
@@ -244,7 +244,7 @@ exports[`Render in disabled state 1`] = `
               >
                 <svg
                   aria-hidden="true"
-                  class="lucide lucide-pen-line"
+                  class="lucide lucide-pencil"
                   fill="none"
                   focusable="false"
                   stroke="currentColor"
@@ -254,10 +254,10 @@ exports[`Render in disabled state 1`] = `
                   viewBox="0 0 24 24"
                 >
                   <path
-                    d="M13 21h8"
+                    d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"
                   />
                   <path
-                    d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"
+                    d="m15 5 4 4"
                   />
                 </svg>
               </span>
@@ -472,7 +472,7 @@ exports[`Render with empty webspace section 1`] = `
               >
                 <svg
                   aria-hidden="true"
-                  class="lucide lucide-pen-line"
+                  class="lucide lucide-pencil"
                   fill="none"
                   focusable="false"
                   stroke="currentColor"
@@ -482,10 +482,10 @@ exports[`Render with empty webspace section 1`] = `
                   viewBox="0 0 24 24"
                 >
                   <path
-                    d="M13 21h8"
+                    d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"
                   />
                   <path
-                    d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"
+                    d="m15 5 4 4"
                   />
                 </svg>
               </span>
@@ -623,7 +623,7 @@ exports[`Render with empty webspace section 1`] = `
               >
                 <svg
                   aria-hidden="true"
-                  class="lucide lucide-pen-line"
+                  class="lucide lucide-pencil"
                   fill="none"
                   focusable="false"
                   stroke="currentColor"
@@ -633,10 +633,10 @@ exports[`Render with empty webspace section 1`] = `
                   viewBox="0 0 24 24"
                 >
                   <path
-                    d="M13 21h8"
+                    d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"
                   />
                   <path
-                    d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"
+                    d="m15 5 4 4"
                   />
                 </svg>
               </span>
@@ -792,7 +792,7 @@ exports[`Render with minimal 1`] = `
               >
                 <svg
                   aria-hidden="true"
-                  class="lucide lucide-pen-line"
+                  class="lucide lucide-pencil"
                   fill="none"
                   focusable="false"
                   stroke="currentColor"
@@ -802,10 +802,10 @@ exports[`Render with minimal 1`] = `
                   viewBox="0 0 24 24"
                 >
                   <path
-                    d="M13 21h8"
+                    d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"
                   />
                   <path
-                    d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"
+                    d="m15 5 4 4"
                   />
                 </svg>
               </span>
@@ -943,7 +943,7 @@ exports[`Render with minimal 1`] = `
               >
                 <svg
                   aria-hidden="true"
-                  class="lucide lucide-pen-line"
+                  class="lucide lucide-pencil"
                   fill="none"
                   focusable="false"
                   stroke="currentColor"
@@ -953,10 +953,10 @@ exports[`Render with minimal 1`] = `
                   viewBox="0 0 24 24"
                 >
                   <path
-                    d="M13 21h8"
+                    d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"
                   />
                   <path
-                    d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"
+                    d="m15 5 4 4"
                   />
                 </svg>
               </span>
@@ -1177,7 +1177,7 @@ exports[`Render with webspace section 1`] = `
                 >
                   <svg
                     aria-hidden="true"
-                    class="lucide lucide-pen-line"
+                    class="lucide lucide-pencil"
                     fill="none"
                     focusable="false"
                     stroke="currentColor"
@@ -1187,10 +1187,10 @@ exports[`Render with webspace section 1`] = `
                     viewBox="0 0 24 24"
                   >
                     <path
-                      d="M13 21h8"
+                      d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"
                     />
                     <path
-                      d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"
+                      d="m15 5 4 4"
                     />
                   </svg>
                 </span>
@@ -1244,7 +1244,7 @@ exports[`Render with webspace section 1`] = `
                 >
                   <svg
                     aria-hidden="true"
-                    class="lucide lucide-file-up"
+                    class="lucide lucide-globe"
                     fill="none"
                     focusable="false"
                     stroke="currentColor"
@@ -1253,17 +1253,16 @@ exports[`Render with webspace section 1`] = `
                     stroke-width="1.75"
                     viewBox="0 0 24 24"
                   >
-                    <path
-                      d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"
+                    <circle
+                      cx="12"
+                      cy="12"
+                      r="10"
                     />
                     <path
-                      d="M14 2v5a1 1 0 0 0 1 1h5"
+                      d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"
                     />
                     <path
-                      d="M12 12v6"
-                    />
-                    <path
-                      d="m15 15-3-3-3 3"
+                      d="M2 12h20"
                     />
                   </svg>
                 </span>
@@ -1397,7 +1396,7 @@ exports[`Render with webspace section 1`] = `
                 >
                   <svg
                     aria-hidden="true"
-                    class="lucide lucide-pen-line"
+                    class="lucide lucide-pencil"
                     fill="none"
                     focusable="false"
                     stroke="currentColor"
@@ -1407,10 +1406,10 @@ exports[`Render with webspace section 1`] = `
                     viewBox="0 0 24 24"
                   >
                     <path
-                      d="M13 21h8"
+                      d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"
                     />
                     <path
-                      d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"
+                      d="m15 5 4 4"
                     />
                   </svg>
                 </span>
@@ -1548,7 +1547,7 @@ exports[`Render with webspace section 1`] = `
                 >
                   <svg
                     aria-hidden="true"
-                    class="lucide lucide-pen-line"
+                    class="lucide lucide-pencil"
                     fill="none"
                     focusable="false"
                     stroke="currentColor"
@@ -1558,10 +1557,10 @@ exports[`Render with webspace section 1`] = `
                     viewBox="0 0 24 24"
                   >
                     <path
-                      d="M13 21h8"
+                      d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"
                     />
                     <path
-                      d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"
+                      d="m15 5 4 4"
                     />
                   </svg>
                 </span>
@@ -1713,7 +1712,7 @@ exports[`Render with webspace section 1`] = `
               >
                 <svg
                   aria-hidden="true"
-                  class="lucide lucide-pen-line"
+                  class="lucide lucide-pencil"
                   fill="none"
                   focusable="false"
                   stroke="currentColor"
@@ -1723,10 +1722,10 @@ exports[`Render with webspace section 1`] = `
                   viewBox="0 0 24 24"
                 >
                   <path
-                    d="M13 21h8"
+                    d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"
                   />
                   <path
-                    d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"
+                    d="m15 5 4 4"
                   />
                 </svg>
               </span>
@@ -1864,7 +1863,7 @@ exports[`Render with webspace section 1`] = `
               >
                 <svg
                   aria-hidden="true"
-                  class="lucide lucide-pen-line"
+                  class="lucide lucide-pencil"
                   fill="none"
                   focusable="false"
                   stroke="currentColor"
@@ -1874,10 +1873,10 @@ exports[`Render with webspace section 1`] = `
                   viewBox="0 0 24 24"
                 >
                   <path
-                    d="M13 21h8"
+                    d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"
                   />
                   <path
-                    d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"
+                    d="m15 5 4 4"
                   />
                 </svg>
               </span>

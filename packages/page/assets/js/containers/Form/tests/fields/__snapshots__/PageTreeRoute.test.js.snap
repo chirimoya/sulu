@@ -21,7 +21,7 @@ exports[`Render a PageTreeRoute 1`] = `
           >
             <svg
               aria-hidden="true"
-              class="lucide lucide-file"
+              class="lucide lucide-file-text"
               fill="none"
               focusable="false"
               stroke="currentColor"
@@ -35,6 +35,15 @@ exports[`Render a PageTreeRoute 1`] = `
               />
               <path
                 d="M14 2v5a1 1 0 0 0 1 1h5"
+              />
+              <path
+                d="M10 9H8"
+              />
+              <path
+                d="M16 13H8"
+              />
+              <path
+                d="M16 17H8"
               />
             </svg>
           </span>
@@ -182,7 +191,7 @@ exports[`Render a PageTreeRoute without value 1`] = `
           >
             <svg
               aria-hidden="true"
-              class="lucide lucide-file"
+              class="lucide lucide-file-text"
               fill="none"
               focusable="false"
               stroke="currentColor"
@@ -196,6 +205,15 @@ exports[`Render a PageTreeRoute without value 1`] = `
               />
               <path
                 d="M14 2v5a1 1 0 0 0 1 1h5"
+              />
+              <path
+                d="M10 9H8"
+              />
+              <path
+                d="M16 13H8"
+              />
+              <path
+                d="M16 17H8"
               />
             </svg>
           </span>

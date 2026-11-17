@@ -16,7 +16,7 @@ exports[`Render in disabled state 1`] = `
       >
         <svg
           aria-hidden="true"
-          class="lucide lucide-file"
+          class="lucide lucide-file-text"
           fill="none"
           focusable="false"
           stroke="currentColor"
@@ -30,6 +30,15 @@ exports[`Render in disabled state 1`] = `
           />
           <path
             d="M14 2v5a1 1 0 0 0 1 1h5"
+          />
+          <path
+            d="M10 9H8"
+          />
+          <path
+            d="M16 13H8"
+          />
+          <path
+            d="M16 17H8"
           />
         </svg>
       </span>
@@ -63,7 +72,7 @@ exports[`Render in invalid state 1`] = `
       >
         <svg
           aria-hidden="true"
-          class="lucide lucide-file"
+          class="lucide lucide-file-text"
           fill="none"
           focusable="false"
           stroke="currentColor"
@@ -77,6 +86,15 @@ exports[`Render in invalid state 1`] = `
           />
           <path
             d="M14 2v5a1 1 0 0 0 1 1h5"
+          />
+          <path
+            d="M10 9H8"
+          />
+          <path
+            d="M16 13H8"
+          />
+          <path
+            d="M16 17H8"
           />
         </svg>
       </span>
@@ -111,7 +129,7 @@ exports[`Render in item-disabled state with remove button 1`] = `
       >
         <svg
           aria-hidden="true"
-          class="lucide lucide-file"
+          class="lucide lucide-file-text"
           fill="none"
           focusable="false"
           stroke="currentColor"
@@ -125,6 +143,15 @@ exports[`Render in item-disabled state with remove button 1`] = `
           />
           <path
             d="M14 2v5a1 1 0 0 0 1 1h5"
+          />
+          <path
+            d="M10 9H8"
+          />
+          <path
+            d="M16 13H8"
+          />
+          <path
+            d="M16 17H8"
           />
         </svg>
       </span>
@@ -196,7 +223,7 @@ exports[`Render in item-disabled state without remove button 1`] = `
       >
         <svg
           aria-hidden="true"
-          class="lucide lucide-file"
+          class="lucide lucide-file-text"
           fill="none"
           focusable="false"
           stroke="currentColor"
@@ -210,6 +237,15 @@ exports[`Render in item-disabled state without remove button 1`] = `
           />
           <path
             d="M14 2v5a1 1 0 0 0 1 1h5"
+          />
+          <path
+            d="M10 9H8"
+          />
+          <path
+            d="M16 13H8"
+          />
+          <path
+            d="M16 17H8"
           />
         </svg>
       </span>
@@ -243,7 +279,7 @@ exports[`Render in loading state 1`] = `
       >
         <svg
           aria-hidden="true"
-          class="lucide lucide-file"
+          class="lucide lucide-file-text"
           fill="none"
           focusable="false"
           stroke="currentColor"
@@ -257,6 +293,15 @@ exports[`Render in loading state 1`] = `
           />
           <path
             d="M14 2v5a1 1 0 0 0 1 1h5"
+          />
+          <path
+            d="M10 9H8"
+          />
+          <path
+            d="M16 13H8"
+          />
+          <path
+            d="M16 17H8"
           />
         </svg>
       </span>
@@ -301,7 +346,7 @@ exports[`Render in loading state with no children 1`] = `
       >
         <svg
           aria-hidden="true"
-          class="lucide lucide-file"
+          class="lucide lucide-file-text"
           fill="none"
           focusable="false"
           stroke="currentColor"
@@ -315,6 +360,15 @@ exports[`Render in loading state with no children 1`] = `
           />
           <path
             d="M14 2v5a1 1 0 0 0 1 1h5"
+          />
+          <path
+            d="M10 9H8"
+          />
+          <path
+            d="M16 13H8"
+          />
+          <path
+            d="M16 17H8"
           />
         </svg>
       </span>
@@ -432,7 +486,7 @@ exports[`Render with given children prop and with custom className 1`] = `
       >
         <svg
           aria-hidden="true"
-          class="lucide lucide-file"
+          class="lucide lucide-file-text"
           fill="none"
           focusable="false"
           stroke="currentColor"
@@ -446,6 +500,15 @@ exports[`Render with given children prop and with custom className 1`] = `
           />
           <path
             d="M14 2v5a1 1 0 0 0 1 1h5"
+          />
+          <path
+            d="M10 9H8"
+          />
+          <path
+            d="M16 13H8"
+          />
+          <path
+            d="M16 17H8"
           />
         </svg>
       </span>
@@ -544,7 +607,7 @@ exports[`Render with right button 1`] = `
       >
         <svg
           aria-hidden="true"
-          class="lucide lucide-file"
+          class="lucide lucide-file-text"
           fill="none"
           focusable="false"
           stroke="currentColor"
@@ -558,6 +621,15 @@ exports[`Render with right button 1`] = `
           />
           <path
             d="M14 2v5a1 1 0 0 0 1 1h5"
+          />
+          <path
+            d="M10 9H8"
+          />
+          <path
+            d="M16 13H8"
+          />
+          <path
+            d="M16 17H8"
           />
         </svg>
       </span>
@@ -600,7 +672,7 @@ exports[`Render with right button with options 1`] = `
       >
         <svg
           aria-hidden="true"
-          class="lucide lucide-file"
+          class="lucide lucide-file-text"
           fill="none"
           focusable="false"
           stroke="currentColor"
@@ -614,6 +686,15 @@ exports[`Render with right button with options 1`] = `
           />
           <path
             d="M14 2v5a1 1 0 0 0 1 1h5"
+          />
+          <path
+            d="M10 9H8"
+          />
+          <path
+            d="M16 13H8"
+          />
+          <path
+            d="M16 17H8"
           />
         </svg>
       </span>
