@@ -13,8 +13,8 @@ import selectStyles from './select.scss';
 import type {OptionSelectedVisualization, SelectChildren, SelectProps} from './types';
 import type {Element, ElementRef} from 'react';
 
-const HORIZONTAL_OFFSET = -20;
-const VERTICAL_OFFSET = 2;
+const HORIZONTAL_OFFSET = -24;
+const VERTICAL_OFFSET = 0;
 
 type Props<T> = {|
     ...SelectProps<T>,

@@ -1,14 +1,15 @@
 @import '../../containers/Application/colors.scss';
 
-$menuBorderColor: $frenchGray;
-$menuBackgroundColor: $wildSand;
-$menuBoxShadow: 2px 6px 12px 0 rgba($black, .22);
+$menuBorderColor: var(--sulu-border-default);
+$menuBackgroundColor: var(--sulu-surface-popover);
+$menuBoxShadow: var(--sulu-shadow-menu);
 
 .menu {
-    border-radius: 2px;
-    padding: 5px 0;
+    border-radius: var(--sulu-radius-lg);
+    padding: var(--sulu-space-4);
     font-size: 14px;
     margin: 0;
+    list-style: none;
     overflow: auto;
     background: $menuBackgroundColor;
     box-shadow: $menuBoxShadow;

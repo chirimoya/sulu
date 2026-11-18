@@ -5,7 +5,7 @@ $optionTextDarkColor: $white;
 $optionTextLightColorDisabled: $silver;
 $optionTextDarkColorDisabled: $stormGray;
 $optionTextLightColorActive: var(--sulu-color-ink);
-$optionBackgroundLightColorActive: var(--sulu-n100);
+$optionBackgroundLightColorActive: var(--sulu-n50);
 $optionTextDarkColorActive: $white;
 
 .light {
@@ -62,7 +62,9 @@ $optionTextDarkColorActive: $white;
         display: block;
         overflow: hidden;
         width: 100%;
-        padding: 8px 16px 8px 36px;
+        min-height: 34px;
+        padding: 4px 12px 4px 32px;
+        border-radius: var(--sulu-radius-md);
         text-align: left;
         border: 0;
         font-weight: inherit;
@@ -81,7 +83,7 @@ $optionTextDarkColorActive: $white;
 
     &.small {
         button {
-            padding: 10px 10px 10px 23px;
+            padding: 4px 10px 4px 26px;
         }
 
         .selected-icon {
@@ -92,6 +94,6 @@ $optionTextDarkColorActive: $white;
 
 .selected-icon {
     position: absolute;
-    top: 10px;
-    left: 14px;
+    top: 9px;
+    left: 10px;
 }

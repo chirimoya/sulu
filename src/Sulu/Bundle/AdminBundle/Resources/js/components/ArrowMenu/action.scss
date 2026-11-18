@@ -1,6 +1,6 @@
 @import '../../containers/Application/colors.scss';
 
-$hoverColor: $shakespeare;
+$hoverBackgroundColor: var(--sulu-n50);
 $fontColor: $black;
 $disabledColor: $silver;
 
@@ -8,19 +8,19 @@ $disabledColor: $silver;
     background: transparent;
     border: none;
     display: block;
-    line-height: 14px;
+    width: 100%;
+    height: 34px;
+    padding: 0 var(--sulu-space-10);
+    border-radius: var(--sulu-radius-md);
+    line-height: 34px;
+    white-space: nowrap;
     color: $fontColor;
     cursor: pointer;
     font-size: 14px;
-    margin-bottom: 10px;
     text-align: left;
 
-    &:hover {
-        color: $hoverColor;
-    }
-
-    &:last-child {
-        margin-bottom: 0;
+    &:hover:not(:disabled) {
+        background: $hoverBackgroundColor;
     }
 
     &:disabled {

@@ -20,7 +20,7 @@ $popoverShadowColor: $silver;
 .light {
     background-color: $popoverBackgroundLightColor;
     color: $popoverTextLightColor;
-    border-radius: var(--sulu-radius-md);
+    border-radius: var(--sulu-radius-lg);
     box-shadow: var(--sulu-shadow-popover);
 
     &:disabled {

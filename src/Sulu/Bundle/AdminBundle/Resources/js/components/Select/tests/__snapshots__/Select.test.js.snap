@@ -91,7 +91,7 @@ exports[`The component should render with a dark skin 2`] = `
   <li>
     <button
       class="option icon"
-      style="min-width: 210px;"
+      style="min-width: 238px;"
       type="button"
     >
       Option 1
@@ -100,7 +100,7 @@ exports[`The component should render with a dark skin 2`] = `
   <li>
     <button
       class="option icon"
-      style="min-width: 210px;"
+      style="min-width: 238px;"
       type="button"
     >
       Option 2
@@ -112,7 +112,7 @@ exports[`The component should render with a dark skin 2`] = `
   <li>
     <button
       class="option icon"
-      style="min-width: 210px;"
+      style="min-width: 238px;"
       type="button"
     >
       Option 3

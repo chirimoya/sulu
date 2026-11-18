@@ -1,31 +1,32 @@
 @import '../../containers/Application/colors.scss';
 
 $itemColor: $black;
-$itemColorHover: $shakespeare;
+$itemBackgroundColorHover: var(--sulu-n50);
+$itemBackgroundColorActive: var(--sulu-n100);
 $disabledColor: $silver;
 
 .item {
     background: none;
     border: none;
     display: block;
-    height: 22px;
+    width: 100%;
+    height: 34px;
+    padding: 0 var(--sulu-space-10);
+    border-radius: var(--sulu-radius-md);
     color: $itemColor;
     font-size: 14px;
-    line-height: 22px;
-    margin-bottom: 6px;
+    line-height: 34px;
+    white-space: nowrap;
     cursor: pointer;
     text-align: start;
 
-    &:last-child {
-        margin-bottom: 0;
-    }
-
     &.active {
-        font-weight: bold;
+        font-weight: 500;
+        background: $itemBackgroundColorActive;
     }
 
-    &:hover:not([disabled]) {
-        color: $itemColorHover;
+    &:hover:not([disabled], .active) {
+        background: $itemBackgroundColorHover;
     }
 
     &:disabled {

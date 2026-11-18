@@ -20,7 +20,7 @@ type Props<T> = {|
     value: T,
 |};
 
-const ANCHOR_WIDTH_DIFFERENCE = 10;
+const ANCHOR_WIDTH_DIFFERENCE = 38;
 
 export default class Option<T> extends React.PureComponent<Props<T>> {
     static defaultProps = {

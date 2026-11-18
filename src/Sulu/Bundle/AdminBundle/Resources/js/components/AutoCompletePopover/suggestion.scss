@@ -1,7 +1,7 @@
 @import '../../containers/Application/colors.scss';
 
 $suggestionTextColor: $black;
-$suggestionTextColorActive: $shakespeare;
+$suggestionBackgroundColorActive: var(--sulu-n50);
 $suggestionTextColorDisabled: rgba($suggestionTextColor, .3);
 
 .suggestion-item {
@@ -10,8 +10,12 @@ $suggestionTextColorDisabled: rgba($suggestionTextColor, .3);
 
 .suggestion {
     display: flex;
+    align-items: center;
     cursor: pointer;
-    padding: 5px 20px 5px 40px;
+    min-height: 34px;
+    padding: 4px 12px;
+    border-radius: var(--sulu-radius-md);
+    font-size: 14px;
     width: 100%;
     color: $suggestionTextColor;
     border: none;
@@ -20,7 +24,7 @@ $suggestionTextColorDisabled: rgba($suggestionTextColor, .3);
 
     &:not(:disabled):hover,
     &:not(:disabled):focus {
-        color: $suggestionTextColorActive;
+        background: $suggestionBackgroundColorActive;
     }
 
     &:disabled {
@@ -30,5 +34,5 @@ $suggestionTextColorDisabled: rgba($suggestionTextColor, .3);
 }
 
 .icon {
-    margin-right: 15px;
+    margin-right: 10px;
 }

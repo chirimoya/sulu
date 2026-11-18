@@ -1,21 +1,27 @@
 @import '../../containers/Application/colors.scss';
 
-$focusColor: $shakespeare;
 $fontColor: $black;
+$height: 34px;
+$hoverBackgroundColor: var(--sulu-n50);
 
 .action {
+    display: flex;
+    align-items: center;
     width: 100%;
+    min-height: $height;
     position: relative;
     line-height: 20px;
-    padding: 0 20px 0 30px;
+    padding: 4px 12px 4px 32px;
     color: $fontColor;
     border: none;
+    border-radius: var(--sulu-radius-md);
     background: transparent;
     cursor: pointer;
     text-align: left;
     font-size: 13px;
 
+    &:hover,
     &:focus {
-        color: $focusColor;
+        background: $hoverBackgroundColor;
     }
 }

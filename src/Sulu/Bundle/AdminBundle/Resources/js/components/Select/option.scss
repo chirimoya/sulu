@@ -1,23 +1,33 @@
 @import '../../containers/Application/colors.scss';
 
-$focusColor: $shakespeare;
 $fontColor: $black;
 $fontSize: 14px;
+$height: 34px;
+$hoverBackgroundColor: var(--sulu-n50);
+$selectedBackgroundColor: var(--sulu-n100);
+$selectedIconColor: var(--sulu-color-primary);
+$checkboxSize: 16px;
 
 .option {
+    display: flex;
+    align-items: center;
     width: 100%;
+    min-height: $height;
     position: relative;
-    padding: 0 20px 0 30px;
+    padding: 4px 12px 4px 32px;
     color: $fontColor;
     border: none;
+    border-radius: var(--sulu-radius-md);
     background: transparent;
     cursor: pointer;
     text-align: left;
     font-size: $fontSize;
+    line-height: 20px;
     outline: 0;
 
+    &:not(:disabled):hover,
     &:not(:disabled):focus {
-        color: $focusColor;
+        background: $hoverBackgroundColor;
     }
 
     &:disabled {
@@ -26,30 +36,32 @@ $fontSize: 14px;
     }
 
     &.selected {
-        font-weight: bold;
+        font-weight: 500;
     }
 }
 
 .option.icon {
-    line-height: 20px;
+    &.selected {
+        background: $selectedBackgroundColor;
+    }
 
     &.selected .icon {
+        display: flex;
+        align-items: center;
         position: absolute;
+        top: 0;
+        bottom: 0;
         left: 10px;
-        line-height: 20px;
-        vertical-align: middle;
+        color: $selectedIconColor;
     }
 }
 
 .option.checkbox {
-    line-height: 25px;
-    padding-left: 35px;
+    padding-left: 36px;
 
     .input {
         position: absolute;
+        top: calc(50% - $checkboxSize / 2);
         left: 10px;
-        top: 4px;
-        line-height: 20px;
-        vertical-align: middle;
     }
 }
