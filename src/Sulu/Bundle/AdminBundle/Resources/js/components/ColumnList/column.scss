@@ -4,7 +4,8 @@
 .column {
     flex-grow: 1;
     background: $columnListBackgroundColor;
-    border-right: $columnBorder;
+    border-right: $columnBorderWidth solid $columnSeparatorColor;
+    padding: var(--sulu-space-4) 0;
     display: inline-block;
     vertical-align: top;
     width: $columnWidth;

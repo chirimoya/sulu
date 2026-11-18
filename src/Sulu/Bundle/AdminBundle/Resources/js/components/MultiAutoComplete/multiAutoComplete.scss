@@ -22,7 +22,7 @@ $multiAutoCompleteDisabledBackgroundColor: $wildSand;
         box-shadow: var(--sulu-shadow-focus);
     }
 
-    /* the chip is 26px high, so a row with chips is as high as the empty field */
+    /* a row with chips must not be higher than the input, so the field keeps its height */
     .chip {
         display: flex;
         align-items: center;

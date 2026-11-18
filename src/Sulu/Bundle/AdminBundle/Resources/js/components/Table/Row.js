@@ -244,12 +244,14 @@ export default class Row extends React.PureComponent<Props> {
         const {
             children,
             disabled,
+            selected,
         } = this.props;
 
         const listClass = classNames(
             tableStyles.row,
             {
                 [tableStyles.disabled]: disabled,
+                [tableStyles.selected]: selected,
             }
         );
 

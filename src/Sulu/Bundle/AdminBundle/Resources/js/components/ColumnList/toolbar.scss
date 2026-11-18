@@ -1,13 +1,15 @@
 @import '../../containers/Application/colors.scss';
 @import './variables.scss';
 
-$itemBackgroundColorPrimary: $silver;
-$itemBackgroundColorSecondary: $shakespeare;
+$itemBackgroundColorPrimary: var(--sulu-n150);
+$itemBackgroundColorPrimaryHover: var(--sulu-n200);
+$itemBackgroundColorSecondary: var(--sulu-color-primary);
+$itemBackgroundColorSecondaryHover: var(--sulu-color-primary-hover);
 
-$itemPrimaryColor: $black;
-$itemSecondaryColor: $white;
+$itemPrimaryColor: var(--sulu-color-ink);
+$itemSecondaryColor: var(--sulu-color-primary-contrast);
 
-$borderRadius: 3px;
+$borderRadius: var(--sulu-radius-md);
 $dropdownContainerBoxShadow: 2px 6px 12px 0 rgba($silver, .22);
 
 .toolbar {
@@ -20,8 +22,9 @@ $dropdownContainerBoxShadow: 2px 6px 12px 0 rgba($silver, .22);
 .item {
     flex: 1;
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     padding: 5px 0;
+    transition: background-color .12s;
     cursor: pointer;
     margin-left: 1px;
     border: 0;
@@ -38,10 +41,18 @@ $dropdownContainerBoxShadow: 2px 6px 12px 0 rgba($silver, .22);
     &.primary {
         background: $itemBackgroundColorPrimary;
         color: $itemPrimaryColor;
+
+        &:hover {
+            background: $itemBackgroundColorPrimaryHover;
+        }
     }
 
     &.secondary {
         background: $itemBackgroundColorSecondary;
         color: $itemSecondaryColor;
+
+        &:hover {
+            background: $itemBackgroundColorSecondaryHover;
+        }
     }
 }

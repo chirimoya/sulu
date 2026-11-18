@@ -1,13 +1,13 @@
 @import '../../containers/Application/colors.scss';
 
 $cardBackgroundColor: $white;
-$cardBorderColor: $silver;
+$cardBorderColor: var(--sulu-border-default);
 
 .card {
     background-color: $cardBackgroundColor;
     border: 1px solid $cardBorderColor;
-    border-radius: 3px;
-    padding: 30px;
+    border-radius: var(--sulu-radius-lg);
+    padding: var(--sulu-space-24);
     width: 100%;
 }
 

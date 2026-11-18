@@ -124,7 +124,7 @@ exports[`Render a list of rules 1`] = `
                 tabindex="-1"
               >
                 <span
-                  class="switch checkbox light"
+                  class="switch checkbox dark"
                 >
                   <input
                     type="checkbox"
@@ -551,7 +551,7 @@ exports[`Render an empty list of rules 1`] = `
                 tabindex="-1"
               >
                 <span
-                  class="switch checkbox light"
+                  class="switch checkbox dark"
                 >
                   <input
                     type="checkbox"

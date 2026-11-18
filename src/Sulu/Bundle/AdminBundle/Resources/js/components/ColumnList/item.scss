@@ -1,10 +1,13 @@
 @import '../../containers/Application/colors.scss';
 
-$itemBackgroundColorSelected: $alabaster;
-$itemBackgroundColorHover: $concrete;
-$itemColorDisabled: $dustyGray;
-$itemButtonBackgroundColor: $shakespeare;
-$itemButtonColor: $white;
+$itemBackgroundColorSelected: var(--sulu-n100);
+$itemBackgroundColorHover: var(--sulu-n50);
+$itemBackgroundColorChecked: var(--sulu-surface-selected);
+$itemColorDisabled: var(--sulu-text-muted);
+$itemButtonColor: var(--sulu-n700);
+$itemButtonColorHover: var(--sulu-color-ink);
+$itemButtonSize: 26px;
+$itemIconColor: var(--sulu-text-muted);
 
 $itemHeight: 40px;
 
@@ -13,6 +16,10 @@ $itemHeight: 40px;
     align-items: center;
     cursor: pointer;
     display: flex;
+    margin: 0 var(--sulu-space-4);
+    border-radius: var(--sulu-radius-md);
+    overflow: hidden;
+    transition: background-color .12s;
 
     .text {
         font-size: 14px;
@@ -23,7 +30,7 @@ $itemHeight: 40px;
 
     &.active {
         background: $itemBackgroundColorSelected;
-        font-weight: bold;
+        font-weight: 500;
     }
 
     &.disabled {
@@ -34,23 +41,36 @@ $itemHeight: 40px;
         cursor: default;
     }
 
-    &:hover {
+    &:hover:not(.active) {
         background: $itemBackgroundColorHover;
     }
 
+    /* an item checked for a selection gets the same tint as a selected table row */
+    &.selected,
+    &.selected:hover {
+        background: $itemBackgroundColorChecked;
+    }
+
     .children {
-        font-size: 16px;
+        font-size: 14px;
         font-weight: normal;
         width: 25px;
+        color: $itemIconColor;
     }
 }
 
 .button {
-    background-color: $itemButtonBackgroundColor;
+    background-color: var(--sulu-n0);
+    border: 1px solid var(--sulu-border-default);
+    border-radius: var(--sulu-radius-md);
+    box-shadow: 0 1px 1px rgb(31 30 28 / 4%);
     color: $itemButtonColor;
-    height: $itemHeight;
-    width: 40px;
-    font-size: 20px;
+    height: $itemButtonSize;
+    width: $itemButtonSize;
+    flex: 0 0 $itemButtonSize;
+    margin-left: var(--sulu-space-6);
+    font-size: 14px;
+    transition: background-color .12s, border-color .12s, color .12s;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -58,6 +78,12 @@ $itemHeight: 40px;
 
     &:not(.visible) {
         visibility: hidden;
+    }
+
+    &:hover {
+        background-color: var(--sulu-n50);
+        border-color: var(--sulu-border-control);
+        color: $itemButtonColorHover;
     }
 }
 
@@ -75,7 +101,7 @@ $itemHeight: 40px;
 }
 
 .indicator {
-    font-size: 16px;
+    font-size: 14px;
     margin-right: 10px;
 }
 

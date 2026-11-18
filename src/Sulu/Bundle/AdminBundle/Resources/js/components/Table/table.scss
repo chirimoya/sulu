@@ -1,35 +1,45 @@
 @import '../../containers/Application/colors.scss';
 
-$headerTextDarkColor: $white;
-$headerCellDarkBackgroundColor: $blueZodiac;
-$headerButtonCellDarkBorderColor: rgba($silverChalice, .25);
-$headerTextBrightColor: $black;
-$headerCellBrightBackgroundColor: $alto;
-$headerButtonCellBrightBorderColor: $silver;
-$cellTextColor: $black;
-$cellTextColorActive: $white;
-$cellBackgroundColor: $white;
-$cellBorderColor: $cellBackgroundColor;
-$cellBorderColorActive: $shakespeare;
-$buttonCellBackgroundColor: $white;
-$buttonCellBackgroundColorHover: $shakespeare;
-$buttonCellBackgroundColorDisabled: $frenchGray;
-$buttonCellBorderColor: $white;
-$buttonCellColor: $buttonCellBackgroundColorHover;
-$buttonCellColorDisabled: $buttonCellBackgroundColorDisabled;
-$buttonCellColorHover: $buttonCellBackgroundColor;
-$emptyMessageColor: $silver;
-$rowHeight: 40px;
-$headerRowHeight: 60px;
+$containerBorderColor: var(--sulu-border-default);
+$containerBackgroundColor: var(--sulu-surface-card);
+$containerBorderRadius: var(--sulu-radius-lg);
+$headerTextColor: var(--sulu-text-muted);
+$headerCellBackgroundColor: var(--sulu-surface-table-header);
+$headerCellBorderColor: var(--sulu-border-default);
+$cellTextColor: var(--sulu-text-body);
+$cellBackgroundColor: var(--sulu-surface-card);
+$cellBackgroundColorHover: var(--sulu-n50);
+$cellBackgroundColorSelected: var(--sulu-surface-selected);
+$cellBorderColor: var(--sulu-border-hairline);
+$rowMarkerColor: var(--sulu-color-primary);
+$buttonCellColor: var(--sulu-n700);
+$buttonCellColorHover: var(--sulu-color-ink);
+$buttonCellBackgroundColor: var(--sulu-n0);
+$buttonCellBorderColor: var(--sulu-border-default);
+$buttonCellBackgroundColorHover: var(--sulu-n50);
+$buttonCellBorderColorHover: var(--sulu-border-control);
+$buttonCellBackgroundColorActive: var(--sulu-n100);
+$buttonCellButtonSize: 28px;
+$buttonCellColorDisabled: var(--sulu-n300);
+$emptyMessageColor: var(--sulu-text-muted);
+$rowHeight: 52px;
+$headerRowHeight: 40px;
 $rowHeightFlat: 48px;
 $paddingCell: 4px;
+$paddingCellHorizontal: 16px;
 $borderWidth: 1px;
-$borderRadius: 3px;
+$buttonCellWidth: 44px;
+
+.table-container {
+    border: $borderWidth solid $containerBorderColor;
+    border-radius: $containerBorderRadius;
+    background-color: $containerBackgroundColor;
+    overflow: auto hidden;
+}
 
 .table {
     border-collapse: separate;
-    border-spacing: 0 5px;
-    overflow: hidden;
+    border-spacing: 0;
     min-width: 100%;
 }
 
@@ -37,26 +47,13 @@ $borderRadius: 3px;
     height: $headerRowHeight;
 }
 
-.header-cell,
-.cell,
-.button-cell {
-    &:first-child {
-        border-top-left-radius: $borderRadius;
-        border-bottom-left-radius: $borderRadius;
-        border-left-width: $borderWidth;
-    }
-
-    &:last-child {
-        border-top-right-radius: $borderRadius;
-        border-bottom-right-radius: $borderRadius;
-        border-right-width: $borderWidth;
-    }
-}
-
 .header-cell {
-    padding: 20px;
+    padding: 0 $paddingCellHorizontal;
     font-size: 12px;
     font-weight: 500;
+    color: $headerTextColor;
+    background-color: $headerCellBackgroundColor;
+    border-bottom: $borderWidth solid $headerCellBorderColor;
 
     > span {
         display: inline-flex;
@@ -68,8 +65,9 @@ $borderRadius: 3px;
 
         button {
             height: $headerRowHeight;
-            padding: 5px 20px;
+            padding: 0 $paddingCellHorizontal;
             color: inherit;
+            font-weight: inherit;
             border: none;
             background: none;
             display: inline-flex;
@@ -77,6 +75,10 @@ $borderRadius: 3px;
 
             &:not(:disabled) {
                 cursor: pointer;
+
+                &:hover {
+                    color: $cellTextColor;
+                }
             }
         }
     }
@@ -99,7 +101,7 @@ $borderRadius: 3px;
     display: flex;
     align-items: center;
     height: 100%;
-    min-height: calc($rowHeight - $paddingCell * 2 - $borderWidth * 2);
+    min-height: calc($rowHeight - $paddingCell * 2 - $borderWidth);
 }
 
 .toggle-icon {
@@ -113,39 +115,54 @@ $borderRadius: 3px;
 }
 
 .header-cell-sort-icon {
-    padding-left: 10px;
+    padding-left: 6px;
 }
 
 .header-button-cell {
     width: 1px;
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
+    border-right: $borderWidth solid $headerCellBorderColor;
 }
 
 .row {
     height: $rowHeight;
 
     &:hover {
-        .cell {
-            border-color: $cellBorderColorActive;
+        .cell,
+        .button-cell {
+            background-color: $cellBackgroundColorHover;
         }
 
-        .button-cell {
-            font-size: 16px;
+        > :first-child {
+            box-shadow: inset 3px 0 0 $rowMarkerColor;
+        }
 
-            button {
-                opacity: 1;
-            }
+        .button-cell button {
+            opacity: 1;
+            background-color: $buttonCellBackgroundColor;
+            border-color: $buttonCellBorderColor;
+            box-shadow: 0 1px 1px rgb(31 30 28 / 4%);
+        }
+    }
+
+    &.selected {
+        .cell,
+        .button-cell {
+            background-color: $cellBackgroundColorSelected;
+        }
+    }
+
+    &:last-child {
+        .cell,
+        .button-cell {
+            border-bottom: 0;
         }
     }
 
     &.disabled {
         pointer-events: none;
         opacity: .5;
-
-        .cell {
-            border: $cellBorderColor;
-        }
 
         .toggle-icon {
             pointer-events: auto;
@@ -155,7 +172,7 @@ $borderRadius: 3px;
 
 .button-cell,
 .header-button-cell {
-    width: 56px;
+    width: $buttonCellWidth;
 
     &.shrink {
         width: 1px;
@@ -166,42 +183,59 @@ $borderRadius: 3px;
 .button-cell {
     margin: 0;
     height: $rowHeight;
-    padding: $paddingCell 20px;
+    padding: $paddingCell $paddingCellHorizontal;
     font-size: 14px;
-    border-width: $borderWidth 0;
-    border-style: solid;
-    border-color: $cellBorderColor;
+    border-bottom: $borderWidth solid $cellBorderColor;
     color: $cellTextColor;
     background-color: $cellBackgroundColor;
+    transition: background-color .12s;
 }
 
 .button-cell {
     padding: 0;
-    background-color: $cellBackgroundColor;
     color: $buttonCellColor;
     text-align: center;
+    border-right: $borderWidth solid $cellBorderColor;
+
+    .cell-content {
+        justify-content: center;
+    }
 
     button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
         opacity: 0;
-        width: 100%;
-        height: 100%;
-        border: none;
+        width: $buttonCellButtonSize;
+        height: $buttonCellButtonSize;
+        border: $borderWidth solid transparent;
+        border-radius: var(--sulu-radius-md);
+        font-size: 15px;
         color: $buttonCellColor;
         cursor: pointer;
         background-color: transparent;
+        transition: opacity .12s, background-color .12s, border-color .12s;
 
         &:disabled {
             color: $buttonCellColorDisabled;
             cursor: default;
         }
 
-        &:hover:not(:disabled),
-        &:focus:not(:disabled) {
-            opacity: 1;
-            font-size: 16px;
+        &:hover:not(:disabled) {
             background-color: $buttonCellBackgroundColorHover;
-            border-right: $borderWidth solid $buttonCellBorderColor;
+            border-color: $buttonCellBorderColorHover;
             color: $buttonCellColorHover;
+        }
+
+        &:active:not(:disabled) {
+            background-color: $buttonCellBackgroundColorActive;
+        }
+
+        &:focus-visible {
+            opacity: 1;
+            background-color: $buttonCellBackgroundColor;
+            border-color: var(--sulu-border-focus);
+            box-shadow: var(--sulu-shadow-focus);
         }
     }
 }
@@ -219,55 +253,28 @@ $borderRadius: 3px;
 .table-placeholder-text {
     margin-top: 15px;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: 500;
 }
 
-.dark {
-    .header {
-        color: $headerTextDarkColor;
-    }
-
-    .header-cell {
-        background-color: $headerCellDarkBackgroundColor;
-    }
-
-    .header-button-cell {
-        border-right: $borderWidth solid $headerButtonCellDarkBorderColor;
-    }
-}
-
+/* the dark and the light skin share the look of the table card */
+.dark,
 .light {
     .header {
-        color: $headerTextBrightColor;
-    }
-
-    .header-cell {
-        background-color: $headerCellBrightBackgroundColor;
-    }
-
-    .header-button-cell {
-        border-right: $borderWidth solid $headerButtonCellBrightBorderColor;
+        color: $headerTextColor;
     }
 }
 
 .flat {
-    .table {
-        border-spacing: 0 1px;
-    }
+    border: 0;
+    border-radius: 0;
+    background-color: transparent;
 
-    .header {
-        color: $cellTextColor;
-
-        & > tr {
-            height: $rowHeightFlat;
-        }
+    .header > tr {
+        height: $rowHeightFlat;
     }
 
     .header-cell {
-        background-color: $cellBackgroundColor;
-        font-weight: bold;
-        padding: $paddingCell 20px;
-        border-bottom: 1px solid $alto;
+        background-color: transparent;
 
         button {
             height: $rowHeightFlat;
@@ -278,21 +285,15 @@ $borderRadius: 3px;
         height: $rowHeightFlat;
     }
 
-    .header-cell,
     .cell,
     .button-cell {
-        border-top-left-radius: 0;
-        border-bottom-left-radius: 0;
-        border-top-right-radius: 0;
-        border-bottom-right-radius: 0;
         height: $rowHeightFlat;
+        background-color: transparent;
     }
 
     &:not(.has-buttons) {
-        .row:hover {
-            .cell {
-                border-color: transparent;
-            }
+        .row:hover > :first-child {
+            box-shadow: none;
         }
     }
 }

@@ -26,8 +26,9 @@ $columnListContainerTextColor: $black;
     border: $columnBorder;
     border-radius: $columnListBorderRadius;
 
+    /* the toolbar starts after the rounding, therefore the corner stays rounded below the toolbar */
     &.first-visible-column-active {
-        border-top-left-radius: 0;
+        border-top-left-radius: $columnListBorderRadius;
     }
 
     &.last-visible-column-active {

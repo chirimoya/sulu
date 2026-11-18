@@ -140,7 +140,7 @@ const ICONS = {
     'su-share': 'forward',
     'su-sign-out-alt': 'log-out',
     'su-snippet': 'blocks',
-    'su-sort': 'arrow-up-down',
+    'su-sort': 'columns-3-cog',
     'su-square': {icon: 'square', fill: true},
     'su-stick-right': 'panel-left-close',
     'su-strikethrough': 'strikethrough',

@@ -2,7 +2,7 @@
 
 $borderRadius: 4px;
 $buttonWidth: 34px;
-$paginationColor: $gray;
+$paginationColor: var(--sulu-text-muted);
 $buttonBackgroundColor: $wildSand;
 $buttonBorderColor: $scorpion;
 $buttonActiveColor: $blueZodiac;
@@ -13,7 +13,7 @@ $buttonActiveColor: $blueZodiac;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
+    margin-top: var(--sulu-space-16);
 }
 
 .loader {

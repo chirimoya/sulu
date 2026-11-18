@@ -24,7 +24,7 @@ $primaryBorderColorDisabled: var(--sulu-border-default);
 $plainBackgroundColorHover: rgb(31 30 28 / 6%);
 $successColor: $white;
 $successBackgroundColor: $mantis;
-$buttonMarginVertical: calc(($toolbarHeight - $toolbarButtonHeight - 1px) / 2);
+$buttonMarginVertical: calc(($toolbarHeight - $toolbarButtonHeight) / 2 - 1px);
 
 .button {
     display: flex;
@@ -34,7 +34,7 @@ $buttonMarginVertical: calc(($toolbarHeight - $toolbarButtonHeight - 1px) / 2);
     min-width: $toolbarButtonHeight;
     position: relative;
     margin: $buttonMarginVertical 3px;
-    padding: 0 var(--sulu-space-10);
+    padding: 0 var(--sulu-space-12);
     border: 1px solid transparent;
     border-radius: var(--sulu-radius-md);
     height: $toolbarButtonHeight;
