@@ -1,7 +1,6 @@
 $folderBackgroundColor: var(--sulu-surface-card);
-$folderBackgroundColorHover: var(--sulu-n50);
+$folderBackgroundColorHover: var(--sulu-surface-hover);
 $folderBorderColor: var(--sulu-border-default);
-$folderBorderColorHover: var(--sulu-border-control);
 $folderIconColor: var(--sulu-n500);
 $metaFontColor: var(--sulu-text-muted);
 
@@ -15,11 +14,10 @@ $metaFontColor: var(--sulu-text-muted);
     border-radius: var(--sulu-radius-lg);
     cursor: pointer;
     background: $folderBackgroundColor;
-    transition: background-color .12s, border-color .12s;
+    transition: background-color .12s;
 
     &:hover {
         background: $folderBackgroundColorHover;
-        border-color: $folderBorderColorHover;
     }
 
     &:focus-visible {
