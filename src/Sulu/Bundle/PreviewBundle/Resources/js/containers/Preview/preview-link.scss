@@ -9,20 +9,23 @@
 }
 
 .label {
-    color: $silverChalice;
+    color: $silver;
     display: block;
-    height: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 6px;
 }
 
 .input {
-    background-color: $blueZodiac;
-    border: 1px solid $doveGray;
-    color: $white;
+    background-color: var(--sulu-surface-input);
+    border: 1px solid var(--sulu-border-default);
+    color: var(--sulu-color-ink);
     display: block;
-    border-radius: 3px;
-    height: 30px;
+    border-radius: var(--sulu-radius-md);
+    height: 34px;
     width: 240px;
-    padding: 5px;
+    padding: 0 10px;
+    font-size: 13px;
 }
 
 .copy-button {
@@ -38,7 +41,8 @@
 
 .revoke-button {
     color: $white;
-    font-size: 14px;
+    font-size: 13px;
+    padding: 0;
     text-decoration: underline;
     background: transparent;
     border: none;

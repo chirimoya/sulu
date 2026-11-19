@@ -1,12 +1,12 @@
 @import 'sulu-admin-bundle/containers/Application/colors.scss';
 
-$locationMapBorderColor: $alto;
-$locationLabelTextColor: $scorpion;
-$locationContentBackgroundColor: $alto;
-$locationButtonTextColor: $scorpion;
-$locationButtonTextColorActive: $white;
-$locationButtonBackgroundColor: $alto;
-$locationButtonBackgroundColorActive: $shakespeare;
+$locationMapBorderColor: var(--sulu-border-default);
+$locationLabelTextColor: var(--sulu-n700);
+$locationContentBackgroundColor: var(--sulu-n100);
+$locationButtonTextColor: var(--sulu-n700);
+$locationButtonTextColorActive: var(--sulu-color-ink);
+$locationButtonBackgroundColor: var(--sulu-n100);
+$locationButtonBackgroundColorActive: var(--sulu-n200);
 $locationButtonMargin: 2px;
 
 .location-container {
@@ -21,7 +21,7 @@ $locationButtonMargin: 2px;
     justify-content: space-between;
     height: 40px;
     overflow: hidden;
-    border-radius: 3px;
+    border-radius: var(--sulu-radius-md);
     margin-bottom: 10px;
 }
 
@@ -33,6 +33,7 @@ $locationButtonMargin: 2px;
     cursor: pointer;
     font-size: 14px;
     margin-right: $locationButtonMargin;
+    transition: background-color .12s, color .12s;
 
     &:hover {
         color: $locationButtonTextColorActive;
@@ -49,11 +50,11 @@ $locationButtonMargin: 2px;
     background-color: $locationContentBackgroundColor;
     font-size: 14px;
     color: $locationLabelTextColor;
-    padding: 0 20px;
+    padding: 0 16px;
 }
 
 .location-map {
-    border-radius: 3px;
+    border-radius: var(--sulu-radius-md);
     border: 1px solid $locationMapBorderColor;
     height: 200px;
 

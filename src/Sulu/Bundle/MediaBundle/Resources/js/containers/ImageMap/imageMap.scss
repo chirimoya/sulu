@@ -1,7 +1,7 @@
 @import 'sulu-admin-bundle/containers/Application/colors.scss';
 
 $imageMapBackgroundColor: $white;
-$imageMapBorderColor: $silver;
+$imageMapBorderColor: var(--sulu-border-default);
 $imageMapBorderColorError: $persianRed;
 
 .single-item-selection {
@@ -13,10 +13,10 @@ $imageMapBorderColorError: $persianRed;
 .image-map {
     background-color: $imageMapBackgroundColor;
     border: 1px solid $imageMapBorderColor;
-    border-radius: 0 0 3px 3px;
+    border-radius: 0 0 var(--sulu-radius-md) var(--sulu-radius-md);
     width: 100%;
     overflow: hidden;
-    padding: 30px 30px;
+    padding: 24px;
 
     &.error {
         border-color: $imageMapBorderColorError;
@@ -25,5 +25,5 @@ $imageMapBorderColorError: $persianRed;
 }
 
 .form {
-    margin-top: 30px;
+    margin-top: 24px;
 }

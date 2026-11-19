@@ -22,8 +22,8 @@ $qrBoxWidth: 210px;
 
 .qr-code {
     background: $white;
-    border: 1px solid $silver;
-    border-radius: 3px;
+    border: 1px solid var(--sulu-border-default);
+    border-radius: var(--sulu-radius-lg);
     box-sizing: border-box;
     display: inline-flex;
     padding: 20px;
@@ -35,14 +35,15 @@ $qrBoxWidth: 210px;
 }
 
 .label {
-    color: $mineShaft;
-    font-weight: bold;
-    margin-bottom: 10px;
+    color: var(--sulu-text-label);
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 8px;
 }
 
 .secret {
-    background: $concrete;
-    border-radius: 3px;
+    background: var(--sulu-n100);
+    border-radius: var(--sulu-radius-md);
     display: block;
     font-family: monospace;
     font-size: 14px;

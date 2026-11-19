@@ -58,7 +58,6 @@
             justify-content: space-between;
             height: $toolbarHeight;
             margin: 0;
-            box-shadow: 2px 6px 12px 0 rgba($shadowColor, .5);
         }
 
         &__toolbar--dark {
@@ -72,13 +71,13 @@
         &__toolbar-button {
             display: block;
             text-decoration: none;
-            line-height: 60px;
-            min-width: 60px;
+            line-height: $toolbarHeight;
+            min-width: $toolbarHeight;
             position: relative;
             padding: 0 20px;
             border: none;
-            height: 60px;
-            font-size: 20px;
+            height: $toolbarHeight;
+            font-size: 16px;
             cursor: pointer;
             white-space: nowrap;
             color: $buttonTextDarkColor;

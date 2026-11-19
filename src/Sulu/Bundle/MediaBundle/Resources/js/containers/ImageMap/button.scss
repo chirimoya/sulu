@@ -1,10 +1,10 @@
 @import 'sulu-admin-bundle/containers/Application/colors.scss';
 
 $buttonTextColor: $scorpion;
-$buttonTextColorActive: $white;
+$buttonTextColorActive: var(--sulu-color-ink);
 $buttonBackgroundColor: $white;
-$buttonBackgroundColorActive: $shakespeare;
-$buttonBorderColor: $silver;
+$buttonBackgroundColorActive: var(--sulu-surface-hover);
+$buttonBorderColor: var(--sulu-border-default);
 $buttonDisabledBackgroundColor: $wildSand;
 
 .button {
@@ -15,6 +15,7 @@ $buttonDisabledBackgroundColor: $wildSand;
     cursor: pointer;
     font-size: 14px;
     border-right: 1px solid $buttonBorderColor;
+    transition: background-color .12s, color .12s;
 
     &:hover {
         background-color: $buttonBackgroundColorActive;

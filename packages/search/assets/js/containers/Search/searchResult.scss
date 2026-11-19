@@ -1,22 +1,32 @@
 @import 'sulu-admin-bundle/containers/Application/colors.scss';
 
 $searchResultBackgroundColor: $white;
-$searchResultBorderRadius: 3px;
-$searchResultResourceColor: $shakespeare;
-$searchResultLocaleColor: $scorpion;
-$searchResultDescriptionColor: $scorpion;
-$searchResultIconBackgroundColor: $concrete;
+$searchResultBorderColor: var(--sulu-border-default);
+$searchResultBorderColorHover: var(--sulu-border-control);
+$searchResultBorderRadius: var(--sulu-radius-lg);
+$searchResultResourceColor: var(--sulu-text-muted);
+$searchResultLocaleColor: var(--sulu-text-muted);
+$searchResultDescriptionColor: var(--sulu-n700);
+$searchResultIconBackgroundColor: var(--sulu-n100);
+$searchResultIconColor: var(--sulu-n500);
 
 .search-result {
     display: flex;
     background: $searchResultBackgroundColor;
+    border: 1px solid $searchResultBorderColor;
     border-radius: $searchResultBorderRadius;
     width: 100%;
-    height: 84px;
-    margin-bottom: 4px;
+    height: 86px;
+    margin-bottom: 8px;
     padding: 10px;
     overflow: hidden;
     cursor: pointer;
+    transition: border-color .12s, background-color .12s;
+
+    &:hover {
+        border-color: $searchResultBorderColorHover;
+        background: var(--sulu-n50);
+    }
 }
 
 .search-results-outer-container {
@@ -32,28 +42,34 @@ $searchResultIconBackgroundColor: $concrete;
     flex-shrink: 0;
 }
 
+.image {
+    border-radius: var(--sulu-radius-md);
+    object-fit: cover;
+}
+
 .icon {
     display: flex;
     justify-content: center;
     align-items: center;
     background: $searchResultIconBackgroundColor;
-    border-radius: $searchResultBorderRadius;
-    font-size: 30px;
+    color: $searchResultIconColor;
+    border-radius: var(--sulu-radius-md);
+    font-size: 24px;
 }
 
 .result-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 20px;
+    margin-left: 16px;
     overflow: hidden;
 }
 
 .resource {
     color: $searchResultResourceColor;
     font-size: 12px;
-    line-height: 12px;
-    margin-bottom: 5px;
+    line-height: 14px;
+    margin-bottom: 3px;
 }
 
 .title-container {
@@ -62,24 +78,24 @@ $searchResultIconBackgroundColor: $concrete;
 }
 
 .title {
-    font-size: 12px;
-    line-height: 18px;
-    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
 }
 
 .locale {
     color: $searchResultLocaleColor;
     font-weight: normal;
-    font-size: 10px;
-    line-height: 12px;
-    margin-left: 4px;
+    font-size: 12px;
+    line-height: 14px;
+    margin-left: 6px;
 }
 
 .description {
     color: $searchResultDescriptionColor;
-    font-size: 12px;
-    line-height: 14px;
-    margin-top: 5px;
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 2px;
 }
 
 .description,

@@ -32,17 +32,19 @@
 .method {
     align-items: flex-start;
     background: $white;
-    border: 1px solid $silver;
-    border-radius: 3px;
+    border: 1px solid var(--sulu-border-default);
+    border-radius: var(--sulu-radius-lg);
     cursor: pointer;
     display: flex;
-    gap: 15px;
-    padding: 15px;
+    gap: 14px;
+    padding: 14px 16px;
     text-align: left;
     width: 100%;
+    transition: border-color .12s, background-color .12s;
 
     &:hover:not(:disabled) {
-        border-color: $shakespeare;
+        border-color: var(--sulu-border-control);
+        background: var(--sulu-n50);
     }
 
     &:disabled {
@@ -53,7 +55,7 @@
 
 .method-icon {
     align-self: center;
-    color: $shakespeare;
+    color: var(--sulu-n700);
     font-size: 20px;
     flex-shrink: 0;
 }
@@ -67,17 +69,17 @@
 
 .method-title {
     color: $mineShaft;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .method-description {
-    color: $mineShaft;
-    font-size: 12px;
-    line-height: 16px;
+    color: var(--sulu-text-muted);
+    font-size: 13px;
+    line-height: 18px;
 }
 
 .method-arrow {
     align-self: center;
-    color: $silver;
+    color: var(--sulu-n400);
     flex-shrink: 0;
 }

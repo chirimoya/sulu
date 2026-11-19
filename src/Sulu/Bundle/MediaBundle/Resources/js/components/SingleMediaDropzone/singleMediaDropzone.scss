@@ -3,9 +3,9 @@
 $uploadIconColor: $scorpion;
 $uploadInfoTextColor: $scorpion;
 $uploadIndicatorBackgroundColor: rgba($alabaster, .8);
-$imageBorderColor: $silver;
+$imageBorderColor: var(--sulu-border-default);
 $emptyBackgroundColor: $white;
-$emptyColor: $alto;
+$emptyColor: var(--sulu-n300);
 $errorTextColor: $persianRed;
 
 /* $dropzoneSize + 2 * $viewPaddingHorizontal because calc doesn't work for media-queries */
@@ -23,6 +23,7 @@ $mediaContainerBreakpoint: 520px;
     cursor: pointer;
     overflow: hidden;
     border: 1px solid $imageBorderColor;
+    border-radius: var(--sulu-radius-lg);
 
     &:hover,
     &.show-upload-indicator {
@@ -103,8 +104,8 @@ $mediaContainerBreakpoint: 520px;
 
 .upload-info-text {
     color: $uploadInfoTextColor;
-    font-size: 14px;
-    margin-top: 20px;
+    font-size: 13px;
+    margin-top: 16px;
     padding: 0 20px;
 }
 

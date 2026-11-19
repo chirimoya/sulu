@@ -1,13 +1,13 @@
 @import 'sulu-admin-bundle/containers/Application/colors.scss';
 
-$roleAssignmentBorderColor: $silver;
+$roleAssignmentBorderColor: var(--sulu-border-hairline);
 
 .role-assignment {
     font-size: 14px;
 
     td {
         border-bottom: 1px solid $roleAssignmentBorderColor;
-        padding: 10px;
+        padding: 10px 16px;
     }
 
     &:last-child {

@@ -1,6 +1,6 @@
 @import 'sulu-admin-bundle/containers/Application/colors.scss';
 
-$searchHintColor: $gray;
+$searchHintColor: var(--sulu-text-muted);
 
 .search {
     display: flex;
@@ -9,8 +9,8 @@ $searchHintColor: $gray;
 }
 
 .nothing-hint {
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 15px;
+    font-weight: 500;
     color: $searchHintColor;
     width: 360px;
     text-align: center;

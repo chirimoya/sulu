@@ -5,7 +5,9 @@ $roleAssignmentBackgroundColor: $white;
 .role-assignments {
     width: 100%;
     background: $roleAssignmentBackgroundColor;
-    border-radius: 3px;
+    border: 1px solid var(--sulu-border-default);
+    border-radius: var(--sulu-radius-lg);
     border-spacing: 0;
+    overflow: hidden;
     margin-top: 20px;
 }

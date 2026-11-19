@@ -1,7 +1,8 @@
-@import 'sulu-admin-bundle/containers/Application/colors.scss';
-
-$webspaceSelectBackgroundColor: $blueZodiac;
-$buttonColor: $silver;
+$webspaceSelectBackgroundColor: var(--sulu-surface-input);
+$webspaceSelectBorderColor: var(--sulu-border-control);
+$webspaceSelectBorderColorHover: var(--sulu-n500);
+$buttonColor: var(--sulu-color-ink);
+$buttonIconColor: var(--sulu-n500);
 
 .webspace-select {
     cursor: pointer;
@@ -10,24 +11,37 @@ $buttonColor: $silver;
 }
 
 .button {
-    border-radius: 3px;
+    border-radius: var(--sulu-radius-md);
     background-color: $webspaceSelectBackgroundColor;
-    color: $silver;
+    color: $buttonColor;
     cursor: pointer;
-    border: none;
-    padding: 12px 20px;
+    border: 1px solid $webspaceSelectBorderColor;
+    height: 40px;
+    padding: 0 12px;
     min-width: 300px;
     display: flex;
     align-items: center;
+    transition: border-color .12s, box-shadow .12s;
+
+    &:hover {
+        border-color: $webspaceSelectBorderColorHover;
+    }
+
+    &:focus-visible {
+        border-color: var(--sulu-border-focus);
+        box-shadow: var(--sulu-shadow-focus);
+    }
 }
 
 .button-icon {
-    font-size: 22px;
+    font-size: 16px;
+    color: $buttonIconColor;
 }
 
 .button-value {
-    padding: 0 15px;
-    font-size: 16px;
+    padding: 0 10px;
+    font-size: 14px;
+    font-weight: 500;
     flex-grow: 1;
     text-align: left;
 }

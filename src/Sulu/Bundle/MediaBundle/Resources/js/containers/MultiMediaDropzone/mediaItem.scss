@@ -8,7 +8,7 @@ $mediaItemBackgroundColor: $white;
     position: relative;
     width: calc(100px + $mediaItemBorderWidth * 2);
     height: calc(100px + $mediaItemBorderWidth * 2);
-    border-radius: 3px;
+    border-radius: var(--sulu-radius-md);
     border: $mediaItemBorderWidth solid $mediaItemBorderColor;
     background: $mediaItemBackgroundColor;
     text-align: center;

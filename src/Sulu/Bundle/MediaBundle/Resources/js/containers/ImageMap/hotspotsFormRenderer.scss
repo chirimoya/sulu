@@ -1,14 +1,14 @@
 @import 'sulu-admin-bundle/containers/Application/colors.scss';
 
 $hotspotsFormRendererBackgroundColor: $white;
-$hotspotsFormRendererBorderColor: $silver;
+$hotspotsFormRendererBorderColor: var(--sulu-border-default);
 $hotspotsFormRendererTabsBackgroundColor: transparent;
 $hotspotsFormRendererEmptyTabsLabelColor: $scorpion;
 
 .hotspots-form-renderer {
     background-color: $hotspotsFormRendererBackgroundColor;
     border: 1px solid $hotspotsFormRendererBorderColor;
-    border-radius: 3px;
+    border-radius: var(--sulu-radius-md);
     width: 100%;
     overflow: hidden;
 }
@@ -32,13 +32,13 @@ $hotspotsFormRendererEmptyTabsLabelColor: $scorpion;
 
 .content {
     border-top: 1px solid $hotspotsFormRendererBorderColor;
-    padding: 30px;
+    padding: 24px;
 }
 
 .settings {
     display: flex;
     align-items: flex-start;
-    padding-bottom: 30px;
+    padding-bottom: 24px;
 
     .form {
         flex: 1 1 auto;
@@ -46,7 +46,7 @@ $hotspotsFormRendererEmptyTabsLabelColor: $scorpion;
 
     .remove-button {
         flex: 0 0 auto;
-        margin-left: 30px;
+        margin-left: 24px;
         border: 0;
         background: none;
         cursor: pointer;

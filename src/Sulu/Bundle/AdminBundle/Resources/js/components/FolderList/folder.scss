@@ -1,41 +1,58 @@
-@import '../../containers/Application/colors.scss';
-
-$folderBackgroundColor: $white;
-$folderBorderColor: $silver;
-$metaFontColor: $silverChalice;
+$folderBackgroundColor: var(--sulu-surface-card);
+$folderBackgroundColorHover: var(--sulu-n50);
+$folderBorderColor: var(--sulu-border-default);
+$folderBorderColorHover: var(--sulu-border-control);
+$folderIconColor: var(--sulu-n500);
+$metaFontColor: var(--sulu-text-muted);
 
 .folder {
     width: 240px;
-    height: 80px;
+    height: 72px;
     display: flex;
-    padding: 10px;
+    align-items: center;
+    padding: 0 16px;
     border: 1px solid $folderBorderColor;
-    border-radius: 3px;
+    border-radius: var(--sulu-radius-lg);
     cursor: pointer;
     background: $folderBackgroundColor;
+    transition: background-color .12s, border-color .12s;
+
+    &:hover {
+        background: $folderBackgroundColorHover;
+        border-color: $folderBorderColorHover;
+    }
+
+    &:focus-visible {
+        outline: none;
+        border-color: var(--sulu-border-focus);
+        box-shadow: var(--sulu-shadow-focus);
+    }
 }
 
 .description {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 10px;
+    min-width: 0;
+    margin-left: 12px;
 }
 
 .title {
     overflow: hidden;
-    max-height: 35px;
+    max-height: 36px;
     font-size: 14px;
+    font-weight: 500;
     line-height: 18px;
-    margin: 0 0 5px;
+    margin: 0 0 2px;
 }
 
 .info {
-    font-size: 10px;
+    font-size: 12px;
     color: $metaFontColor;
 }
 
 .icon-container {
-    padding: 10px;
-    font-size: 26px;
+    display: flex;
+    font-size: 20px;
+    color: $folderIconColor;
 }
