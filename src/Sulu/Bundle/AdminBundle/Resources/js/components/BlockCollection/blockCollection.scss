@@ -6,7 +6,7 @@
 }
 
 .spacer {
-    height: 10px;
+    height: var(--sulu-space-8);
 }
 
 .addButtonContainer {
@@ -26,7 +26,7 @@
 
     .addButton {
         transform: translateY(calc(-50% - $blockMarginBottom / 2));
-        box-shadow: 2px 6px 12px 0 rgba($silver, .5);
+        box-shadow: 0 2px 8px rgb(31 30 28 / 12%);
         visibility: hidden;
     }
 

@@ -1,13 +1,13 @@
 @import '../../containers/Application/colors.scss';
 @import './variables.scss';
 
-$labelColor: $scorpion;
+$labelColor: var(--sulu-text-muted);
 $labelDarkColor: $silver;
 $labelErrorColor: $roman;
 $errorLabelColor: $persianRed;
 $errorLabelBackgroundColor: $roman;
 
-$errorLabelHeight: 20px;
+$errorLabelHeight: 16px;
 
 .field {
     margin-bottom: calc($fieldMarginBottom - $errorLabelHeight);
@@ -43,7 +43,7 @@ $errorLabelHeight: 20px;
     font-size: 13px;
     font-weight: 500;
     line-height: 19px;
-    margin-bottom: 10px;
+    margin-bottom: var(--sulu-space-6);
     text-align: left;
     white-space: nowrap;
 
@@ -60,8 +60,9 @@ $errorLabelHeight: 20px;
 .error-label {
     display: block;
     color: $labelColor;
-    font-size: 10px;
+    font-size: 12px;
     line-height: $errorLabelHeight;
+    padding-top: 2px;
     min-height: $errorLabelHeight;
 
     .dark & {

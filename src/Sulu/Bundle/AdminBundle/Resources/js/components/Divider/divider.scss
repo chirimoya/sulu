@@ -1,32 +1,24 @@
 @import './variables.scss';
 
+/* a section heading followed by a line */
 .divider {
     display: flex;
     align-items: center;
-    font-size: 18px;
-    margin: $dividerTopMargin 0 30px;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--sulu-text-heading);
+    margin: $dividerTopMargin 0 14px;
 
-    &::before,
     &::after {
         content: '';
         display: inline-block;
         flex: 1;
         height: 1px;
+        margin-left: $dividerMargin;
         background: $dividerBackgroundColor;
     }
 
-    &::before {
-        margin-right: $dividerMargin;
-    }
-
-    &::after {
-        margin-left: $dividerMargin;
-    }
-
-    &:empty {
-        &::before,
-        &::after {
-            margin: 0;
-        }
+    &:empty::after {
+        margin: 0;
     }
 }

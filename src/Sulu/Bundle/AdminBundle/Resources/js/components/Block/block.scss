@@ -1,18 +1,23 @@
 @import '../../containers/Application/colors.scss';
 
-$blockBackgroundColor: $white;
-$blockBorderColor: $silver;
-$blockHandleColor: $black;
-$blockHandleBackgroundColor: $silver;
-$blockCollapsedColor: $gray;
-$blockIconsColor: $gray;
-$blockSelectedColor: $blueZodiac;
+$blockBackgroundColor: var(--sulu-surface-card);
+$blockBorderColor: var(--sulu-border-default);
+$blockSeparatorColor: var(--sulu-border-hairline);
+$blockHandleColor: var(--sulu-n400);
+$blockHandleBackgroundColor: var(--sulu-n50);
+$blockCollapsedColor: var(--sulu-text-muted);
+$blockIconsColor: var(--sulu-text-muted);
+$blockSelectedColor: var(--sulu-color-primary);
+$blockSelectedHandleColor: var(--sulu-color-primary-contrast);
+$blockPadding: 20px;
 
 .block {
     display: flex;
     background-color: $blockBackgroundColor;
     border: 1px solid $blockBorderColor;
-    border-radius: 3px;
+    border-radius: var(--sulu-radius-lg);
+    overflow: hidden;
+    transition: border-color .12s, box-shadow .12s;
 
     &:not(.expanded) {
         cursor: pointer;
@@ -45,9 +50,12 @@ $blockSelectedColor: $blueZodiac;
 
     &.selected {
         border-color: $blockSelectedColor;
+        box-shadow: var(--sulu-shadow-selected);
 
         .handle {
             background: $blockSelectedColor;
+            border-right-color: $blockSelectedColor;
+            color: $blockSelectedHandleColor;
         }
     }
 }
@@ -60,6 +68,7 @@ $blockSelectedColor: $blueZodiac;
     flex-shrink: 0;
     color: $blockHandleColor;
     background-color: $blockHandleBackgroundColor;
+    border-right: 1px solid $blockSeparatorColor;
     overflow: hidden;
     width: fit-content;
 }
@@ -74,11 +83,11 @@ $blockSelectedColor: $blueZodiac;
 .children {
     font-size: 14px;
     line-height: 18px;
-    margin: 30px;
+    margin: $blockPadding;
 }
 
 .header {
-    padding: 30px 30px 0 30px;
+    padding: $blockPadding $blockPadding 0 $blockPadding;
     display: flex;
 }
 
@@ -111,6 +120,11 @@ $blockSelectedColor: $blueZodiac;
         cursor: pointer;
         border: none;
         background: none;
-        margin-left: 20px;
+        margin-left: 16px;
+        color: var(--sulu-n700);
+
+        &:hover {
+            color: var(--sulu-color-ink);
+        }
     }
 }

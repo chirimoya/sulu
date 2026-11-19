@@ -5,7 +5,9 @@
     display: flex;
     background-color: $tabMenuBackgroundColor;
     border-bottom: 1px solid $tabMenuBorderColor;
-    padding: 0 40px;
+
+    /* together with the padding of a tab its text starts where the content of a view starts */
+    padding: 0 20px;
 
     &.inline {
         padding: 0 20px;

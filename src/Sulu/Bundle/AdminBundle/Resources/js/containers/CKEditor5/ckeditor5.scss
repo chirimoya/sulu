@@ -7,14 +7,15 @@
 $textEditorFontSize: $baseFontSize;
 $textEditorFontFamily: $baseFontFamily;
 $textEditorButtonMinSize: 20px;
-$textEditorBorderRadius: 3px;
-$textEditorBackgroundColor: $silver;
-$textEditorDarkBackgroundColor: $dustyGray;
-$textEditorBorderColor: $textEditorBackgroundColor;
-$textEditorDarkBorderColor: $textEditorDarkBackgroundColor;
+$textEditorBorderRadius: 8px;
+$textEditorBackgroundColor: var(--sulu-n50);
+$textEditorDarkBackgroundColor: var(--sulu-n200);
+$textEditorBorderColor: var(--sulu-border-control);
+$textEditorDarkBorderColor: var(--sulu-border-default);
+$textEditorButtonHoverBackgroundColor: var(--sulu-n100);
 $textEditorAccentColor: $shakespeare;
 $textEditorLightAccentColor: #eef2f7;
-$textEditorWhiteHover: $mercury;
+$textEditorWhiteHover: var(--sulu-n50);
 $textEditorPanelBackground: $white;
 $textEditorLinkColor: #00f;
 $textEditorRemovedLinkColor: $roman;
@@ -33,7 +34,7 @@ $textEditorUnpublishedLinkColor: $gold;
         --ck-z-default: 0;
 
         /* focus */
-        --ck-focus-outer-shadow: var(--ck-color-base-border);
+        --ck-focus-outer-shadow: rgb(17 42 70 / 12%);
 
         /* shadows */
         --ck-color-shadow-inner: none;
@@ -53,7 +54,7 @@ $textEditorUnpublishedLinkColor: $gold;
 
         /* buttons */
         --ck-color-button-default-background: transparent;
-        --ck-color-button-default-hover-background: var(--ck-color-button-default-background);
+        --ck-color-button-default-hover-background: $textEditorButtonHoverBackgroundColor;
         --ck-color-button-default-active-background: var(--ck-color-button-default-background);
         --ck-color-button-on-background: $textEditorDarkBackgroundColor;
         --ck-color-button-on-color: inherit;
@@ -73,7 +74,7 @@ $textEditorUnpublishedLinkColor: $gold;
         --ck-color-list-button-on-background-focus: $textEditorAccentColor;
 
         /* toggle button */
-        --ck-color-switch-button-off-background: $textEditorBackgroundColor;
+        --ck-color-switch-button-off-background: $textEditorBorderColor;
         --ck-color-switch-button-on-background: $textEditorAccentColor;
 
         /* table insert box */
@@ -190,7 +191,7 @@ $textEditorUnpublishedLinkColor: $gold;
         }
 
         .ck.ck-content {
-            border-color: $textEditorBackgroundColor !important;
+            border-color: $textEditorBorderColor !important;
             font-family: $textEditorFontFamily;
             font-size: $textEditorFontSize;
             line-height: 20px;
@@ -198,7 +199,8 @@ $textEditorUnpublishedLinkColor: $gold;
             padding-bottom: 5px;
 
             &.ck-focused {
-                border: 1px solid $textEditorBackgroundColor !important;
+                border: 1px solid $textEditorAccentColor !important;
+                box-shadow: var(--sulu-shadow-focus) !important;
             }
         }
 

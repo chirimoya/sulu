@@ -1,5 +1,13 @@
 @import './variables.scss';
 
+/*
+ * The top bar of the design system is padded by 24px on the left and by 20px on the right.
+ * The buttons have a horizontal margin of 3px, which is subtracted, so that their frames start at these offsets.
+ */
+$buttonMarginHorizontal: 3px;
+$toolbarPaddingLeft: calc(var(--sulu-space-24) - $buttonMarginHorizontal);
+$toolbarPaddingRight: calc(var(--sulu-space-20) - $buttonMarginHorizontal);
+
 .toolbar {
     position: relative;
     display: flex;
@@ -11,6 +19,7 @@
 }
 
 .light {
+    padding: 0 $toolbarPaddingRight 0 $toolbarPaddingLeft;
     background: $toolbarBackgroundLightColor;
     border-bottom-color: $toolbarBorderColor;
 }
