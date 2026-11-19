@@ -1,7 +1,7 @@
 @import 'sulu-admin-bundle/containers/Application/colors.scss';
 
-$checkboxHeadingLineColor: $scorpion;
-$headingDescriptionColor: $gray;
+$checkboxHeadingLineColor: var(--sulu-text-heading);
+$headingDescriptionColor: var(--sulu-text-muted);
 
 .line {
     display: flex;
@@ -9,20 +9,21 @@ $headingDescriptionColor: $gray;
 }
 
 .icon {
-    font-size: 20px;
-    margin-right: 15px;
+    font-size: 18px;
+    margin-right: 10px;
+    color: var(--sulu-n500);
 }
 
 .label {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 20px;
-    font-weight: bold;
+    font-weight: 600;
     flex-grow: 1;
 }
 
 .description {
     color: $headingDescriptionColor;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 18px;
-    padding-top: 5px;
+    padding-top: 4px;
 }

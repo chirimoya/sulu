@@ -1,6 +1,6 @@
 @import '../../containers/Application/colors.scss';
 
-$smartContentColumnColor: $scorpion;
+$smartContentColumnColor: var(--sulu-text-muted);
 
 .smart-content-item {
     display: inline-flex;
@@ -16,6 +16,8 @@ $smartContentColumnColor: $scorpion;
     img {
         height: 30px;
         width: 30px;
+        border-radius: var(--sulu-radius-sm);
+        object-fit: cover;
     }
 }
 

@@ -6,8 +6,11 @@ $teaserSelectionMediaHoverBackgroundColor: rgba($black, .5);
 $teaserSelectionMediaHeight: 25px;
 $teaserSelectionMediaWidth: 25px;
 
+/* as high as the title input next to it */
+$teaserSelectionEditMediaSize: 36px;
+
 .edit-form {
-    padding: 10px;
+    padding: 12px 0;
 }
 
 .form {
@@ -18,13 +21,28 @@ $teaserSelectionMediaWidth: 25px;
     margin-right: 10px;
 }
 
+.form-column {
+    flex: 1;
+    min-width: 0;
+}
+
 .media-button {
     position: relative;
     border: 0;
     background: transparent;
-    height: $teaserSelectionMediaHeight;
-    width: $teaserSelectionMediaWidth;
+    padding: 0;
+    height: $teaserSelectionEditMediaSize;
+    width: $teaserSelectionEditMediaSize;
+    border-radius: var(--sulu-radius-md);
+    overflow: hidden;
     cursor: pointer;
+
+    img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 
     &:hover .media-button-edit-icon {
         display: flex;
@@ -53,29 +71,41 @@ $teaserSelectionMediaWidth: 25px;
 }
 
 .description-text-area {
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 .buttons {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     flex-basis: 100%;
 }
 
 .item {
     display: flex;
-    margin: 7px 0;
+    align-items: center;
+    min-height: 40px;
+    padding: 4px 0;
 }
 
 .media {
     height: $teaserSelectionMediaHeight;
     width: $teaserSelectionMediaWidth;
+    flex-shrink: 0;
     margin-right: 10px;
     border-radius: var(--sulu-radius-sm);
+    overflow: hidden;
+
+    img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 }
 
 .title {
-    margin: 5px 0;
+    margin: 0;
 }
 
 .content {
@@ -85,7 +115,7 @@ $teaserSelectionMediaWidth: 25px;
 .description {
     font-size: 12px;
     color: var(--sulu-text-muted);
-    margin-bottom: 5px;
+    margin: 2px 0 0;
 
     &:empty {
         display: none;
@@ -93,6 +123,6 @@ $teaserSelectionMediaWidth: 25px;
 }
 
 .type {
-    margin: 5px 0;
+    margin: 0;
     width: 100px;
 }

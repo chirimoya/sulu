@@ -1,11 +1,11 @@
 @import '../../containers/Application/colors.scss';
 
-$characterCounterColor: $scorpion;
+$characterCounterColor: var(--sulu-text-muted);
 $characterCounterExceededColor: $persianRed;
 
 .character-counter {
     color: $characterCounterColor;
-    font-size: 10px;
+    font-size: 12px;
     margin-top: 5px;
 }
 

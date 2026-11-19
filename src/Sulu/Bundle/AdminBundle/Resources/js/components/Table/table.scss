@@ -273,23 +273,8 @@ $buttonCellWidth: 44px;
     }
 }
 
+/* the flat skin is the same card as the other skins, only with lower rows */
 .flat {
-    border: 0;
-    border-radius: 0;
-    background-color: transparent;
-
-    .header > tr {
-        height: $rowHeightFlat;
-    }
-
-    .header-cell {
-        background-color: transparent;
-
-        button {
-            height: $rowHeightFlat;
-        }
-    }
-
     .row {
         height: $rowHeightFlat;
     }
@@ -297,12 +282,9 @@ $buttonCellWidth: 44px;
     .cell,
     .button-cell {
         height: $rowHeightFlat;
-        background-color: transparent;
     }
 
-    &:not(.has-buttons) {
-        .row:hover > :first-child {
-            box-shadow: none;
-        }
+    .cell-content {
+        min-height: calc($rowHeightFlat - $paddingCell * 2 - $borderWidth);
     }
 }

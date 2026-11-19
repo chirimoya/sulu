@@ -2,6 +2,7 @@
 import React from 'react';
 import log from 'loglevel';
 import ThumbnailFieldTransformer from '../../fieldTransformers/ThumbnailFieldTransformer';
+import thumbnailFieldTransformerStyles from '../../fieldTransformers/thumbnailFieldTransformer.scss';
 
 const thumbnailTransformer = new ThumbnailFieldTransformer();
 
@@ -30,6 +31,6 @@ test('Test invalid object', () => {
 
 test('Test valid object', () => {
     expect(thumbnailTransformer.transform({'sulu-40x40': '/path/to/image.png'})).toEqual(
-        <img alt={undefined} src="/path/to/image.png" />
+        <img alt={undefined} className={thumbnailFieldTransformerStyles.thumbnail} src="/path/to/image.png" />
     );
 });

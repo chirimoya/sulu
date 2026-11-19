@@ -2,7 +2,7 @@
 @import './variables.scss';
 
 $singleItemSelectionBackgroundColor: $white;
-$singleItemSelectionEmptyColor: $silver;
+$singleItemSelectionEmptyColor: var(--sulu-text-placeholder);
 $singleItemSelectionErrorBorderColor: $persianRed;
 $singleItemSelectionDisabledColor: $gray;
 
@@ -21,7 +21,7 @@ $singleItemSelectionDisabledColor: $gray;
         text-align: left;
         height: 100%;
         flex-grow: 1;
-        padding-left: 10px;
+        padding-left: 12px;
         font-size: 14px;
 
         .item {

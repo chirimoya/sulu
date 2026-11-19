@@ -1,6 +1,7 @@
 // @flow
 import React from 'react';
 import log from 'loglevel';
+import thumbnailFieldTransformerStyles from './thumbnailFieldTransformer.scss';
 import type {Node} from 'react';
 import type {FieldTransformer} from '../types';
 
@@ -24,6 +25,6 @@ export default class ThumbnailFieldTransformer implements FieldTransformer {
             return null;
         }
 
-        return <img src={value[IMAGE_FORMAT]} />;
+        return <img className={thumbnailFieldTransformerStyles.thumbnail} src={value[IMAGE_FORMAT]} />;
     }
 }

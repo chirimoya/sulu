@@ -6,7 +6,7 @@ $exceptionBorderColor: $persianRed;
 $exceptionBorderColor: $persianRed;
 
 .field-container {
-    min-height: 30px;
+    min-height: 36px;
     display: flex;
     align-items: center;
 }
@@ -22,6 +22,6 @@ $exceptionBorderColor: $persianRed;
     background: $exceptionBackgroundColor;
     border: 1px solid $exceptionBorderColor;
     padding: 0 20px;
-    border-radius: 3px;
+    border-radius: var(--sulu-radius-md);
     margin-bottom: 20px;
 }

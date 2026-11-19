@@ -3,7 +3,7 @@
 $fontColor: $scorpion;
 $backgroundColorActive: $shakespeare;
 $borderColorToday: $blueZodiac;
-$borderColor: $silver;
+$borderColor: var(--sulu-border-default);
 $iconColor: $dustyGray;
 $iconBorderPadding: 5px;
 $placeholderColor: $dustyGray;
@@ -52,13 +52,13 @@ $inputFontSize: 14px;
             padding: 8px;
 
             &:hover {
-                border-radius: 3px;
+                border-radius: var(--sulu-radius-sm);
             }
 
             &.rdtActive,
             &.rdtActive:hover {
                 background: $backgroundColorActive;
-                border-radius: 3px;
+                border-radius: var(--sulu-radius-sm);
             }
 
             &.rdtToday::before {

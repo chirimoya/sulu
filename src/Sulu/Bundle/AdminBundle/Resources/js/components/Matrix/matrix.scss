@@ -4,7 +4,9 @@ $matrixBackgroundColor: $white;
 
 .matrix {
     background-color: $matrixBackgroundColor;
-    border-radius: 3px;
+    border: 1px solid var(--sulu-border-default);
+    border-radius: var(--sulu-radius-lg);
+    overflow: hidden;
     border-spacing: 0;
     width: 100%;
 

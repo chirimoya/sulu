@@ -5,6 +5,11 @@ $disabledItemBackgroundColor: $wildSand;
 
 $itemColor: $black;
 $disabledItemColor: $gray;
+$itemIconColor: var(--sulu-n500);
+$itemIconColorHover: var(--sulu-color-ink);
+
+/* the handle and the buttons stay in the first line of items being higher than this */
+$itemLineHeight: 40px;
 
 .item {
     display: flex;
@@ -30,7 +35,7 @@ $disabledItemColor: $gray;
     flex: 1;
     height: 100%;
     overflow: hidden;
-    margin: 0 20px 0 22px;
+    margin: 0 16px 0 14px;
     font-size: 14px;
 }
 
@@ -43,17 +48,31 @@ $disabledItemColor: $gray;
 }
 
 .button {
+    display: inline-flex;
+    align-items: center;
+    height: $itemLineHeight;
     border: 0;
-    padding: 13px 10px 0 0;
+    padding: 0 10px 0 0;
     cursor: pointer;
+    color: $itemIconColor;
     background-color: transparent;
+    transition: color .12s;
+
+    &:hover {
+        color: $itemIconColorHover;
+    }
 }
 
 .drag-handle {
     display: flex;
-    width: 40px;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+    min-width: 56px;
+    height: $itemLineHeight;
     border: 0;
-    padding: 13px 0 0 20px;
+    padding: 0 0 0 16px;
+    color: $itemIconColor;
 
     &.sortable {
         cursor: move;
@@ -61,8 +80,6 @@ $disabledItemColor: $gray;
 }
 
 .index {
-    padding-left: 2px;
-    display: inline-block;
-    vertical-align: top;
-    font-size: 14px;
+    font-size: 13px;
+    font-variant-numeric: tabular-nums;
 }

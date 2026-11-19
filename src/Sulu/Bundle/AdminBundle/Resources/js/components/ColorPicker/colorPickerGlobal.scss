@@ -1,7 +1,7 @@
 @import '../../containers/Application/colors.scss';
 
 $fontColor: $scorpion;
-$borderColor: $silver;
+$borderColor: var(--sulu-border-default);
 $borderWidth: 1px;
 $borderRadius: var(--sulu-radius-md);
 $inputColor: $black;

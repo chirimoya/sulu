@@ -1,7 +1,7 @@
 @import '../Application/colors.scss';
 
-$filterOverlaySectionBorderColor: $silver;
-$filterOverlayDescriptionColor: $scorpion;
+$filterOverlaySectionBorderColor: var(--sulu-border-default);
+$filterOverlayDescriptionColor: var(--sulu-text-muted);
 
 .content {
     margin: 0 60px 30px;
@@ -27,8 +27,8 @@ $filterOverlayDescriptionColor: $scorpion;
     .description {
         color: $filterOverlayDescriptionColor;
         display: block;
-        font-size: 10px;
-        margin-top: 10px;
+        font-size: 12px;
+        margin-top: 8px;
     }
 
     .categories {

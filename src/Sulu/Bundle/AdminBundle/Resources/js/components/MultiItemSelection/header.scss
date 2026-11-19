@@ -10,7 +10,7 @@ $borderColor: var(--sulu-border-default);
     height: 40px;
     overflow: hidden;
     border: 1px solid $borderColor;
-    border-radius: 3px 3px 0 0;
+    border-radius: var(--sulu-radius-md) var(--sulu-radius-md) 0 0;
 
     /* shines through the gaps between the buttons and the label */
     background-color: $borderColor;
@@ -20,7 +20,7 @@ $borderColor: var(--sulu-border-default);
     }
 
     &.empty-list {
-        border-radius: 3px;
+        border-radius: var(--sulu-radius-md);
     }
 }
 
@@ -33,7 +33,7 @@ $borderColor: var(--sulu-border-default);
     background-color: $contentBackgroundColor;
     font-size: 13px;
     color: $labelTextColor;
-    padding: 0 20px;
+    padding: 0 16px;
     position: relative;
 }
 

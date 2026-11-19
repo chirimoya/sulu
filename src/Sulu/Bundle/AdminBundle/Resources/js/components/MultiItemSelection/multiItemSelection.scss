@@ -1,9 +1,9 @@
 @import '../../containers/Application/colors.scss';
 
-$listBorderColor: $alto;
-$listBorderRadius: 3px;
+$listBorderColor: var(--sulu-border-default);
+$listBorderRadius: var(--sulu-radius-md);
 $listElementBackgroundColor: $white;
-$listElementBorderBottomColor: $silver;
+$listElementBorderBottomColor: var(--sulu-border-hairline);
 $listElementDragBoxShadowColor: rgba($black, .1);
 
 .multiItemSelectionClass {
@@ -20,6 +20,16 @@ $listElementDragBoxShadowColor: rgba($black, .1);
     border: 1px $listBorderColor solid;
     border-top: 0;
     border-radius: 0 0 $listBorderRadius $listBorderRadius;
+
+    /* an empty list would still draw its border as a second line below the header */
+    &:empty {
+        display: none;
+    }
+
+    /* an item being edited in place (e.g. a teaser) must not be clipped by the height of the list */
+    &:has(input, textarea, [contenteditable]) {
+        max-height: none;
+    }
 }
 
 .list-element {
@@ -32,7 +42,6 @@ $listElementDragBoxShadowColor: rgba($black, .1);
 
     &:last-child {
         border-bottom: 0;
-        border-radius: 0 0 3px 3px;
         overflow: hidden;
     }
 

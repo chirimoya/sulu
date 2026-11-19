@@ -1,11 +1,11 @@
 @import '../../containers/Application/colors.scss';
 
-$segmentCounterColor: $scorpion;
+$segmentCounterColor: var(--sulu-text-muted);
 $segmentCounterExceededColor: $persianRed;
 
 .segment-counter {
     color: $segmentCounterColor;
-    font-size: 10px;
+    font-size: 12px;
     margin-top: 5px;
 }
 

@@ -1,9 +1,9 @@
 @import '../../containers/Application/colors.scss';
 
 $buttonTextColor: var(--sulu-n700);
-$buttonTextColorActive: $white;
+$buttonTextColorActive: var(--sulu-color-ink);
 $buttonBackgroundColor: var(--sulu-n100);
-$buttonBackgroundColorActive: $shakespeare;
+$buttonBackgroundColorActive: var(--sulu-n200);
 $buttonMargin: 1px;
 
 .button {
@@ -13,6 +13,7 @@ $buttonMargin: 1px;
     border: 0;
     cursor: pointer;
     font-size: 14px;
+    transition: background-color .12s, color .12s;
 
     &.left {
         &:hover {

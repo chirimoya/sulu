@@ -1,7 +1,7 @@
 @import '../../containers/Application/colors.scss';
 
-$itemColor: $shakespeare;
-$itemBorderColor: $shakespeare;
+$itemColor: var(--sulu-n700);
+$itemBorderColor: var(--sulu-border-control);
 $itemBackgroundColor: $white;
 
 $itemBackgroundColorSelected: $shakespeare;
@@ -15,21 +15,23 @@ $itemBackgroundColorDisabledSelected: $silver;
 .item {
     align-items: center;
     background-color: $itemBackgroundColor;
-    border-radius: 6px;
+    border-radius: var(--sulu-radius-md);
     border: 1px solid $itemBorderColor;
     color: $itemColor;
     cursor: pointer;
     display: inline-flex;
-    font-size: 16px;
+    font-size: 14px;
     justify-content: center;
     margin-right: 5px;
     padding: 0;
     text-align: center;
-    height: 26px;
-    width: 26px;
+    height: 28px;
+    width: 28px;
+    transition: background-color .12s, border-color .12s, color .12s;
 
     &.selected {
         background-color: $itemBackgroundColorSelected;
+        border-color: $itemBackgroundColorSelected;
         color: $itemColorSelected;
     }
 
@@ -41,6 +43,7 @@ $itemBackgroundColorDisabledSelected: $silver;
 
     &.selected.disabled {
         background-color: $itemBackgroundColorDisabledSelected;
+        border-color: $itemBorderColorDisabled;
         color: $itemColorDisabledSelected;
     }
 }

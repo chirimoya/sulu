@@ -5,9 +5,14 @@
 }
 
 .dark {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
     font-size: 14px;
-    color: $white;
-    background: $blueZodiac;
-    border-radius: 50%;
-    padding: 5px;
+    color: var(--sulu-n700);
+    background: var(--sulu-n0);
+    border: 1px solid var(--sulu-border-default);
+    border-radius: var(--sulu-radius-round);
 }

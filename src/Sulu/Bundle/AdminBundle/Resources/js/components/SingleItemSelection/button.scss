@@ -3,24 +3,24 @@
 
 $singleItemSelectionButtonBackgroundColor: $white;
 $singleItemSelectionButtonColor: $dustyGray;
-$singleItemSelectionButtonActiveColor: $white;
-$singleItemSelectionButtonActiveBackgroundColor: $shakespeare;
+$singleItemSelectionButtonActiveColor: var(--sulu-color-ink);
+$singleItemSelectionButtonActiveBackgroundColor: var(--sulu-surface-hover);
 
 .button {
     height: 100%;
-    width: 28px;
+    width: 34px;
     background-color: $singleItemSelectionButtonBackgroundColor;
     color: $singleItemSelectionButtonColor;
     border: none;
     cursor: pointer;
     font-size: 14px;
+    transition: background-color .12s, color .12s;
 
     &.left {
         border-right: 1px solid $singleItemSelectionBorderColor;
 
         &:hover {
             background-color: $singleItemSelectionButtonActiveBackgroundColor;
-            border-color: $singleItemSelectionButtonActiveBackgroundColor;
             color: $singleItemSelectionButtonActiveColor;
         }
     }
@@ -34,7 +34,7 @@ $singleItemSelectionButtonActiveBackgroundColor: $shakespeare;
             margin-right: 5px;
         }
 
-        width: 45px;
+        width: 50px;
     }
 
     &:disabled {
