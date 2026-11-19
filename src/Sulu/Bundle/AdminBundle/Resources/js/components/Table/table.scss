@@ -9,8 +9,8 @@ $headerCellBorderColor: var(--sulu-border-default);
 $cellTextColor: var(--sulu-text-body);
 $cellBackgroundColor: var(--sulu-surface-card);
 $cellBackgroundColorHover: var(--sulu-surface-hover);
-$cellBackgroundColorSelected: var(--sulu-surface-selected);
-$cellBackgroundColorSelectedHover: var(--sulu-n200);
+$cellBackgroundColorSelected: var(--sulu-n100);
+$cellBackgroundColorSelectedHover: var(--sulu-n150);
 $cellBorderColor: var(--sulu-border-hairline);
 $rowMarkerColor: var(--sulu-color-primary);
 $buttonCellColor: var(--sulu-n700);
@@ -135,10 +135,6 @@ $buttonCellWidth: 44px;
             background-color: $cellBackgroundColorHover;
         }
 
-        > :first-child {
-            box-shadow: inset 3px 0 0 $rowMarkerColor;
-        }
-
         .button-cell button {
             opacity: 1;
             background-color: $buttonCellBackgroundColor;
@@ -147,14 +143,18 @@ $buttonCellWidth: 44px;
         }
     }
 
+    /* only a selected row carries the marker bar; it gets one step darker under the pointer */
     &.selected {
         .cell,
         .button-cell {
             background-color: $cellBackgroundColorSelected;
         }
+
+        > :first-child {
+            box-shadow: inset 3px 0 0 $rowMarkerColor;
+        }
     }
 
-    /* a selected row still answers to the pointer: one step darker than its selected fill */
     &.selected:hover {
         .cell,
         .button-cell {
