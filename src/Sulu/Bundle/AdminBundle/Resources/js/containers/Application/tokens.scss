@@ -10,8 +10,6 @@
     /* Colour */
     --sulu-navy: #112a46;
     --sulu-navy-700: #1d3a5c;
-    --sulu-navy-100: #dbe3ee;
-    --sulu-navy-50: #eef2f7;
     --sulu-n0: #fff;
     --sulu-n50: #faf9f7;
     --sulu-n100: #f3f1ec;
@@ -54,8 +52,9 @@
     --sulu-surface-nav: var(--sulu-n100);
     --sulu-surface-nav-active: var(--sulu-n150);
     --sulu-surface-nav-dark: var(--sulu-navy);
-    --sulu-surface-selected: var(--sulu-navy-50);
-    --sulu-surface-backdrop: rgb(31 30 28 / 40%);
+    --sulu-surface-hover: var(--sulu-n100);
+    --sulu-surface-selected: var(--sulu-n150);
+    --sulu-surface-backdrop: rgb(17 24 34 / 38%);
     --sulu-text-body: var(--sulu-n900);
     --sulu-text-heading: var(--sulu-n900);
     --sulu-text-subheading: var(--sulu-n700);
@@ -101,7 +100,7 @@
     --sulu-shadow-selected: 0 0 0 3px rgb(17 42 70 / 8%);
     --sulu-shadow-raised: 0 8px 24px rgb(0 0 0 / 16%);
     --sulu-shadow-knob: 0 1px 2px rgb(0 0 0 / 20%);
-    --sulu-shadow-menu: 0 8px 24px rgb(0 0 0 / 16%);
+    --sulu-shadow-menu: 0 8px 24px rgb(31 30 28 / 14%);
     --sulu-shadow-popover: 0 8px 24px rgb(0 0 0 / 16%);
     --sulu-shadow-arrow-menu: 0 8px 24px rgb(0 0 0 / 16%);
     --sulu-shadow-overlay: 0 8px 24px rgb(0 0 0 / 16%);

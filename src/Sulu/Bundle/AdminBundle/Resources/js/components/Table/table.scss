@@ -8,8 +8,9 @@ $headerCellBackgroundColor: var(--sulu-surface-table-header);
 $headerCellBorderColor: var(--sulu-border-default);
 $cellTextColor: var(--sulu-text-body);
 $cellBackgroundColor: var(--sulu-surface-card);
-$cellBackgroundColorHover: var(--sulu-n50);
+$cellBackgroundColorHover: var(--sulu-surface-hover);
 $cellBackgroundColorSelected: var(--sulu-surface-selected);
+$cellBackgroundColorSelectedHover: var(--sulu-n200);
 $cellBorderColor: var(--sulu-border-hairline);
 $rowMarkerColor: var(--sulu-color-primary);
 $buttonCellColor: var(--sulu-n700);
@@ -150,6 +151,14 @@ $buttonCellWidth: 44px;
         .cell,
         .button-cell {
             background-color: $cellBackgroundColorSelected;
+        }
+    }
+
+    /* a selected row still answers to the pointer: one step darker than its selected fill */
+    &.selected:hover {
+        .cell,
+        .button-cell {
+            background-color: $cellBackgroundColorSelectedHover;
         }
     }
 

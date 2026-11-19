@@ -14,7 +14,7 @@ $textEditorBorderColor: var(--sulu-border-control);
 $textEditorDarkBorderColor: var(--sulu-border-default);
 $textEditorButtonHoverBackgroundColor: var(--sulu-n100);
 $textEditorAccentColor: $shakespeare;
-$textEditorLightAccentColor: #eef2f7;
+$textEditorLightAccentColor: var(--sulu-n150);
 $textEditorWhiteHover: var(--sulu-n50);
 $textEditorPanelBackground: $white;
 $textEditorLinkColor: #00f;

@@ -1,7 +1,9 @@
 @import '../../containers/Application/colors.scss';
 
-$itemBackgroundColorSelected: var(--sulu-n100);
-$itemBackgroundColorHover: var(--sulu-n50);
+$itemBackgroundColorSelected: var(--sulu-n150);
+$itemBackgroundColorSelectedHover: var(--sulu-n200);
+$itemMarkerColor: var(--sulu-color-primary);
+$itemBackgroundColorHover: var(--sulu-surface-hover);
 $itemBackgroundColorChecked: var(--sulu-surface-selected);
 $itemColorDisabled: var(--sulu-text-muted);
 $itemButtonColor: var(--sulu-n700);
@@ -28,9 +30,15 @@ $itemHeight: 40px;
         padding: 0 10px;
     }
 
+    /* the active item carries the marker bar, which tells it apart from an item checked for a selection */
     &.active {
         background: $itemBackgroundColorSelected;
+        box-shadow: inset 3px 0 0 $itemMarkerColor;
         font-weight: 500;
+    }
+
+    &.active:hover {
+        background: $itemBackgroundColorSelectedHover;
     }
 
     &.disabled {
@@ -45,9 +53,9 @@ $itemHeight: 40px;
         background: $itemBackgroundColorHover;
     }
 
-    /* an item checked for a selection gets the same tint as a selected table row */
-    &.selected,
-    &.selected:hover {
+    /* an item checked for a selection gets the same fill as a selected table row */
+    &.selected:not(.active),
+    &.selected:not(.active):hover {
         background: $itemBackgroundColorChecked;
     }
 
