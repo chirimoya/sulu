@@ -28,13 +28,16 @@ $errorColor: $roman;
 }
 
 .label-text {
-    margin-bottom: 10px;
+    margin-bottom: var(--sulu-space-6);
+    color: var(--sulu-text-label);
+    font-size: 13px;
+    font-weight: 500;
 }
 
 .information-label {
     display: block;
-    color: $scorpion;
-    font-size: 10px;
+    color: var(--sulu-text-muted);
+    font-size: 12px;
     line-height: 20px;
     height: 20px;
 }

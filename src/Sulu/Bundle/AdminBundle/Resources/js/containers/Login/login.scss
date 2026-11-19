@@ -2,8 +2,8 @@
 @import '../Application/variables.scss';
 
 $loginTextColor: $black;
-$borderColor: $mercury;
-$formContainerBackgroundColor: $white;
+$borderColor: var(--sulu-border-default);
+$formContainerBackgroundColor: var(--sulu-surface-card);
 
 .login {
     height: 100vh;
@@ -12,13 +12,15 @@ $formContainerBackgroundColor: $white;
     justify-content: center;
     align-items: center;
     color: $loginTextColor;
-    border-radius: 3px;
     font-size: 14px;
 }
 
 .login-container {
     background-color: $formContainerBackgroundColor;
-    box-shadow: $cardBoxShadow;
+    border: 1px solid $borderColor;
+    border-radius: var(--sulu-radius-lg);
+    box-shadow: var(--sulu-shadow-login);
+    overflow: hidden;
     width: 480px;
     min-height: 615px;
 }

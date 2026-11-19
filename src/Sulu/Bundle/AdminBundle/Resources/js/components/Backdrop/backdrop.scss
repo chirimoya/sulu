@@ -1,6 +1,4 @@
-@import '../../containers/Application/colors.scss';
-
-$backdropBackground: rgba($dustyGray, .9);
+$backdropBackground: var(--sulu-surface-backdrop);
 
 .backdrop {
     width: 100%;

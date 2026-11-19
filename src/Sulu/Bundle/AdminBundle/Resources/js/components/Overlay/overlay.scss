@@ -1,17 +1,22 @@
 @import '../../containers/Application/colors.scss';
 @import './variables.scss';
 
-$primaryBackground: $concrete;
-$secondaryBackground: $white;
-$borderRadius: 3px;
-$overlayBorderColor: $silver;
+$primaryBackground: var(--sulu-n50);
+$secondaryBackground: var(--sulu-n50);
+$borderRadius: 16px;
+$overlayBorderColor: var(--sulu-border-default);
+$overlayBoxShadow: 0 18px 48px rgb(17 24 34 / 22%), 0 2px 6px rgb(17 24 34 / 8%);
+$overlayPaddingHorizontal: var(--sulu-space-24);
+$titleColor: var(--sulu-text-heading);
 
-$iconFontSize: 14px;
-
-$confirmBackground: $shakespeare;
-$confirmColor: $white;
+$iconFontSize: 16px;
+$iconSize: 30px;
+$iconColor: var(--sulu-n700);
+$iconColorHover: var(--sulu-color-ink);
+$iconBackgroundColorHover: var(--sulu-n100);
 
 $transitionDuration: 300ms;
+$transitionTimingFunction: cubic-bezier(.2, .8, .2, 1);
 
 .container {
     position: absolute;
@@ -34,7 +39,7 @@ $transitionDuration: 300ms;
     top: -100%;
     opacity: 0;
     will-change: top, opacity;
-    transition: top $transitionDuration, opacity $transitionDuration;
+    transition: top $transitionDuration $transitionTimingFunction, opacity $transitionDuration;
     pointer-events: none;
     max-height: calc(100vh - $overlayMarginBottom);
 
@@ -62,20 +67,33 @@ $transitionDuration: 300ms;
 }
 
 .content {
+    border: 1px solid $overlayBorderColor;
+    border-top: 0;
     border-radius: 0 0 $borderRadius $borderRadius;
     overflow: hidden;
-    box-shadow: 0 10px 18px 0 rgba($mineShaft, .5);
+    box-shadow: $overlayBoxShadow;
 
     .header {
         background: $primaryBackground;
         border-bottom: 1px solid $overlayBorderColor;
         height: $overlayHeaderHeight;
+        padding: 0 calc($overlayPaddingHorizontal + $iconSize);
         text-align: center;
         line-height: $overlayHeaderHeight;
 
         h2 {
             display: inline-block;
             margin: 0;
+            max-width: 100%;
+            overflow: hidden;
+            color: $titleColor;
+            font-family: var(--sulu-font-base);
+            font-size: 15px;
+            font-weight: 600;
+            letter-spacing: 0;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            vertical-align: top;
         }
     }
 
@@ -89,7 +107,7 @@ $transitionDuration: 300ms;
         background: $secondaryBackground;
         border-top: 1px solid $overlayBorderColor;
         height: $overlayFooterHeight;
-        padding: 0 60px;
+        padding: 0 $overlayPaddingHorizontal;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -101,12 +119,22 @@ $transitionDuration: 300ms;
 
     .icon {
         position: absolute;
-        right: 60px;
+        top: calc(($overlayHeaderHeight - $iconSize) / 2);
+        right: calc($overlayPaddingHorizontal - 8px);
+        width: $iconSize;
+        height: $iconSize;
+        border-radius: var(--sulu-radius-md);
+        color: $iconColor;
         font-size: $iconFontSize;
-        font-weight: bold;
-        line-height: $overlayHeaderHeight;
+        line-height: $iconSize;
         text-align: center;
         cursor: pointer;
+        transition: background-color .12s, color .12s;
+
+        &:hover {
+            background-color: $iconBackgroundColorHover;
+            color: $iconColorHover;
+        }
     }
 }
 

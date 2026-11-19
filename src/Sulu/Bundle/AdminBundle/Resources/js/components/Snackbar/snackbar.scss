@@ -10,6 +10,8 @@ $snackbarInfoColor: $white;
 $snackbarInfoBackgroundColor: $blueZodiac;
 $snackbarSuccessColor: $white;
 $snackbarSuccessBackgroundColor: $mantis;
+$snackbarFloatingColor: var(--sulu-n0);
+$snackbarFloatingBackgroundColor: var(--sulu-surface-popover-dark);
 
 .snackbar {
     min-height: $snackbarHeight;
@@ -29,10 +31,10 @@ $snackbarSuccessBackgroundColor: $mantis;
 }
 
 .floating {
-    box-shadow: 2px 6px 12px 0 rgba($black, .5);
-    border-radius: 3px;
-    padding: 6px 7px;
-    height: 32px;
+    box-shadow: var(--sulu-shadow-snackbar-floating);
+    border-radius: var(--sulu-radius-lg);
+    padding: 0 14px;
+    height: 40px;
     width: fit-content;
 
     .icon {
@@ -69,7 +71,7 @@ $snackbarSuccessBackgroundColor: $mantis;
     color: inherit;
     font-family: inherit;
     font-size: 13px;
-    font-weight: bold;
+    font-weight: 600;
     white-space: nowrap;
     text-decoration: underline;
     cursor: pointer;
@@ -123,5 +125,28 @@ $snackbarSuccessBackgroundColor: $mantis;
     .close-button {
         background-color: $snackbarSuccessColor;
         color: $snackbarSuccessColor;
+    }
+}
+
+/* a floating snackbar is a dark toast, only its icon carries the color of its type */
+.floating {
+    &.error,
+    &.warning,
+    &.info,
+    &.success {
+        background-color: $snackbarFloatingBackgroundColor;
+        color: $snackbarFloatingColor;
+    }
+
+    &.error .icon {
+        color: #ef8a84;
+    }
+
+    &.warning .icon {
+        color: #e0a94f;
+    }
+
+    &.success .icon {
+        color: #6fc08a;
     }
 }

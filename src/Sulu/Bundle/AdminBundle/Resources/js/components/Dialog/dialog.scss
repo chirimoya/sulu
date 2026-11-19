@@ -1,16 +1,16 @@
 @import '../../containers/Application/colors.scss';
 @import './variables.scss';
 
-$contentBackgroundColor: $concrete;
-$footerBackgroundColor: $white;
-$footerBorderColor: $silver;
-$borderRadius: 3px;
+$contentBackgroundColor: var(--sulu-surface-overlay);
+$contentBorderColor: var(--sulu-border-default);
+$dialogPaddingHorizontal: var(--sulu-space-24);
+$footerBackgroundColor: var(--sulu-n50);
+$footerBorderColor: var(--sulu-border-default);
+$borderRadius: var(--sulu-radius-lg);
 
-$titleColor: $black;
-$contentColor: $dustyGray;
+$titleColor: var(--sulu-text-heading);
+$contentColor: var(--sulu-n700);
 
-$confirmBackground: $shakespeare;
-$confirmColor: $white;
 
 $transitionDuration: 300ms;
 
@@ -54,8 +54,10 @@ $transitionDuration: 300ms;
 }
 
 .content {
+    border: 1px solid $contentBorderColor;
     border-radius: $borderRadius;
     background: $contentBackgroundColor;
+    box-shadow: var(--sulu-shadow-overlay);
     overflow: hidden;
     position: relative;
 
@@ -63,15 +65,15 @@ $transitionDuration: 300ms;
         align-items: center;
         display: flex;
         height: $dialogHeaderHeight;
-        padding: 0 30px;
+        padding: 0 $dialogPaddingHorizontal;
     }
 
     .headerItem {
         color: $titleColor;
         display: block;
-        font-size: 22px;
-        font-weight: bold;
-        line-height: 1.5em;
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 1.4;
         text-align: center;
         width: 100%;
     }
@@ -80,7 +82,7 @@ $transitionDuration: 300ms;
         background: $footerBackgroundColor;
         border-top: 1px solid $footerBorderColor;
         height: $dialogFooterHeight;
-        padding: 0 30px;
+        padding: 0 $dialogPaddingHorizontal;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -101,7 +103,7 @@ $transitionDuration: 300ms;
     font-size: 14px;
     line-height: 22px;
     overflow: auto;
-    padding: 0 30px 30px;
+    padding: 0 $dialogPaddingHorizontal var(--sulu-space-24);
 
     &.left {
         text-align: left;
