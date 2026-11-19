@@ -63,7 +63,7 @@ exports[`DatePicker should render 1`] = `
       class="container"
     >
       <div
-        style="top: 10px; left: 34px; position: fixed; pointer-events: auto;"
+        style="top: 10px; left: 10px; position: fixed; pointer-events: auto;"
       >
         <div
           class="rdt"
@@ -673,7 +673,7 @@ exports[`DatePicker should render date picker with time picker 1`] = `
       class="container"
     >
       <div
-        style="top: 10px; left: 34px; position: fixed; pointer-events: auto;"
+        style="top: 10px; left: 10px; position: fixed; pointer-events: auto;"
       >
         <div
           class="rdt"

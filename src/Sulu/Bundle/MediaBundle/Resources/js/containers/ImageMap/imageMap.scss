@@ -1,7 +1,10 @@
 @import 'sulu-admin-bundle/containers/Application/colors.scss';
 
 $imageMapBackgroundColor: $white;
-$imageMapBorderColor: var(--sulu-border-default);
+
+/* the selection above is a control, so the panel continues its outline; only the line between them is lighter */
+$imageMapBorderColor: var(--sulu-border-control);
+$imageMapDividerColor: var(--sulu-border-default);
 $imageMapBorderColorError: $persianRed;
 
 .single-item-selection {
@@ -13,6 +16,7 @@ $imageMapBorderColorError: $persianRed;
 .image-map {
     background-color: $imageMapBackgroundColor;
     border: 1px solid $imageMapBorderColor;
+    border-top-color: $imageMapDividerColor;
     border-radius: 0 0 var(--sulu-radius-md) var(--sulu-radius-md);
     width: 100%;
     overflow: hidden;
@@ -20,7 +24,7 @@ $imageMapBorderColorError: $persianRed;
 
     &.error {
         border-color: $imageMapBorderColorError;
-        border-top-color: $imageMapBorderColor;
+        border-top-color: $imageMapDividerColor;
     }
 }
 

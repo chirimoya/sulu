@@ -10,6 +10,7 @@ $itemColorDisabled: var(--sulu-text-muted);
 $itemButtonColor: var(--sulu-n700);
 $itemButtonColorHover: var(--sulu-color-ink);
 $itemButtonSize: 26px;
+$itemCheckboxSize: 16px;
 $itemIconColor: var(--sulu-text-muted);
 
 $itemHeight: 40px;
@@ -19,7 +20,9 @@ $itemHeight: 40px;
     align-items: center;
     cursor: pointer;
     display: flex;
-    margin: 0 var(--sulu-space-4);
+
+    /* the gap keeps the fills of two selected items in a row apart */
+    margin: 0 var(--sulu-space-4) 2px;
     border-radius: var(--sulu-radius-md);
     overflow: hidden;
     transition: background-color .12s;
@@ -99,8 +102,37 @@ $itemHeight: 40px;
     }
 }
 
+/* the button selecting an item is a checkbox: always shown, empty until the item is selected */
+.button:global(.su-check) {
+    width: $itemCheckboxSize;
+    height: $itemCheckboxSize;
+    flex: 0 0 $itemCheckboxSize;
+    margin: 0 calc(($itemButtonSize - $itemCheckboxSize) / 2) 0 calc(var(--sulu-space-6) + ($itemButtonSize - $itemCheckboxSize) / 2);
+    border-color: var(--sulu-border-control);
+    border-radius: var(--sulu-radius-sm);
+    box-shadow: none;
+    font-size: 12px;
+    color: transparent;
+
+    &:hover {
+        background-color: var(--sulu-n0);
+        border-color: var(--sulu-color-primary);
+        color: transparent;
+    }
+
+    .item.selected & {
+        background-color: var(--sulu-color-primary);
+        border-color: var(--sulu-color-primary);
+        color: var(--sulu-color-primary-contrast);
+    }
+}
+
 .buttons {
     visibility: hidden;
+}
+
+.item:not(.disabled) .button:global(.su-check).visible {
+    visibility: visible;
 }
 
 .item:not(.disabled) {

@@ -8,8 +8,8 @@ $inputColor: $black;
 
 :global {
     .sketch-picker {
-        box-shadow: none !important;
-        border-radius: 0 0 $borderRadius $borderRadius !important;
+        box-shadow: var(--sulu-shadow-menu) !important;
+        border-radius: $borderRadius !important;
         border: 1px solid $borderColor;
         color: $fontColor;
 

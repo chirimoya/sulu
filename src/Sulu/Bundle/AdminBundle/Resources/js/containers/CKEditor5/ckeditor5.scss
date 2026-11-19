@@ -70,8 +70,8 @@ $textEditorUnpublishedLinkColor: $gold;
 
         /* list */
         --ck-color-list-button-hover-background: $textEditorWhiteHover;
-        --ck-color-list-button-on-background: $textEditorAccentColor;
-        --ck-color-list-button-on-background-focus: $textEditorAccentColor;
+        --ck-color-list-button-on-background: var(--sulu-n100);
+        --ck-color-list-button-on-background-focus: var(--sulu-n100);
 
         /* toggle button */
         --ck-color-switch-button-off-background: $textEditorBorderColor;
@@ -105,62 +105,52 @@ $textEditorUnpublishedLinkColor: $gold;
             border-radius: $textEditorBorderRadius !important;
         }
 
+        /* dropdown panels are menus: all corners rounded, a small gap to the button and the menu shadow */
         .ck.ck-dropdown__panel {
             border-radius: $textEditorBorderRadius !important;
-            border: 1px solid var(--ck-color-button-on-background);
+            border: 1px solid var(--sulu-border-default);
+            box-shadow: var(--sulu-shadow-menu);
 
             > .ck.ck-toolbar {
-                border-radius: 2px !important;
+                border-radius: $textEditorBorderRadius !important;
             }
 
-            &.ck-dropdown__panel_se {
-                border-top-left-radius: 0 !important;
-                margin-top: -2px;
-
-                > .ck.ck-toolbar {
-                    border-top-left-radius: 0 !important;
-                }
-            }
-
+            &.ck-dropdown__panel_se,
             &.ck-dropdown__panel_sw {
-                border-top-right-radius: 0 !important;
-                margin-top: -2px;
-
-                > .ck.ck-toolbar {
-                    border-top-right-radius: 0 !important;
-                }
+                margin-top: 4px;
             }
 
-            &.ck-dropdown__panel_ne {
-                border-bottom-left-radius: 0 !important;
-                margin-bottom: -4px;
-
-                > .ck.ck-toolbar {
-                    border-bottom-left-radius: 0 !important;
-                }
-            }
-
+            &.ck-dropdown__panel_ne,
             &.ck-dropdown__panel_nw {
-                border-bottom-right-radius: 0 !important;
-                margin-bottom: -4px;
+                margin-bottom: 4px;
+            }
+        }
 
-                > .ck.ck-toolbar {
-                    border-bottom-right-radius: 0 !important;
+        /* entries of a dropdown list show the hover fill instead of the focus frame of toolbar buttons */
+        .ck.ck-list {
+            padding: 4px;
+            border-radius: $textEditorBorderRadius !important;
+
+            .ck-list__item .ck-button {
+                border-radius: var(--sulu-radius-sm) !important;
+
+                &:focus,
+                &:active,
+                &.ck-on {
+                    border-color: transparent !important;
+                    box-shadow: none !important;
+                }
+
+                &:focus:not(.ck-on) {
+                    background: var(--ck-color-list-button-hover-background);
                 }
             }
         }
 
         /* Make the last 5 toolbar items open their dropdown panels on the left side instead of on the right side */
         .ck.ck-toolbar__items > .ck:nth-last-child(-n + 5) .ck-dropdown__panel_se {
-            border-top-right-radius: 0 !important;
-            border-top-left-radius: $textEditorBorderRadius !important;
             left: unset !important;
             right: 0 !important;
-
-            > .ck.ck-toolbar {
-                border-top-right-radius: 0 !important;
-                border-top-left-radius: $textEditorBorderRadius !important;
-            }
         }
 
         .ck.ck-heading-dropdown .ck.ck-dropdown__button {
@@ -198,9 +188,22 @@ $textEditorUnpublishedLinkColor: $gold;
             min-height: 100px;
             padding-bottom: 5px;
 
+            /* the focus frame goes around the whole editor (see below), the line to the toolbar stays neutral */
             &.ck-focused {
                 border: 1px solid $textEditorAccentColor !important;
-                box-shadow: var(--sulu-shadow-focus) !important;
+                border-top-color: $textEditorBorderColor !important;
+                box-shadow: none !important;
+            }
+        }
+
+        border-radius: $textEditorBorderRadius;
+        transition: box-shadow .12s;
+
+        &:has(.ck-content.ck-focused) {
+            box-shadow: var(--sulu-shadow-focus);
+
+            .ck-sticky-panel__content > .ck.ck-toolbar {
+                border-color: $textEditorAccentColor;
             }
         }
 

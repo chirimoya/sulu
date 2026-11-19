@@ -15,10 +15,10 @@ $inputFontSize: 14px;
 
 :global {
     .rdtPicker {
-        padding: 0 12px;
-        box-shadow: none;
+        padding: 4px 12px;
+        box-shadow: var(--sulu-shadow-menu);
         border: 1px solid $borderColor;
-        border-radius: 0 0 $borderRadius $borderRadius;
+        border-radius: $borderRadius;
         color: $fontColor;
         position: inherit;
         width: auto;

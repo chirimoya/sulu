@@ -206,10 +206,10 @@ class DatePicker extends React.Component<Props> {
                 <Popover
                     anchorElement={this.inputRef}
                     backdrop={this.open}
-                    horizontalOffset={34}
+                    horizontalOffset={0}
                     onClose={this.handleCloseOverlay}
                     open={true}
-                    verticalOffset={-31}
+                    verticalOffset={4}
                 >
                     {
                         (setPopoverRef, styles) => (

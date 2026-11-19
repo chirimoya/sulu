@@ -54,7 +54,7 @@ exports[`ColorPicker should render 1`] = `
       class="container"
     >
       <div
-        style="top: 10px; left: 35px; position: fixed; pointer-events: auto;"
+        style="top: 10px; left: 10px; position: fixed; pointer-events: auto;"
       >
         <div
           class="sketch-picker "

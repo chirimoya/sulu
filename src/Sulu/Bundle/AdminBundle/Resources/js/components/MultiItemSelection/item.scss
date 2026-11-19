@@ -74,6 +74,9 @@ $itemLineHeight: 40px;
     padding: 0 0 0 16px;
     color: $itemIconColor;
 
+    /* pressing the handle must not start a text selection, which the drag would then extend over the page */
+    user-select: none;
+
     &.sortable {
         cursor: move;
     }

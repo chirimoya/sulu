@@ -143,10 +143,10 @@ class ColorPicker extends React.Component<Props> {
                 />
                 <Popover
                     anchorElement={this.popoverAnchorElement}
-                    horizontalOffset={35}
+                    horizontalOffset={0}
                     onClose={this.handlePopoverClose}
                     open={this.popoverOpen}
-                    verticalOffset={-30}
+                    verticalOffset={4}
                 >
                     {
                         (setPopoverElementRef, popoverStyle) => (

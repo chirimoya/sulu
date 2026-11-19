@@ -16,7 +16,6 @@ $blockPadding: 20px;
     background-color: $blockBackgroundColor;
     border: 1px solid $blockBorderColor;
     border-radius: var(--sulu-radius-lg);
-    overflow: hidden;
     transition: border-color .12s, box-shadow .12s;
 
     &:not(.expanded) {
@@ -69,8 +68,14 @@ $blockPadding: 20px;
     color: $blockHandleColor;
     background-color: $blockHandleBackgroundColor;
     border-right: 1px solid $blockSeparatorColor;
+
+    /* the block must not clip its content (dropdowns of the text editor), so the handle rounds its own corners */
+    border-radius: calc(var(--sulu-radius-lg) - 1px) 0 0 calc(var(--sulu-radius-lg) - 1px);
     overflow: hidden;
     width: fit-content;
+
+    /* pressing the handle must not start a text selection, which the drag would then extend over the page */
+    user-select: none;
 }
 
 .content {
