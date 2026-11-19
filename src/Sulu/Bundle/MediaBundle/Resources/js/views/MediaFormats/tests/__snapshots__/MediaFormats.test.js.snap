@@ -55,8 +55,30 @@ exports[`Render a MediaFormats view 1`] = `
               <span>
                 <span
                   aria-label="su-download"
-                  class="su-download"
-                />
+                  class="svgIcon su-download"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-download"
+                    fill="none"
+                    focusable="false"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.75"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 15V3"
+                    />
+                    <path
+                      d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"
+                    />
+                    <path
+                      d="m7 10 5 5 5-5"
+                    />
+                  </svg>
+                </span>
               </span>
             </th>
             <th
@@ -161,8 +183,30 @@ exports[`Render a MediaFormats view 1`] = `
                 >
                   <span
                     aria-label="su-download"
-                    class="su-download"
-                  />
+                    class="svgIcon su-download"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-download"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 15V3"
+                      />
+                      <path
+                        d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"
+                      />
+                      <path
+                        d="m7 10 5 5 5-5"
+                      />
+                    </svg>
+                  </span>
                 </button>
               </div>
             </td>
@@ -276,8 +320,30 @@ exports[`Render a MediaFormats view 1`] = `
                 >
                   <span
                     aria-label="su-download"
-                    class="su-download"
-                  />
+                    class="svgIcon su-download"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-download"
+                      fill="none"
+                      focusable="false"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 15V3"
+                      />
+                      <path
+                        d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"
+                      />
+                      <path
+                        d="m7 10 5 5 5-5"
+                      />
+                    </svg>
+                  </span>
                 </button>
               </div>
             </td>
