@@ -10,6 +10,7 @@ $backgroundColor: var(--sulu-surface-nav);
 $borderColor: var(--sulu-border-default);
 $hoverColor: var(--sulu-color-ink);
 $hoverBackgroundColor: rgb(31 30 28 / 5%);
+$headerHeight: 36px;
 
 .navigation {
     width: $navigationWidth;
@@ -26,10 +27,12 @@ $hoverBackgroundColor: rgb(31 30 28 / 5%);
 
 .header {
     color: $headerColor;
-    flex: 0 0 44px;
-    height: 44px;
+
+    /* with the padding of the navigation above it, the header is centred on the line of the 56px toolbar */
+    flex: 0 0 $headerHeight;
+    height: $headerHeight;
     padding: 0 2px 0 10px;
-    margin-bottom: 14px;
+    margin-bottom: 22px;
     display: flex;
     align-items: center;
     justify-content: space-between;
