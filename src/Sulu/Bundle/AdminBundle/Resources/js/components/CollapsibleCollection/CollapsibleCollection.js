@@ -3,6 +3,7 @@ import React from 'react';
 import {action, comparer, computed, observable, reaction} from 'mobx';
 import {observer} from 'mobx-react';
 import {arrayMove, translate} from '../../utils';
+import {preventTextSelectionWhileDragging} from '../../utils/DOM';
 import Button from '../Button';
 import Icon from '../Icon';
 import SortableCollapsibleList from './SortableCollapsibleList';
@@ -173,6 +174,7 @@ class CollapsibleCollection<T: CollapsibleConfig> extends React.Component<Props<
                     onCollapse={this.handleCollapse}
                     onExpand={this.handleExpand}
                     onSortEnd={this.handleSortEnd}
+                    onSortStart={preventTextSelectionWhileDragging}
                     renderCollapsibleContent={renderCollapsibleContent}
                     useDragHandle={true}
                     value={value}

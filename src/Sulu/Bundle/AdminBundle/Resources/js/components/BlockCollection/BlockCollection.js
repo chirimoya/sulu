@@ -4,6 +4,7 @@ import {action, observable, toJS, reaction, computed, runInAction} from 'mobx';
 import {observer} from 'mobx-react';
 import classNames from 'classnames';
 import {arrayMove, translate, clipboard} from '../../utils';
+import {preventTextSelectionWhileDragging} from '../../utils/DOM';
 import Button from '../Button';
 import BlockToolbar from '../BlockToolbar';
 import Icon from '../Icon';
@@ -806,6 +807,7 @@ class BlockCollection<T: string, U: {_id?: string, type: T, ...}> extends React.
                     onSelect={this.handleSelect}
                     onSettingsClick={onSettingsClick ? this.handleSettingsClick : undefined}
                     onSortEnd={this.handleSortEnd}
+                    onSortStart={preventTextSelectionWhileDragging}
                     onTypeChange={this.handleTypeChange}
                     onUnselect={this.handleUnselect}
                     renderBlockContent={renderBlockContent}

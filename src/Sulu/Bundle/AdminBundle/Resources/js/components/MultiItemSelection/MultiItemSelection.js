@@ -2,6 +2,7 @@
 import React from 'react';
 import {SortableContainer, SortableElement} from 'react-sortable-hoc';
 import classNames from 'classnames';
+import {preventTextSelectionWhileDragging} from '../../utils/DOM';
 import Header from './Header';
 import Item from './Item';
 import multiItemSelectionStyles from './multiItemSelection.scss';
@@ -124,6 +125,7 @@ class MultiItemSelection<T, U: string | number, V: string | number, W> extends R
                     helperClass={multiItemSelectionStyles.dragging}
                     lockAxis="y"
                     onSortEnd={this.handleItemsSorted}
+                    onSortStart={preventTextSelectionWhileDragging}
                     useDragHandle={true}
                 >
                     {children && React.Children.map(children, (item, index) => (
