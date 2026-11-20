@@ -5,11 +5,12 @@
     bottom: 0;
     z-index: 2;
     background-color: $white;
-    padding: 40px;
+    border-top: 1px solid var(--sulu-border-default);
+    padding: 24px 40px 32px;
 }
 
 .label {
-    font-size: 12px;
+    font-size: 13px;
     white-space: nowrap;
 }
 
@@ -24,14 +25,14 @@
 .expert-select {
     min-width: 10vh;
     padding-right: 8px;
-    border-right: 1px solid $silver;
+    border-right: 1px solid var(--sulu-border-default);
 }
 
 .single-expert {
     min-width: 10vh;
     padding-right: 8px;
-    border-right: 1px solid $silver;
-    line-height: 30px;
+    border-right: 1px solid var(--sulu-border-default);
+    line-height: 34px;
 }
 
 .content-context-checkbox {
@@ -44,12 +45,12 @@
 
 .info-icon {
     font-size: 12px;
-    color: $silverChalice;
+    color: var(--sulu-n500);
 }
 
 .panel {
-    background-color: $wildSand;
-    border-radius: 3px;
+    background-color: var(--sulu-n100);
+    border-radius: var(--sulu-radius-md);
     padding: 12px;
 }
 

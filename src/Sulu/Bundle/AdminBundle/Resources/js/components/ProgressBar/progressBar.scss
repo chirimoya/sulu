@@ -1,6 +1,6 @@
 @import '../../containers/Application/colors.scss';
 
-$backgroundColor: $white;
+$backgroundColor: var(--sulu-n150);
 $progressColor: $shakespeare;
 $progressColorError: $roman;
 $progressColorWarning: $gold;
@@ -10,8 +10,8 @@ $progressColorSuccess: $mantis;
     appearance: none;
     background-color: $backgroundColor;
     border: none;
-    border-radius: 5px;
-    height: 10px;
+    border-radius: var(--sulu-radius-pill);
+    height: 8px;
     max-width: 250px;
     overflow: hidden;
     width: 100%;

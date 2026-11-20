@@ -561,8 +561,57 @@ exports[`Render a MultiMediaSelection field with display options 1`] = `
       >
         <span
           aria-label="su-display-default"
-          class="su-display-default icon"
-        />
+          class="svgIcon su-display-default icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-square-dashed"
+            fill="none"
+            focusable="false"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.75"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M5 3a2 2 0 0 0-2 2"
+            />
+            <path
+              d="M19 3a2 2 0 0 1 2 2"
+            />
+            <path
+              d="M21 19a2 2 0 0 1-2 2"
+            />
+            <path
+              d="M5 21a2 2 0 0 1-2-2"
+            />
+            <path
+              d="M9 3h1"
+            />
+            <path
+              d="M9 21h1"
+            />
+            <path
+              d="M14 3h1"
+            />
+            <path
+              d="M14 21h1"
+            />
+            <path
+              d="M3 9v1"
+            />
+            <path
+              d="M21 9v1"
+            />
+            <path
+              d="M3 14v1"
+            />
+            <path
+              d="M21 14v1"
+            />
+          </svg>
+        </span>
         <span
           aria-label="su-angle-down"
           class="svgIcon su-angle-down"
@@ -798,8 +847,34 @@ exports[`Render a MultiMediaSelection field with display options and selected ic
       >
         <span
           aria-label="su-display-center-left"
-          class="su-display-center-left icon"
-        />
+          class="svgIcon su-display-center-left icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-square-arrow-left"
+            fill="none"
+            focusable="false"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.75"
+            viewBox="0 0 24 24"
+          >
+            <rect
+              height="18"
+              rx="2"
+              width="18"
+              x="3"
+              y="3"
+            />
+            <path
+              d="m12 8-4 4 4 4"
+            />
+            <path
+              d="M16 12H8"
+            />
+          </svg>
+        </span>
         <span
           aria-label="su-angle-down"
           class="svgIcon su-angle-down"
@@ -1285,8 +1360,36 @@ exports[`Render a MultiMediaSelection field without thumbnails with MimeTypeIndi
               >
                 <span
                   aria-label="fa-file-pdf-o"
-                  class="fa fa-file-pdf-o"
-                />
+                  class="svgIcon fa-file-pdf-o"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-file-type-2"
+                    fill="none"
+                    focusable="false"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.75"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 22h6a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v6"
+                    />
+                    <path
+                      d="M14 2v5a1 1 0 0 0 1 1h5"
+                    />
+                    <path
+                      d="M3 16v-1.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5V16"
+                    />
+                    <path
+                      d="M6 22h2"
+                    />
+                    <path
+                      d="M7 14v8"
+                    />
+                  </svg>
+                </span>
               </div>
               <div
                 class="mediaTitle"

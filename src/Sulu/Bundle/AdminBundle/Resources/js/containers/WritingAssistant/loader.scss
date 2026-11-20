@@ -3,7 +3,7 @@
     height: 10px;
     background-color: var(--sulu-n200);
     margin-bottom: 10px;
-    border-radius: 4px;
+    border-radius: var(--sulu-radius-sm);
     animation: skeleton-loading 1.5s infinite;
 }
 

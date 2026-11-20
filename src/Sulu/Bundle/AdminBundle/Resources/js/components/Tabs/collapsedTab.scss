@@ -1,7 +1,7 @@
 @import '../../containers/Application/colors.scss';
 
 $collapsedTabTextColor: $black;
-$collapsedTabTextColorActive: $shakespeare;
+$collapsedTabBackgroundColorActive: var(--sulu-surface-hover);
 
 .collapsed-tab {
     position: relative;
@@ -12,7 +12,9 @@ $collapsedTabTextColorActive: $shakespeare;
         display: block;
         overflow: hidden;
         width: 100%;
-        padding: 10px 20px 10px 40px;
+        padding: 7px 16px 7px 36px;
+        border-radius: var(--sulu-radius-sm);
+        color: inherit;
         text-align: left;
         border: 0;
         font-weight: inherit;
@@ -22,7 +24,8 @@ $collapsedTabTextColorActive: $shakespeare;
         &:active,
         &:focus {
             cursor: pointer;
-            color: $collapsedTabTextColorActive;
+            background-color: $collapsedTabBackgroundColorActive;
+            outline: none;
         }
     }
 }

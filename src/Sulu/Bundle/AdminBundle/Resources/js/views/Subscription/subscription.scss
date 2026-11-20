@@ -6,29 +6,35 @@
 
 .title {
     margin: 0;
-    font-size: 24px;
-    line-height: 32px;
-    color: $blueZodiac;
+    font-family: var(--sulu-font-serif);
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    line-height: 34px;
+    color: var(--sulu-text-heading);
 }
 
 .description {
-    margin: 5px 0 30px;
-    font-size: 12px;
-    color: $dustyGray;
+    margin: 4px 0 24px;
+    font-size: 13px;
+    color: var(--sulu-text-muted);
 }
 
 .card {
-    margin-bottom: 20px;
-    padding: 20px 30px 30px;
-    border: 1px solid $mercury;
-    border-radius: 4px;
+    margin-bottom: 16px;
+    padding: 20px 24px 24px;
+    border: 1px solid var(--sulu-border-default);
+    border-radius: var(--sulu-radius-lg);
     background-color: $white;
 
     h2 {
         margin: 0;
-        font-size: 16px;
+        font-family: var(--sulu-font-base);
+        font-size: 15px;
+        font-weight: 600;
+        letter-spacing: 0;
         line-height: 30px;
-        color: $blueZodiac;
+        color: var(--sulu-text-heading);
     }
 }
 
@@ -36,7 +42,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .facts {
@@ -55,30 +61,30 @@
 
 .fact-label {
     font-size: 12px;
-    color: $dustyGray;
+    color: var(--sulu-text-muted);
 }
 
 .fact-value {
     font-size: 14px;
-    font-weight: bold;
-    color: $blueZodiac;
+    font-weight: 600;
+    color: var(--sulu-text-heading);
 }
 
 .status {
     align-self: flex-start;
-    padding: 3px 8px;
-    border-radius: 3px;
+    padding: 2px 10px;
+    border-radius: var(--sulu-radius-pill);
     font-size: 12px;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .active {
-    color: #3c7a3d;
+    color: $mantis;
     background-color: rgba($mantis, .2);
 }
 
 .will-be-canceled {
-    color: #8a7400;
+    color: $gold;
     background-color: rgba($gold, .2);
 }
 
@@ -95,27 +101,28 @@
 }
 
 .credits-left-number {
+    font-family: var(--sulu-font-serif);
     font-size: 32px;
-    font-weight: bold;
-    color: $blueZodiac;
+    font-weight: 400;
+    color: var(--sulu-text-heading);
 }
 
 .credits-left-text {
     font-size: 14px;
-    color: $dustyGray;
+    color: var(--sulu-text-muted);
 }
 
 .progress-bar {
     height: 6px;
-    border-radius: 3px;
-    background-color: $mercury;
+    border-radius: var(--sulu-radius-pill);
+    background-color: var(--sulu-n150);
     overflow: hidden;
 }
 
 .progress-bar-fill {
     height: 100%;
-    border-radius: 3px;
-    background-color: $shakespeare;
+    border-radius: var(--sulu-radius-pill);
+    background-color: var(--sulu-color-primary);
 }
 
 .progress-legend {
@@ -123,13 +130,13 @@
     justify-content: space-between;
     margin-top: 8px;
     font-size: 12px;
-    color: $dustyGray;
+    color: var(--sulu-text-muted);
 }
 
 .note {
     margin: 20px 0 0;
     font-size: 12px;
-    color: $dustyGray;
+    color: var(--sulu-text-muted);
 }
 
 .contact {
@@ -137,13 +144,13 @@
     flex-wrap: wrap;
     align-items: baseline;
     gap: 5px;
-    margin-bottom: 20px;
-    padding: 15px 30px;
-    border: 1px solid $mercury;
-    border-radius: 4px;
+    margin-bottom: 16px;
+    padding: 14px 24px;
+    border: 1px solid var(--sulu-border-default);
+    border-radius: var(--sulu-radius-lg);
     background-color: $white;
-    font-size: 12px;
-    color: $doveGray;
+    font-size: 13px;
+    color: var(--sulu-text-muted);
 
     p {
         margin: 0;
@@ -151,12 +158,12 @@
 }
 
 .contact-link {
-    color: $shakespeare;
-    font-weight: bold;
+    color: var(--sulu-color-primary);
+    font-weight: 500;
     text-decoration: underline;
 
     &:hover {
-        color: $blueZodiac;
+        color: var(--sulu-text-heading);
     }
 }
 
@@ -165,13 +172,13 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
-    padding: 20px 30px;
-    border: 1px solid $mercury;
-    border-radius: 4px;
+    padding: 20px 24px;
+    border: 1px solid var(--sulu-border-default);
+    border-radius: var(--sulu-radius-lg);
 
     p {
         margin: 0;
         font-size: 14px;
-        color: $blueZodiac;
+        color: var(--sulu-text-heading);
     }
 }

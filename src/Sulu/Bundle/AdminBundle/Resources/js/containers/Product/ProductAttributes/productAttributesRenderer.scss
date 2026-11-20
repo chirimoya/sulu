@@ -7,8 +7,8 @@ $valueTableLabelWidth: 30%;
  * Both cells hang from the top: the label's first line sits on the input's text line, a long label or a
  * description grows the row downwards.
  */
-$rowHeight: 44px;
-$inputHeight: 30px;
+$rowHeight: 48px;
+$inputHeight: 36px;
 $labelLineHeight: 18px;
 $cellBorderWidth: 1px;
 $cellPaddingVertical: calc(($rowHeight - $inputHeight - 2 * $cellBorderWidth) / 2);
@@ -157,7 +157,7 @@ $cellPaddingVertical: calc(($rowHeight - $inputHeight - 2 * $cellBorderWidth) / 
 
 /* the empty state of a list, see Table */
 .placeholder {
-    color: $silver;
+    color: var(--sulu-text-muted);
     text-align: center;
     padding: 40px;
 }

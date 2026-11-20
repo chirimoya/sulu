@@ -1,15 +1,17 @@
 @import '../../containers/Application/colors.scss';
 
-$ghostIndicatorColor: $shakespeare;
+$ghostIndicatorColor: var(--sulu-n500);
+$ghostIndicatorBorderColor: var(--sulu-n300);
 
 .ghost-indicator {
     display: block;
     color: $ghostIndicatorColor;
-    border: 1px solid $ghostIndicatorColor;
-    border-radius: 3px;
-    font-size: 8px;
+    border: 1px solid $ghostIndicatorBorderColor;
+    border-radius: var(--sulu-radius-sm);
+    font-size: 10px;
     font-weight: 600;
-    line-height: 9px;
+    line-height: 10px;
+    letter-spacing: .02em;
     text-transform: uppercase;
-    padding: 5px;
+    padding: 4px 5px;
 }

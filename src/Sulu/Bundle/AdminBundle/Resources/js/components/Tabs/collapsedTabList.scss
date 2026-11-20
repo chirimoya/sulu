@@ -1,26 +1,25 @@
 @import '../../containers/Application/colors.scss';
 @import './variables.scss';
 
-$collapsedTabListBackgroundColor: $tabMenuBackgroundColor;
 $collapsedTabListTransparentBackgroundColor: $white;
-$collapsedTabListBoxShadowColor: rgba($dustyGray, .5);
-$collapsedTabListTransparentBoxShadowColor: rgba($alto, .5);
 
 .collapsed-tab-list {
     list-style: none;
     margin: 0;
-    padding: 0;
     white-space: nowrap;
     max-height: 70vh;
     overflow: auto;
+    padding: var(--sulu-space-4);
+    border: 1px solid var(--sulu-border-default);
+    border-radius: var(--sulu-radius-md);
 
     &.root {
-        background-color: $collapsedTabListBackgroundColor;
-        box-shadow: 2px 6px 12px 0 $collapsedTabListBoxShadowColor;
+        background-color: $collapsedTabListTransparentBackgroundColor;
+        box-shadow: var(--sulu-shadow-menu);
     }
 
     &.inline {
         background-color: $collapsedTabListTransparentBackgroundColor;
-        box-shadow: 2px 6px 12px 0 $collapsedTabListTransparentBoxShadowColor;
+        box-shadow: var(--sulu-shadow-menu);
     }
 }

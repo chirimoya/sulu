@@ -1,5 +1,6 @@
 .color-box {
     width: 16px;
     height: 16px;
-    border-radius: 2px;
+    border-radius: var(--sulu-radius-sm);
+    border: 1px solid rgb(31 30 28 / 12%);
 }

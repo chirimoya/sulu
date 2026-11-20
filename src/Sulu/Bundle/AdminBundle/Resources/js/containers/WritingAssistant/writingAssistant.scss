@@ -22,7 +22,7 @@
     animation: account-limit-reveal 300ms ease-out;
 
     > div {
-        border-radius: 4px 4px 0 0;
+        border-radius: var(--sulu-radius-md) var(--sulu-radius-md) 0 0;
     }
 }
 

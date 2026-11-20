@@ -1,7 +1,7 @@
 @import '../../containers/Application/colors.scss';
 
-$optionTextColor: $blueZodiac;
-$optionTextColorHover: $shakespeare;
+$optionTextColor: var(--sulu-color-ink);
+$optionBackgroundColorHover: var(--sulu-surface-hover);
 $optionTextColorDisabled: $dustyGray;
 
 .option {
@@ -9,7 +9,8 @@ $optionTextColorDisabled: $dustyGray;
     overflow: hidden;
     min-width: 120px;
     width: 100%;
-    padding: 10px 20px;
+    padding: 7px 12px;
+    border-radius: var(--sulu-radius-sm);
     text-align: left;
     border: 0;
     font-weight: inherit;
@@ -25,7 +26,8 @@ $optionTextColorDisabled: $dustyGray;
         &:active,
         &:focus {
             cursor: pointer;
-            color: $optionTextColorHover;
+            background-color: $optionBackgroundColorHover;
+            outline: none;
         }
     }
 }

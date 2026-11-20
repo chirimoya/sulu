@@ -17,24 +17,31 @@ $cardInset: 20px;
 .table {
     overflow-x: auto;
 
-    /* the flat skin's invisible cell border becomes the row separator, last row excluded */
+    /* the table sits inside the card of its group, so it must not draw the card of the Table itself */
+    > div {
+        border: 0;
+        border-radius: 0;
+        background-color: transparent;
+    }
+
+    /* the cell border is the row separator, last row excluded */
     tbody tr:not(:last-child) td {
-        border-bottom-color: $mercury;
+        border-bottom-color: var(--sulu-border-hairline);
     }
 }
 
 /* row hover blanks every cell border in the flat skin, the tripled class outranks it */
 .table.table.table {
     tbody tr:not(:last-child):hover td {
-        border-bottom-color: $mercury;
+        border-bottom-color: var(--sulu-border-hairline);
     }
 }
 
 /* doubled to outrank core's two-class flat rules (header background/weight, fixed layout) */
 .table.table {
     th {
-        background-color: $wildSand;
-        font-weight: normal;
+        background-color: var(--sulu-surface-table-header);
+        font-weight: 500;
     }
 
     /* header and body cells share one padding so the label column lines up */
@@ -105,7 +112,8 @@ $cardInset: 20px;
     cursor: pointer;
     border: none;
     background: none;
-    color: $gray;
+    color: var(--sulu-n500);
+    border-radius: var(--sulu-radius-md);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -119,6 +127,7 @@ $cardInset: 20px;
     }
 
     &:hover:not(:disabled) {
+        background: var(--sulu-surface-hover);
         color: $mineShaft;
     }
 }

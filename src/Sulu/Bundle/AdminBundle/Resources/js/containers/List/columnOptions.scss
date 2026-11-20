@@ -4,10 +4,10 @@
 $dragBoxShadowColor: rgba($black, .1);
 
 $optionColor: $black;
-$optionBackgroundColor: $silver;
+$optionBackgroundColor: var(--sulu-surface-hover);
 
-$optionDisabledColor: $dustyGray;
-$optionDisabledBackgroundColor: $mercury;
+$optionDisabledColor: var(--sulu-text-muted);
+$optionDisabledBackgroundColor: var(--sulu-n50);
 
 .overlay {
     display: flex;
@@ -23,8 +23,9 @@ $optionDisabledBackgroundColor: $mercury;
     color: $optionColor;
     display: flex;
     font-size: 14px;
-    padding: 15px 0;
+    padding: 11px 0;
     width: 100%;
+    border-radius: var(--sulu-radius-md);
 
     &:hover {
         background: $optionBackgroundColor;
@@ -32,7 +33,8 @@ $optionDisabledBackgroundColor: $mercury;
 
     .drag-handle {
         cursor: move;
-        padding: 0 20px;
+        padding: 0 16px;
+        color: var(--sulu-n500);
     }
 
     .label {
@@ -41,15 +43,14 @@ $optionDisabledBackgroundColor: $mercury;
 
     .icon {
         align-self: flex-end;
-        font-size: 20px;
-        padding: 0 20px;
+        font-size: 16px;
+        padding: 0 16px;
     }
 
     &.dragging {
         background: $optionBackgroundColor;
         box-shadow:
-            0 3px 6px $dragBoxShadowColor,
-            0 -3px 6px $dragBoxShadowColor;
+            0 2px 8px $dragBoxShadowColor;
     }
 }
 

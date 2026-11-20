@@ -1,15 +1,16 @@
 @import '../../Application/colors.scss';
 
-$badgeSuccessColor: #3f8f5a;
+$badgeSuccessColor: $mantis;
 
 .badge {
     display: inline-block;
-    padding: 4px 10px;
-    border-radius: 2px;
-    background-color: rgba($dustyGray, .15);
-    color: $stormGray;
-    font-size: 11px;
-    font-weight: bold;
+    padding: 2px 10px;
+    border-radius: var(--sulu-radius-pill);
+    background-color: var(--sulu-n100);
+    color: var(--sulu-n700);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
 
     &.success {
         background-color: rgba($badgeSuccessColor, .12);

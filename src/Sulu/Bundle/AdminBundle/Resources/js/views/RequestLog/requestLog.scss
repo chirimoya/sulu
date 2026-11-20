@@ -1,8 +1,8 @@
 @import '../../containers/Application/colors.scss';
 
 $chainExpertColor: $blueZodiac;
-$chainUserColor: $shakespeare;
-$chainSuccessColor: #3f8f5a;
+$chainUserColor: $pickledBluewood;
+$chainSuccessColor: $mantis;
 $chainSystemColor: $dustyGray;
 $chainToolColor: $stormGray;
 
@@ -11,10 +11,12 @@ $chainToolColor: $stormGray;
 }
 
 .title {
-    margin: 30px 0 20px;
-    color: $blueZodiac;
-    font-size: 24px;
-    font-weight: bold;
+    margin: 24px 0 20px;
+    color: var(--sulu-text-heading);
+    font-family: var(--sulu-font-serif);
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: -.01em;
 }
 
 .detail {
@@ -35,8 +37,9 @@ $chainToolColor: $stormGray;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 30px;
-    border-radius: 4px;
+    padding: 24px;
+    border: 1px solid var(--sulu-border-default);
+    border-radius: var(--sulu-radius-lg);
     background-color: $white;
 }
 
@@ -54,15 +57,15 @@ $chainToolColor: $stormGray;
 }
 
 .feature-name {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 600;
-    color: $blueZodiac;
+    color: var(--sulu-text-heading);
 }
 
 .timestamp {
     flex-shrink: 0;
     font-size: 12px;
-    color: $gray;
+    color: var(--sulu-text-muted);
 }
 
 .request-id {
@@ -73,18 +76,18 @@ $chainToolColor: $stormGray;
 }
 
 .request-id-label {
-    color: $gray;
+    color: var(--sulu-text-muted);
 }
 
 .request-id-value {
     font-family: monospace;
-    font-size: 11px;
-    color: $blueZodiac;
+    font-size: 12px;
+    color: var(--sulu-text-heading);
 }
 
 .divider {
     height: 1px;
-    background-color: $mercury;
+    background-color: $alto;
 }
 
 .facts {
@@ -105,13 +108,13 @@ $chainToolColor: $stormGray;
 .fact-label {
     margin: 0;
     font-size: 12px;
-    color: $gray;
+    color: var(--sulu-text-muted);
 }
 
 .fact-value {
     margin: 0;
-    font-size: 12px;
-    color: $blueZodiac;
+    font-size: 14px;
+    color: var(--sulu-text-heading);
     word-break: break-word;
 }
 
@@ -131,13 +134,13 @@ $chainToolColor: $stormGray;
     margin: 0;
     font-size: 14px;
     font-weight: 600;
-    color: $blueZodiac;
+    color: var(--sulu-text-heading);
 }
 
 .chain-description {
     margin: 0;
     font-size: 12px;
-    color: $gray;
+    color: var(--sulu-text-muted);
 }
 
 .translation-segment {
@@ -148,15 +151,15 @@ $chainToolColor: $stormGray;
     & + & {
         margin-top: 24px;
         padding-top: 24px;
-        border-top: 1px solid $mercury;
+        border-top: 1px solid $alto;
     }
 }
 
 .translation-segment-title {
     margin: 0;
     font-family: monospace;
-    font-size: 11px;
-    color: $gray;
+    font-size: 12px;
+    color: var(--sulu-text-muted);
 }
 
 .translation-columns {
@@ -180,9 +183,10 @@ $chainToolColor: $stormGray;
     display: flex;
     flex-direction: column;
     gap: 16px;
-    padding: 30px;
+    padding: 24px;
+    border: 1px solid var(--sulu-border-default);
     border-left: 3px solid var(--chain-color);
-    border-radius: 4px;
+    border-radius: var(--sulu-radius-lg);
     background-color: $white;
 
     &.expert {
@@ -216,11 +220,11 @@ $chainToolColor: $stormGray;
     justify-content: center;
     width: 20px;
     height: 20px;
-    border-radius: 10px;
+    border-radius: var(--sulu-radius-round);
     background-color: var(--chain-color);
     color: $white;
-    font-size: 11px;
-    font-weight: bold;
+    font-size: 12px;
+    font-weight: 600;
 }
 
 .chain-step-title {
@@ -230,25 +234,25 @@ $chainToolColor: $stormGray;
 }
 
 .chain-step-annotations {
-    font-size: 11px;
-    color: $gray;
+    font-size: 12px;
+    color: var(--sulu-text-muted);
 }
 
 .writeback {
     margin: 0;
-    font-size: 11px;
-    color: $gray;
+    font-size: 12px;
+    color: var(--sulu-text-muted);
 }
 
 .content-box {
     width: 100%;
     flex: 1;
     padding: 14px 16px;
-    border: 1px solid $mercury;
-    border-radius: 2px;
+    border: 1px solid var(--sulu-border-default);
+    border-radius: var(--sulu-radius-md);
     background-color: $alabaster;
-    color: $blueZodiac;
-    font-size: 12px;
+    color: var(--sulu-text-heading);
+    font-size: 13px;
     line-height: 20px;
     white-space: pre-wrap;
     word-break: break-word;
@@ -276,9 +280,10 @@ $chainToolColor: $stormGray;
     padding: 0;
     border: none;
     background: none;
-    color: $shakespeare;
-    font-size: 12px;
-    font-weight: 600;
+    color: var(--sulu-color-primary);
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: underline;
     cursor: pointer;
 
     &.centered {

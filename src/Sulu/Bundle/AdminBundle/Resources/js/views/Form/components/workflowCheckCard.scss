@@ -17,8 +17,8 @@ $overlayContentHeight: 436px;
 
 .card {
     background: $white;
-    border: 1px solid $mercury;
-    border-radius: 6px;
+    border: 1px solid var(--sulu-border-default);
+    border-radius: var(--sulu-radius-lg);
     list-style: none;
     margin: 0;
     padding: 0;
@@ -26,7 +26,7 @@ $overlayContentHeight: 436px;
 
 .header {
     align-items: flex-start;
-    border-bottom: 1px solid $mercury;
+    border-bottom: 1px solid var(--sulu-border-hairline);
     display: flex;
     justify-content: space-between;
     padding: 16px 20px;
@@ -43,7 +43,7 @@ $overlayContentHeight: 436px;
 }
 
 .header-date {
-    color: $doveGray;
+    color: var(--sulu-text-muted);
     font-size: 13px;
     margin-top: 3px;
 }
@@ -63,7 +63,7 @@ $overlayContentHeight: 436px;
 }
 
 .row {
-    border-bottom: 1px solid $mercury;
+    border-bottom: 1px solid var(--sulu-border-hairline);
     padding: 12px 20px;
 }
 
@@ -112,14 +112,14 @@ $overlayContentHeight: 436px;
 }
 
 .row-caption {
-    color: $doveGray;
+    color: var(--sulu-text-muted);
     font-size: 13px;
 }
 
 .row-comment {
     background-color: $alabaster;
-    border: 1px solid $silver;
-    border-radius: 6px;
+    border: 1px solid $alto;
+    border-radius: var(--sulu-radius-md);
     color: $mineShaft;
     display: block;
     font-size: 13px;
@@ -139,7 +139,7 @@ $overlayContentHeight: 436px;
     }
 
     &::before {
-        border-bottom: 10px solid $silver;
+        border-bottom: 10px solid $alto;
         left: 12px;
         top: -10px;
     }
@@ -184,16 +184,16 @@ $overlayContentHeight: 436px;
 }
 
 .pending {
-    background-color: $mercury;
+    background-color: var(--sulu-n150);
 
     .row-glyph {
-        color: $doveGray;
+        color: var(--sulu-text-muted);
         font-size: 8px;
     }
 }
 
 .waiting {
-    background-color: $silver;
+    background-color: var(--sulu-n200);
 
     .row-glyph {
         color: $blueZodiac;
@@ -202,7 +202,7 @@ $overlayContentHeight: 436px;
 }
 
 .empty {
-    color: $doveGray;
+    color: var(--sulu-text-muted);
     font-size: 13px;
     margin: 0;
     padding: 12px 20px;
@@ -215,8 +215,8 @@ $overlayContentHeight: 436px;
 }
 
 .confirm-button {
-    font-size: 14px;
-    line-height: 34px;
+    font-size: 13px;
+    line-height: 32px;
     min-width: 120px;
     padding: 0 16px;
 }

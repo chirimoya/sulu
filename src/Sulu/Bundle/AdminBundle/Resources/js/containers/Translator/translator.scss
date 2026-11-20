@@ -1,16 +1,16 @@
 .translator {
     display: flex;
     gap: 24px;
-    margin: 40px 50px;
+    margin: 32px 40px;
 }
 
 /* slides out from behind the footer, which covers it while it travels because it paints above */
 .account-limit {
-    padding: 0 50px;
+    padding: 0 40px;
     animation: account-limit-reveal 300ms ease-out;
 
     > div {
-        border-radius: 4px 4px 0 0;
+        border-radius: var(--sulu-radius-md) var(--sulu-radius-md) 0 0;
     }
 }
 
@@ -38,7 +38,8 @@
     min-width: 0;
     padding: 16px;
     background-color: var(--sulu-surface-card);
-    border-radius: 4px;
+    border: 1px solid var(--sulu-border-default);
+    border-radius: var(--sulu-radius-lg);
 }
 
 .select {
@@ -52,7 +53,7 @@
     height: 200px;
     resize: vertical;
     border: 1px solid var(--sulu-border-default);
-    border-radius: 3px;
+    border-radius: var(--sulu-radius-md);
     background-color: var(--sulu-surface-card);
 }
 
